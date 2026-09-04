@@ -1,0 +1,16 @@
+{
+  "course": {
+    "slug": "option-greeks-level-5-theta-time-decay",
+    "title": "Options Trading Course Level 5: Theta & Time Decay",
+    "level": "Beginner",
+    "previewVimeoId": "936129213"
+  },
+  "lessons": [
+    {"wpId":50749,"title":"Understanding Theta: Time Decay in Options Trading","duration":"2 min","type":"video","number":1,"section":"Theta & Time Decay","vimeoId":"936129213"},
+    {"wpId":50765,"title":"What will be learned in Chapter 4: The Theta","duration":"2 min","type":"video","number":2,"section":"Theta & Time Decay","vimeoId":"937541185"},
+    {"wpId":50766,"title":"Theta and the effect on the seller and buyer of options","duration":"2 min","type":"video","number":3,"section":"Theta & Time Decay","vimeoId":"937541152"},
+    {"wpId":50767,"title":"Positive and negative Theta meaning","duration":"2 min","type":"video","number":4,"section":"Theta & Time Decay","vimeoId":"937541119"},
+    {"wpId":50773,"title":"T+0 effect Theta on the Put option seller","duration":"2 min","type":"video","number":5,"section":"Theta & Time Decay","vimeoId":"937540873"},
+    {"wpId":50777,"title":"What we will learn in chapter 5: curve in theta","duration":"2 min","type":"video","number":6,"section":"Theta Curve","vimeoId":null}
+  ]
+}
