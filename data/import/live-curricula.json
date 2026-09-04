@@ -2,6 +2,86 @@
   "generatedFrom": "Rendered public course pages",
   "courses": [
     {
+      "courseId": 49868,
+      "slug": "level-77-silver-trading-options-on-future",
+      "title": "Level 77 – Silver Trading Options on Future",
+      "sourceUrl": "https://options-america.com/courses/level-77-silver-trading-options-on-future/",
+      "httpStatus": 200,
+      "items": [
+        {
+          "id": 49868,
+          "title": "",
+          "url": "",
+          "section": "Course content"
+        }
+      ],
+      "itemCount": 1
+    },
+    {
+      "courseId": 49869,
+      "slug": "level-81-gold-trading-options-on-future",
+      "title": "Level 81 – Gold Trading Options on Future",
+      "sourceUrl": "https://options-america.com/courses/level-81-gold-trading-options-on-future/",
+      "httpStatus": 200,
+      "items": [
+        {
+          "id": 49869,
+          "title": "",
+          "url": "",
+          "section": "Course content"
+        }
+      ],
+      "itemCount": 1
+    },
+    {
+      "courseId": 49870,
+      "slug": "level-82-corn-futures-trading-strategy",
+      "title": "Level 82 – Corn Futures Trading Strategy",
+      "sourceUrl": "https://options-america.com/courses/level-82-corn-futures-trading-strategy/",
+      "httpStatus": 200,
+      "items": [
+        {
+          "id": 49870,
+          "title": "",
+          "url": "",
+          "section": "Course content"
+        }
+      ],
+      "itemCount": 1
+    },
+    {
+      "courseId": 49871,
+      "slug": "level-84-wheat-trading-future-professionals",
+      "title": "Level 84 – Wheat Trading Future Professionals",
+      "sourceUrl": "https://options-america.com/courses/level-84-wheat-trading-future-professionals/",
+      "httpStatus": 200,
+      "items": [
+        {
+          "id": 49871,
+          "title": "",
+          "url": "",
+          "section": "Course content"
+        }
+      ],
+      "itemCount": 1
+    },
+    {
+      "courseId": 49872,
+      "slug": "level-83-soybean-trading-future-professionals",
+      "title": "Level 83 – Soybean Trading Future Professionals",
+      "sourceUrl": "https://options-america.com/courses/level-83-soybean-trading-future-professionals/",
+      "httpStatus": 200,
+      "items": [
+        {
+          "id": 49872,
+          "title": "",
+          "url": "",
+          "section": "Course content"
+        }
+      ],
+      "itemCount": 1
+    },
+    {
       "courseId": 49874,
       "slug": "advanced-option-level-12-butterfly",
       "title": "Advanced Option: Level 12 – Butterfly",
@@ -3026,532 +3106,614 @@
       "itemCount": 45
     },
     {
-      "courseId": 50160,
-      "slug": "options-trading-course-level-1-buying-call-option",
-      "title": "Options Trading Course Level 1: Buying Call Option",
-      "sourceUrl": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/",
+      "courseId": 49891,
+      "slug": "options-portfolio-level-20-optimizing-portfolio",
+      "title": "Options Portfolio Level 20 – Optimizing Portfolio",
+      "sourceUrl": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/",
       "httpStatus": 200,
       "items": [
         {
-          "id": 50337,
+          "id": 51824,
           "title": "Start This Course",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50337/",
-          "section": "Learn the Basics of Buying Call Options"
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51824/",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50338,
-          "title": "2 About the instructor 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50338",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51825,
+          "title": "2 Understanding Beta-Weighting 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51825",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50339,
-          "title": "3 Viewing our courses is for subscribers only 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50339",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51826,
+          "title": "3 Hedging Techniques in Varying Market Conditions 1 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51826",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50340,
-          "title": "4 The trading platform we will use in the course 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50340",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51827,
+          "title": "4 A Neutral Options Strategy 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51827",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50341,
-          "title": "5 Main windows of the trading platform 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50341",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51828,
+          "title": "5 Understanding Delta-Neutral Strategies in Short Strangles 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51828",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50342,
-          "title": "6 Video viewing quality 1 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50342",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51829,
+          "title": "6 Adjusting Delta in Neutral Market Positions 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51829",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50343,
-          "title": "7 The lessons in the course are short and focused 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50343",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51830,
+          "title": "7 Balancing Delta with Bullish Strategies 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51830",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50344,
-          "title": "8 5 reasons why to trade options 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50344",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51831,
+          "title": "8 Understanding Beta Weighting for Portfolio Management 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51831",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50345,
-          "title": "9 Risk Disclaimer 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50345",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51832,
+          "title": "9 Managing Bullish Positions with Beta Weighting 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51832",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50346,
-          "title": "10 Welcome to the first part of the long call strategy 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50346",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51833,
+          "title": "10 Balancing Greeks for Optimal Profitability 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51833",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50347,
-          "title": "11 Understanding Options in the Financial World 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50347",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51834,
+          "title": "11 Adjusting Your Portfolio for a Market Decline 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51834",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50348,
-          "title": "12 How much money did John make from buying the option? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50348",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51835,
+          "title": "12 Strategic Bearish Positioning with Sell Call Options 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51835",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50349,
-          "title": "13 What if John had bought a stock instead of an option? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50349",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51836,
+          "title": "13 Adjusting a Bearish Portfolio in a Rising Market 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51836",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50350,
-          "title": "14 Call options definition 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50350",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51837,
+          "title": "14 Portfolio Construction Basics 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51837",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50351,
-          "title": "15 What happens if Apple's price reaches $200 per share? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50351",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51838,
+          "title": "15 Introduction to Risk Management Principles 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51838",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50352,
-          "title": "16 What happens if Apple's price reaches $150 or $100 at expiration? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50352",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51839,
+          "title": "16 Delta Analysis in Short Strangle 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51839",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50353,
-          "title": "17 What will happen if Apple shares reach $175 at expiration? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50353",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51840,
+          "title": "17 Understanding Beta-Weighted Delta in a Portfolio 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51840",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50354,
-          "title": "18 Conclusion of the concepts: in the money, out of the money and in the money 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50354",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51841,
+          "title": "18 Understanding Beta-Weighted Delta and Market Exposure 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51841",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50355,
-          "title": "19 Call Option Definition in the real estate 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50355",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51842,
+          "title": "19 Beta-Weighted vs Non-Beta-Weighted Theta and Delta 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51842",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50356,
-          "title": "20 Break down the scenarios based on the example provided 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50356",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51843,
+          "title": "20 Delta vs Vega Impact of Beta-Weighting 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51843",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50357,
-          "title": "21 Summary lesson 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50357",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51844,
+          "title": "21 Forming Market Assumptions Neutral to Uptrend Strategy 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51844",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50422,
-          "title": "22 Test on Buying Call Options 10 questions The test is designed to assess your understanding of the concepts related to buying call options. It consists of 15 multiple-choice questions covering various topics such as in-the-money options, out-of-the-money options, and when a buyer will exercise their right to buy. Each question will present you with four choices, and you must select the correct answer based on your knowledge of options trading. Throughout the test, you'll encounter scenarios and concepts commonly encountered in options trading. Some questions may require you to apply your understanding of terminology and principles to real-world situations. Additionally, hints will be provided to assist you in choosing the correct answer, ensuring that you have the necessary guidance to navigate through the questions. By completing this test, you'll have the opportunity to assess your comprehension of call options and reinforce your understanding of key concepts. Whether you're a novice or an experienced trader, this test aims to challenge your knowledge and help you identify areas for further study or improvement. Remember to read each question carefully, consider all options, and select the response that best aligns with your understanding of call options. Good luck!",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50422",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51845,
+          "title": "22 Three Strategies for a Neutral to Uptrend Market 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51845",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50358,
-          "title": "23 What will we learn in this part? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50358",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51846,
+          "title": "23 Bull Put Spread for Neutral to Uptrend Markets 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51846",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50360,
-          "title": "24 Display of profit and loss analysis on the platform 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50360",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51847,
+          "title": "24 Using Beta in Stock Selection 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51847",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50361,
-          "title": "25 The difference between profit and loss analysis of a stock option 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50361",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51848,
+          "title": "25 Selecting Options with Narrow Spreads for Better Trades 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51848",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50362,
-          "title": "26 The types of graphs in the analysis of an option 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50362",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51849,
+          "title": "26 Narrow Spreads for Optimal Option Trading 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51849",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50363,
-          "title": "27 Display profit and loss analysis of an option 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50363",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51850,
+          "title": "27 In-the-Money Vertical Spread Strategy 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51850",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50364,
-          "title": "28 Scenarios of a price change in the underlying asset 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50364",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51851,
+          "title": "28 Building a Bullish Portfolio with Put Verticals 2 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51851",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50365,
-          "title": "29 Demonstration purposes 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50365",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51852,
+          "title": "29 Why Benchmarking to the SP 500 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51852",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50366,
-          "title": "30 A scenario where Apple stock rises to $200 per share 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50366",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51853,
+          "title": "30 Calculating Beta for Individual Positions Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51853",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50367,
-          "title": "31 The time limit in options trading 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50367",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51854,
+          "title": "31 How to Beta-Weight Your Entire Portfolio Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51854",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50368,
-          "title": "32 The break even point in the option 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50368",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51855,
+          "title": "32 Analyzing Greeks in a Beta-Weighted Portfolio 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51855",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50369,
-          "title": "33 Different break even points 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50369",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51856,
+          "title": "33 Choosing the Right Options Strategies for Your Portfolio 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51856",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50370,
-          "title": "34 Further explanation of the time limit: real estate VS. option 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50370",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51857,
+          "title": "34 Diversifying Your Portfolio with Multiple Strategies 3 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51857",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50439,
-          "title": "35 A test on trading analysis 11 questions elcome to the Trading Analysis Test! This test aims to assess your understanding of key concepts related to trading and options analysis. You will encounter ten questions covering various topics, including options terminology, profit and loss analysis, and the factors influencing option premiums. Each question presents four multiple-choice options, and you must select the correct answer based on your knowledge of trading principles. In this test, you'll demonstrate your comprehension of crucial trading concepts such as \"in the money\" and \"out-of-the-money\" options, the impact of time to expiration on option premiums, and the advantages of options trading compared to traditional stock investments. Additionally, you'll be tested on your ability to interpret profit and loss analysis graphs and understand the significance of option chains in comparing different options contracts. Whether you're a novice trader seeking to reinforce your understanding of trading fundamentals or an experienced investor looking to test your expertise, this test offers a comprehensive assessment of your trading knowledge. By completing this test, you'll gain insights into your proficiency in trading analysis and identify areas for further study or improvement. Prepare to navigate through a series of questions designed to evaluate your grasp of trading concepts and terminology. Good luck, and let's begin the Trading Analysis Test!",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50439",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51858,
+          "title": "35 Balancing Bullish Bearish and Neutral Strategies 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51858",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50371,
-          "title": "36 An introduction to option chains 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50371",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51859,
+          "title": "36 Diversifying Strategies for Market Assumptions 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51859",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50372,
-          "title": "37 Options with different expiration dates 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50372",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51860,
+          "title": "37 Balancing Strategies for Market Scenarios 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51860",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50373,
-          "title": "38 Display of different expiration dates on a trading platform 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50373",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51861,
+          "title": "38 Managing Multiple Positions Simultaneously 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51861",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50374,
-          "title": "39 An option with a far versus near expiration date 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50374",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51862,
+          "title": "39 Building a Portfolio with Defined Risk 5 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51862",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50375,
-          "title": "40 Explain why a more distant option is more expensive 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50375",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51863,
+          "title": "40 Managing Delta for Market Neutrality 4 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51863",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50376,
-          "title": "41 Display of different exercise prices on the price graph 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50376",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51864,
+          "title": "41 Delta Hedging Techniques 6 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51864",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50377,
-          "title": "42 The various exercise prices in the option chains 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50377",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51865,
+          "title": "42 Adjusting Delta with Options Strategies 7 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51865",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50378,
-          "title": "43 Understanding In-the-Money Options: Navigating the Options Chain 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50378",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51866,
+          "title": "43 Balancing Long and Short Delta 6 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51866",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50379,
-          "title": "44 Movement of strike prices in the options chain 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50379",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51867,
+          "title": "44 Case Study: Adjusting Delta in a Live Market Scenario 6 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51867",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50380,
-          "title": "45 What if the stock price goes down? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50380",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51868,
+          "title": "45 Maximizing Theta in a Beta-Weighted Portfolio 7 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51868",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50381,
-          "title": "46 bid and ask price in the options chains 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50381",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51869,
+          "title": "46 Choosing the Best Expiration Dates for Positive Theta 7 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51869",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50382,
-          "title": "47 The relationship between the exercise price and the premium 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50382",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51870,
+          "title": "47 Adjusting Positions for Optimal Theta Exposure 8 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51870",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50383,
-          "title": "48 Internal value and external value 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50383",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51871,
+          "title": "48 Using Time Decay to Your Advantage 8 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51871",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50384,
-          "title": "49 Average premium price 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50384",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51872,
+          "title": "49 Case Study Managing Theta in a Portfolio with Multiple Strategies 6 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51872",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50385,
-          "title": "50 External value curve 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50385",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51873,
+          "title": "50 Understanding Vega’s Impact on Your Portfolio 6 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51873",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50386,
-          "title": "51 Option chains during active trading 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50386",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51874,
+          "title": "51 How to Adjust Vega Exposure 9 min",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51874",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50387,
-          "title": "52 Summary lesson on option chains 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50387",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51875,
+          "title": "52 Hedging Against Volatility Changes Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51875",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50388,
-          "title": "53 What will we learn in this segment? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50388",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51876,
+          "title": "53 Combining Volatility-Based Strategies for Risk Management Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51876",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50389,
-          "title": "54 Trader assumptions 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50389",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51877,
+          "title": "54 Case Study: Managing Vega in a Volatile Market Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51877",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50390,
-          "title": "55 Expect Apple stock to reach 230 in October 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50390",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51878,
+          "title": "55 Transitioning to the Case Study: Real-Life Examples Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51878",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         },
         {
-          "id": 50391,
-          "title": "56 190 exercise price selection in October 2024 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50391",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50392,
-          "title": "57 Choosing the option for profit and loss analysis 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50392",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50393,
-          "title": "58 The breakeven point in our strategy 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50393",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50394,
-          "title": "59 Plot the breakeven point on the graph 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50394",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50395,
-          "title": "60 Key points of the profit and loss analysis 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50395",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50396,
-          "title": "61 A scenario where Apple shares rise to 230 in October 2024 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50396",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50397,
-          "title": "62 Summary of part 4 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50397",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50398,
-          "title": "63 What will we learn in this part? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50398",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50399,
-          "title": "64 Bid and Ask price in real time 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50399",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50400,
-          "title": "65 Profit and loss display on the platform 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50400",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50401,
-          "title": "66 T+0 scenario if Apple rises to 190 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50401",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50402,
-          "title": "67 The T+0 movement 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50402",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50403,
-          "title": "68 An explanation of Bid and Ask in the real estate world 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50403",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50404,
-          "title": "69 Lesson summary on the relationship of t+0 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50404",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50405,
-          "title": "70 What will we demonstrate in this part? 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50405",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50406,
-          "title": "71 It is important that the spread be as small as possible 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50406",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50407,
-          "title": "72 Display mark price & probability in the money 3 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50407",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50408,
-          "title": "73 Mid and Nat price difference 2 min",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50408",
-          "section": "Learn the Basics of Buying Call Options"
-        },
-        {
-          "id": 50409,
-          "title": "74 Practical Usage – Level 1.1 – Long Call Text lesson",
-          "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/50409",
-          "section": "Learn the Basics of Buying Call Options"
+          "id": 51879,
+          "title": "56 Course Summary and Key Takeaways Text lesson",
+          "url": "https://options-america.com/courses/options-portfolio-level-20-optimizing-portfolio/51879",
+          "section": "Advanced Option: Level 20 – Optimizing Your Options Portfolio"
         }
       ],
-      "itemCount": 74
+      "itemCount": 56
     },
     {
-      "courseId": 49868,
-      "slug": "level-77-silver-trading-options-on-future",
-      "title": "Level 77 – Silver Trading Options on Future",
-      "sourceUrl": "https://options-america.com/courses/level-77-silver-trading-options-on-future/",
+      "courseId": 49896,
+      "slug": "practical-usage-level-1-1-long-call",
+      "title": "Practical Usage – Level 1.1 – Long Call",
+      "sourceUrl": "https://options-america.com/courses/practical-usage-level-1-1-long-call/",
       "httpStatus": 200,
       "items": [
         {
-          "id": 49868,
-          "title": "",
-          "url": "",
+          "id": 50500,
+          "title": "1 What will you learn in this mini course -Long Call? Preview 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50500",
+          "section": "Course content"
+        },
+        {
+          "id": 50502,
+          "title": "2 Information needed 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50502",
+          "section": "Course content"
+        },
+        {
+          "id": 50501,
+          "title": "3 Opening Buy Call Positions 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50501",
+          "section": "Course content"
+        },
+        {
+          "id": 50503,
+          "title": "4 Window arrangement of the platform 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50503",
+          "section": "Course content"
+        },
+        {
+          "id": 50504,
+          "title": "5 Buying a call option of Netflix Stock 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50504",
+          "section": "Course content"
+        },
+        {
+          "id": 50505,
+          "title": "6 See the breakeven point on the chart 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50505",
+          "section": "Course content"
+        },
+        {
+          "id": 50506,
+          "title": "7 Netflix and profit target 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50506",
+          "section": "Course content"
+        },
+        {
+          "id": 50507,
+          "title": "8 Revisiting Netflix Position 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50507",
+          "section": "Course content"
+        },
+        {
+          "id": 50508,
+          "title": "9 Case Study Notice Text lesson",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50508",
+          "section": "Course content"
+        },
+        {
+          "id": 50509,
+          "title": "10 Monitor Lookup 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50509",
+          "section": "Course content"
+        },
+        {
+          "id": 50510,
+          "title": "11 Monitor PNL Lookup 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50510",
+          "section": "Course content"
+        },
+        {
+          "id": 50511,
+          "title": "12 BBY View 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50511",
+          "section": "Course content"
+        },
+        {
+          "id": 50512,
+          "title": "13 Position Theoretical Profit BBY 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50512",
+          "section": "Course content"
+        },
+        {
+          "id": 50513,
+          "title": "14 BK Profit 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50513",
+          "section": "Course content"
+        },
+        {
+          "id": 50514,
+          "title": "15 BK Theoretical Profit 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50514",
+          "section": "Course content"
+        },
+        {
+          "id": 50515,
+          "title": "16 Diversify Your Assets 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50515",
+          "section": "Course content"
+        },
+        {
+          "id": 50516,
+          "title": "17 Market Increase Put Position Lose 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50516",
+          "section": "Course content"
+        },
+        {
+          "id": 50517,
+          "title": "18 BX Overview 1 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50517",
+          "section": "Course content"
+        },
+        {
+          "id": 50518,
+          "title": "19 CDNS Case Study 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50518",
+          "section": "Course content"
+        },
+        {
+          "id": 50519,
+          "title": "20 Call Capture Module and Summarize 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50519",
+          "section": "Course content"
+        },
+        {
+          "id": 50520,
+          "title": "21 Investment in uncorrelated assets 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50520",
+          "section": "Course content"
+        },
+        {
+          "id": 50521,
+          "title": "22 Portfolio Beta Weight 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50521",
+          "section": "Course content"
+        },
+        {
+          "id": 50472,
+          "title": "23 My Correlation Matrices: ETF Correlation Text lesson",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50472",
+          "section": "Course content"
+        },
+        {
+          "id": 50473,
+          "title": "24 My Correlation Matrices: Stock Correlation Text lesson",
+          "url": "https://options-america.com/courses/practical-usage-level-1-1-long-call/50473",
           "section": "Course content"
         }
       ],
-      "itemCount": 1
+      "itemCount": 24
     },
     {
-      "courseId": 49869,
-      "slug": "level-81-gold-trading-options-on-future",
-      "title": "Level 81 – Gold Trading Options on Future",
-      "sourceUrl": "https://options-america.com/courses/level-81-gold-trading-options-on-future/",
+      "courseId": 49897,
+      "slug": "practical-usage-level-3-1-long-put",
+      "title": "Practical Usage – Level 3.1 – Long Put",
+      "sourceUrl": "https://options-america.com/courses/practical-usage-level-3-1-long-put/",
       "httpStatus": 200,
       "items": [
         {
-          "id": 49869,
-          "title": "",
-          "url": "",
+          "id": 50650,
+          "title": "1 Introduction to the Course: Practical Usage - Level 3.1 - Long Put Preview Text lesson",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50650",
+          "section": "Course content"
+        },
+        {
+          "id": 50502,
+          "title": "2 Information needed 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50502",
+          "section": "Course content"
+        },
+        {
+          "id": 50652,
+          "title": "3 Opening Buy Put Positions 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50652",
+          "section": "Course content"
+        },
+        {
+          "id": 50653,
+          "title": "4 Monitor and LookUp 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50653",
+          "section": "Course content"
+        },
+        {
+          "id": 50654,
+          "title": "5 ABNB Case Study 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50654",
+          "section": "Course content"
+        },
+        {
+          "id": 50655,
+          "title": "6 Analyze ABNB Position 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50655",
+          "section": "Course content"
+        },
+        {
+          "id": 50656,
+          "title": "7 Portfolio Beta Weight 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50656",
+          "section": "Course content"
+        },
+        {
+          "id": 50657,
+          "title": "8 Investment in uncorrelated assets 3 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50657",
+          "section": "Course content"
+        },
+        {
+          "id": 50658,
+          "title": "9 Overall Portfolio Value 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50658",
+          "section": "Course content"
+        },
+        {
+          "id": 50659,
+          "title": "10 ABT Case Study 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50659",
+          "section": "Course content"
+        },
+        {
+          "id": 50660,
+          "title": "11 TAP Case Study 1 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50660",
+          "section": "Course content"
+        },
+        {
+          "id": 50661,
+          "title": "12 TAP Theoretical Value 1 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50661",
+          "section": "Course content"
+        },
+        {
+          "id": 50662,
+          "title": "13 Tesla Neutral Market 1 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50662",
+          "section": "Course content"
+        },
+        {
+          "id": 50663,
+          "title": "14 Tesla Profit Did Not Exercise 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50663",
+          "section": "Course content"
+        },
+        {
+          "id": 50664,
+          "title": "15 VLO Case Study 2 min",
+          "url": "https://options-america.com/courses/practical-usage-level-3-1-long-put/50664",
           "section": "Course content"
         }
       ],
-      "itemCount": 1
+      "itemCount": 15
     },
     {
-      "courseId": 49870,
-      "slug": "level-82-corn-futures-trading-strategy",
-      "title": "Level 82 – Corn Futures Trading Strategy",
-      "sourceUrl": "https://options-america.com/courses/level-82-corn-futures-trading-strategy/",
+      "courseId": 49898,
+      "slug": "building-a-diversified-portfolio",
+      "title": "Building a Diversified Portfolio",
+      "sourceUrl": "https://options-america.com/courses/building-a-diversified-portfolio/",
       "httpStatus": 200,
       "items": [
         {
-          "id": 49870,
-          "title": "",
-          "url": "",
-          "section": "Course content"
-        }
-      ],
-      "itemCount": 1
-    },
-    {
-      "courseId": 49872,
-      "slug": "level-83-soybean-trading-future-professionals",
-      "title": "Level 83 – Soybean Trading Future Professionals",
-      "sourceUrl": "https://options-america.com/courses/level-83-soybean-trading-future-professionals/",
-      "httpStatus": 200,
-      "items": [
-        {
-          "id": 49872,
-          "title": "",
-          "url": "",
-          "section": "Course content"
-        }
-      ],
-      "itemCount": 1
-    },
-    {
-      "courseId": 49871,
-      "slug": "level-84-wheat-trading-future-professionals",
-      "title": "Level 84 – Wheat Trading Future Professionals",
-      "sourceUrl": "https://options-america.com/courses/level-84-wheat-trading-future-professionals/",
-      "httpStatus": 200,
-      "items": [
-        {
-          "id": 49871,
+          "id": 49904,
           "title": "",
           "url": "",
           "section": "Course content"
@@ -3562,16 +3724,292 @@
   ],
   "errors": [
     {
+      "courseId": 49877,
+      "slug": "options-trading-course-level-7-delta-effect",
+      "url": "https://options-america.com/courses/options-trading-course-level-7-delta-effect/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-7-delta-effect/"
+    },
+    {
       "courseId": 49878,
       "slug": "advanced-option-level-9-bull-call-spread-strategy",
       "url": "https://options-america.com/courses/advanced-option-level-9-bull-call-spread-strategy/",
       "error": "404 Client Error: Not Found for url: https://options-america.com/courses/advanced-option-level-9-bull-call-spread-strategy/"
     },
     {
-      "courseId": 49877,
-      "slug": "options-trading-course-level-7-delta-effect",
-      "url": "https://options-america.com/courses/options-trading-course-level-7-delta-effect/",
-      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-7-delta-effect/"
+      "courseId": 49885,
+      "slug": "options-trading-course-level-2-selling-call-option",
+      "url": "https://options-america.com/courses/options-trading-course-level-2-selling-call-option/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-2-selling-call-option/"
+    },
+    {
+      "courseId": 49886,
+      "slug": "options-trading-course-level-3-buying-put-option",
+      "url": "https://options-america.com/courses/options-trading-course-level-3-buying-put-option/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-3-buying-put-option/"
+    },
+    {
+      "courseId": 49887,
+      "slug": "options-trading-course-level-4-selling-put-option",
+      "url": "https://options-america.com/courses/options-trading-course-level-4-selling-put-option/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-4-selling-put-option/"
+    },
+    {
+      "courseId": 49888,
+      "slug": "options-trading-course-level-5-theta-time-decay",
+      "url": "https://options-america.com/courses/options-trading-course-level-5-theta-time-decay/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-5-theta-time-decay/"
+    },
+    {
+      "courseId": 49889,
+      "slug": "options-trading-course-level-6-vega-and-volatility",
+      "url": "https://options-america.com/courses/options-trading-course-level-6-vega-and-volatility/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-6-vega-and-volatility/"
+    },
+    {
+      "courseId": 49890,
+      "slug": "options-trading-course-level-8-all-greeks-in-action",
+      "url": "https://options-america.com/courses/options-trading-course-level-8-all-greeks-in-action/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-trading-course-level-8-all-greeks-in-action/"
+    },
+    {
+      "courseId": 49892,
+      "slug": "options-strategies-level-21-mastering-vix-volatility",
+      "url": "https://options-america.com/courses/options-strategies-level-21-mastering-vix-volatility/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-strategies-level-21-mastering-vix-volatility/"
+    },
+    {
+      "courseId": 49893,
+      "slug": "vix-hedging-and-speculation",
+      "url": "https://options-america.com/courses/vix-hedging-and-speculation/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/vix-hedging-and-speculation/"
+    },
+    {
+      "courseId": 49894,
+      "slug": "options-course-selling-put-case-study",
+      "url": "https://options-america.com/courses/options-course-selling-put-case-study/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-course-selling-put-case-study/"
+    },
+    {
+      "courseId": 49895,
+      "slug": "options-course-selling-call-case-study",
+      "url": "https://options-america.com/courses/options-course-selling-call-case-study/",
+      "error": "404 Client Error: Not Found for url: https://options-america.com/courses/options-course-selling-call-case-study/"
+    },
+    {
+      "courseId": 49899,
+      "slug": "pre-earnings-options-strategy-level-45a",
+      "url": "https://options-america.com/courses/pre-earnings-options-strategy-level-45a/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/pre-earnings-options-strategy-level-45a/"
+    },
+    {
+      "courseId": 49900,
+      "slug": "at-earnings-options-strategy-level-45b",
+      "url": "https://options-america.com/courses/at-earnings-options-strategy-level-45b/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/at-earnings-options-strategy-level-45b/"
+    },
+    {
+      "courseId": 49901,
+      "slug": "post-earnings-options-strategy-level-45c",
+      "url": "https://options-america.com/courses/post-earnings-options-strategy-level-45c/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/post-earnings-options-strategy-level-45c/"
+    },
+    {
+      "courseId": 49902,
+      "slug": "dividend-capture-strategy-level-46",
+      "url": "https://options-america.com/courses/dividend-capture-strategy-level-46/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/dividend-capture-strategy-level-46/"
+    },
+    {
+      "courseId": 49903,
+      "slug": "broken-wings-butterfly-level-47",
+      "url": "https://options-america.com/courses/broken-wings-butterfly-level-47/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/broken-wings-butterfly-level-47/"
+    },
+    {
+      "courseId": 49904,
+      "slug": "sector-rotation-level-48",
+      "url": "https://options-america.com/courses/sector-rotation-level-48/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/sector-rotation-level-48/"
+    },
+    {
+      "courseId": 49905,
+      "slug": "event-driven-catalyst-level-49",
+      "url": "https://options-america.com/courses/event-driven-catalyst-level-49/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/event-driven-catalyst-level-49/"
+    },
+    {
+      "courseId": 49906,
+      "slug": "level-72-natural-gas-options-on-futures",
+      "url": "https://options-america.com/courses/level-72-natural-gas-options-on-futures/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/level-72-natural-gas-options-on-futures/"
+    },
+    {
+      "courseId": 49907,
+      "slug": "level-73-crude-oil-options-on-futures",
+      "url": "https://options-america.com/courses/level-73-crude-oil-options-on-futures/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/level-73-crude-oil-options-on-futures/"
+    },
+    {
+      "courseId": 49908,
+      "slug": "level-85-uvxy-stock-strategies",
+      "url": "https://options-america.com/courses/level-85-uvxy-stock-strategies/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/level-85-uvxy-stock-strategies/"
+    },
+    {
+      "courseId": 49909,
+      "slug": "adjustments-bull-call-spread",
+      "url": "https://options-america.com/courses/adjustments-bull-call-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-bull-call-spread/"
+    },
+    {
+      "courseId": 49910,
+      "slug": "adjustments-bear-put-spread",
+      "url": "https://options-america.com/courses/adjustments-bear-put-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-bear-put-spread/"
+    },
+    {
+      "courseId": 49911,
+      "slug": "adjustments-short-iron-condor",
+      "url": "https://options-america.com/courses/adjustments-short-iron-condor/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-short-iron-condor/"
+    },
+    {
+      "courseId": 49912,
+      "slug": "adjustments-butterfly",
+      "url": "https://options-america.com/courses/adjustments-butterfly/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-butterfly/"
+    },
+    {
+      "courseId": 49913,
+      "slug": "adjustments-calendar-spread",
+      "url": "https://options-america.com/courses/adjustments-calendar-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-calendar-spread/"
+    },
+    {
+      "courseId": 49914,
+      "slug": "adjustments-backspread",
+      "url": "https://options-america.com/courses/adjustments-backspread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-backspread/"
+    },
+    {
+      "courseId": 49915,
+      "slug": "adjustments-short-straddle",
+      "url": "https://options-america.com/courses/adjustments-short-straddle/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-short-straddle/"
+    },
+    {
+      "courseId": 49916,
+      "slug": "adjustments-short-strangle",
+      "url": "https://options-america.com/courses/adjustments-short-strangle/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-short-strangle/"
+    },
+    {
+      "courseId": 49917,
+      "slug": "adjustments-covered-calls",
+      "url": "https://options-america.com/courses/adjustments-covered-calls/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-covered-calls/"
+    },
+    {
+      "courseId": 49918,
+      "slug": "adjustments-protective-puts",
+      "url": "https://options-america.com/courses/adjustments-protective-puts/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/adjustments-protective-puts/"
+    },
+    {
+      "courseId": 49919,
+      "slug": "beginner-case-study-long-call",
+      "url": "https://options-america.com/courses/beginner-case-study-long-call/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/beginner-case-study-long-call/"
+    },
+    {
+      "courseId": 49920,
+      "slug": "beginner-case-study-long-put",
+      "url": "https://options-america.com/courses/beginner-case-study-long-put/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/beginner-case-study-long-put/"
+    },
+    {
+      "courseId": 49921,
+      "slug": "case-study-bull-call-spread",
+      "url": "https://options-america.com/courses/case-study-bull-call-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-bull-call-spread/"
+    },
+    {
+      "courseId": 49922,
+      "slug": "case-study-bear-put-spread",
+      "url": "https://options-america.com/courses/case-study-bear-put-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-bear-put-spread/"
+    },
+    {
+      "courseId": 49923,
+      "slug": "case-study-short-iron-condor",
+      "url": "https://options-america.com/courses/case-study-short-iron-condor/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-short-iron-condor/"
+    },
+    {
+      "courseId": 49924,
+      "slug": "case-study-butterfly",
+      "url": "https://options-america.com/courses/case-study-butterfly/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-butterfly/"
+    },
+    {
+      "courseId": 49925,
+      "slug": "case-study-calendar-spread",
+      "url": "https://options-america.com/courses/case-study-calendar-spread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-calendar-spread/"
+    },
+    {
+      "courseId": 49926,
+      "slug": "case-study-backspread",
+      "url": "https://options-america.com/courses/case-study-backspread/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-backspread/"
+    },
+    {
+      "courseId": 49927,
+      "slug": "case-study-short-straddle",
+      "url": "https://options-america.com/courses/case-study-short-straddle/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-short-straddle/"
+    },
+    {
+      "courseId": 49928,
+      "slug": "case-study-short-strangle",
+      "url": "https://options-america.com/courses/case-study-short-strangle/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-short-strangle/"
+    },
+    {
+      "courseId": 49929,
+      "slug": "case-study-covered-calls",
+      "url": "https://options-america.com/courses/case-study-covered-calls/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-covered-calls/"
+    },
+    {
+      "courseId": 49930,
+      "slug": "case-study-protective-puts",
+      "url": "https://options-america.com/courses/case-study-protective-puts/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/case-study-protective-puts/"
+    },
+    {
+      "courseId": 49931,
+      "slug": "options-portfolio-case-study",
+      "url": "https://options-america.com/courses/options-portfolio-case-study/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/options-portfolio-case-study/"
+    },
+    {
+      "courseId": 49932,
+      "slug": "options-on-futures-case-study",
+      "url": "https://options-america.com/courses/options-on-futures-case-study/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/options-on-futures-case-study/"
+    },
+    {
+      "courseId": 49933,
+      "slug": "options-strategies-case-study",
+      "url": "https://options-america.com/courses/options-strategies-case-study/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/options-strategies-case-study/"
+    },
+    {
+      "courseId": 50160,
+      "slug": "options-trading-course-level-1-buying-call-option",
+      "url": "https://options-america.com/courses/options-trading-course-level-1-buying-call-option/",
+      "error": "429 Client Error: Too Many Requests for url: https://options-america.com/courses/options-trading-course-level-1-buying-call-option/"
     }
   ]
 }
