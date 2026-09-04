@@ -121,7 +121,7 @@ if (curriculum) {
     <section class="curriculum-group">
       <h3 class="curriculum-group-title">${section.title}</h3>
       ${section.items.map(([n,title,meta,type]) => `
-        <a class="curriculum-item" id="lesson-${n}" href="#">
+        <a class="curriculum-item" id="lesson-${n}" href="player/?lesson=${n}">
           <span class="lesson-index">${n}</span>
           <span class="lesson-icon">${type === 'quiz' ? '?' : type === 'text' ? '▤' : '▶'}</span>
           <div><strong>${title}</strong><small>${meta}</small></div>
