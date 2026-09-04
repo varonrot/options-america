@@ -21,6 +21,16 @@
 </div>
 <aside class="course-sidebar" id="course-content"><div class="sidebar-actions"><button type="button">♡ Save course</button><button type="button">↗ Share</button></div><a class="btn btn-gold sidebar-cta" href="player/?lesson=1">START COURSE — FREE</a><div class="curriculum-title" id="curriculum"><div><span>Course curriculum</span><strong>45 Lessons</strong></div><span>⌃</span></div><div class="curriculum-list"></div><div class="sidebar-note"><strong>Free course</strong><p>All 45 items are available in the new course player. Video progress is saved in this browser.</p></div></aside>
 </div></section></main>
-<footer><div class="container footer-grid"><div><a class="brand" href="../../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div><div><h4>Learn</h4><a href="../">Courses</a><a href="../../#paths">Learning Paths</a><a href="../../courses/?level=Beginner">Beginner Courses</a></div><div><h4>Strategies</h4><a href="../../#strategies">All Strategies</a><a href="../../courses/">Adjustments</a></div><div><h4>Futures</h4><a href="../../#futures">Options on Futures</a><a href="../../courses/">Futures Courses</a></div><div><h4>Resources</h4><a href="../../#blog">Blog</a><a href="../../courses/">Case Studies</a></div></div><div class="container copyright">© <span class="current-year"></span> Options America · Educational content only — not financial advice.</div></footer>
-<script>document.querySelectorAll('.current-year').forEach(el=>el.textContent=new Date().getFullYear());</script><script src="course-level2.js" defer></script>
+<footer>
+  <div class="container footer-grid">
+    <div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div>
+    <div><h4>Learn</h4><a href="/courses/">Courses</a><a href="/#paths">Learning Paths</a><a href="/courses/?level=Beginner">Beginner Courses</a><a href="/courses/?category=Option%20Greeks">Options Greeks</a></div>
+    <div><h4>Strategies</h4><a href="/#strategies">All Strategies</a><a href="/courses/?category=Options%20Strategies">Income Strategies</a><a href="/courses/?category=Options%20Strategies">Neutral Strategies</a><a href="/courses/?category=Options%20Adjustments">Adjustments</a></div>
+    <div><h4>Futures</h4><a href="/#futures">Options on Futures</a><a href="/courses/?category=Options%20on%20Futures">Gold Options</a><a href="/courses/?category=Options%20on%20Futures">Crude Oil Options</a><a href="/courses/?category=Options%20on%20Futures">Natural Gas Options</a></div>
+    <div><h4>Resources</h4><a href="/#blog">Blog</a><a href="/#resources">Resources</a><a href="/courses/?category=Case%20Studies">Case Studies</a><a href="/courses/">Course Library</a></div>
+  </div>
+  <div class="container copyright">© <span data-current-year></span> Options America · Educational content only — not financial advice.</div>
+</footer>
+<script src="course-level2.js" defer></script>
+<script>document.querySelectorAll("[data-current-year]").forEach(el=>el.textContent=new Date().getFullYear());</script>
 </body></html>

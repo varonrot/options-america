@@ -84,17 +84,18 @@
   </main>
 
   <footer>
-    <div class="container footer-grid">
-      <div><a class="brand" href="../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div>
-      <div><h4>Learn</h4><a href="./">Courses</a><a href="../#paths">Learning Paths</a><a href="#">Beginner Guide</a><a href="#">Options Greeks</a></div>
-      <div><h4>Strategies</h4><a href="../#strategies">All Strategies</a><a href="#">Income Strategies</a><a href="#">Neutral Strategies</a><a href="#">Adjustments</a></div>
-      <div><h4>Futures</h4><a href="../#futures">Options on Futures</a><a href="#">Gold Options</a><a href="#">Crude Oil Options</a><a href="#">Natural Gas Options</a></div>
-      <div><h4>Resources</h4><a href="../#blog">Blog</a><a href="#">Glossary</a><a href="#">Case Studies</a><a href="#">Calculators</a></div>
-    </div>
-    <div class="container copyright">© 2026 Options America · Educational content only — not financial advice.</div>
-  </footer>
+  <div class="container footer-grid">
+    <div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div>
+    <div><h4>Learn</h4><a href="/courses/">Courses</a><a href="/#paths">Learning Paths</a><a href="/courses/?level=Beginner">Beginner Courses</a><a href="/courses/?category=Option%20Greeks">Options Greeks</a></div>
+    <div><h4>Strategies</h4><a href="/#strategies">All Strategies</a><a href="/courses/?category=Options%20Strategies">Income Strategies</a><a href="/courses/?category=Options%20Strategies">Neutral Strategies</a><a href="/courses/?category=Options%20Adjustments">Adjustments</a></div>
+    <div><h4>Futures</h4><a href="/#futures">Options on Futures</a><a href="/courses/?category=Options%20on%20Futures">Gold Options</a><a href="/courses/?category=Options%20on%20Futures">Crude Oil Options</a><a href="/courses/?category=Options%20on%20Futures">Natural Gas Options</a></div>
+    <div><h4>Resources</h4><a href="/#blog">Blog</a><a href="/#resources">Resources</a><a href="/courses/?category=Case%20Studies">Case Studies</a><a href="/courses/">Course Library</a></div>
+  </div>
+  <div class="container copyright">© <span data-current-year></span> Options America · Educational content only — not financial advice.</div>
+</footer>
 
   <script src="courses.js" defer></script>
   <script src="legacy-media.js" defer></script>
+<script>document.querySelectorAll("[data-current-year]").forEach(el=>el.textContent=new Date().getFullYear());</script>
 </body>
 </html>
