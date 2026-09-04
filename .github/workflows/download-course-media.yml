@@ -1,0 +1,36 @@
+name: Download legacy course media
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/import/course-media-map.json'
+      - 'tools/download_course_media.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Download course thumbnails
+        run: python tools/download_course_media.py
+      - name: Commit downloaded media
+        run: |
+          git config user.name "options-america-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/images/courses/legacy data/import/course-media-download-report.json
+          if git diff --cached --quiet; then
+            echo "No media changes"
+          else
+            git commit -m "Import legacy course thumbnails"
+            git push
+          fi
