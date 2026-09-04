@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Downloads the original WordPress course thumbnail for every migrated course.
 import json
 import mimetypes
 from pathlib import Path
