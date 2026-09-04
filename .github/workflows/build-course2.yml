@@ -1,0 +1,29 @@
+name: Build Level 2 course
+
+on:
+  push:
+    paths:
+      - 'tools/build_course2_from_live.py'
+      - '.github/workflows/build-course2.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests beautifulsoup4
+      - run: python tools/build_course2_from_live.py
+      - name: Commit generated Level 2 data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add courses/options-trading-level-2-selling-call-option-strategy-2/course-data.json
+          git diff --cached --quiet || git commit -m "Generate Level 2 course data"
+          git push
