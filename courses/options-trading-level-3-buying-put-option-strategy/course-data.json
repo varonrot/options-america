@@ -1,0 +1,391 @@
+{
+  "course": {
+    "id": 49881,
+    "slug": "options-trading-level-3-buying-put-option-strategy",
+    "title": "Options Trading Course Level 3: Buying Put Option",
+    "level": "Beginner",
+    "sourceUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/"
+  },
+  "lessons": [
+    {
+      "wpId": 50603,
+      "title": "Start This Course",
+      "duration": "Video lesson",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50603/",
+      "number": 1,
+      "vimeoId": "932349422"
+    },
+    {
+      "wpId": 50502,
+      "title": "Information needed",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50502",
+      "number": 2,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50604,
+      "title": "What is a Put option?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50604",
+      "number": 3,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50605,
+      "title": "Definition of a put option",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50605",
+      "number": 4,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50606,
+      "title": "Put option in the insurance world",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50606",
+      "number": 5,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50607,
+      "title": "Demonstrations of buying Put options and scenarios",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50607",
+      "number": 6,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50608,
+      "title": "A scenario in which Apple stock drops to $150 in July",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50608",
+      "number": 7,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50609,
+      "title": "A scenario in which Apple shares rise to $190 in July",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50609",
+      "number": 8,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50610,
+      "title": "A scenario where Apple stock stays at $170 in July.",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50610",
+      "number": 9,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50611,
+      "title": "Summary of what we learned in part 1",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50611",
+      "number": 10,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50612,
+      "title": "What will we learn in this part of Put option chains?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50612",
+      "number": 11,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50613,
+      "title": "The difference between the parties in the options chain",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50613",
+      "number": 12,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50614,
+      "title": "Option in the money on the Put side",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50614",
+      "number": 13,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50615,
+      "title": "The option at the money on the Put side",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50615",
+      "number": 14,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50616,
+      "title": "An in-the-money option in the option chains",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50616",
+      "number": 15,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50617,
+      "title": "Illustration of Put options in the graph",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50617",
+      "number": 16,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50618,
+      "title": "Out-of-the-money options in option chains",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50618",
+      "number": 17,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50619,
+      "title": "Illustration of out-of-the-money options on the stock chart",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50619",
+      "number": 18,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50620,
+      "title": "Summary of chapter 2",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50620",
+      "number": 19,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50621,
+      "title": "What we will learn in the part of buying a Put option and analysis",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50621",
+      "number": 20,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50622,
+      "title": "Movement of Apple stock",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50622",
+      "number": 21,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50623,
+      "title": "Option selection for scenarios in profit and loss analysis",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50623",
+      "number": 22,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50624,
+      "title": "The forecast comes true and Apple drops to $120 per share",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50624",
+      "number": 23,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50625,
+      "title": "Apple shares will drop tomorrow to a price of $120 per share",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50625",
+      "number": 24,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50626,
+      "title": "A scenario in which Apple shares rise to 230",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50626",
+      "number": 25,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50627,
+      "title": "Apple stock rises to a price of 180 the next day",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50627",
+      "number": 26,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50628,
+      "title": "The effects on T+0 and the content that will be studied later",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50628",
+      "number": 27,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50629,
+      "title": "A scenario in which Apple stock trades at $175 at expiration",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50629",
+      "number": 28,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50630,
+      "title": "Summary of Chapter 3",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50630",
+      "number": 29,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50631,
+      "title": "What will we learn in part 4?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50631",
+      "number": 30,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50632,
+      "title": "The difference between a Put and Call buyer in the real estate world",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50632",
+      "number": 31,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50633,
+      "title": "Factors Affecting Premium Discrepancy Between Call Options and Put Options",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50633",
+      "number": 32,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50634,
+      "title": "Option Skew",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50634",
+      "number": 33,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50635,
+      "title": "The effects of the premium and display on the analysis",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50635",
+      "number": 34,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50636,
+      "title": "A combination of buying Call and Put",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50636",
+      "number": 35,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50637,
+      "title": "Summary of what we learned in Chapter 4",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50637",
+      "number": 36,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50638,
+      "title": "Call Option Case Studies﻿ Text lesson",
+      "duration": "Video lesson",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50638",
+      "number": 37,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50639,
+      "title": "Transition from Level 3 to Level 4 Text lesson",
+      "duration": "Text lesson",
+      "type": "text",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-3-buying-put-option-strategy/50639",
+      "number": 38,
+      "vimeoId": null
+    }
+  ]
+}
