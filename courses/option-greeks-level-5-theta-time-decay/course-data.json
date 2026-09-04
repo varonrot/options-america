@@ -3,14 +3,439 @@
     "slug": "option-greeks-level-5-theta-time-decay",
     "title": "Options Trading Course Level 5: Theta & Time Decay",
     "level": "Beginner",
-    "previewVimeoId": "936129213"
+    "previewVimeoId": "936129213",
+    "sourceUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/"
   },
   "lessons": [
-    {"wpId":50749,"title":"Understanding Theta: Time Decay in Options Trading","duration":"2 min","type":"video","number":1,"section":"Theta & Time Decay","vimeoId":"936129213"},
-    {"wpId":50765,"title":"What will be learned in Chapter 4: The Theta","duration":"2 min","type":"video","number":2,"section":"Theta & Time Decay","vimeoId":"937541185"},
-    {"wpId":50766,"title":"Theta and the effect on the seller and buyer of options","duration":"2 min","type":"video","number":3,"section":"Theta & Time Decay","vimeoId":"937541152"},
-    {"wpId":50767,"title":"Positive and negative Theta meaning","duration":"2 min","type":"video","number":4,"section":"Theta & Time Decay","vimeoId":"937541119"},
-    {"wpId":50773,"title":"T+0 effect Theta on the Put option seller","duration":"2 min","type":"video","number":5,"section":"Theta & Time Decay","vimeoId":"937540873"},
-    {"wpId":50777,"title":"What we will learn in chapter 5: curve in theta","duration":"2 min","type":"video","number":6,"section":"Theta Curve","vimeoId":null}
+    {
+      "wpId": 50749,
+      "title": "Understanding Theta: Time Decay in Options Trading",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936129213",
+      "number": 1,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50749"
+    },
+    {
+      "wpId": 50502,
+      "title": "Information needed",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "935428450",
+      "number": 2,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50502"
+    },
+    {
+      "wpId": 50750,
+      "title": "Introduction to Time Decay",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "935972238",
+      "number": 3,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50750"
+    },
+    {
+      "wpId": 50751,
+      "title": "What is time decay in options",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936129282",
+      "number": 4,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50751"
+    },
+    {
+      "wpId": 50752,
+      "title": "Time Decay in the real estate world",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936139290",
+      "number": 5,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50752"
+    },
+    {
+      "wpId": 50753,
+      "title": "What we will learn in chapter 2: Time Decay and the option chains",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936144200",
+      "number": 6,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50753"
+    },
+    {
+      "wpId": 50754,
+      "title": "Premium in option chains",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936156531",
+      "number": 7,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50754"
+    },
+    {
+      "wpId": 50755,
+      "title": "The shape of time decay",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936165744",
+      "number": 8,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50755"
+    },
+    {
+      "wpId": 50756,
+      "title": "Extrinsic Value and time decay",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936173946",
+      "number": 9,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50756"
+    },
+    {
+      "wpId": 50757,
+      "title": "Extrinsic Value and Intrinsic Value curve For Calls for the same expiration date",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936262427",
+      "number": 10,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50757"
+    },
+    {
+      "wpId": 50758,
+      "title": "Extrinsic Value and Intrinsic Value Curve For Put Options",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936262382",
+      "number": 11,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50758"
+    },
+    {
+      "wpId": 50759,
+      "title": "Extrinsic Value and Intrinsic Value curve For Call options for different expiration dates",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936279846",
+      "number": 12,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50759"
+    },
+    {
+      "wpId": 50760,
+      "title": "Extrinsic Value and Intrinsic Value curve For Put options for different expiration dates",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936279922",
+      "number": 13,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50760"
+    },
+    {
+      "wpId": 50761,
+      "title": "The time decay curve for an in-the-money option",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936376357",
+      "number": 14,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50761"
+    },
+    {
+      "wpId": 50762,
+      "title": "The time decay curve for an out-of-the-money option",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936376262",
+      "number": 15,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50762"
+    },
+    {
+      "wpId": 50763,
+      "title": "The time decay curve for the at the moeny option",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936376434",
+      "number": 16,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50763"
+    },
+    {
+      "wpId": 50764,
+      "title": "The differences between the time decay curve and the types of options",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936376209",
+      "number": 17,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50764"
+    },
+    {
+      "wpId": 50765,
+      "title": "What will be learned in Chapter 4: The Theta",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541185",
+      "number": 18,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50765"
+    },
+    {
+      "wpId": 50766,
+      "title": "Theta and the effect on the seller and buyer of options",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541152",
+      "number": 19,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50766"
+    },
+    {
+      "wpId": 50767,
+      "title": "Positive and negative Theta meaning",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937540793",
+      "number": 20,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50767"
+    },
+    {
+      "wpId": 50768,
+      "title": "The effect of time on the Call option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541090",
+      "number": 21,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50768"
+    },
+    {
+      "wpId": 50769,
+      "title": "T+0 effect Theta on the Call option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937540930",
+      "number": 22,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50769"
+    },
+    {
+      "wpId": 50770,
+      "title": "The effect of time on the Call option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541055",
+      "number": 23,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50770"
+    },
+    {
+      "wpId": 50771,
+      "title": "T+0 effect Theta on the Call option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937540900",
+      "number": 24,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50771"
+    },
+    {
+      "wpId": 50772,
+      "title": "The effect of time on the Put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541119",
+      "number": 25,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50772"
+    },
+    {
+      "wpId": 50773,
+      "title": "T+0 effect Theta on the Put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541016",
+      "number": 26,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50773"
+    },
+    {
+      "wpId": 50774,
+      "title": "The effect of time on the Put option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937541055",
+      "number": 27,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50774"
+    },
+    {
+      "wpId": 50775,
+      "title": "T+0 effect Theta on the Put option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937540973",
+      "number": 28,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50775"
+    },
+    {
+      "wpId": 50776,
+      "title": "Summary of Chapter 4: The Theta",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937540873",
+      "number": 29,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50776"
+    },
+    {
+      "wpId": 50777,
+      "title": "What we will learn in chapter 5: curve in theta",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936735855",
+      "number": 30,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50777"
+    },
+    {
+      "wpId": 50778,
+      "title": "The Theta of a call option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936781791",
+      "number": 31,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50778"
+    },
+    {
+      "wpId": 50779,
+      "title": "The theta curve in far and near expiration",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936898542",
+      "number": 32,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50779"
+    },
+    {
+      "wpId": 50780,
+      "title": "The Theta of a call option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936900992",
+      "number": 33,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50780"
+    },
+    {
+      "wpId": 50781,
+      "title": "Theta curve of a Put option buyer",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936903966",
+      "number": 34,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50781"
+    },
+    {
+      "wpId": 50782,
+      "title": "Theta curve of the Put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936907060",
+      "number": 35,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50782"
+    },
+    {
+      "wpId": 50783,
+      "title": "Time decay on non-trading days",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936915272",
+      "number": 36,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50783"
+    },
+    {
+      "wpId": 50784,
+      "title": "Summary of chapter 4 Theta curve and 4 strategies",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "936912271",
+      "number": 37,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50784"
+    },
+    {
+      "wpId": 50785,
+      "title": "Theta decay for the option at the moeny",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937005180",
+      "number": 38,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50785"
+    },
+    {
+      "wpId": 50786,
+      "title": "Theta decay of selling an out-of-the-money call option",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937014569",
+      "number": 39,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50786"
+    },
+    {
+      "wpId": 50787,
+      "title": "Increasing the amount of contracts and the impact on Theta",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937192281",
+      "number": 40,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50787"
+    },
+    {
+      "wpId": 50788,
+      "title": "The Theta of a long synthetic position",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937192281",
+      "number": 41,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50788"
+    },
+    {
+      "wpId": 50789,
+      "title": "Traders want Theta on their side",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "937221336",
+      "number": 42,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50789"
+    },
+    {
+      "wpId": 50790,
+      "title": "Subtotal of the theta in two positions",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "941356306",
+      "number": 43,
+      "section": "Level 5 — Theta & Time Decay",
+      "oldUrl": "https://options-america.com/courses/option-greeks-level-5-theta-time-decay/50790"
+    }
   ]
 }
