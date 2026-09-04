@@ -1,4 +1,4 @@
-// Options America global site bootstrap: favicon + Google Tag Manager.
+// Options America global site bootstrap: favicon + Google Tag Manager + shared course messaging.
 (() => {
   const href = '/assets/images/options-america-favicon.png';
   let icon = document.querySelector('link[rel="icon"]');
@@ -18,6 +18,22 @@
     document.head.appendChild(apple);
   }
   apple.href = href;
+
+  // Keep the public-facing free-course message consistent across all course pages.
+  const applyCourseMessage = () => {
+    document.querySelectorAll('.sidebar-note').forEach(note => {
+      const heading = note.querySelector('strong');
+      const text = note.querySelector('p');
+      if (heading && heading.textContent.trim().toLowerCase() === 'free course' && text) {
+        text.textContent = 'Professional, structured options education designed to build practical trading knowledge step by step.';
+      }
+    });
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyCourseMessage, { once: true });
+  } else {
+    applyCourseMessage();
+  }
 
   // Google Tag Manager — Options America
   const GTM_ID = 'GTM-TSZLK9R4';
