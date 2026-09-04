@@ -1,0 +1,459 @@
+{
+  "course": {
+    "slug": "options-trading-level-4-selling-put-option-strategy",
+    "title": "Options Trading Course Level 4: Selling Put Option",
+    "level": "Beginner",
+    "previewVimeoId": "934554957",
+    "sourceUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/"
+  },
+  "lessons": [
+    {
+      "wpId": 50681,
+      "title": "Start This Course",
+      "duration": "Video lesson",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50681/",
+      "number": 1,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": "934554957"
+    },
+    {
+      "wpId": 50502,
+      "title": "Information needed",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50502",
+      "number": 2,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50682,
+      "title": "Definition of the Put option on the chart",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50682",
+      "number": 3,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50683,
+      "title": "Scenarios of a decline in the price of the underlying asset",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50683",
+      "number": 4,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50684,
+      "title": "Additional nicknames for options seller",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50684",
+      "number": 5,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50685,
+      "title": "A put option from the real estate world",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50685",
+      "number": 6,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50686,
+      "title": "High premium for time value",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50686",
+      "number": 7,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50687,
+      "title": "Important key points for selling a Put option",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50687",
+      "number": 8,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50688,
+      "title": "What will we learn in part 2?",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50688",
+      "number": 9,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50689,
+      "title": "Call seller's premium curve",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50689",
+      "number": 10,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50690,
+      "title": "Put seller's premium curve",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50690",
+      "number": 11,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50691,
+      "title": "Options at the money, outside and inside the money as a put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50691",
+      "number": 12,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50692,
+      "title": "Volume in the options chain",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50692",
+      "number": 13,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50693,
+      "title": "Open Interest in the options chain",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50693",
+      "number": 14,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50694,
+      "title": "Open Interest and volume in different maturities",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50694",
+      "number": 15,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50695,
+      "title": "Intrinsic value from the point of view of the Put option seller",
+      "duration": "3 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50695",
+      "number": 16,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50696,
+      "title": "Extrinsic value from the point of view of the Put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50696",
+      "number": 17,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50697,
+      "title": "Implied volatility and sells a Put option",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50697",
+      "number": 18,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50698,
+      "title": "Market Sentiment and Implied Volatility",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50698",
+      "number": 19,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50699,
+      "title": "Summary of what we learned in chapter 2",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50699",
+      "number": 20,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50700,
+      "title": "What will be learned in chapter 3 and the analysis of a put option seller",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50700",
+      "number": 21,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50701,
+      "title": "Assumption of underlying asset direction",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50701",
+      "number": 22,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50702,
+      "title": "Choosing a strike price of 190 in the options chain",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50702",
+      "number": 23,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50703,
+      "title": "A premium we will receive for the risk",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50703",
+      "number": 24,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50704,
+      "title": "Our commitment is selling Put option",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50704",
+      "number": 25,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50705,
+      "title": "The breakeven point",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50705",
+      "number": 26,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50706,
+      "title": "A scenario where Apple stock drops to $150 at expiration",
+      "duration": "3 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50706",
+      "number": 27,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50707,
+      "title": "A scenario where Apple stock rises to $210 at expiration",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50707",
+      "number": 28,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50708,
+      "title": "Apple stock reaches a price of 180 at expiration",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50708",
+      "number": 29,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50709,
+      "title": "The value of t+0 before expiration",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50709",
+      "number": 30,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50710,
+      "title": "A large spread for out-of-the-money options",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50710",
+      "number": 31,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50712,
+      "title": "When will we see the 1.2 spread shrink?",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50712",
+      "number": 32,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50711,
+      "title": "Summary of what we learned in chapter 3 selling put",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50711",
+      "number": 33,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50713,
+      "title": "The 4 strategies in the box",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50713",
+      "number": 34,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50714,
+      "title": "Creating a buy of a synthetic stock with options",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50714",
+      "number": 35,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50715,
+      "title": "The profit or loss if Apple stock goes up",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50715",
+      "number": 36,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50716,
+      "title": "The profit or loss if Apple stock goes down",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50716",
+      "number": 37,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50717,
+      "title": "Creating a synthetic short position with options",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50717",
+      "number": 38,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50718,
+      "title": "Added 2 put option to synthetic short",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50718",
+      "number": 39,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50719,
+      "title": "Adding a put option to protect the long stock",
+      "duration": "3 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50719",
+      "number": 40,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50721,
+      "title": "Adding 2 put option to protect the long stock",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50721",
+      "number": 41,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50720,
+      "title": "Protection of a short position with the help of call options",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50720",
+      "number": 42,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50722,
+      "title": "Summary of Chapter 4 - The Four Legs",
+      "duration": "2 min",
+      "type": "video",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50722",
+      "number": 43,
+      "section": "Part 1 — Selling Put Options",
+      "vimeoId": null
+    },
+    {
+      "wpId": 50723,
+      "title": "Chapter 4 Quiz: Summary of the Four Legs",
+      "duration": "10 questions",
+      "type": "quiz",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50723",
+      "number": 44,
+      "section": "Part 1 — Selling Put Options"
+    },
+    {
+      "wpId": 50735,
+      "title": "Short Put Case Study Course",
+      "duration": "Text lesson",
+      "type": "text",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-4-selling-put-option-strategy/50735",
+      "number": 45,
+      "section": "Part 1 — Selling Put Options"
+    }
+  ]
+}
