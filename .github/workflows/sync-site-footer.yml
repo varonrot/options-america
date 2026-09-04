@@ -1,0 +1,25 @@
+name: Sync site footer
+on:
+  push:
+    paths:
+      - 'tools/sync_site_footer.py'
+      - '.github/workflows/sync-site-footer.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/sync_site_footer.py
+      - name: Commit synchronized footers
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add '*.html' 'courses/**/*.html'
+          git diff --cached --quiet || git commit -m "Use full dynamic footer across site"
+          git push
