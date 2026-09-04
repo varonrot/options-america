@@ -132,3 +132,10 @@ if (curriculum) {
 
 const count = document.querySelector('.curriculum-title strong');
 if (count) count.textContent = '74 Lessons';
+
+const mainCourseImage = document.querySelector('.course-image-wrap img');
+if (mainCourseImage) {
+  mainCourseImage.src = '../../assets/images/courses/legacy/options-trading-course-level-1-buying-call-option.png';
+  mainCourseImage.style.display = '';
+  mainCourseImage.parentElement.classList.remove('image-missing');
+}
