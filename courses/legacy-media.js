@@ -1,9 +1,15 @@
 (() => {
+  const legacySlugAliases = {
+    'options-trading-course-level-6-vega-and-volatility': 'greek-option-level-6-vega-volatility-trading'
+  };
+
+  const resolveLegacySlug = (slug) => legacySlugAliases[slug] || slug;
+
   const legacyPathFor = (course) => {
     try {
       const url = new URL(course.url, window.location.origin);
       const parts = url.pathname.split('/').filter(Boolean);
-      const slug = parts[parts.length - 1];
+      const slug = resolveLegacySlug(parts[parts.length - 1]);
       return `../assets/images/courses/legacy/${slug}.png`;
     } catch (_) {
       return course.image;
@@ -24,7 +30,7 @@
       try {
         const url = new URL(link.getAttribute('href'), window.location.origin);
         const parts = url.pathname.split('/').filter(Boolean);
-        const slug = parts[parts.length - 1];
+        const slug = resolveLegacySlug(parts[parts.length - 1]);
         img.src = `../assets/images/courses/legacy/${slug}.png`;
         img.style.display = '';
       } catch (_) {}
