@@ -2,6 +2,12 @@ name: Scrape live course curricula
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/scrape_live_curricula.py'
+      - 'data/import/master-catalog.json'
+      - '.github/workflows/scrape-curricula.yml'
 
 permissions:
   contents: write
