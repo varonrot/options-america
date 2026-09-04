@@ -1,0 +1,420 @@
+{
+  "total": 59,
+  "downloaded": 59,
+  "errors": 0,
+  "items": [
+    {
+      "courseId": 49868,
+      "slug": "level-77-silver-trading-options-on-future",
+      "path": "assets/images/courses/legacy/level-77-silver-trading-options-on-future.png",
+      "bytes": 157124,
+      "status": "ok"
+    },
+    {
+      "courseId": 49869,
+      "slug": "level-81-gold-trading-options-on-future",
+      "path": "assets/images/courses/legacy/level-81-gold-trading-options-on-future.png",
+      "bytes": 136537,
+      "status": "ok"
+    },
+    {
+      "courseId": 49870,
+      "slug": "level-82-corn-futures-trading-strategy",
+      "path": "assets/images/courses/legacy/level-82-corn-futures-trading-strategy.png",
+      "bytes": 149714,
+      "status": "ok"
+    },
+    {
+      "courseId": 49871,
+      "slug": "level-84-wheat-trading-future-professionals",
+      "path": "assets/images/courses/legacy/level-84-wheat-trading-future-professionals.png",
+      "bytes": 159410,
+      "status": "ok"
+    },
+    {
+      "courseId": 49872,
+      "slug": "level-83-soybean-trading-future-professionals",
+      "path": "assets/images/courses/legacy/level-83-soybean-trading-future-professionals.png",
+      "bytes": 163858,
+      "status": "ok"
+    },
+    {
+      "courseId": 49874,
+      "slug": "advanced-option-level-12-butterfly",
+      "path": "assets/images/courses/legacy/advanced-option-level-12-butterfly.png",
+      "bytes": 157188,
+      "status": "ok"
+    },
+    {
+      "courseId": 49875,
+      "slug": "advanced-option-level-11-short-iron-condor",
+      "path": "assets/images/courses/legacy/advanced-option-level-11-short-iron-condor.png",
+      "bytes": 181766,
+      "status": "ok"
+    },
+    {
+      "courseId": 49876,
+      "slug": "advanced-option-level-10-bear-put-spread",
+      "path": "assets/images/courses/legacy/advanced-option-level-10-bear-put-spread.png",
+      "bytes": 158678,
+      "status": "ok"
+    },
+    {
+      "courseId": 49877,
+      "slug": "option-greeks-level-7-delta-effect-strategy",
+      "path": "assets/images/courses/legacy/option-greeks-level-7-delta-effect-strategy.png",
+      "bytes": 175329,
+      "status": "ok"
+    },
+    {
+      "courseId": 49878,
+      "slug": "advanced-option-level-9-bull-call-spread",
+      "path": "assets/images/courses/legacy/advanced-option-level-9-bull-call-spread.png",
+      "bytes": 164082,
+      "status": "ok"
+    },
+    {
+      "courseId": 49879,
+      "slug": "option-greeks-level-5-theta-time-decay",
+      "path": "assets/images/courses/legacy/option-greeks-level-5-theta-time-decay.png",
+      "bytes": 154059,
+      "status": "ok"
+    },
+    {
+      "courseId": 49880,
+      "slug": "options-trading-level-4-selling-put-option-strategy",
+      "path": "assets/images/courses/legacy/options-trading-level-4-selling-put-option-strategy.png",
+      "bytes": 128806,
+      "status": "ok"
+    },
+    {
+      "courseId": 49881,
+      "slug": "options-trading-level-3-buying-put-option-strategy",
+      "path": "assets/images/courses/legacy/options-trading-level-3-buying-put-option-strategy.png",
+      "bytes": 160288,
+      "status": "ok"
+    },
+    {
+      "courseId": 49882,
+      "slug": "option-greeks-level-8-option-greeks-in-action",
+      "path": "assets/images/courses/legacy/option-greeks-level-8-option-greeks-in-action.png",
+      "bytes": 136594,
+      "status": "ok"
+    },
+    {
+      "courseId": 49883,
+      "slug": "greek-option-level-6-vega-volatility-trading",
+      "path": "assets/images/courses/legacy/greek-option-level-6-vega-volatility-trading.png",
+      "bytes": 191328,
+      "status": "ok"
+    },
+    {
+      "courseId": 49902,
+      "slug": "level-85-uvxy-stock-strategies",
+      "path": "assets/images/courses/legacy/level-85-uvxy-stock-strategies.png",
+      "bytes": 180969,
+      "status": "ok"
+    },
+    {
+      "courseId": 49904,
+      "slug": "building-a-diversified-portfolio",
+      "path": "assets/images/courses/legacy/building-a-diversified-portfolio.png",
+      "bytes": 147810,
+      "status": "ok"
+    },
+    {
+      "courseId": 49905,
+      "slug": "selling-put-case-study",
+      "path": "assets/images/courses/legacy/selling-put-case-study.png",
+      "bytes": 187918,
+      "status": "ok"
+    },
+    {
+      "courseId": 49906,
+      "slug": "selling-call-case-study",
+      "path": "assets/images/courses/legacy/selling-call-case-study.png",
+      "bytes": 199263,
+      "status": "ok"
+    },
+    {
+      "courseId": 49907,
+      "slug": "level-49-event-driven-catalyst-strategy",
+      "path": "assets/images/courses/legacy/level-49-event-driven-catalyst-strategy.png",
+      "bytes": 168394,
+      "status": "ok"
+    },
+    {
+      "courseId": 49908,
+      "slug": "level-47-broken-wings-butterfly",
+      "path": "assets/images/courses/legacy/level-47-broken-wings-butterfly.png",
+      "bytes": 164890,
+      "status": "ok"
+    },
+    {
+      "courseId": 49909,
+      "slug": "level-48-sector-rotation-strategy",
+      "path": "assets/images/courses/legacy/level-48-sector-rotation-strategy.png",
+      "bytes": 140418,
+      "status": "ok"
+    },
+    {
+      "courseId": 49910,
+      "slug": "level-46-dividend-capture-strategy-minimizing-risk",
+      "path": "assets/images/courses/legacy/level-46-dividend-capture-strategy-minimizing-risk.png",
+      "bytes": 170236,
+      "status": "ok"
+    },
+    {
+      "courseId": 49911,
+      "slug": "level-45-c-post-earnings-announcement-options-strategies",
+      "path": "assets/images/courses/legacy/level-45-c-post-earnings-announcement-options-strategies.png",
+      "bytes": 171157,
+      "status": "ok"
+    },
+    {
+      "courseId": 49912,
+      "slug": "level-45-b-at-earnings-announcement-options-strategies",
+      "path": "assets/images/courses/legacy/level-45-b-at-earnings-announcement-options-strategies.png",
+      "bytes": 191328,
+      "status": "ok"
+    },
+    {
+      "courseId": 49913,
+      "slug": "level-45-a-pre-earnings-announcement-options-strategies",
+      "path": "assets/images/courses/legacy/level-45-a-pre-earnings-announcement-options-strategies.png",
+      "bytes": 170179,
+      "status": "ok"
+    },
+    {
+      "courseId": 49914,
+      "slug": "advanced-option-level-18-protective-puts",
+      "path": "assets/images/courses/legacy/advanced-option-level-18-protective-puts.png",
+      "bytes": 150703,
+      "status": "ok"
+    },
+    {
+      "courseId": 49915,
+      "slug": "advanced-option-level-17-covered-calls",
+      "path": "assets/images/courses/legacy/advanced-option-level-17-covered-calls.png",
+      "bytes": 169227,
+      "status": "ok"
+    },
+    {
+      "courseId": 49916,
+      "slug": "advanced-option-level-16-short-strangle",
+      "path": "assets/images/courses/legacy/advanced-option-level-16-short-strangle.png",
+      "bytes": 136122,
+      "status": "ok"
+    },
+    {
+      "courseId": 49917,
+      "slug": "level-22-vix-options-hedging-and-speculation",
+      "path": "assets/images/courses/legacy/level-22-vix-options-hedging-and-speculation.png",
+      "bytes": 135352,
+      "status": "ok"
+    },
+    {
+      "courseId": 49918,
+      "slug": "level-21-mastering-vix-volatility-trading",
+      "path": "assets/images/courses/legacy/level-21-mastering-vix-volatility-trading.png",
+      "bytes": 143171,
+      "status": "ok"
+    },
+    {
+      "courseId": 49919,
+      "slug": "options-portfolio-level-20-optimizing-portfolio",
+      "path": "assets/images/courses/legacy/options-portfolio-level-20-optimizing-portfolio.png",
+      "bytes": 154349,
+      "status": "ok"
+    },
+    {
+      "courseId": 49920,
+      "slug": "advanced-option-level-13-calendar-spreads",
+      "path": "assets/images/courses/legacy/advanced-option-level-13-calendar-spreads.png",
+      "bytes": 173155,
+      "status": "ok"
+    },
+    {
+      "courseId": 49921,
+      "slug": "advanced-option-level-14-backspread",
+      "path": "assets/images/courses/legacy/advanced-option-level-14-backspread.png",
+      "bytes": 116829,
+      "status": "ok"
+    },
+    {
+      "courseId": 49952,
+      "slug": "adjusting-covered-call",
+      "path": "assets/images/courses/legacy/adjusting-covered-call.png",
+      "bytes": 157189,
+      "status": "ok"
+    },
+    {
+      "courseId": 49953,
+      "slug": "poor-mans-covered-call",
+      "path": "assets/images/courses/legacy/poor-mans-covered-call.png",
+      "bytes": 150074,
+      "status": "ok"
+    },
+    {
+      "courseId": 49954,
+      "slug": "case-study-covered-call",
+      "path": "assets/images/courses/legacy/case-study-covered-call.png",
+      "bytes": 126741,
+      "status": "ok"
+    },
+    {
+      "courseId": 49955,
+      "slug": "introduction-to-futures-contract",
+      "path": "assets/images/courses/legacy/introduction-to-futures-contract.png",
+      "bytes": 150614,
+      "status": "ok"
+    },
+    {
+      "courseId": 49956,
+      "slug": "managing-a-bullish-to-neutral-options-portfolio",
+      "path": "assets/images/courses/legacy/managing-a-bullish-to-neutral-options-portfolio.png",
+      "bytes": 142101,
+      "status": "ok"
+    },
+    {
+      "courseId": 49957,
+      "slug": "practical-usage-level-3-1-long-put",
+      "path": "assets/images/courses/legacy/practical-usage-level-3-1-long-put.png",
+      "bytes": 187695,
+      "status": "ok"
+    },
+    {
+      "courseId": 49958,
+      "slug": "level-73-crude-oil-options-on-futures",
+      "path": "assets/images/courses/legacy/level-73-crude-oil-options-on-futures.png",
+      "bytes": 201701,
+      "status": "ok"
+    },
+    {
+      "courseId": 49959,
+      "slug": "level-72-natural-gas-options-on-futures-2",
+      "path": "assets/images/courses/legacy/level-72-natural-gas-options-on-futures-2.png",
+      "bytes": 198370,
+      "status": "ok"
+    },
+    {
+      "courseId": 49983,
+      "slug": "adjustments-butterfly-strategies",
+      "path": "assets/images/courses/legacy/adjustments-butterfly-strategies.png",
+      "bytes": 191328,
+      "status": "ok"
+    },
+    {
+      "courseId": 49984,
+      "slug": "case-studies-short-straddle-2",
+      "path": "assets/images/courses/legacy/case-studies-short-straddle-2.png",
+      "bytes": 152065,
+      "status": "ok"
+    },
+    {
+      "courseId": 49985,
+      "slug": "adjustment-poor-mans-covered-call-2",
+      "path": "assets/images/courses/legacy/adjustment-poor-mans-covered-call-2.png",
+      "bytes": 167211,
+      "status": "ok"
+    },
+    {
+      "courseId": 49986,
+      "slug": "case-studies-short-iron-condor-strategies",
+      "path": "assets/images/courses/legacy/case-studies-short-iron-condor-strategies.png",
+      "bytes": 167923,
+      "status": "ok"
+    },
+    {
+      "courseId": 49995,
+      "slug": "adjustments-short-strangle-2",
+      "path": "assets/images/courses/legacy/adjustments-short-strangle-2.png",
+      "bytes": 109531,
+      "status": "ok"
+    },
+    {
+      "courseId": 49996,
+      "slug": "case-studies-bull-call-spread-2",
+      "path": "assets/images/courses/legacy/case-studies-bull-call-spread-2.png",
+      "bytes": 148941,
+      "status": "ok"
+    },
+    {
+      "courseId": 49997,
+      "slug": "adjustments-bull-call-spread-2",
+      "path": "assets/images/courses/legacy/adjustments-bull-call-spread-2.png",
+      "bytes": 172695,
+      "status": "ok"
+    },
+    {
+      "courseId": 49998,
+      "slug": "adjustments-short-straddle-2",
+      "path": "assets/images/courses/legacy/adjustments-short-straddle-2.png",
+      "bytes": 125422,
+      "status": "ok"
+    },
+    {
+      "courseId": 49999,
+      "slug": "adjustments-calendar-spreads-2",
+      "path": "assets/images/courses/legacy/adjustments-calendar-spreads-2.png",
+      "bytes": 152120,
+      "status": "ok"
+    },
+    {
+      "courseId": 50000,
+      "slug": "case-studies-calendar-spreads-2",
+      "path": "assets/images/courses/legacy/case-studies-calendar-spreads-2.png",
+      "bytes": 128561,
+      "status": "ok"
+    },
+    {
+      "courseId": 50007,
+      "slug": "case-studies-butterfly-strategiesgle-3",
+      "path": "assets/images/courses/legacy/case-studies-butterfly-strategiesgle-3.png",
+      "bytes": 146841,
+      "status": "ok"
+    },
+    {
+      "courseId": 50009,
+      "slug": "case-studies-short-strangle-3",
+      "path": "assets/images/courses/legacy/case-studies-short-strangle-3.png",
+      "bytes": 175182,
+      "status": "ok"
+    },
+    {
+      "courseId": 50015,
+      "slug": "practical-usage-level-1-1-long-call",
+      "path": "assets/images/courses/legacy/practical-usage-level-1-1-long-call.png",
+      "bytes": 154059,
+      "status": "ok"
+    },
+    {
+      "courseId": 50016,
+      "slug": "adjustments-short-iron-condor-strategies",
+      "path": "assets/images/courses/legacy/adjustments-short-iron-condor-strategies.png",
+      "bytes": 180969,
+      "status": "ok"
+    },
+    {
+      "courseId": 50159,
+      "slug": "options-trading-level-2-selling-call-option-strategy-2",
+      "path": "assets/images/courses/legacy/options-trading-level-2-selling-call-option-strategy-2.png",
+      "bytes": 144807,
+      "status": "ok"
+    },
+    {
+      "courseId": 50160,
+      "slug": "options-trading-course-level-1-buying-call-option",
+      "path": "assets/images/courses/legacy/options-trading-course-level-1-buying-call-option.png",
+      "bytes": 127723,
+      "status": "ok"
+    },
+    {
+      "courseId": 51544,
+      "slug": "advanced-option-level-15-short-straddle",
+      "path": "assets/images/courses/legacy/advanced-option-level-15-short-straddle.png",
+      "bytes": 141446,
+      "status": "ok"
+    }
+  ]
+}
