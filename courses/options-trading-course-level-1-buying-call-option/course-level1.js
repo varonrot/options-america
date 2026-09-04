@@ -139,3 +139,22 @@ if (mainCourseImage) {
   mainCourseImage.style.display = '';
   mainCourseImage.parentElement.classList.remove('image-missing');
 }
+
+const previewWrap = document.querySelector('.course-image-wrap');
+if (previewWrap) {
+  previewWrap.classList.add('course-preview-video');
+  previewWrap.setAttribute('data-vimeo-id', '1017811811');
+
+  const playButton = document.createElement('button');
+  playButton.type = 'button';
+  playButton.className = 'course-preview-play';
+  playButton.setAttribute('aria-label', 'Play course preview');
+  playButton.innerHTML = '<span class="course-preview-play-icon">▶</span><span class="course-preview-play-label">Watch course preview</span>';
+  previewWrap.appendChild(playButton);
+
+  playButton.addEventListener('click', () => {
+    const vimeoId = previewWrap.dataset.vimeoId;
+    previewWrap.innerHTML = `<iframe class="course-preview-iframe" src="https://player.vimeo.com/video/${vimeoId}?autoplay=1&title=1&byline=1&portrait=1&dnt=1" title="Options Trading Course Level 1 preview" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" allowfullscreen></iframe>`;
+    previewWrap.classList.add('is-playing');
+  });
+}
