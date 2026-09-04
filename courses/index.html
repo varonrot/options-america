@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Options Trading Courses — Options America</title>
+  <meta name="description" content="Browse free options trading courses from beginner fundamentals to advanced strategies, adjustments, case studies, portfolios and options on futures." />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="courses.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a>
+      <nav>
+        <a class="active" href="./">Courses</a>
+        <a href="../#paths">Learning Paths</a>
+        <a href="../#strategies">Strategies</a>
+        <a href="../#futures">Options on Futures</a>
+        <a href="../#blog">Blog</a>
+        <a href="../#resources">Resources</a>
+      </nav>
+      <a class="btn btn-gold" href="#catalog">Start Learning — Free</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="courses-hero">
+      <div class="container">
+        <p class="eyebrow blue">Free Course Library</p>
+        <h1>Options Trading Courses</h1>
+        <p>Browse the complete Options America course library. Search by topic or filter by learning level and category.</p>
+        <div class="course-search-wrap">
+          <input id="courseSearch" type="search" placeholder="Search courses..." autocomplete="off" />
+          <span aria-hidden="true">⌕</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="courses-section" id="catalog">
+      <div class="container catalog-layout">
+        <aside class="filters" aria-label="Course filters">
+          <div class="filter-head">
+            <div><strong>Filters</strong><span id="resultCount">0 courses</span></div>
+            <button id="resetFilters" type="button">Reset all</button>
+          </div>
+
+          <div class="filter-block">
+            <h3>Learning Level</h3>
+            <label><input type="checkbox" name="level" value="Beginner"> Beginner</label>
+            <label><input type="checkbox" name="level" value="Intermediate"> Intermediate</label>
+            <label><input type="checkbox" name="level" value="Advanced"> Advanced</label>
+          </div>
+
+          <div class="filter-block">
+            <h3>Category</h3>
+            <label><input type="checkbox" name="category" value="Basic Option"> Basic Option</label>
+            <label><input type="checkbox" name="category" value="Option Greeks"> Option Greeks</label>
+            <label><input type="checkbox" name="category" value="Advanced Options"> Advanced Options</label>
+            <label><input type="checkbox" name="category" value="Options Adjustments"> Options Adjustments</label>
+            <label><input type="checkbox" name="category" value="Case Studies"> Case Studies</label>
+            <label><input type="checkbox" name="category" value="Beginner Case Studies"> Beginner Case Studies</label>
+            <label><input type="checkbox" name="category" value="Options Portfolio"> Options Portfolio</label>
+            <label><input type="checkbox" name="category" value="Options Strategies"> Options Strategies</label>
+            <label><input type="checkbox" name="category" value="Options on Futures"> Options on Futures</label>
+          </div>
+        </aside>
+
+        <div class="catalog-main">
+          <div class="catalog-toolbar">
+            <div><strong id="toolbarCount">All courses</strong><span>All courses are free</span></div>
+            <select id="sortCourses" aria-label="Sort courses">
+              <option value="default">Recommended</option>
+              <option value="title">Title A–Z</option>
+              <option value="level">Learning level</option>
+            </select>
+          </div>
+          <div id="allCourseGrid" class="all-course-grid"></div>
+          <div id="noResults" class="no-results" hidden>No courses match these filters.</div>
+          <nav id="pagination" class="course-pagination" aria-label="Course pages"></nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand" href="../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div>
+      <div><h4>Learn</h4><a href="./">Courses</a><a href="../#paths">Learning Paths</a><a href="#">Beginner Guide</a><a href="#">Options Greeks</a></div>
+      <div><h4>Strategies</h4><a href="../#strategies">All Strategies</a><a href="#">Income Strategies</a><a href="#">Neutral Strategies</a><a href="#">Adjustments</a></div>
+      <div><h4>Futures</h4><a href="../#futures">Options on Futures</a><a href="#">Gold Options</a><a href="#">Crude Oil Options</a><a href="#">Natural Gas Options</a></div>
+      <div><h4>Resources</h4><a href="../#blog">Blog</a><a href="#">Glossary</a><a href="#">Case Studies</a><a href="#">Calculators</a></div>
+    </div>
+    <div class="container copyright">© 2026 Options America · Educational content only — not financial advice.</div>
+  </footer>
+
+  <script src="courses.js" defer></script>
+</body>
+</html>
