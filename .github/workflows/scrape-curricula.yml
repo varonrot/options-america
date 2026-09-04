@@ -1,0 +1,31 @@
+name: Scrape live course curricula
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install scraper dependencies
+        run: pip install requests beautifulsoup4
+      - name: Scrape current MasterStudy curricula
+        run: python tools/scrape_live_curricula.py
+      - name: Commit extracted curricula
+        run: |
+          git config user.name "options-america-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/import/live-curricula.json
+          if git diff --cached --quiet; then
+            echo "No curriculum changes"
+          else
+            git commit -m "Import live MasterStudy curricula"
+            git push
+          fi
