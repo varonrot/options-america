@@ -1,0 +1,461 @@
+{
+  "course": {
+    "id": 50159,
+    "slug": "options-trading-level-2-selling-call-option-strategy-2",
+    "title": "Options Trading Course Level 2: Selling Call Option",
+    "level": "Beginner",
+    "sourceUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/"
+  },
+  "lessons": [
+    {
+      "wpId": 50555,
+      "title": "Start This Course",
+      "duration": "Video lesson",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50555/",
+      "number": 1,
+      "vimeoId": "932338238"
+    },
+    {
+      "wpId": 50502,
+      "title": "Information needed",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50502",
+      "number": 2,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50556,
+      "title": "Defining Call Option Seller in the Financial World",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50556",
+      "number": 3,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50557,
+      "title": "The motivation of the seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50557",
+      "number": 4,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50558,
+      "title": "Choosing an option to explain the seller's interest",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50558",
+      "number": 5,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50559,
+      "title": "The right of the buyer and the obligation of the seller",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50559",
+      "number": 6,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50561,
+      "title": "Defining Call Option Seller in the Real Estate World",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50561",
+      "number": 7,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50560,
+      "title": "Assumption of an option seller",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50560",
+      "number": 8,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50562,
+      "title": "The profit and loss areas of the parties",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50562",
+      "number": 9,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50563,
+      "title": "Profit and loss areas in the graph analysis",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50563",
+      "number": 10,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50564,
+      "title": "The advantage of being an options seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50564",
+      "number": 11,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50565,
+      "title": "The risk of trading in a call selling strategy",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50565",
+      "number": 12,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50566,
+      "title": "Summary of part one",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50566",
+      "number": 13,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50567,
+      "title": "What will be learned in the second part of Level 2",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50567",
+      "number": 14,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50568,
+      "title": "Analysis of buyer vs seller",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50568",
+      "number": 15,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50569,
+      "title": "The seller's profit limit is the premium he received.",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50569",
+      "number": 16,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50570,
+      "title": "Calculation of the seller's loss if the stock rises to 230",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50570",
+      "number": 17,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50571,
+      "title": "The profit area in the profit and loss analysis",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50571",
+      "number": 18,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50572,
+      "title": "The loss area of the parties in the profit and loss analysis",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50572",
+      "number": 19,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50573,
+      "title": "Summary of part 2",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50573",
+      "number": 20,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50574,
+      "title": "What will we learn part 3?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50574",
+      "number": 21,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50575,
+      "title": "Observing the chain of options from the point of view of the seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50575",
+      "number": 22,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50576,
+      "title": "At the money option as an option seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50576",
+      "number": 23,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50577,
+      "title": "Out-of-the-money options as an option seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50577",
+      "number": 24,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50578,
+      "title": "An in-the-money call option as an option seller",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50578",
+      "number": 25,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50579,
+      "title": "Will an in-the-money option as a buyer of a call option also be an in-the-money option for the seller of the option?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50579",
+      "number": 26,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50580,
+      "title": "Will an out-of-the-money option as a buyer of a call option also be an in-the-money option for the seller of the option?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50580",
+      "number": 27,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50581,
+      "title": "Conclusions of the chains of options between the parties",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50581",
+      "number": 28,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50582,
+      "title": "Premium and different expiration dates",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50582",
+      "number": 29,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50583,
+      "title": "Summary of part 3",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50583",
+      "number": 30,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50584,
+      "title": "What do you learn in part 4 Level2?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50584",
+      "number": 31,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50585,
+      "title": "Our assumption for Apple stock",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50585",
+      "number": 32,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50586,
+      "title": "Choosing the option to sell in the option chains",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50586",
+      "number": 33,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50587,
+      "title": "The profit and loss areas",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50587",
+      "number": 34,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50588,
+      "title": "A scenario where Apple stock goes up to 185",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50588",
+      "number": 35,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50589,
+      "title": "A scenario in which Apple stock remains at $170",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50589",
+      "number": 36,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50590,
+      "title": "A scenario in which Apple shares rise to $205",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50590",
+      "number": 37,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50591,
+      "title": "Summary of what we learned in part 4",
+      "duration": "3 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50591",
+      "number": 38,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50592,
+      "title": "What will we learn in this Chapter T+0?",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50592",
+      "number": 39,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50593,
+      "title": "What affects T+0",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50593",
+      "number": 40,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50594,
+      "title": "A scenario in which Apple stock drops to $140 in a month",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50594",
+      "number": 41,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50595,
+      "title": "A scenario where Apple's stock goes up to $190 in a month",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50595",
+      "number": 42,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50597,
+      "title": "A scenario in which Apple shares rise to $205",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50597",
+      "number": 43,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50596,
+      "title": "Summary of part T+0",
+      "duration": "2 min",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50596",
+      "number": 44,
+      "vimeoId": null
+    },
+    {
+      "wpId": 50598,
+      "title": "Continue to a trading demonstration of selling a call option Text lesson",
+      "duration": "Video lesson",
+      "type": "video",
+      "section": "Course Start",
+      "oldUrl": "https://options-america.com/courses/options-trading-level-2-selling-call-option-strategy-2/50598",
+      "number": 45,
+      "vimeoId": null
+    }
+  ]
+}
