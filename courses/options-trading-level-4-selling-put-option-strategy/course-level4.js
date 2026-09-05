@@ -1,25 +1,11 @@
-async function initLevel4(){
-  const res=await fetch('course-data.json');
-  if(!res.ok) throw new Error(`Failed to load course-data.json: ${res.status}`);
-  const data=await res.json();
-  const curriculum=document.querySelector('.curriculum-list');
-  if(curriculum){
-    const groups=new Map();
-    data.lessons.forEach(l=>{if(!groups.has(l.section))groups.set(l.section,[]);groups.get(l.section).push(l)});
-    curriculum.innerHTML=[...groups.entries()].map(([section,items])=>`<section class="curriculum-group"><h3 class="curriculum-group-title">${esc(section)}</h3>${items.map(l=>`<a class="curriculum-item" href="player/?lesson=${l.number}"><span class="lesson-index">${l.number}</span><span class="lesson-icon">${l.type==='video'?'▶':l.type==='quiz'?'?':'▤'}</span><div><strong>${esc(l.title)}</strong><small>${esc(l.duration)}</small></div><span class="lesson-arrow">›</span></a>`).join('')}</section>`).join('');
-  }
-  const count=document.querySelector('.curriculum-title strong');
-  if(count)count.textContent=`${data.lessons.length} Lessons`;
-  const note=document.querySelector('.sidebar-note p');
-  if(note)note.textContent=`All ${data.lessons.length} course items are connected to the new player. Progress is saved in this browser.`;
-  const wrap=document.querySelector('.course-image-wrap');
-  const btn=document.querySelector('.course-preview-play');
-  const preview=data.course.previewVimeoId || data.lessons.find(l=>l.vimeoId)?.vimeoId;
-  if(wrap&&btn&&preview){btn.addEventListener('click',()=>{wrap.classList.add('is-playing');wrap.innerHTML=`<iframe class="course-preview-iframe" src="https://player.vimeo.com/video/${preview}?autoplay=1&title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Course preview"></iframe>`})}
-}
+const DURATION_CACHE_KEY='oa-level4-vimeo-durations';
+let level4Data=null;
+function loadDurationCache(){try{return JSON.parse(localStorage.getItem(DURATION_CACHE_KEY)||'{}')}catch{return {}}}
+function saveDurationCache(cache){try{localStorage.setItem(DURATION_CACHE_KEY,JSON.stringify(cache))}catch{}}
+function fmtDuration(seconds){seconds=Math.max(0,Math.round(Number(seconds)||0));const h=Math.floor(seconds/3600),m=Math.floor((seconds%3600)/60),s=seconds%60;return h?`${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`:`${m}:${String(s).padStart(2,'0')}`}
+function renderCurriculum(data){const curriculum=document.querySelector('.curriculum-list');if(!curriculum)return;const groups=new Map();data.lessons.forEach(l=>{if(!groups.has(l.section))groups.set(l.section,[]);groups.get(l.section).push(l)});curriculum.innerHTML=[...groups.entries()].map(([section,items])=>`<section class="curriculum-group"><h3 class="curriculum-group-title">${esc(section)}</h3>${items.map(l=>`<a class="curriculum-item" href="player/?lesson=${l.number}" data-lesson="${l.number}"><span class="lesson-index">${l.number}</span><span class="lesson-icon">${l.type==='video'?'▶':l.type==='quiz'?'?':'▤'}</span><div><strong>${esc(l.title)}</strong><small>${esc(l.duration)}</small></div><span class="lesson-arrow">›</span></a>`).join('')}</section>`).join('')}
+function refreshDuration(lesson){const el=document.querySelector(`.curriculum-item[data-lesson="${lesson.number}"] small`);if(el)el.textContent=lesson.duration}
+async function hydrateVimeoDurations(data){const cache=loadDurationCache();await Promise.all(data.lessons.filter(l=>l.type==='video'&&l.vimeoId).map(async l=>{if(cache[l.vimeoId]){l.duration=cache[l.vimeoId];refreshDuration(l);return}try{const r=await fetch(`https://vimeo.com/api/oembed.json?url=${encodeURIComponent(`https://vimeo.com/${l.vimeoId}`)}`);if(!r.ok)return;const meta=await r.json();if(meta.duration){l.duration=fmtDuration(meta.duration);cache[l.vimeoId]=l.duration;refreshDuration(l)}}catch(e){console.warn('Vimeo duration unavailable',l.vimeoId)}}));saveDurationCache(cache)}
+async function initLevel4(){const res=await fetch('course-data.json');if(!res.ok)throw new Error(`Failed to load course-data.json: ${res.status}`);level4Data=await res.json();const cache=loadDurationCache();level4Data.lessons.forEach(l=>{if(l.vimeoId&&cache[l.vimeoId])l.duration=cache[l.vimeoId]});renderCurriculum(level4Data);const count=document.querySelector('.curriculum-title strong');if(count)count.textContent=`${level4Data.lessons.length} Lessons`;const note=document.querySelector('.sidebar-note p');if(note)note.textContent=`The complete ${level4Data.lessons.length}-lesson curriculum is available free. Progress is saved in this browser.`;const wrap=document.querySelector('.course-image-wrap'),btn=document.querySelector('.course-preview-play'),preview=level4Data.course.previewVimeoId||level4Data.lessons.find(l=>l.vimeoId)?.vimeoId;if(wrap&&btn&&preview)btn.addEventListener('click',()=>{wrap.classList.add('is-playing');wrap.innerHTML=`<iframe class="course-preview-iframe" src="https://player.vimeo.com/video/${preview}?autoplay=1&title=0&byline=0&portrait=0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Course preview"></iframe>`});hydrateVimeoDurations(level4Data)}
 function esc(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
-initLevel4().catch(err=>{
-  console.error(err);
-  const count=document.querySelector('.curriculum-title strong');
-  if(count)count.textContent='Unable to load';
-});
+initLevel4().catch(err=>{console.error(err);const count=document.querySelector('.curriculum-title strong');if(count)count.textContent='Unable to load'});
