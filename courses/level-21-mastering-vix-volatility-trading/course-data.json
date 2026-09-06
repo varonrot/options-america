@@ -1,0 +1,462 @@
+{
+  "course": {
+    "title": "Options Strategies Level 21: Mastering VIX Volatility",
+    "level": 21,
+    "slug": "level-21-mastering-vix-volatility-trading",
+    "previewVimeoId": "1002652100",
+    "lessonCount": 45,
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": 51885,
+      "title": "Course Overview and Objectives",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "1002652100",
+      "sourceUnavailable": false,
+      "section": "Module 1: VIX Foundations"
+    },
+    {
+      "number": 2,
+      "wpId": 51886,
+      "title": "Course Overview and Objectives",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: VIX Foundations"
+    },
+    {
+      "number": 3,
+      "wpId": 51887,
+      "title": "VIX vs. Traditional Options",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: VIX Foundations"
+    },
+    {
+      "number": 4,
+      "wpId": 51888,
+      "title": "How the VIX is Calculated",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: VIX Foundations"
+    },
+    {
+      "number": 5,
+      "wpId": 51889,
+      "title": "Historical Context of VIX",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: VIX Foundations"
+    },
+    {
+      "number": 6,
+      "wpId": 51890,
+      "title": "What are VIX Options?",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: VIX Options Mechanics"
+    },
+    {
+      "number": 7,
+      "wpId": 51891,
+      "title": "How VIX Options are Priced",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: VIX Options Mechanics"
+    },
+    {
+      "number": 8,
+      "wpId": 51892,
+      "title": "VIX Options Expiration",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: VIX Options Mechanics"
+    },
+    {
+      "number": 9,
+      "wpId": 51893,
+      "title": "VIX Futures and Options",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: VIX Options Mechanics"
+    },
+    {
+      "number": 10,
+      "wpId": 51894,
+      "title": "Key Differences Between VIX and Stock Options",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: VIX Options Mechanics"
+    },
+    {
+      "number": 11,
+      "wpId": 51895,
+      "title": "Market Sentiment and Volatility",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Volatility Analysis"
+    },
+    {
+      "number": 12,
+      "wpId": 51896,
+      "title": "Measuring Volatility with VIX",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Volatility Analysis"
+    },
+    {
+      "number": 13,
+      "wpId": 51897,
+      "title": "Volatility Cycles",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Volatility Analysis"
+    },
+    {
+      "number": 14,
+      "wpId": 51898,
+      "title": "Factors Influencing Volatility",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Volatility Analysis"
+    },
+    {
+      "number": 15,
+      "wpId": 51899,
+      "title": "Implied vs. Historical Volatility",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Volatility Analysis"
+    },
+    {
+      "number": 16,
+      "wpId": 51900,
+      "title": "Long Volatility with VIX Calls",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 17,
+      "wpId": 51901,
+      "title": "Short Volatility with VIX Puts",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 18,
+      "wpId": 51902,
+      "title": "VIX Calendar Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 19,
+      "wpId": 51903,
+      "title": "VIX Straddles and Strangles",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 20,
+      "wpId": 51904,
+      "title": "VIX Protective Puts",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 21,
+      "wpId": 51905,
+      "title": "VIX Ratio Spreads",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 22,
+      "wpId": 51906,
+      "title": "VIX Iron Condors",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 23,
+      "wpId": 51907,
+      "title": "VIX Butterflies",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 24,
+      "wpId": 51908,
+      "title": "Trading VIX with Equity Options",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 25,
+      "wpId": 51909,
+      "title": "Tail Risk Hedging with VIX Options",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: VIX Trading Strategies"
+    },
+    {
+      "number": 26,
+      "wpId": 51910,
+      "title": "Identifying Volatility Breakouts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Timing and Market Events"
+    },
+    {
+      "number": 27,
+      "wpId": 51911,
+      "title": "Timing Volatility with Economic Events",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Timing and Market Events"
+    },
+    {
+      "number": 28,
+      "wpId": 51912,
+      "title": "Predicting Volatility Spikes",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Timing and Market Events"
+    },
+    {
+      "number": 29,
+      "wpId": 51913,
+      "title": "Managing Trades During Volatility Clusters",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Timing and Market Events"
+    },
+    {
+      "number": 30,
+      "wpId": 51914,
+      "title": "Trading News-Driven Volatility",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Timing and Market Events"
+    },
+    {
+      "number": 31,
+      "wpId": 51915,
+      "title": "Risk Management with VIX Trades",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Risk Management"
+    },
+    {
+      "number": 32,
+      "wpId": 51916,
+      "title": "Setting Risk Parameters for VIX Strategies",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Risk Management"
+    },
+    {
+      "number": 33,
+      "wpId": 51917,
+      "title": "Volatility Exposure and Portfolio Impact",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Risk Management"
+    },
+    {
+      "number": 34,
+      "wpId": 51918,
+      "title": "Adjusting VIX Positions for Risk Control",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Risk Management"
+    },
+    {
+      "number": 35,
+      "wpId": 51919,
+      "title": "Risk vs. Reward in VIX Trading",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Risk Management"
+    },
+    {
+      "number": 36,
+      "wpId": 51920,
+      "title": "Case Study 1: Managing a Long VIX Position",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: VIX Case Studies"
+    },
+    {
+      "number": 37,
+      "wpId": 51921,
+      "title": "Case Study 2: Hedging with VIX During Market Downturns",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: VIX Case Studies"
+    },
+    {
+      "number": 38,
+      "wpId": 51922,
+      "title": "Case Study 3: Profiting from Volatility Compression",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: VIX Case Studies"
+    },
+    {
+      "number": 39,
+      "wpId": 51923,
+      "title": "Case Study 4: VIX Straddles Around Economic Reports",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: VIX Case Studies"
+    },
+    {
+      "number": 40,
+      "wpId": 51924,
+      "title": "Case Study 5: Managing a VIX Iron Condor in a Neutral Market",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: VIX Case Studies"
+    },
+    {
+      "number": 41,
+      "wpId": 51925,
+      "title": "Building a VIX Options Portfolio",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Portfolio Planning"
+    },
+    {
+      "number": 42,
+      "wpId": 51926,
+      "title": "Combining VIX Options with Traditional Positions",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Portfolio Planning"
+    },
+    {
+      "number": 43,
+      "wpId": 51927,
+      "title": "Developing a Volatility-Based Trading Plan",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Portfolio Planning"
+    },
+    {
+      "number": 44,
+      "wpId": 51928,
+      "title": "Tracking and Analyzing VIX Performance",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Portfolio Planning"
+    },
+    {
+      "number": 45,
+      "wpId": 51929,
+      "title": "Next Steps in VIX Trading",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Portfolio Planning"
+    }
+  ]
+}
