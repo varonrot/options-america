@@ -1,0 +1,630 @@
+{
+  "course": {
+    "title": "Advanced Option: Level 17 – Covered Calls",
+    "level": 17,
+    "slug": "advanced-option-level-17-covered-calls",
+    "previewVimeoId": "983867745",
+    "lessonCount": 68
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": 51692,
+      "title": "What is a Covered Call?",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981095045",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 2,
+      "wpId": 51693,
+      "title": "Essential Terminology",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981091792",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 3,
+      "wpId": 51694,
+      "title": "Introduction and Prerequisites for Covered Call Trading",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "981092431",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 4,
+      "wpId": 51695,
+      "title": "Understanding the Analyzed Trade for Stock",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981094302",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 5,
+      "wpId": 51696,
+      "title": "Analyzing the Trade for the Option Selling",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981090073",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 6,
+      "wpId": 51697,
+      "title": "Combining Stock and Option for the Covered Call Strategy",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981090752",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 7,
+      "wpId": 51698,
+      "title": "The Importance of Assumptions in Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981093405",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 8,
+      "wpId": 51699,
+      "title": "Combining Stock and Option Analysis for Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981090402",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 9,
+      "wpId": 51700,
+      "title": "Profiting from Covered Calls – Analyzing the Upside Potential",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981092713",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 10,
+      "wpId": 51701,
+      "title": "Understanding Combined Profits in Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981093854",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 11,
+      "wpId": 51702,
+      "title": "Analyzing the Downside Risk in Covered Calls",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "981089947",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 12,
+      "wpId": 51703,
+      "title": "Understanding the Breakeven Point and Profit Potential in Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981094453",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 13,
+      "wpId": 51704,
+      "title": "Demonstrating Profit and Loss with Combined Positions",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981091564",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 14,
+      "wpId": 51705,
+      "title": "Managing Downside Risk with Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981092544",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 15,
+      "wpId": 51706,
+      "title": "Summary of Module 1: Introduction to Covered Calls",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<p>In Module 1, we explored the fundamental aspects of the covered call strategy. We started by understanding what a covered call is: an options strategy where an investor holds a long position in a stock and sells call options on that same stock to generate additional income. This strategy is particularly beneficial for generating extra income through premiums while holding a stock, especially if you expect the stock to remain stable or rise moderately.</p>\n<p>We delved into the essential terminology associated with covered calls, including strike price, premium, expiration date, and breakeven point. Knowing these terms is crucial for effectively managing and executing covered call strategies.</p>\n<p>The importance of understanding the analyzed trade for both the stock and the options was emphasized. By examining the analyzed trade, you can see potential profits and losses, helping you make informed decisions about your positions.</p>\n<p>We discussed the significance of making accurate assumptions about the stock's price movement. Covered calls are most effective when you anticipate that the stock will stay relatively stable or experience a slight increase. This assumption guides your strategy and helps in managing risks and expectations.</p>\n<p>We also looked at the combined analysis of stock and option positions in a covered call, exploring how the strategy profits from the stock&rsquo;s upside potential and protects against downside risks. The breakeven point calculation, which is the stock purchase price minus the premium received, was also covered.</p>\n<p>Overall, Module 1 provided a comprehensive introduction to covered calls, equipping you with the knowledge needed to implement this strategy effectively. In the next module, we will dive deeper into market conditions, volatility, and the Greeks, enhancing your ability to manage covered call strategies in various market environments.</p>",
+      "section": "Covered Call Foundations"
+    },
+    {
+      "number": 16,
+      "wpId": 51707,
+      "title": "Understanding Market Conditions and Stability for Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981094120",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 17,
+      "wpId": 51708,
+      "title": "Historical Context of Covered Calls",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "981092266",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 18,
+      "wpId": 51709,
+      "title": "Benefits of Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981090280",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 19,
+      "wpId": 51710,
+      "title": "Risks of Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981093006",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 20,
+      "wpId": 51711,
+      "title": "Essential Terminology",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "981091792",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 21,
+      "wpId": 51712,
+      "title": "Ideal Market Conditions",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983190253",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 22,
+      "wpId": 51713,
+      "title": "Volatility and Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981094873",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 23,
+      "wpId": 51714,
+      "title": "Selecting Underlying Assets",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "981093200",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 24,
+      "wpId": 51715,
+      "title": "Time Decay and Theta",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981093611",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 25,
+      "wpId": 51716,
+      "title": "Seasonal Trends",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981093105",
+      "section": "Module 2: Market Conditions"
+    },
+    {
+      "number": 26,
+      "wpId": 51717,
+      "title": "Understanding the Greeks in Covered Calls",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "981094561",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 27,
+      "wpId": 51718,
+      "title": "Understanding Delta in Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981093964",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 28,
+      "wpId": 51719,
+      "title": "Exploring the Delta Curve in Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981091963",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 29,
+      "wpId": 51720,
+      "title": "Understanding Theta in Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981094678",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 30,
+      "wpId": 51721,
+      "title": "Profiting from Time Decay In Covered Call",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981092896",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 31,
+      "wpId": 51722,
+      "title": "Exploring the Theta Curve in Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "981092100",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 32,
+      "wpId": 51723,
+      "title": "Understanding Vega in Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981094763",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 33,
+      "wpId": 51724,
+      "title": "Comparing Vega in Covered Calls with Different Expiration Dates",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981091148",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 34,
+      "wpId": 51725,
+      "title": "Profiting from Time Decay In Covered Call",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "981092896",
+      "section": "Module 3: The Greeks and Covered Calls"
+    },
+    {
+      "number": 35,
+      "wpId": 51726,
+      "title": "Evaluating Strike Price Choices for Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "983353685",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 36,
+      "wpId": 51727,
+      "title": "Evaluating the $180 In-The-Money Call Option",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "983353763",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 37,
+      "wpId": 51728,
+      "title": "Analyzing the Impact of a $180 Strike Price",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "983353566",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 38,
+      "wpId": 51729,
+      "title": "Evaluoating the $200 Strike Price",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983353831",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 39,
+      "wpId": 51730,
+      "title": "Analyzing the $220 Strike Price",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "983353527",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 40,
+      "wpId": 51731,
+      "title": "Comparing Covered Call Expiration Dates",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983353625",
+      "section": "Module 4: Strike and Expiration Selection"
+    },
+    {
+      "number": 41,
+      "wpId": 51732,
+      "title": "Placing Covered Calls in TOS",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "983354036",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 42,
+      "wpId": 51733,
+      "title": "Managing Commissions and Fees",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983353994",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 43,
+      "wpId": 51734,
+      "title": "Executing a Covered Call in Thinkorswim",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "983353932",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 44,
+      "wpId": 51735,
+      "title": "Executing a Covered Call in Thinkorswim",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "983353932",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 45,
+      "wpId": 51736,
+      "title": "Rolling the Covered Call",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "983854417",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 46,
+      "wpId": 51737,
+      "title": "Poor Man’s Covered Call",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854311",
+      "section": "Module 5: Execution and Management"
+    },
+    {
+      "number": 47,
+      "wpId": 51738,
+      "title": "Covered Call Adjustments",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Adjusting Covered Calls: Benefits and Necessity</h3>\n<p><a href=\"https://options-america.com/user-account/edit-course/5490/curriculum/sections/285/lessons/new?type=text#\">Explore the New Course on Adjusting Covered Calls</a></p>\n<p>Adjusting covered calls is a crucial aspect of options trading that helps in maximizing profits, managing risks, and maintaining flexibility. When you sell a covered call, you're combining stock ownership with an option-selling strategy to generate additional income. However, market conditions can change, and your initial strategy might need adjustments to stay aligned with your financial goals and risk tolerance.</p>\n<h3>Why Adjust Covered Calls?</h3>\n<ol>\n<li>\n<p><strong>Maximize Profit Potential</strong>: The primary goal of adjusting a covered call is to maximize the profit potential. If the underlying stock price moves significantly, you might miss out on potential gains. Adjusting allows you to capture more of the stock's upside potential by rolling up the strike price or extending the expiration date.</p>\n</li>\n<li>\n<p><strong>Manage Risk</strong>: Market volatility can impact your covered call strategy. If the stock price drops, you might face significant losses. Adjusting your position, such as rolling down the strike price, can help mitigate these losses and manage risk more effectively.</p>\n</li>\n<li>\n<p><strong>Adapt to Market Changes</strong>: Market conditions are dynamic, and your strategy should be flexible to adapt to these changes. Adjusting covered calls allows you to respond to unexpected price movements, news events, or changes in market sentiment, ensuring your portfolio remains aligned with your objectives.</p>\n</li>\n<li>\n<p><strong>Generate Continuous Income</strong>: By adjusting covered calls, you can continue to generate income through premium collection. Rolling options to new expiration dates or adjusting strike prices keeps the income stream active, enhancing your overall returns.</p>\n</li>\n</ol>\n<h3>Types of Adjustments</h3>\n<ol>\n<li>\n<p><strong>Rolling Up</strong>: If the stock price rises significantly, you can roll up your covered call to a higher strike price. This allows you to capture more of the stock's upside potential while still collecting premium income.</p>\n</li>\n<li>\n<p><strong>Rolling Down</strong>: If the stock price declines, rolling down the strike price of your covered call can help you collect additional premium and lower your breakeven point. This adjustment is useful in managing losses and staying profitable.</p>\n</li>\n<li>\n<p><strong>Rolling Out</strong>: Extending the expiration date by rolling out the covered call can help you capture more time premium and give your stock more time to reach the desired price level. This is beneficial if you believe the stock will appreciate over a longer period.</p>\n</li>\n</ol>\n<h3>Comprehensive Course on Adjusting Covered Calls</h3>\n<p>To provide a comprehensive understanding of these adjustments, we have created a dedicated course that covers all these strategies. This course delves into the specifics of various adjustment techniques, offering detailed explanations, real-life examples, and practical tips. By enrolling in this course, you can enhance your knowledge and skills in managing covered calls effectively.</p>\n<ul>\n<li>\n<p><strong>Rolling Up Covered Calls</strong>: Learn how to adjust your covered call strategy by increasing the strike price to capture more upside potential.</p>\n</li>\n<li>\n<p><strong>Rolling Down Covered Calls</strong>: Understand the techniques to lower the strike price and manage risk in a declining market.</p>\n</li>\n<li>\n<p><strong>Rolling Out Covered Calls</strong>: Explore the benefits of extending the expiration date to collect more premium and give your stock more time to perform.</p>\n</li>\n</ul>\n<p>By mastering these adjustments in one comprehensive course, you'll be better equipped to navigate the complexities of options trading and achieve your financial objectives. Get ready to dive into this specialized course and take your covered call strategies to the next level.</p>\n<p><a href=\"https://options-america.com/user-account/edit-course/5490/curriculum/sections/285/lessons/new?type=text#\">Join the Course on Adjusting Covered Calls</a></p>",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 48,
+      "wpId": 51739,
+      "title": "Combining Covered Calls with Other Strategies",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Combining Covered Calls with Other Strategies</h3>\n<p>In Module 6 of this course, we will explore the powerful combinations of covered calls with other options strategies. These combinations can enhance your trading flexibility, manage risks more effectively, and increase your profit potential. We'll dive into how you can integrate covered calls with strategies like naked puts, protective puts, vertical spreads, iron condors, straddles, and strangles.</p>\n<h3>Combining Covered Calls with Naked Puts</h3>\n<p>Combining covered calls with naked puts can create a powerful income-generating strategy. By selling naked puts, you can collect additional premium and potentially acquire stocks at a lower price. This combination can be particularly effective in a bullish market where you expect the stock to rise or remain stable.</p>\n<h3>Integrating Protective Puts</h3>\n<p>Adding protective puts to your covered call strategy can provide downside protection. This combination allows you to benefit from the premium collected by selling calls while limiting potential losses if the stock price drops significantly.</p>\n<h3>Utilizing Vertical Spreads</h3>\n<p>Incorporating vertical spreads with covered calls can optimize your risk-reward ratio. By using vertical spreads, you can cap your potential losses and profits, creating a more controlled risk environment. This is particularly useful in volatile markets where stock prices can swing unpredictably.</p>\n<h3>Exploring Iron Condors</h3>\n<p>Iron condors can be combined with covered calls to create a robust strategy that profits from range-bound markets. This combination can help you generate income from both premiums collected and the movement of the stock within a specified range.</p>\n<h3>Enhancing with Straddles and Strangles</h3>\n<p>Combining straddles or strangles with covered calls can be an effective way to profit from significant market movements. These strategies allow you to benefit from large price swings, regardless of the direction, while still collecting premiums from the covered calls.</p>\n<p>In this module, we will cover each of these combinations in detail, providing you with practical examples and scenarios to illustrate their benefits and potential risks. By the end of this module, you will have a comprehensive understanding of how to integrate these strategies into your trading plan, maximizing your profitability and managing risks effectively.</p>\n<p>Let's dive into each of these combinations and see how they can enhance your covered call strategy.</p>",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 49,
+      "wpId": 51740,
+      "title": "Combining Covered Calls with Naked Puts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854008",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 50,
+      "wpId": 51741,
+      "title": "Covered Calls and Protective Puts (Collars)",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854183",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 51,
+      "wpId": 51742,
+      "title": "Combining Covered Calls with Vertical Spreads",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "983854052",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 52,
+      "wpId": 51744,
+      "title": "Covered Calls and Iron Condors",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854096",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 53,
+      "wpId": 51743,
+      "title": "Using Covered Calls in a Straddle or Strangle",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854499",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 54,
+      "wpId": 51745,
+      "title": "Dividend Capture with Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854289",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 55,
+      "wpId": 51746,
+      "title": "Ratio Covered Calls",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "983854338",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 56,
+      "wpId": 51747,
+      "title": "Diagonal Covered Calls",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "983854240",
+      "section": "Module 6: Adjustments and Combinations"
+    },
+    {
+      "number": 57,
+      "wpId": 51748,
+      "title": "Case Study from Covered Call Strategy",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Extracted Case Study from Covered Call Strategy</h3>\n<p><a href=\"https://options-america.com/courses/case-study-covered-call/11588/\">For the full course about Case Study in Covered Call, click here.</a></p>\n<p>We have isolated the case study lessons from our main covered call strategy course to provide a more focused and practical learning experience. This extracted course allows you to dive deep into real-world scenarios and examples specific to covered call strategies.</p>\n<h3>Purpose of Extracting Case Studies</h3>\n<p>The purpose of extracting case studies from the main course is to offer a concentrated and practical approach to learning. By focusing solely on case studies, you can see how covered call strategies are applied in various market conditions, understand the decision-making process, and learn from real-world trading situations.</p>\n<p><a href=\"https://options-america.com/courses/case-study-covered-call/11588/\">For the full course about Case Study in Covered Call, click here.</a></p>\n<h3>Focus of the Case Study Course</h3>\n<p>This extracted course focuses entirely on case studies related to covered call strategies. It is designed to provide you with in-depth examples and detailed analysis, helping you to understand and implement covered call strategies more effectively in your own trading activities.</p>",
+      "section": "Module 7: Case Studies and Adjustments"
+    },
+    {
+      "number": 58,
+      "wpId": 51749,
+      "title": "Covered Call Strategy Adjustments",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Covered Call Strategy Adjustments</h3>\n<p><a href=\"https://options-america.com/courses/adjusting-covered-call/11585/\">For the full course about Adjustment in Covered Call, click here.</a></p>\n<p>We focus on the specific adjustments for covered call strategies, extracted from our main course. This targeted lesson provides detailed insights into various adjustment techniques within the covered call framework.</p>\n<h3>Purpose of Extracting Adjustments</h3>\n<p>The primary objective of extracting adjustment strategies from the main course is to offer a concentrated learning experience. By isolating individual adjustments, we can explore the nuances and specific scenarios that can arise during their implementation. This approach ensures you gain a clearer understanding and practical knowledge that you can apply in your own trading.</p>\n<p><a href=\"https://options-america.com/courses/adjusting-covered-call/11585/\">For the full course about Adjustment in Covered Call, click here.</a></p>\n<h3>Focus of the Adjustment Course</h3>\n<p>In this extracted course, we focus exclusively on the adjustments for covered call strategies. This course is designed to provide you with real-world examples and detailed explanations, enhancing your ability to implement and manage covered call strategy adjustments effectively.</p>",
+      "section": "Module 7: Case Studies and Adjustments"
+    },
+    {
+      "number": 59,
+      "wpId": 51750,
+      "title": "Overview of Module 10",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Module 10: Options Trading Management</h3>\n<h4>Overview of Module 10</h4>\n<p>Module 10 is designed to equip you with practical tips and strategies for managing your options trading investments effectively. This module covers essential aspects such as trade sizing, capital reserves, portfolio balance, and more, providing you with the tools needed to navigate the options market with confidence and success.</p>\n<h4>Trading Options with Fearlessness and Confidence</h4>\n<p>In this section, we emphasize the psychological aspects of trading, focusing on developing a resilient mindset, managing emotions, and maintaining discipline. By fostering a confident and fearless approach to trading, you can make more rational decisions and avoid common pitfalls driven by fear and greed.</p>\n<h4>Trade Size and Capital Reserves</h4>\n<p>Proper trade sizing and maintaining adequate capital reserves are crucial for long-term success in options trading. This section covers how to determine the appropriate trade size based on your risk tolerance and account size. We also explore strategies for managing your capital reserves to ensure you have sufficient funds to capitalize on future opportunities.</p>\n<h4>Portfolio Balance and Beta-Weighting</h4>\n<p>Balancing your portfolio is essential to mitigate risk and maximize returns. In this section, we discuss the concept of beta-weighting, which helps you understand and manage the risk of your portfolio relative to the overall market. By beta-weighting your positions, you can achieve a more balanced and diversified portfolio.</p>\n<h4>Strike Price Anchoring with Probabilities in Options Trading</h4>\n<p>Choosing the right strike price is critical in options trading. This section explores the concept of strike price anchoring, using probabilities to make informed decisions. We cover techniques to select strike prices that align with your market outlook and risk tolerance, enhancing your chances of successful trades.</p>\n<h4>How to Avoid \"Black Swan\" Events</h4>\n<p>\"Black Swan\" events are unpredictable and can have a significant impact on your portfolio. In this section, we discuss strategies to protect your investments from such events. By diversifying your positions and employing risk management techniques, you can safeguard your portfolio against unexpected market movements.</p>\n<h4>Building a Diversified Options Portfolio</h4>\n<p>A diversified portfolio is key to managing risk in options trading. This section covers strategies for building a diversified options portfolio, ensuring that your investments are spread across various sectors and instruments to minimize risk and maximize potential returns.</p>",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 60,
+      "wpId": 51751,
+      "title": "Trade Size and Capital Reserves",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946075272",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 61,
+      "wpId": 51752,
+      "title": "Portfolio Balance and Beta-Weighting",
+      "duration": "6 min",
+      "type": "video",
+      "vimeoId": "946292402",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 62,
+      "wpId": 51753,
+      "title": "How Far Out Should I Place Trades?",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946517047",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 63,
+      "wpId": 51754,
+      "title": "Strike Price Anchoring with Probabilities in Options Trading",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946517079",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 64,
+      "wpId": 51305,
+      "title": "How to Avoid \"Black Swan\" Events",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946691524",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 65,
+      "wpId": 51306,
+      "title": "Building a Diversified Options Portfolio",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946712257",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 66,
+      "wpId": 51307,
+      "title": "Dealing with Stock Assignment and Dividends",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946712317",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 67,
+      "wpId": 51308,
+      "title": "How to Free Up Trading Margin And Cash",
+      "duration": "7 min",
+      "type": "video",
+      "vimeoId": "946691799",
+      "section": "Module 10: Professional Trading Framework"
+    },
+    {
+      "number": 68,
+      "wpId": 51755,
+      "title": "Recap of Key Concepts",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "content": "<h3>Summary of the Covered Call Course</h3>\n<h4>Thank You for Completing the Course</h4>\n<p>Thank you for completing the Covered Call course. We hope you have gained valuable insights and practical skills to enhance your trading strategies. Let's summarize the key points covered throughout the course.</p>\n<h4>Key Concepts and Basic Strategies</h4>\n<p>In this course, we began with the fundamental aspects of covered calls:</p>\n<ul>\n<li><strong>Benefits and Risks</strong>: You learned about the potential income from covered calls and the associated risks.</li>\n<li><strong>Analyzing Trades</strong>: We covered how to analyze trades involving stocks and options to create effective covered call positions.</li>\n<li><strong>Combining Stock and Options</strong>: We explored how to combine stock and option analysis to set up covered call positions.</li>\n<li><strong>Importance of Assumptions</strong>: You understood the importance of market assumptions in shaping your covered call strategies.</li>\n<li><strong>Breakeven Point</strong>: We discussed the breakeven point and profit potential in covered calls.</li>\n<li><strong>Managing Downside Risk</strong>: Techniques to manage downside risk were also covered, ensuring you can protect your investments.</li>\n</ul>\n<h4>Advanced Strategies and Adjustments</h4>\n<p>As we progressed, we delved into more advanced strategies and adjustments:</p>\n<ul>\n<li><strong>Rolling Covered Calls</strong>: Techniques for rolling covered calls to new expiration dates to collect more premiums were explained.</li>\n<li><strong>Combining Strategies</strong>: We explored combining covered calls with other strategies like naked puts, protective puts, vertical spreads, iron condors, straddles, and strangles.</li>\n<li><strong>Risk Management</strong>: Strategies to effectively manage risk while maintaining potential profit were a key focus.</li>\n</ul>\n<h4>Practical Application and Case Studies</h4>\n<p>To solidify your understanding, we included practical applications and real-world case studies:</p>\n<ul>\n<li><strong>Platform Walkthroughs</strong>: Demonstrations of placing covered calls on trading platforms like Thinkorswim.</li>\n<li><strong>Case Studies</strong>: Detailed analyses of various market scenarios to show how covered call strategies perform.</li>\n<li><strong>Adjustments</strong>: Specific case studies focused on adjusting covered call positions to maintain profitability and manage risk.</li>\n</ul>\n<h4>Exploring Advanced Covered Call Strategies</h4>\n<p>Finally, we covered advanced strategies:</p>\n<ul>\n<li><strong>Leveraged Covered Calls</strong>: Strategies to increase returns using leverage.</li>\n<li><strong>Dividend Capture</strong>: Using covered calls to capture dividends.</li>\n<li><strong>Ratio Covered Calls</strong>: Selling multiple call options to collect more premiums.</li>\n<li><strong>Diagonal Covered Calls</strong>: Combining different expiration dates and strike prices to optimize returns and manage risk.</li>\n</ul>\n<h3>What's Next?</h3>\n<p>After completing the Covered Call course, you are now equipped with a thorough understanding of both basic and advanced covered call strategies. The next step is to explore practical applications and case studies in more detail. You can also delve into specialized modules focused on adjustments and advanced strategies to further enhance your trading skills.</p>\n<p>For the full course about Adjustment in Covered Call, click&nbsp;<a href=\"#\">here</a>.</p>\n<p>For the full course about Case Study in Covered Call, click&nbsp;<a href=\"#\">here</a>.</p>",
+      "section": "Course Summary"
+    }
+  ]
+}
