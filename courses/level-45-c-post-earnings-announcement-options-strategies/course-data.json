@@ -1,0 +1,228 @@
+{
+  "course": {
+    "sourceId": 49911,
+    "title": "Level 45/C – Post-Earnings Announcement Options Strategies",
+    "slug": "level-45-c-post-earnings-announcement-options-strategies",
+    "level": "Advanced",
+    "duration": "3 hours",
+    "previewVimeoId": "988780567"
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "sourceId": 52084,
+      "title": "Post-Earnings Announcement Strategies",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990968085",
+      "content": ""
+    },
+    {
+      "number": 2,
+      "sourceId": 52085,
+      "title": "Managing Post-Earnings Announcement Strategies",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990967868",
+      "content": ""
+    },
+    {
+      "number": 3,
+      "sourceId": 52086,
+      "title": "Analyzing Post-Earnings Continuation Strategies",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990967564",
+      "content": ""
+    },
+    {
+      "number": 4,
+      "sourceId": 52087,
+      "title": "Understanding Post-Earnings Announcement Direction",
+      "type": "video",
+      "duration": "1 min",
+      "vimeoId": "990968502",
+      "content": ""
+    },
+    {
+      "number": 5,
+      "sourceId": 52088,
+      "title": "Earnings Announcements Explained",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990967696",
+      "content": ""
+    },
+    {
+      "number": 6,
+      "sourceId": 52089,
+      "title": "Leveraging IV Rank and Percentile Post-Earnings Announcement",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990967758",
+      "content": ""
+    },
+    {
+      "number": 7,
+      "sourceId": 52090,
+      "title": "Explanation of IV Rank and IV Percentile",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<p><strong>IV Rank:</strong>&nbsp;IV Rank (Implied Volatility Rank) is a metric that compares the current level of implied volatility (IV) to its range over a specified period, typically the past year. It helps traders understand how the current IV stands relative to its historical values.</p>\n<ul>\n<li><strong>High IV Rank:</strong>&nbsp;When IV Rank is high, it means the current implied volatility is near the upper end of its historical range. This often indicates increased uncertainty or upcoming events that could significantly impact the stock price, such as earnings announcements.</li>\n<li><strong>Low IV Rank:</strong>&nbsp;When IV Rank is low, the current implied volatility is near the lower end of its historical range, suggesting less expected volatility and a more stable outlook for the stock.</li>\n</ul>\n<p><strong>IV Percentile:</strong>&nbsp;IV Percentile (Implied Volatility Percentile) measures the percentage of days over the past year that the implied volatility was lower than the current level. It provides insight into how often the current IV level has been exceeded historically.</p>\n<ul>\n<li><strong>High IV Percentile:</strong>&nbsp;A high IV Percentile means that the current IV is higher than it has been for most of the past year. For example, an IV Percentile of 90% indicates that the current IV is higher than 90% of the observed IV levels in the past year.</li>\n<li><strong>Low IV Percentile:</strong>&nbsp;A low IV Percentile indicates that the current IV is lower than it has been for most of the past year. For example, an IV Percentile of 10% means that the current IV is higher than only 10% of the observed IV levels over the past year.</li>\n</ul>\n<p><strong>Why IV Rank and IV Percentile Matter:</strong></p>\n<ol>\n<li><strong>Strategic Decisions:</strong>&nbsp;These metrics help traders decide when to enter or exit trades based on the implied volatility environment. High IV Rank and IV Percentile suggest that option premiums are high, making it a good time to sell options. Conversely, low IV Rank and IV Percentile suggest lower premiums, which can be advantageous for buying options.</li>\n<li><strong>Volatility Trading:</strong>&nbsp;Understanding these metrics allows traders to implement strategies that profit from changes in volatility. For example, when IV Rank and IV Percentile are high, traders might use strategies that benefit from a decrease in volatility, such as selling options or setting up credit spreads.</li>\n<li><strong>Risk Management:</strong>&nbsp;By knowing the current IV Rank and IV Percentile, traders can better assess the potential risk and reward of their trades. High implied volatility indicates higher risk but also higher potential reward, while low implied volatility suggests lower risk and potentially lower reward.</li>\n</ol>\n<p><strong>Application in Post-Earnings Announcements:</strong>&nbsp;After an earnings announcement, implied volatility often decreases as the uncertainty around the announcement is resolved. This post-earnings volatility crush can be anticipated and leveraged using IV Rank and IV Percentile. For instance, if IV Rank and IV Percentile were high before the announcement, traders can expect them to drop post-announcement, making it an ideal time to use strategies that benefit from this volatility reduction.</p>\n<p>Understanding and utilizing IV Rank and IV Percentile can significantly enhance a trader's ability to make informed decisions and implement effective options trading strategies.</p>\n<p>&nbsp;</p>"
+    },
+    {
+      "number": 8,
+      "sourceId": 52091,
+      "title": "Understanding Post-Earnings Announcement Strategies",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<p>In this module, we provide detailed examples from the case study for post-earnings announcement strategies that we have opened. This module includes a variety of strategies such as short strangles, bullish call spreads, and naked put options.</p>\n<p>It is essential for students to be familiar with all the strategies presented in this module. If you are not familiar with these strategies, it is highly recommended that you watch the previous courses where each of these strategies is explained in detail. These courses cover the fundamental concepts, practical case studies, and adjustment techniques for each strategy.</p>\n<p>By reviewing the previous courses, you will gain a comprehensive understanding of how these strategies work and how to effectively implement and adjust them based on market conditions. This foundational knowledge is crucial for successfully navigating the examples and case studies provided in this module.</p>"
+    },
+    {
+      "number": 9,
+      "sourceId": 52092,
+      "title": "Post-Earnings Straddle Management T",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990968128",
+      "content": ""
+    },
+    {
+      "number": 10,
+      "sourceId": 52093,
+      "title": "Profiting from Bullish Call Spreads TMO Case Study",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990968174",
+      "content": ""
+    },
+    {
+      "number": 11,
+      "sourceId": 52094,
+      "title": "Short Strangle on Texas Instruments",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990968431",
+      "content": ""
+    },
+    {
+      "number": 12,
+      "sourceId": 52095,
+      "title": "Profiting from Bullish Put Sales UHS Case Study",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990968258",
+      "content": ""
+    },
+    {
+      "number": 13,
+      "sourceId": 52096,
+      "title": "Neutral Straddle Strategy UNP Case Study",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990968043",
+      "content": ""
+    },
+    {
+      "number": 14,
+      "sourceId": 52097,
+      "title": "Bullish Position Analysis VLO Case Study",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990967618",
+      "content": ""
+    },
+    {
+      "number": 15,
+      "sourceId": 52098,
+      "title": "Short Put Strategy WAB Case Study",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990968344",
+      "content": ""
+    },
+    {
+      "number": 16,
+      "sourceId": 52099,
+      "title": "Diagonal Spread Strategy BAK Case Study",
+      "type": "video",
+      "duration": "1 min",
+      "vimeoId": "990967646",
+      "content": ""
+    },
+    {
+      "number": 17,
+      "sourceId": 52100,
+      "title": "Overview of Post-Earnings Announcement Strategies",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<p>In this module, we explore various post-earnings announcement strategies through detailed case studies. Each case study demonstrates different approaches and strategies that can be employed after an earnings announcement to capitalize on the resulting market movements and volatility changes.</p>\n<p>We cover several strategies including:</p>\n<ul>\n<li><strong>Short Strangles:</strong>&nbsp;Strategies where we sell both a call and a put option, profiting from the stability of the underlying asset.</li>\n<li><strong>Bullish Call Spreads:</strong>&nbsp;Strategies where we buy and sell call options at different strike prices, benefiting from an upward price movement.</li>\n<li><strong>Naked Put Options:</strong>&nbsp;Strategies where we sell put options, profiting from a neutral to bullish market outlook.</li>\n<li><strong>Diagonal Spreads:</strong>&nbsp;Strategies where we buy and sell options with different strike prices and expiration dates, taking advantage of volatility and directional movement.</li>\n</ul>\n<p>These strategies are designed to help you understand how to effectively manage and profit from positions after an earnings announcement. Each example provides insight into the rationale behind the strategy, the expected outcomes, and the adjustments that might be necessary based on market conditions.</p>\n<p>&nbsp;</p>\n<p>If you want to continue and watch more detailed case studies, please check out our&nbsp;<a href=\"https://options-america.com/courses/case-studies-earnings-announcement/\">Earnings Announcement Case Study</a>&nbsp;for comprehensive examples and in-depth analysis.</p>"
+    },
+    {
+      "number": 18,
+      "sourceId": 52101,
+      "title": "Tips for Managing Options Trading",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<h3>Module 4: Tips for Managing Options Trading</h3>\n<p>In this module, we provide essential tips and strategies for effectively managing options trading. These tips are designed to help you navigate the complexities of options trading and maximize your profitability while minimizing risks.</p>\n<p><strong>Diversify Your Portfolio:</strong>&nbsp;Ensure that your portfolio includes a mix of bullish, bearish, and neutral positions. This helps to balance your risk and protect against market volatility.</p>\n<p><strong>Understand the Greeks:</strong>&nbsp;Familiarize yourself with the key Greeks&mdash;Delta, Theta, Vega, and Gamma. Understanding how these factors impact your options can help you make more informed decisions.</p>\n<p><strong>Monitor Volatility:</strong>&nbsp;Keep an eye on implied volatility, especially around earnings announcements. Volatility can significantly affect the value of your options. Adjust your strategies accordingly to benefit from volatility changes.</p>\n<p><strong>Use Stop-Loss Orders:</strong>&nbsp;Implement stop-loss orders to protect your positions from significant losses. This is especially important for high-risk strategies like naked options.</p>\n<p><strong>Adjust Your Positions:</strong>&nbsp;Be prepared to adjust your positions as market conditions change. Rolling options to different strike prices or expiration dates can help you manage risk and lock in profits.</p>\n<p><strong>Stay Informed:</strong>&nbsp;Keep up-to-date with market news, earnings reports, and other relevant information that can impact your options positions. Being well-informed allows you to anticipate market movements and adjust your strategies proactively.</p>\n<p><strong>Practice Patience:</strong>&nbsp;Options trading requires patience and discipline. Avoid making impulsive decisions based on short-term market fluctuations. Stick to your trading plan and adjust only when necessary.</p>\n<p><strong>Evaluate Your Performance:</strong>&nbsp;Regularly review your trading performance to identify strengths and areas for improvement. Analyzing your past trades can provide valuable insights and help you refine your strategies.</p>\n<p>&nbsp;</p>\n<p>By following these tips, you can enhance your options trading skills and increase your chances of success. Remember, effective management is key to becoming a successful options trader.</p>"
+    },
+    {
+      "number": 19,
+      "sourceId": 52102,
+      "title": "Diversify Your Portfolio",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "991258793",
+      "content": ""
+    },
+    {
+      "number": 20,
+      "sourceId": 52103,
+      "title": "Understand the Greeks",
+      "type": "video",
+      "duration": "5 min",
+      "vimeoId": "991258975",
+      "content": ""
+    },
+    {
+      "number": 21,
+      "sourceId": 52104,
+      "title": "Monitor Volatility",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "991403343",
+      "content": ""
+    },
+    {
+      "number": 22,
+      "sourceId": 52105,
+      "title": "Use Stop-Loss Orders",
+      "type": "video",
+      "duration": "5 min",
+      "vimeoId": "991403368",
+      "content": ""
+    },
+    {
+      "number": 23,
+      "sourceId": 52106,
+      "title": "Adjust Your Positions",
+      "type": "video",
+      "duration": "5 min",
+      "vimeoId": "991258689",
+      "content": ""
+    },
+    {
+      "number": 24,
+      "sourceId": 52107,
+      "title": "Course Summary for Post-Earnings Announcement Strategies",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<p>In this course on post-earnings announcement strategies, we explored various techniques to capitalize on market movements and volatility changes following earnings reports. Here&rsquo;s a brief summary of what we covered:</p>\n<ol>\n<li>\n<p><strong>Introduction to Post-Earnings Strategies</strong>: We started by understanding the importance of post-earnings strategies and how they differ from pre- and at-earnings strategies. Post-earnings strategies allow us to make informed decisions based on known information, reducing uncertainty.</p>\n</li>\n<li>\n<p><strong>Detailed Case Studies</strong>: We examined multiple case studies, including:</p>\n<ul>\n<li><strong>Short Strangles</strong>: Selling both a call and a put option to profit from the stability of the underlying asset.</li>\n<li><strong>Bullish Call Spreads</strong>: Buying and selling call options at different strike prices to benefit from upward price movements.</li>\n<li><strong>Naked Put Options</strong>: Selling put options to profit from a neutral to bullish market outlook.</li>\n<li><strong>Diagonal Spreads</strong>: Buying and selling options with different strike prices and expiration dates to take advantage of volatility and directional movement.</li>\n</ul>\n</li>\n<li>\n<p><strong>Key Greeks</strong>: We emphasized the importance of understanding and utilizing the Greeks&mdash;Delta, Theta, Vega, and Gamma&mdash;to manage and adjust our positions effectively.</p>\n</li>\n<li>\n<p><strong>Volatility Management</strong>: We discussed the impact of volatility changes post-earnings and how to position ourselves to benefit from volatility crushes.</p>\n</li>\n<li>\n<p><strong>Portfolio Diversification</strong>: Highlighting the need to diversify with bullish, bearish, and neutral positions to balance risk and protect against unexpected market movements.</p>\n</li>\n<li>\n<p><strong>Adjustments and Monitoring</strong>: The importance of monitoring positions closely and being prepared to make adjustments as needed to manage risk and lock in profits.</p>\n</li>\n</ol>\n<p>By integrating these strategies and insights, you can enhance your ability to manage and profit from options trading after earnings announcements. This course aimed to provide a comprehensive understanding of various post-earnings strategies, helping you to make informed and strategic trading decisions.</p>\n<p>Thank you for completing the course. We hope you found it informative and valuable in advancing your options trading skills.</p>"
+    }
+  ]
+}
