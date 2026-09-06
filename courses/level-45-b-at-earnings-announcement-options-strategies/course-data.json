@@ -1,0 +1,246 @@
+{
+  "course": {
+    "sourceId": 49912,
+    "title": "Level 45/B – At-Earnings Announcement Options Strategies",
+    "slug": "level-45-b-at-earnings-announcement-options-strategies",
+    "level": "Advanced",
+    "duration": "2 hours",
+    "previewVimeoId": "988780724"
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "sourceId": 52046,
+      "title": "Strategies During Earnings Announcements",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "988780724",
+      "content": ""
+    },
+    {
+      "number": 2,
+      "sourceId": 52047,
+      "title": "Strategies for Trading During Earnings Announcements",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990043432",
+      "content": ""
+    },
+    {
+      "number": 3,
+      "sourceId": 52048,
+      "title": "Course Requirements",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<p>To fully benefit from this course, students must have a solid foundation in the basics of options trading. The following knowledge and skills are required:</p>\n<h3>Basic Options Knowledge</h3>\n<p>Students must have completed the beginner levels 1 to 4, which cover the fundamental aspects of single-leg options strategies. This includes:</p>\n<ul>\n<li><strong>Level 1:</strong>&nbsp;Buying call options</li>\n<li><strong>Level 2:</strong>&nbsp;Selling call options</li>\n<li><strong>Level 3:</strong>&nbsp;Buying put options</li>\n<li><strong>Level 4:</strong>&nbsp;Selling put options</li>\n</ul>\n<p>These levels ensure that students understand the mechanics of buying and selling call and put options separately.</p>\n<h3>Understanding the Greeks</h3>\n<p>A thorough understanding of the Greeks is essential for this course. Students must be familiar with:</p>\n<ul>\n<li><strong>Delta:</strong>&nbsp;Measures the sensitivity of an option's price to changes in the price of the underlying asset.</li>\n<li><strong>Theta:</strong>&nbsp;Represents the time decay of options, showing how the option's price decreases as it approaches expiration.</li>\n<li><strong>Vega:</strong>&nbsp;Indicates the sensitivity of an option's price to changes in the volatility of the underlying asset.</li>\n<li><strong>Greeks in Action:</strong>&nbsp;Understanding how these Greeks interact and impact options strategies in real-time scenarios.</li>\n</ul>\n<h3>Advanced Options Strategies</h3>\n<p>Students should also be well-versed in advanced options strategies, as all explanations in this course will be advanced. Required knowledge includes:</p>\n<ul>\n<li><strong>Back Spread:</strong>&nbsp;A strategy involving buying more options than are sold, usually to take advantage of high volatility.</li>\n<li><strong>Bear Put Spread:</strong>&nbsp;Involves buying a put option while selling another put option at a lower strike price.</li>\n<li><strong>Bull Call Spread:</strong>&nbsp;Involves buying a call option and selling another call option at a higher strike price.</li>\n<li><strong>Butterfly Spread:</strong>&nbsp;Combines bull and bear spreads with three strike prices, offering limited risk and profit potential.</li>\n<li><strong>Covered Call:</strong>&nbsp;Involves holding a long position in a stock and selling call options on that same stock.</li>\n<li><strong>Short Iron Condor:</strong>&nbsp;A strategy involving four options with different strike prices, designed to profit from low volatility.</li>\n<li><strong>Straddle:</strong>&nbsp;Involves buying both a call and a put option at the same strike price and expiration date.</li>\n<li><strong>Strangle:</strong>&nbsp;Involves buying a call and a put option with different strike prices but the same expiration date.</li>\n</ul>\n<p>Students are expected to have a comprehensive understanding of these basic and advanced options strategies to keep up with the advanced explanations in this course. If you need to review or learn any of these concepts, please revisit our foundational courses available on the Options America platform. These prerequisites will ensure you have the necessary knowledge to successfully engage with and benefit from this advanced course.</p>"
+    },
+    {
+      "number": 4,
+      "sourceId": 52049,
+      "title": "Volatility Crash Strategy",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990044046",
+      "content": ""
+    },
+    {
+      "number": 5,
+      "sourceId": 52050,
+      "title": "Using Thinkorswim for IV Rank and IV Percentile",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "988781000",
+      "content": ""
+    },
+    {
+      "number": 6,
+      "sourceId": 52051,
+      "title": "Brief Explanation of IV Rank and IV Percentile",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "989411353",
+      "content": ""
+    },
+    {
+      "number": 7,
+      "sourceId": 52052,
+      "title": "What is an Earnings Announcement?",
+      "type": "video",
+      "duration": "4 min",
+      "vimeoId": "988781056",
+      "content": ""
+    },
+    {
+      "number": 8,
+      "sourceId": 52053,
+      "title": "Understanding Earnings Announcements and Market Reactions",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "988780860",
+      "content": ""
+    },
+    {
+      "number": 9,
+      "sourceId": 52054,
+      "title": "Understanding Volatility Before Earnings Announcements",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "988780941",
+      "content": ""
+    },
+    {
+      "number": 10,
+      "sourceId": 52055,
+      "title": "Historical Context of Earnings Announcements",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "988780395",
+      "content": ""
+    },
+    {
+      "number": 11,
+      "sourceId": 52056,
+      "title": "Selecting Stocks for Earnings Announcements",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990056533",
+      "content": ""
+    },
+    {
+      "number": 12,
+      "sourceId": 52057,
+      "title": "Formulating Assumptions for Earnings Trading",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990044745",
+      "content": ""
+    },
+    {
+      "number": 13,
+      "sourceId": 52058,
+      "title": "Selecting Optimal Option Chains for Earnings Trading",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990045142",
+      "content": ""
+    },
+    {
+      "number": 14,
+      "sourceId": 52059,
+      "title": "Making Informed Assumptions Based on Charts",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990045023",
+      "content": ""
+    },
+    {
+      "number": 15,
+      "sourceId": 52060,
+      "title": "Implementing Credit Spreads Based on Earnings Assumptions",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990044921",
+      "content": ""
+    },
+    {
+      "number": 16,
+      "sourceId": 52061,
+      "title": "Combining Vertical Spreads for Neutral Earnings Reports",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990044660",
+      "content": ""
+    },
+    {
+      "number": 17,
+      "sourceId": 52062,
+      "title": "At-The-Money Vertical Spread for Earnings Reports",
+      "type": "video",
+      "duration": "1 min",
+      "vimeoId": "990009055",
+      "content": ""
+    },
+    {
+      "number": 18,
+      "sourceId": 52063,
+      "title": "Implementing Unbalanced Iron Condors for Earnings",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990514337",
+      "content": ""
+    },
+    {
+      "number": 19,
+      "sourceId": 52064,
+      "title": "Understanding Greeks in Unbalanced Iron Condor Strategies",
+      "type": "video",
+      "duration": "3 min",
+      "vimeoId": "990514524",
+      "content": ""
+    },
+    {
+      "number": 20,
+      "sourceId": 52065,
+      "title": "Adjusting Volatility and Understanding Vega Impact",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990514134",
+      "content": ""
+    },
+    {
+      "number": 21,
+      "sourceId": 52066,
+      "title": "Leveraging Positive Theta for Time Decay Profitability",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990514431",
+      "content": ""
+    },
+    {
+      "number": 22,
+      "sourceId": 52067,
+      "title": "Implementing a Strangle Strategy for Earnings Announcements",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990514278",
+      "content": ""
+    },
+    {
+      "number": 23,
+      "sourceId": 52068,
+      "title": "Adjusting a Strangle Strategy for Earnings Announcements",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990514018",
+      "content": ""
+    },
+    {
+      "number": 24,
+      "sourceId": 52069,
+      "title": "Examining At-The-Money Positions and Butterfly Spreads",
+      "type": "video",
+      "duration": "2 min",
+      "vimeoId": "990514210",
+      "content": ""
+    },
+    {
+      "number": 25,
+      "sourceId": 52070,
+      "title": "Case Studies and Practical Examples",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<h3>At-Earnings Announcement Options Strategies</h3>\n<p><a href=\"https://options-america.com/courses/case-studies-earnings-announcement/\">Watch the full At-Earnings Announcement case study here.</a></p>\n<p>We have extracted key sections on at-earnings announcement options strategies into specialized courses. These sections include detailed case studies and practical examples that will provide you with in-depth knowledge and actionable insights. To get the most out of your learning experience, we recommend viewing the full case studies in our dedicated courses.</p>\n<p>For detailed walkthroughs and comprehensive examples, please visit the specialized course on at-earnings announcement trading. Watch the full case study here.</p>\n<p><strong>Importance of At-Earnings Strategies</strong>&nbsp;At-earnings announcement periods offer unique opportunities to capitalize on increased volatility and price movements. Understanding how to effectively implement options strategies during this time can significantly enhance your trading performance.</p>\n<p><strong>Key Considerations</strong></p>\n<ul>\n<li><strong>Volatility</strong>: Volatility typically spikes around an earnings announcement, leading to higher option premiums. Strategies that benefit from changing volatility can be particularly effective.</li>\n<li><strong>Directional Bias</strong>: Having a directional bias, whether bullish, bearish, or neutral, is essential. Your strategy should align with your market outlook and risk tolerance.</li>\n<li><strong>Time Decay</strong>: Time decay, or theta, plays a critical role in options trading.</li>\n</ul>\n<p>Understanding the nuances of options trading during the at-earnings announcement period is crucial for maximizing your trading success. Ensure you grasp the concepts of volatility, directional bias, and time decay as you navigate through these strategies.</p>\n<p>For further information and to deepen your understanding, refer to the extracted course.&nbsp;<a href=\"https://options-america.com/courses/case-studies-earnings-announcement/\">Watch the detailed case study here.</a></p>"
+    },
+    {
+      "number": 26,
+      "sourceId": 52071,
+      "title": "At-Earnings Announcement Options Strategies: Course Summary",
+      "type": "text",
+      "duration": "Reading",
+      "vimeoId": null,
+      "content": "<h3>At-Earnings Announcement Options Strategies: Course Summary</h3>\n<p><strong>Course Overview</strong>&nbsp;The \"At-Earnings Announcement Options Strategies\" course focuses on the unique opportunities presented during the period around an earnings announcement. This course provides traders with in-depth knowledge and practical techniques to capitalize on increased volatility and price movements associated with earnings reports.</p>\n<p><strong>Key Topics Covered:</strong></p>\n<ol>\n<li>\n<p><strong>Understanding Volatility:</strong></p>\n<ul>\n<li>How volatility spikes around earnings announcements.</li>\n<li>Strategies that benefit from rising and falling volatility.</li>\n</ul>\n</li>\n<li>\n<p><strong>Directional Bias:</strong></p>\n<ul>\n<li>Establishing a bullish, bearish, or neutral outlook.</li>\n<li>Aligning your options strategies with market expectations and risk tolerance.</li>\n</ul>\n</li>\n<li>\n<p><strong>Time Decay (Theta):</strong></p>\n<ul>\n<li>Leveraging time decay to enhance profitability.</li>\n<li>Managing the impact of theta on different options strategies.</li>\n</ul>\n</li>\n<li>\n<p><strong>Options Strategies for At-Earnings Announcements:</strong></p>\n<ul>\n<li>Implementing and adjusting straddles and strangles.</li>\n<li>Utilizing vertical spreads and iron condors.</li>\n<li>Creating unbalanced iron condors and other advanced strategies.</li>\n</ul>\n</li>\n<li>\n<p><strong>Case Studies and Practical Examples:</strong></p>\n<ul>\n<li>Detailed walkthroughs of real-world examples.</li>\n<li>Step-by-step analysis of past earnings announcements and their impact on options trades.</li>\n<li>Practical demonstrations on trading platforms.</li>\n</ul>\n</li>\n<li>\n<p><strong>Adjusting Strategies:</strong></p>\n<ul>\n<li>Techniques for adjusting options positions based on market movements.</li>\n<li>Managing risk and maximizing profit through strategic adjustments.</li>\n<li>Examples of rolling and modifying positions to adapt to new information.</li>\n</ul>\n</li>\n<li>\n<p><strong>Greeks and Their Impact:</strong></p>\n<ul>\n<li>Understanding Delta, Gamma, Theta, and Vega in the context of earnings announcements.</li>\n<li>Applying the Greeks to optimize trading decisions and strategy adjustments.</li>\n</ul>\n</li>\n</ol>\n<p><strong>Learning Objectives:</strong>&nbsp;By the end of this course, traders will:</p>\n<ul>\n<li>Gain a comprehensive understanding of how to trade options around earnings announcements.</li>\n<li>Develop the ability to create and adjust strategies based on volatility and market movements.</li>\n<li>Master the use of the Greeks to refine and optimize their trading approach.</li>\n<li>Be equipped with actionable insights and practical skills to enhance their trading performance during earnings season.</li>\n</ul>\n<p><strong>Related Courses:</strong></p>\n<ul>\n<li><a href=\"https://options-america.com/courses/level-45-a-pre-earnings-announcement-options-strategies/\"><strong>Pre-Earnings Announcement Options Strategies</strong></a>: Focuses on strategies leading up to an earnings announcement, where traders can take advantage of rising volatility and market expectations.</li>\n<li><a href=\"https://options-america.com/courses/level-45-c-post-earnings-announcement-options-strategies/\"><strong>Post-Earnings Announcement Options Strategies</strong></a>: Covers the period following an earnings announcement, focusing on how to manage positions and capitalize on changes in volatility and price direction.</li>\n</ul>\n<p>For a deeper dive and to see detailed case studies, please enroll in the full course on at-earnings announcement trading.</p>"
+    }
+  ]
+}
