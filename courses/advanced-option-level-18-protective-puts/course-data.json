@@ -1,0 +1,463 @@
+{
+  "course": {
+    "title": "Advanced Option: Level 18 – Protective Puts",
+    "code": "OPT118",
+    "level": 18,
+    "slug": "advanced-option-level-18-protective-puts",
+    "previewVimeoId": "1005357464",
+    "lessonCount": 45,
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": 51760,
+      "title": "Understanding the Protective Put Strategy",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: Protective Put Foundations"
+    },
+    {
+      "number": 2,
+      "wpId": 51761,
+      "title": "Benefits and Drawbacks of Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: Protective Put Foundations"
+    },
+    {
+      "number": 3,
+      "wpId": 51762,
+      "title": "Protective Puts vs. Other Hedging Strategies",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: Protective Put Foundations"
+    },
+    {
+      "number": 4,
+      "wpId": 51763,
+      "title": "Key Terminology and Concepts in Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: Protective Put Foundations"
+    },
+    {
+      "number": 5,
+      "wpId": 51764,
+      "title": "When to Use a Protective Put Strategy",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 1: Protective Put Foundations"
+    },
+    {
+      "number": 6,
+      "wpId": 51765,
+      "title": "Choosing the Right Underlying Asset",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Setup and Execution"
+    },
+    {
+      "number": 7,
+      "wpId": 51766,
+      "title": "Selecting the Optimal Put Option",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Setup and Execution"
+    },
+    {
+      "number": 8,
+      "wpId": 51767,
+      "title": "Calculating Costs and Breakeven Points",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Setup and Execution"
+    },
+    {
+      "number": 9,
+      "wpId": 51768,
+      "title": "Determining Strike Prices and Expiration Dates",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Setup and Execution"
+    },
+    {
+      "number": 10,
+      "wpId": 51769,
+      "title": "Executing a Protective Put Trade",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Setup and Execution"
+    },
+    {
+      "number": 11,
+      "wpId": 51770,
+      "title": "Analyzing Market Conditions for Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Market Analysis"
+    },
+    {
+      "number": 12,
+      "wpId": 51771,
+      "title": "Identifying Volatile Market Indicators",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Market Analysis"
+    },
+    {
+      "number": 13,
+      "wpId": 51772,
+      "title": "Using Technical Analysis with Protective Puts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Market Analysis"
+    },
+    {
+      "number": 14,
+      "wpId": 51773,
+      "title": "Fundamental Analysis and Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Market Analysis"
+    },
+    {
+      "number": 15,
+      "wpId": 51774,
+      "title": "Assessing Market Sentiment for Risk Management",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 3: Market Analysis"
+    },
+    {
+      "number": 16,
+      "wpId": 51775,
+      "title": "Calculating Potential Losses and Gains",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Risk Management"
+    },
+    {
+      "number": 17,
+      "wpId": 51776,
+      "title": "Implementing Stop-Loss Orders with Protective Puts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Risk Management"
+    },
+    {
+      "number": 18,
+      "wpId": 51777,
+      "title": "Managing Position Size for Optimal Protection",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Risk Management"
+    },
+    {
+      "number": 19,
+      "wpId": 51778,
+      "title": "Protecting Against Downside Risk",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Risk Management"
+    },
+    {
+      "number": 20,
+      "wpId": 51779,
+      "title": "Adjusting Risk Tolerance Levels",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Risk Management"
+    },
+    {
+      "number": 21,
+      "wpId": 51780,
+      "title": "Rolling Protective Puts to a Later Date",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Adjustments and Combinations"
+    },
+    {
+      "number": 22,
+      "wpId": 51781,
+      "title": "Adjusting Strike Prices Based on Market Movements",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Adjustments and Combinations"
+    },
+    {
+      "number": 23,
+      "wpId": 51782,
+      "title": "Exiting the Protective Put Early",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Adjustments and Combinations"
+    },
+    {
+      "number": 24,
+      "wpId": 51783,
+      "title": "Transitioning to Other Hedging Strategies",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Adjustments and Combinations"
+    },
+    {
+      "number": 25,
+      "wpId": 51784,
+      "title": "Combining Protective Puts with Other Options Strategies",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 5: Adjustments and Combinations"
+    },
+    {
+      "number": 26,
+      "wpId": 51785,
+      "title": "Case Study 1 – Using Protective Puts in a Bear Market",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Case Studies"
+    },
+    {
+      "number": 27,
+      "wpId": 51786,
+      "title": "Case Study 2 – Managing Risk in a Volatile Market",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Case Studies"
+    },
+    {
+      "number": 28,
+      "wpId": 51787,
+      "title": "Case Study 3 – Protecting Profits in a Bull Market",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Case Studies"
+    },
+    {
+      "number": 29,
+      "wpId": 51788,
+      "title": "Case Study 4 – Adjusting Protective Puts for Earnings Reports",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Case Studies"
+    },
+    {
+      "number": 30,
+      "wpId": 51789,
+      "title": "Case Study 5 – Implementing Protective Puts in a Sector-Specific Decline",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 6: Case Studies"
+    },
+    {
+      "number": 31,
+      "wpId": 51790,
+      "title": "Simulated Trade 1 – Executing a Protective Put Strategy",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: Simulated Trades"
+    },
+    {
+      "number": 32,
+      "wpId": 51791,
+      "title": "Simulated Trade 2 – Adjusting a Protective Put Position",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: Simulated Trades"
+    },
+    {
+      "number": 33,
+      "wpId": 51792,
+      "title": "Simulated Trade 3 – Managing a Portfolio with Protective Puts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: Simulated Trades"
+    },
+    {
+      "number": 34,
+      "wpId": 51793,
+      "title": "Simulated Trade 4 – Responding to Unexpected Market Events",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: Simulated Trades"
+    },
+    {
+      "number": 35,
+      "wpId": 51794,
+      "title": "Simulated Trade 5 – Exiting a Protective Put Early",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 7: Simulated Trades"
+    },
+    {
+      "number": 36,
+      "wpId": 51795,
+      "title": "Integrating Protective Puts with Options Spreads",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Advanced Applications"
+    },
+    {
+      "number": 37,
+      "wpId": 51796,
+      "title": "Using Protective Puts for Long-Term Investment Protection",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Advanced Applications"
+    },
+    {
+      "number": 38,
+      "wpId": 51797,
+      "title": "Advanced Risk Management Techniques",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Advanced Applications"
+    },
+    {
+      "number": 39,
+      "wpId": 51798,
+      "title": "Leveraging Protective Puts in Different Asset Classes",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Advanced Applications"
+    },
+    {
+      "number": 40,
+      "wpId": 51799,
+      "title": "Tactical Adjustments for Market Reversals",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 8: Advanced Applications"
+    },
+    {
+      "number": 41,
+      "wpId": 51800,
+      "title": "Overcoming Emotional Bias in Risk Management",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Discipline and Long-Term Planning"
+    },
+    {
+      "number": 42,
+      "wpId": 51801,
+      "title": "Building Confidence in Hedging Decisions",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Discipline and Long-Term Planning"
+    },
+    {
+      "number": 43,
+      "wpId": 51802,
+      "title": "Avoiding Common Mistakes in Protective Puts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Discipline and Long-Term Planning"
+    },
+    {
+      "number": 44,
+      "wpId": 51803,
+      "title": "Developing a Disciplined Approach to Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Discipline and Long-Term Planning"
+    },
+    {
+      "number": 45,
+      "wpId": 51804,
+      "title": "Building a Long-Term Hedging Plan with Protective Puts",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Discipline and Long-Term Planning"
+    }
+  ]
+}
