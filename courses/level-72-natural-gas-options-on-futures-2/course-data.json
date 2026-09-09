@@ -1,0 +1,25 @@
+{
+  "course": {
+    "sourceId": 49959,
+    "title": "Level 72 – Natural Gas Options on Futures",
+    "slug": "level-72-natural-gas-options-on-futures-2",
+    "level": "Advanced",
+    "duration": "3 hours",
+    "previewVimeoId": "1001334812",
+    "lessonCount": 1,
+    "curriculumSource": "The WordPress export contains the course page but no associated lesson records or Start Course link.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": null,
+      "title": "Course Update",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Course Status"
+    }
+  ]
+}
