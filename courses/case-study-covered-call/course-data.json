@@ -1,0 +1,16 @@
+{
+  "course": {
+    "sourceId": 49954,
+    "title": "Case Study Covered Call",
+    "slug": "case-study-covered-call",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "983867745",
+    "lessonCount": 1,
+    "curriculumSource": "Reconstructed from the surviving WordPress extracted-course lesson because the legacy lesson referenced by the course is absent from the export.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":51748,"title":"Case Study from Covered Call Strategy","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Covered Call Case Study"}
+  ]
+}
