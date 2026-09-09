@@ -1,0 +1,16 @@
+{
+  "course": {
+    "sourceId": 49999,
+    "title": "Adjustments Calendar Spreads",
+    "slug": "adjustments-calendar-spreads-2",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "961311013",
+    "lessonCount": 1,
+    "curriculumSource": "The saved WordPress curriculum references were invalid. The source lesson explicitly identified for this module is WP lesson 51469.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":51469,"title":"Adjustments for Calendar Spread Strategy","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Calendar Spread Adjustments"}
+  ]
+}
