@@ -1,0 +1,25 @@
+{
+  "course": {
+    "sourceId": 49995,
+    "title": "Adjustments – Short Strangle",
+    "slug": "adjustments-short-strangle-2",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "981097774",
+    "lessonCount": 10,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":52458,"title":"Course Overview: Adjusting Short Strangles","duration":"3 min","type":"video","vimeoId":"981135085","sourceUnavailable":false,"section":"Module 1: Course Overview and Position Analysis"},
+    {"number":2,"wpId":52459,"title":"Analyzing and Adjusting HPQ Short Strangle","duration":"2 min","type":"video","vimeoId":"982794118","sourceUnavailable":false,"section":"Module 1: Course Overview and Position Analysis"},
+    {"number":3,"wpId":52460,"title":"Identifying Profit and Loss Legs in Short Strangle","duration":"2 min","type":"video","vimeoId":"982793941","sourceUnavailable":false,"section":"Module 1: Course Overview and Position Analysis"},
+    {"number":4,"wpId":52461,"title":"Rolling Put Option to Create a Straddle","duration":"2 min","type":"video","vimeoId":"982794195","sourceUnavailable":false,"section":"Module 2: Rolling and Rebalancing"},
+    {"number":5,"wpId":52462,"title":"Rolling Call Option to Higher Strike Price","duration":"2 min","type":"video","vimeoId":"982794118","sourceUnavailable":false,"section":"Module 2: Rolling and Rebalancing"},
+    {"number":6,"wpId":52463,"title":"Adding Another Strangle for Bearish Adjustment","duration":"2 min","type":"video","vimeoId":"982793671","sourceUnavailable":false,"section":"Module 3: Adding Protective Structures"},
+    {"number":7,"wpId":52464,"title":"Adding a Bear Call Spread","duration":"3 min","type":"video","vimeoId":"982793572","sourceUnavailable":false,"section":"Module 3: Adding Protective Structures"},
+    {"number":8,"wpId":52465,"title":"Converting to an Iron Condor","duration":"3 min","type":"video","vimeoId":"982793891","sourceUnavailable":false,"section":"Module 4: Strategy Conversions"},
+    {"number":9,"wpId":52466,"title":"Adding a Calendar Spread","duration":"3 min","type":"video","vimeoId":"982793623","sourceUnavailable":false,"section":"Module 4: Strategy Conversions"},
+    {"number":10,"wpId":52467,"title":"Summary of Adjustments for Short Strangle","duration":"Reading","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 5: Course Summary"}
+  ]
+}
