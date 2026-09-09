@@ -1,0 +1,16 @@
+{
+  "course": {
+    "sourceId": 50009,
+    "title": "Case Studies – Short Strangle",
+    "slug": "case-studies-short-strangle-3",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "971751879",
+    "lessonCount": 1,
+    "curriculumSource": "The saved WordPress curriculum references were invalid. The only source lesson explicitly identified for this module is WP lesson 51665.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":51665,"title":"Real-Life Case Studies: Short Strangle Strategy","duration":"Reading","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Real-Life Short Strangle Case Studies"}
+  ]
+}
