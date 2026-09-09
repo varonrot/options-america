@@ -42,7 +42,7 @@ const courses = [
   {title:'Adjustments Butterfly Strategies',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-butterfly-strategies/',image:'../assets/images/courses/legacy/adjustments-butterfly-strategies.png'},
   {title:'Adjusting Covered Call',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjusting-covered-call/',image:'../assets/images/courses/legacy/adjusting-covered-call.png'},
   {title:'Case Study Covered Call',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-study-covered-call/',image:'../assets/images/courses/legacy/case-study-covered-call.png'},
-  {title:'Poor Man’s Covered Call',level:'Intermediate',categories:['Advanced Options'],url:'/courses/poor-mans-covered-call/',image:'../assets/images/courses/poor-mans-covered-call.webp'},
+  {title:'Poor Man’s Covered Call',level:'Intermediate',categories:['Advanced Options'],url:'/courses/poor-mans-covered-call/',image:'../assets/images/courses/legacy/poor-mans-covered-call.png'},
   {title:'Managing a Bullish to Neutral Options Portfolio',level:'Intermediate',categories:['Options Portfolio'],url:'/courses/managing-a-bullish-to-neutral-options-portfolio/',image:'../assets/images/courses/managing-a-bullish-to-neutral-options-portfolio.webp'},
   {title:'Introduction to Futures Contract',level:'Advanced',categories:['Options on Futures'],url:'/courses/introduction-to-futures-contract/',image:'../assets/images/courses/introduction-to-futures-contract.webp'},
   {title:'Level 72 – Natural Gas Options on Futures',level:'Advanced',categories:['Options on Futures'],url:'/courses/level-72-natural-gas-options-on-futures-2/',image:'../assets/images/courses/level-72-natural-gas-options-on-futures-2.webp'},
