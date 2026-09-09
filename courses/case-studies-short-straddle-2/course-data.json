@@ -1,0 +1,25 @@
+{
+  "course":{"sourceId":49984,"title":"Case Studies – Short Straddle","slug":"case-studies-short-straddle-2","level":"Intermediate","duration":"1 hour","previewVimeoId":"973858835","lessonCount":20,"curriculumSource":"Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid.","availabilityMessage":"This course is temporarily unavailable and will return soon after it has been re-edited."},
+  "lessons":[
+    {"number":1,"wpId":52888,"title":"Case Studies – Short Straddle Overview","duration":"3 min","type":"video","vimeoId":"973858835","section":"Module 1: Course Overview"},
+    {"number":2,"wpId":52889,"title":"Open Position Short traddle","duration":"3 min","type":"video","vimeoId":"979684962","section":"Module 1: Course Overview"},
+    {"number":3,"wpId":52890,"title":"Created a Short Straddle Group","duration":"1 min","type":"video","vimeoId":"982374837","section":"Module 2: Monitoring the Position"},
+    {"number":4,"wpId":52891,"title":"Add the Greeks to the groups","duration":"1 min","type":"video","vimeoId":"982374281","section":"Module 2: Monitoring the Position"},
+    {"number":5,"wpId":52892,"title":"Monitoring the Greeks","duration":"2 min","type":"video","vimeoId":"982375337","section":"Module 2: Monitoring the Position"},
+    {"number":6,"wpId":52893,"title":"Revisit Short Straddle Portfolio","duration":"2 min","type":"video","vimeoId":"982376043","section":"Module 2: Monitoring the Position"},
+    {"number":7,"wpId":52894,"title":"Mid and Nat Price","duration":"2 min","type":"video","vimeoId":"982375025","section":"Module 2: Monitoring the Position"},
+    {"number":8,"wpId":52895,"title":"Strategic Timing for Diversifying Straddle Positions","duration":"2 min","type":"video","vimeoId":"982376185","section":"Module 3: Portfolio Management"},
+    {"number":9,"wpId":52896,"title":"Managing a Beta-Weighted Portfolio","duration":"2 min","type":"video","vimeoId":"982374918","section":"Module 3: Portfolio Management"},
+    {"number":10,"wpId":52897,"title":"Balancing Delta in a Short Straddle Portfolio","duration":"2 min","type":"video","vimeoId":"982374672","section":"Module 3: Portfolio Management"},
+    {"number":11,"wpId":52898,"title":"Reviewing Short Straddle Profits and Weekend Time Decay","duration":"2 min","type":"video","vimeoId":"982375952","section":"Module 4: Profit, Decay, and Risk"},
+    {"number":12,"wpId":52899,"title":"Understanding Weekend Time Decay in Short Straddle","duration":"3 min","type":"video","vimeoId":"982376238","section":"Module 4: Profit, Decay, and Risk"},
+    {"number":13,"wpId":52900,"title":"Assessing Portfolio Risks and Adjustments in Short Straddles","duration":"2 min","type":"video","vimeoId":"982374565","section":"Module 4: Profit, Decay, and Risk"},
+    {"number":14,"wpId":52901,"title":"Analyzing Profit in AIG Short Straddle","duration":"1 min","type":"video","vimeoId":"979620039","section":"Module 5: Position Case Studies"},
+    {"number":15,"wpId":52902,"title":"Breaking Down Profit in AIG Short Straddle","duration":"1 min","type":"video","vimeoId":"982374765","section":"Module 5: Position Case Studies"},
+    {"number":16,"wpId":52903,"title":"Analyzing Profit and Risk in AXP Short Straddle","duration":"2 min","type":"video","vimeoId":"982374449","section":"Module 5: Position Case Studies"},
+    {"number":17,"wpId":52904,"title":"Analyzing EXPE Short Straddle Performance","duration":"1 min","type":"video","vimeoId":"982374360","section":"Module 5: Position Case Studies"},
+    {"number":18,"wpId":52905,"title":"Monitoring and Managing Short Straddle Positions","duration":"1 min","type":"video","vimeoId":"982375243","section":"Module 5: Position Case Studies"},
+    {"number":19,"wpId":52906,"title":"Monitoring Position at July 9th","duration":"3 min","type":"video","vimeoId":"982793191","section":"Module 5: Position Case Studies"},
+    {"number":20,"wpId":52907,"title":"Adjusting Short Straddle: Case Study of RCL","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 6: RCL Adjustment Case Study"}
+  ]
+}
