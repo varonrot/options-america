@@ -32,7 +32,7 @@ const courses = [
   {title:'Case Studies – Short Strangle',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-studies-short-strangle-3/',image:'../assets/images/courses/legacy/case-studies-short-strangle-3.png'},
   {title:'Adjustments – Short Strangle',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-short-strangle-2/',image:'../assets/images/courses/legacy/adjustments-short-strangle-2.png'},
   {title:'Adjustments – Bull Call Spread',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-bull-call-spread-2/',image:'../assets/images/courses/legacy/adjustments-bull-call-spread-2.png'},
-  {title:'Case Studies – Bull Call Spread',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-studies-bull-call-spread-2/',image:'../assets/images/courses/case-studies-bull-call-spread-2.webp'},
+  {title:'Case Studies – Bull Call Spread',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-studies-bull-call-spread-2/',image:'../assets/images/courses/legacy/case-studies-bull-call-spread-2.png'},
   {title:'Case Studies – Calendar Spreads',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-studies-calendar-spreads-2/',image:'../assets/images/courses/case-studies-calendar-spreads-2.webp'},
   {title:'Adjustments Calendar Spreads',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-calendar-spreads-2/',image:'../assets/images/courses/adjustments-calendar-spreads-2.webp'},
   {title:'Adjustments – Short Straddle',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-short-straddle-2/',image:'../assets/images/courses/adjustments-short-straddle-2.webp'},
