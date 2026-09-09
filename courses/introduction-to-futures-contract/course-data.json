@@ -1,0 +1,615 @@
+{
+  "course": {
+    "sourceId": 49955,
+    "title": "Introduction to Futures Contract",
+    "slug": "introduction-to-futures-contract",
+    "level": "Advanced",
+    "duration": "3 hours",
+    "previewVimeoId": "992619894",
+    "lessonCount": 60,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence 52964–53023.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": 52964,
+      "title": "What are futures contracts?",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "993287042",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 2,
+      "wpId": 52965,
+      "title": "Real Estate Example of Futures Contracts",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "993286250",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 3,
+      "wpId": 52966,
+      "title": "Key characteristics of futures",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286108",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 4,
+      "wpId": 52967,
+      "title": "Understanding Futures Contract Specifications",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "993286725",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 5,
+      "wpId": 52968,
+      "title": "Margin Requirements and Leverage in Futures Trading",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286183",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 6,
+      "wpId": 52969,
+      "title": "Understanding Leverage in Futures Contracts",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286859",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 7,
+      "wpId": 52970,
+      "title": "Crude Oil Price Movement Analysis",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993285903",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 8,
+      "wpId": 52971,
+      "title": "Understanding Expiration Dates in Futures Contracts",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286579",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 9,
+      "wpId": 52972,
+      "title": "Understanding Futures Contract Price Curves and Spreads",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286642",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 10,
+      "wpId": 52973,
+      "title": "Understanding Contango and Backwardation",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "993286524",
+      "sourceUnavailable": false,
+      "section": "Module 1: Futures Contract Fundamentals"
+    },
+    {
+      "number": 11,
+      "wpId": 52974,
+      "title": "Uses of Futures Contracts: What We Learn in This Chapter",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 2: Uses of Futures Contracts"
+    },
+    {
+      "number": 12,
+      "wpId": 52975,
+      "title": "Hedging",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "993286035",
+      "sourceUnavailable": false,
+      "section": "Module 2: Uses of Futures Contracts"
+    },
+    {
+      "number": 13,
+      "wpId": 52976,
+      "title": "Examples of Hedging",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "993285952",
+      "sourceUnavailable": false,
+      "section": "Module 2: Uses of Futures Contracts"
+    },
+    {
+      "number": 14,
+      "wpId": 52977,
+      "title": "Speculation",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "993286397",
+      "sourceUnavailable": false,
+      "section": "Module 2: Uses of Futures Contracts"
+    },
+    {
+      "number": 15,
+      "wpId": 52978,
+      "title": "Arbitrage",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "993285775",
+      "sourceUnavailable": false,
+      "section": "Module 2: Uses of Futures Contracts"
+    },
+    {
+      "number": 16,
+      "wpId": 52979,
+      "title": "Early History",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994165506",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 17,
+      "wpId": 52980,
+      "title": "Early History2",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994165579",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 18,
+      "wpId": 52981,
+      "title": "Modern Developments1",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994165826",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 19,
+      "wpId": 52982,
+      "title": "Modern Developments2",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "994165881",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 20,
+      "wpId": 52983,
+      "title": "Economic Role",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994165618",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 21,
+      "wpId": 52984,
+      "title": "Global Impact",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994165655",
+      "sourceUnavailable": false,
+      "section": "Module 3: History and Economic Role"
+    },
+    {
+      "number": 22,
+      "wpId": 52985,
+      "title": "Definition and Function of a Futures Exchange",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994165412",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 23,
+      "wpId": 52986,
+      "title": "Major Futures Exchanges",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994165777",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 24,
+      "wpId": 52987,
+      "title": "Services Provided by Exchanges",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994166067",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 25,
+      "wpId": 52988,
+      "title": "Overview of Market Participants",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 26,
+      "wpId": 52989,
+      "title": "The Role of the CFTC",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "994166134",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 27,
+      "wpId": 52990,
+      "title": "Understanding the Commitment of Traders",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994166161",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 28,
+      "wpId": 52991,
+      "title": "Players in the Commitment of Traders",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994165944",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 29,
+      "wpId": 52992,
+      "title": "How Exchanges Facilitate Trading Among Participants",
+      "duration": "4 minv",
+      "type": "video",
+      "vimeoId": "994165735",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 30,
+      "wpId": 52993,
+      "title": "Regulatory Oversight",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994166006",
+      "sourceUnavailable": false,
+      "section": "Module 4: Exchanges, Participants and Regulation"
+    },
+    {
+      "number": 31,
+      "wpId": 52994,
+      "title": "Overview (Commodity Futures)",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994514805",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 32,
+      "wpId": 52995,
+      "title": "Agricultural Futures",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994512031",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 33,
+      "wpId": 52996,
+      "title": "Energy Futures",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994512238",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 34,
+      "wpId": 52997,
+      "title": "Metals Futures",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994512423",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 35,
+      "wpId": 52998,
+      "title": "Overview (Financial Futures)",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994512487",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 36,
+      "wpId": 52999,
+      "title": "Currency Futures",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "994512143",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 37,
+      "wpId": 53000,
+      "title": "Indices Futures",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994512302",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 38,
+      "wpId": 53001,
+      "title": "Interest Rate Futures",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994512354",
+      "sourceUnavailable": false,
+      "section": "Module 5: Types of Futures"
+    },
+    {
+      "number": 39,
+      "wpId": 53002,
+      "title": "Trading Dynamics Overview",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "994569154",
+      "sourceUnavailable": false,
+      "section": "Module 6: Trading Dynamics"
+    },
+    {
+      "number": 40,
+      "wpId": 53003,
+      "title": "Liquidity and Volatility",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994569018",
+      "sourceUnavailable": false,
+      "section": "Module 6: Trading Dynamics"
+    },
+    {
+      "number": 41,
+      "wpId": 53004,
+      "title": "Pricing Factors",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994569045",
+      "sourceUnavailable": false,
+      "section": "Module 6: Trading Dynamics"
+    },
+    {
+      "number": 42,
+      "wpId": 53005,
+      "title": "Strategic Use",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994569124",
+      "sourceUnavailable": false,
+      "section": "Module 6: Trading Dynamics"
+    },
+    {
+      "number": 43,
+      "wpId": 53006,
+      "title": "Fundamentals of Futures Pricing Overview",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994568983",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 44,
+      "wpId": 53007,
+      "title": "Pricing Mechanisms Overview",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994569079",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 45,
+      "wpId": 53008,
+      "title": "Cost of Carry Model",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994568946",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 46,
+      "wpId": 53009,
+      "title": "Supply and Demand",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703590",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 47,
+      "wpId": 53010,
+      "title": "Economic Indicators",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703330",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 48,
+      "wpId": 53011,
+      "title": "Geopolitical Events",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703366",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 49,
+      "wpId": 53012,
+      "title": "Market Sentiment and Speculation",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703424",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 50,
+      "wpId": 53013,
+      "title": "Theoretical Models",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703618",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 51,
+      "wpId": 53014,
+      "title": "Quantitative Tools",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703486",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 52,
+      "wpId": 53015,
+      "title": "Real-World Application",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703505",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 53,
+      "wpId": 53016,
+      "title": "Historical Case Studies",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994712200",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 54,
+      "wpId": 53017,
+      "title": "Current Market Analysis",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703300",
+      "sourceUnavailable": false,
+      "section": "Module 7: Pricing and Market Analysis"
+    },
+    {
+      "number": 55,
+      "wpId": 53018,
+      "title": "Long Positions",
+      "duration": "5 min",
+      "type": "video",
+      "vimeoId": "994703393",
+      "sourceUnavailable": false,
+      "section": "Module 8: Positions and Hedging"
+    },
+    {
+      "number": 56,
+      "wpId": 53019,
+      "title": "Short Positions",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703566",
+      "sourceUnavailable": false,
+      "section": "Module 8: Positions and Hedging"
+    },
+    {
+      "number": 57,
+      "wpId": 53020,
+      "title": "Purpose of Hedging",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703461",
+      "sourceUnavailable": false,
+      "section": "Module 8: Positions and Hedging"
+    },
+    {
+      "number": 58,
+      "wpId": 53021,
+      "title": "Methods of Hedging",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703445",
+      "sourceUnavailable": false,
+      "section": "Module 8: Positions and Hedging"
+    },
+    {
+      "number": 59,
+      "wpId": 53022,
+      "title": "Real-World Examples",
+      "duration": "4 min",
+      "type": "video",
+      "vimeoId": "994703527",
+      "sourceUnavailable": false,
+      "section": "Module 8: Positions and Hedging"
+    },
+    {
+      "number": 60,
+      "wpId": 53023,
+      "title": "Summary and Next Steps in Futures Trading",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Module 9: Summary"
+    }
+  ]
+}
