@@ -1,0 +1,27 @@
+{
+  "course": {
+    "sourceId": 49956,
+    "title": "Managing a Bullish to Neutral Options Portfolio",
+    "slug": "managing-a-bullish-to-neutral-options-portfolio",
+    "level": "Advanced",
+    "duration": "1 hour",
+    "previewVimeoId": "1001070546",
+    "lessonCount": 12,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence 52919–52930.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":52919,"title":"Analyzing the Current Portfolio Setup","duration":"3 min","type":"video","vimeoId":"1001070546","sourceUnavailable":false,"section":"Module 1: Portfolio Setup"},
+    {"number":2,"wpId":52920,"title":"Hedging Techniques in Varying Market Conditions","duration":"1 min","type":"video","vimeoId":"1000008518","sourceUnavailable":false,"section":"Module 2: Hedging and Neutral Strategies"},
+    {"number":3,"wpId":52921,"title":"A Neutral Options Strategy","duration":"2 min","type":"video","vimeoId":"1000008370","sourceUnavailable":false,"section":"Module 2: Hedging and Neutral Strategies"},
+    {"number":4,"wpId":52922,"title":"Understanding Delta-Neutral Strategies in Short Strangles","duration":"2 min","type":"video","vimeoId":"1000008601","sourceUnavailable":false,"section":"Module 2: Hedging and Neutral Strategies"},
+    {"number":5,"wpId":52923,"title":"Adjusting Delta in Neutral Market Positions","duration":"2 min","type":"video","vimeoId":"1000008423","sourceUnavailable":false,"section":"Module 2: Hedging and Neutral Strategies"},
+    {"number":6,"wpId":52924,"title":"Balancing Delta with Bullish Strategies","duration":"2 min","type":"video","vimeoId":"1000008460","sourceUnavailable":false,"section":"Module 2: Hedging and Neutral Strategies"},
+    {"number":7,"wpId":52925,"title":"Understanding Beta Weighting for Portfolio Management","duration":"3 min","type":"video","vimeoId":"1000008588","sourceUnavailable":false,"section":"Module 3: Beta Weighting and the Greeks"},
+    {"number":8,"wpId":52926,"title":"Managing Bullish Positions with Beta Weighting","duration":"2 min","type":"video","vimeoId":"1000008537","sourceUnavailable":false,"section":"Module 3: Beta Weighting and the Greeks"},
+    {"number":9,"wpId":52927,"title":"Balancing Greeks for Optimal Profitability","duration":"3 min","type":"video","vimeoId":"1000008475","sourceUnavailable":false,"section":"Module 3: Beta Weighting and the Greeks"},
+    {"number":10,"wpId":52928,"title":"Adjusting Your Portfolio for a Market Decline","duration":"4 min","type":"video","vimeoId":"1000008439","sourceUnavailable":false,"section":"Module 4: Market Direction Adjustments"},
+    {"number":11,"wpId":52929,"title":"Strategic Bearish Positioning with Sell Call Options","duration":"2 min","type":"video","vimeoId":"1000008556","sourceUnavailable":false,"section":"Module 4: Market Direction Adjustments"},
+    {"number":12,"wpId":52930,"title":"Adjusting a Bearish Portfolio in a Rising Market","duration":"4 min","type":"video","vimeoId":"1000008386","sourceUnavailable":false,"section":"Module 4: Market Direction Adjustments"}
+  ]
+}
