@@ -41,7 +41,7 @@ const courses = [
   {title:'Case Studies – Short Iron Condor Strategies',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-studies-short-iron-condor-strategies/',image:'../assets/images/courses/legacy/case-studies-short-iron-condor-strategies.png'},
   {title:'Adjustments Butterfly Strategies',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjustments-butterfly-strategies/',image:'../assets/images/courses/legacy/adjustments-butterfly-strategies.png'},
   {title:'Adjusting Covered Call',level:'Intermediate',categories:['Options Adjustments'],url:'/courses/adjusting-covered-call/',image:'../assets/images/courses/legacy/adjusting-covered-call.png'},
-  {title:'Case Study Covered Call',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-study-covered-call/',image:'../assets/images/courses/case-study-covered-call.webp'},
+  {title:'Case Study Covered Call',level:'Intermediate',categories:['Case Studies'],url:'/courses/case-study-covered-call/',image:'../assets/images/courses/legacy/case-study-covered-call.png'},
   {title:'Poor Man’s Covered Call',level:'Intermediate',categories:['Advanced Options'],url:'/courses/poor-mans-covered-call/',image:'../assets/images/courses/poor-mans-covered-call.webp'},
   {title:'Managing a Bullish to Neutral Options Portfolio',level:'Intermediate',categories:['Options Portfolio'],url:'/courses/managing-a-bullish-to-neutral-options-portfolio/',image:'../assets/images/courses/managing-a-bullish-to-neutral-options-portfolio.webp'},
   {title:'Introduction to Futures Contract',level:'Advanced',categories:['Options on Futures'],url:'/courses/introduction-to-futures-contract/',image:'../assets/images/courses/introduction-to-futures-contract.webp'},
