@@ -1,0 +1,16 @@
+{
+  "course": {
+    "sourceId": 50000,
+    "title": "Case Studies – Calendar Spreads",
+    "slug": "case-studies-calendar-spreads-2",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "961311013",
+    "lessonCount": 1,
+    "curriculumSource": "The saved WordPress curriculum references were invalid. The source lesson explicitly identified for this module is WP lesson 51470.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":51470,"title":"Case Studies for Calendar Spread Strategy","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Calendar Spread Case Studies"}
+  ]
+}
