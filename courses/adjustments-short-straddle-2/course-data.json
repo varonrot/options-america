@@ -1,0 +1,23 @@
+{
+  "course":{"sourceId":49998,"title":"Adjustments – Short Straddle","slug":"adjustments-short-straddle-2","level":"Intermediate","duration":"1 hour","previewVimeoId":"981097643","lessonCount":18,"curriculumSource":"Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid."},
+  "lessons":[
+    {"number":1,"wpId":52475,"title":"Course Overview: Adjusting Short Straddles","duration":"3 min","type":"video","vimeoId":"981134959","section":"Module 1: Course Foundations"},
+    {"number":2,"wpId":52476,"title":"Overview of Portfolio Management and Adjustment","duration":"3 min","type":"video","vimeoId":"981877252","section":"Module 1: Course Foundations"},
+    {"number":3,"wpId":52477,"title":"Analyzing and Adjusting RCL Short Straddle","duration":"2 min","type":"video","vimeoId":"981876583","section":"Module 2: RCL Position Analysis"},
+    {"number":4,"wpId":52478,"title":"Analyzing the Call Option in RCL","duration":"2 min","type":"video","vimeoId":"981876655","section":"Module 2: RCL Position Analysis"},
+    {"number":5,"wpId":52479,"title":"Analyzing the Put Option un RCL","duration":"2 min","type":"video","vimeoId":"981876715","section":"Module 2: RCL Position Analysis"},
+    {"number":6,"wpId":52480,"title":"Rolling the Call Option in RCL","duration":"1 min","type":"video","vimeoId":"981877354","section":"Module 3: Rolling and Strike Adjustments"},
+    {"number":7,"wpId":52481,"title":"Rolling the Losing Call Position in RCL","duration":"2 min","type":"video","vimeoId":"981877428","section":"Module 3: Rolling and Strike Adjustments"},
+    {"number":8,"wpId":52482,"title":"Optimizing Premium colliction by Adjusting Strikes","duration":"3 min","type":"video","vimeoId":"981877184","section":"Module 3: Rolling and Strike Adjustments"},
+    {"number":9,"wpId":52483,"title":"Rolling Up and Out Presentation","duration":"3 min","type":"video","vimeoId":"981877582","section":"Module 3: Rolling and Strike Adjustments"},
+    {"number":10,"wpId":52484,"title":"Rolling Up and Out Examples Analysis","duration":"2 min","type":"video","vimeoId":"981877488","section":"Module 3: Rolling and Strike Adjustments"},
+    {"number":11,"wpId":52485,"title":"Converting to a Bullish Position with a Call Option","duration":"3 min","type":"video","vimeoId":"981876943","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":12,"wpId":52486,"title":"Adding Protection wuth a Call Option in a Short Straddle","duration":"2 min","type":"video","vimeoId":"981876446","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":13,"wpId":52487,"title":"Converting to a Bull Ratio Spread","duration":"2 min","type":"video","vimeoId":"981876856","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":14,"wpId":52488,"title":"Converting to a Bearish Spread","duration":"2 min","type":"video","vimeoId":"981876759","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":15,"wpId":52489,"title":"Adding Another Straddle For Adjustment","duration":"2 min","type":"video","vimeoId":"981876332","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":16,"wpId":52490,"title":"Adding a Bull Put Spread for Adjustment","duration":"2 min","type":"video","vimeoId":"981876156","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":17,"wpId":52491,"title":"Adding a Butterfly Spread for Adjustment","duration":"2 min","type":"video","vimeoId":"981876247","section":"Module 4: Protection and Strategy Conversions"},
+    {"number":18,"wpId":52492,"title":"Course Summary Adjusting Short Straddles","duration":"3 min","type":"video","vimeoId":"981877115","section":"Module 5: Course Summary"}
+  ]
+}
