@@ -1,0 +1,13 @@
+{
+  "course":{"sourceId":49985,"title":"Adjustment Poor Man’s Covered Call","slug":"adjustment-poor-mans-covered-call-2","level":"Intermediate","duration":"1 hour","previewVimeoId":"987497016","lessonCount":8,"curriculumSource":"Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid.","availabilityMessage":"This course is temporarily unavailable and will return soon after it has been re-edited."},
+  "lessons":[
+    {"number":1,"wpId":51340,"title":"Adjustment Poor Man’s Covered Call","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Adjustment Foundations"},
+    {"number":2,"wpId":51341,"title":"Initial Setup for Poor Man's Covered Call","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Adjustment Foundations"},
+    {"number":3,"wpId":51342,"title":"Rolling Up the Short Call","duration":"2 min","type":"video","vimeoId":"988223364","section":"Module 2: Rolling the Short Call"},
+    {"number":4,"wpId":51344,"title":"Rolling Down the Short Call","duration":"2 min","type":"video","vimeoId":"988223211","section":"Module 2: Rolling the Short Call"},
+    {"number":5,"wpId":51345,"title":"Adding Protective Puts","duration":"3 min","type":"video","vimeoId":"988223154","section":"Module 3: Protection and Advanced Rolling"},
+    {"number":6,"wpId":51346,"title":"Rolling Up and Out","duration":"3 min","type":"video","vimeoId":"988223266","section":"Module 3: Protection and Advanced Rolling"},
+    {"number":7,"wpId":51347,"title":"Rolling the Diagonal","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 3: Protection and Advanced Rolling"},
+    {"number":8,"wpId":51348,"title":"Summary of Adjustments for Poor Man's Covered Call","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 4: Course Summary"}
+  ]
+}
