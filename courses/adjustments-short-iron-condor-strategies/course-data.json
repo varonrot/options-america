@@ -1,0 +1,39 @@
+{
+  "course": {
+    "sourceId": 50016,
+    "title": "Adjustments Short Iron Condor Strategies",
+    "slug": "adjustments-short-iron-condor-strategies",
+    "level": "Intermediate",
+    "duration": "3 hours",
+    "previewVimeoId": "950627705",
+    "lessonCount": 24,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":52402,"title":"What we will learn in this part of Iron Condor adjustments","duration":"3 min","type":"video","vimeoId":"950627705","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":2,"wpId":52403,"title":"Rolling Up or Down","duration":"4 min","type":"video","vimeoId":"950627611","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":3,"wpId":52404,"title":"Adding a Protective Call or Put","duration":"4 min","type":"video","vimeoId":"950627171","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":4,"wpId":52405,"title":"Rolling Out in Time","duration":"4 min","type":"video","vimeoId":"950627562","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":5,"wpId":52406,"title":"Adjusting Strike Prices","duration":"4 min","type":"video","vimeoId":"950627239","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":6,"wpId":52407,"title":"Closing One Side of the Condor","duration":"4 min","type":"video","vimeoId":"950627286","sourceUnavailable":false,"section":"Module 1: Core Adjustment Techniques"},
+    {"number":7,"wpId":52408,"title":"Adding Another Iron Condor","duration":"4 min","type":"video","vimeoId":"950627191","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":8,"wpId":52409,"title":"Opening another iron condor with different strike prices","duration":"4 min","type":"video","vimeoId":"950627500","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":9,"wpId":52410,"title":"Converting to a Butterfly Spread","duration":"4 min","type":"video","vimeoId":"950627318","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":10,"wpId":52411,"title":"Hedging with a Calendar Spread","duration":"5 min","type":"video","vimeoId":"950627421","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":11,"wpId":52412,"title":"Doubling Down","duration":"4 min","type":"video","vimeoId":"950627383","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":12,"wpId":52413,"title":"Tightening or Widening the Strikes","duration":"4 min","type":"video","vimeoId":"950627684","sourceUnavailable":false,"section":"Module 2: Restructuring the Position"},
+    {"number":13,"wpId":52414,"title":"Iron Condor Adjast Promo","duration":"1 min","type":"video","vimeoId":"958891796","sourceUnavailable":false,"section":"Module 3: Portfolio Adjustment Workflow"},
+    {"number":14,"wpId":52415,"title":"Beta Weighted Portfolio","duration":"2 min","type":"video","vimeoId":"958891615","sourceUnavailable":false,"section":"Module 3: Portfolio Adjustment Workflow"},
+    {"number":15,"wpId":52416,"title":"Add Vertical Spread Adjustments","duration":"3 min","type":"video","vimeoId":"958891822","sourceUnavailable":false,"section":"Module 3: Portfolio Adjustment Workflow"},
+    {"number":16,"wpId":52417,"title":"Add Iron Condor Adjustments","duration":"2 min","type":"video","vimeoId":"958891534","sourceUnavailable":false,"section":"Module 3: Portfolio Adjustment Workflow"},
+    {"number":17,"wpId":52418,"title":"Butterfly Spread Adjustments","duration":"2 min","type":"video","vimeoId":"959022282","sourceUnavailable":false,"section":"Module 4: Strategy Overlays"},
+    {"number":18,"wpId":52419,"title":"Butterfly Spread 2 Adjustments","duration":"2 min","type":"video","vimeoId":"958891950","sourceUnavailable":false,"section":"Module 4: Strategy Overlays"},
+    {"number":19,"wpId":52420,"title":"Calendar Spread Adjustments","duration":"3 min","type":"video","vimeoId":"959025815","sourceUnavailable":false,"section":"Module 4: Strategy Overlays"},
+    {"number":20,"wpId":52421,"title":"Vertical Adjustments","duration":"2 min","type":"video","vimeoId":"958892047","sourceUnavailable":false,"section":"Module 4: Strategy Overlays"},
+    {"number":21,"wpId":52422,"title":"Close Part of Your Iron","duration":"2 min","type":"video","vimeoId":"958891723","sourceUnavailable":false,"section":"Module 5: Professional Adjustments and Summary"},
+    {"number":22,"wpId":52423,"title":"Pro Adjast 1","duration":"2 min","type":"video","vimeoId":"958891843","sourceUnavailable":false,"section":"Module 5: Professional Adjustments and Summary"},
+    {"number":23,"wpId":52424,"title":"Pro Adjast 2","duration":"2 min","type":"video","vimeoId":"958891949","sourceUnavailable":false,"section":"Module 5: Professional Adjustments and Summary"},
+    {"number":24,"wpId":52425,"title":"Summary of Adjustments for Iron Condor Strategy","duration":"Reading","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 5: Professional Adjustments and Summary"}
+  ]
+}
