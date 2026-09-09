@@ -1,0 +1,26 @@
+{
+  "course": {
+    "sourceId": 49996,
+    "title": "Case Studies – Bull Call Spread",
+    "slug": "case-studies-bull-call-spread-2",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "943375892",
+    "lessonCount": 12,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid."
+  },
+  "lessons": [
+    {"number":1,"wpId":52662,"title":"Bull Call Spread Case Study Course","duration":"Reading","type":"text","vimeoId":null,"section":"Module 1: Course Introduction","content":"<p><strong>Bull Call Spread Case Study Course</strong></p>\n<p>In this course, we will dive deep into the Bull Call Spread strategy through a series of detailed case studies. Whether you're a seasoned trader or just getting started, this course is designed to enhance your understanding and application of the Bull Call Spread in real market conditions.</p>\n<p>Throughout this course, you will learn how to effectively manage your positions, analyze your trades, and leverage the Greeks to make informed decisions. We will use actual market examples and detailed analysis to illustrate how the Bull Call Spread works and how you can maximize your profits while minimizing risks.</p>\n<p>Here's what you can expect to learn in this course:</p>\n<ol>\n<li><p><strong>Monitor Your Position</strong>: Learn how to track and manage your trades effectively using the monitor tab.</p></li>\n<li><p><strong>Monitor Lookup</strong>: Understand the importance of regularly reviewing your portfolio to stay updated on your positions.</p></li>\n<li><p><strong>The Greeks in the Monitor</strong>: Dive into the Greeks and see how they impact your trades, focusing on delta, theta, and vega.</p></li>\n<li><p><strong>Where the Money Comes From in the Monitor</strong>: Analyze your profit and loss to understand the sources of your gains and losses.</p></li>\n<li><p><strong>Showing Analysis of Apple Stock</strong>: A detailed case study on Apple stock, highlighting the setup and performance of a Bull Call Spread.</p></li>\n<li><p><strong>Analyze Apple Position in Detail</strong>: Break down the Apple trade to see the profit and loss from each leg of the spread.</p></li>\n<li><p><strong>Separate Legs for Apple Stock</strong>: Understand the impact of each leg in a Bull Call Spread and how to manage them separately.</p></li>\n<li><p><strong>Analyzing CCL Position</strong>: Another detailed case study, this time focusing on Carnival Corporation, to show the application of the strategy in a different context.</p></li>\n<li><p><strong>Examining CRM Position</strong>: Review the Salesforce trade to see how market movements and earnings reports can affect your strategy.</p></li>\n<li><p><strong>Reviewing GIS Position</strong>: Analyze the General Mills trade to learn how to manage and adjust losing positions.</p></li>\n</ol>\n<p>By the end of this course, you will have a comprehensive understanding of the Bull Call Spread strategy, enabling you to implement it confidently in your trading activities. This course will not only teach you the theoretical aspects but will also provide you with practical insights through real-life examples. Let's get started and take your trading skills to the next level.</p>"},
+    {"number":2,"wpId":52663,"title":"Bull Call Spread Open Positions","duration":"2 min","type":"video","vimeoId":"963035378","section":"Module 2: Position Monitoring"},
+    {"number":3,"wpId":52665,"title":"Monitor Your Position","duration":"2 min","type":"video","vimeoId":"963009941","section":"Module 2: Position Monitoring"},
+    {"number":4,"wpId":52666,"title":"Monitor Lookup","duration":"2 min","type":"video","vimeoId":"963009719","section":"Module 2: Position Monitoring"},
+    {"number":5,"wpId":52667,"title":"The Greeks in the Monitor","duration":"2 min","type":"video","vimeoId":"963032461","section":"Module 2: Position Monitoring"},
+    {"number":6,"wpId":52668,"title":"Where the Money Comes From in the Monitor","duration":"1 min","type":"video","vimeoId":"963010909","section":"Module 2: Position Monitoring"},
+    {"number":7,"wpId":52669,"title":"Showing Analysis of Apple Stock","duration":"2 min","type":"video","vimeoId":"963010732","section":"Module 3: Apple Case Study"},
+    {"number":8,"wpId":52670,"title":"Analyze Apple Position in Detail","duration":"2 min","type":"video","vimeoId":"963008712","section":"Module 3: Apple Case Study"},
+    {"number":9,"wpId":52671,"title":"Separate Legs for Apple Stock","duration":"2 min","type":"video","vimeoId":"963010477","section":"Module 3: Apple Case Study"},
+    {"number":10,"wpId":52672,"title":"Analyzing CCL Position","duration":"2 min","type":"video","vimeoId":"963009000","section":"Module 4: Additional Case Studies"},
+    {"number":11,"wpId":52673,"title":"Examining CRM Position","duration":"2 min","type":"video","vimeoId":"963009522","section":"Module 4: Additional Case Studies"},
+    {"number":12,"wpId":52674,"title":"Reviewing GIS Position","duration":"2 min","type":"video","vimeoId":"963009941","section":"Module 4: Additional Case Studies"}
+  ]
+}
