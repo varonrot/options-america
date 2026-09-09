@@ -1,0 +1,9 @@
+{
+  "course":{"sourceId":49986,"title":"Case Studies – Short Iron Condor Strategies","slug":"case-studies-short-iron-condor-strategies","level":"Intermediate","duration":"1 hour","previewVimeoId":"953414858","lessonCount":4,"curriculumSource":"Reconstructed from the dedicated WordPress real-life case studies module because the saved curriculum references were invalid.","availabilityMessage":"This course is temporarily unavailable and will return soon after it has been re-edited."},
+  "lessons":[
+    {"number":1,"wpId":52793,"title":"What will be learned in this chapter - Module 4: Real-Life Case Studies","duration":"3 min","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Real-Life Case Studies"},
+    {"number":2,"wpId":52794,"title":"Case Study Iron Condor - Financial Sector","duration":"3 min","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Real-Life Case Studies"},
+    {"number":3,"wpId":52796,"title":"Case Study Iron Condor - Consumer Sector","duration":"3 min","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Real-Life Case Studies"},
+    {"number":4,"wpId":52797,"title":"Case Study Iron Condor - Energy  Sector","duration":"3 min","type":"video","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Real-Life Case Studies"}
+  ]
+}
