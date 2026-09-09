@@ -1,0 +1,39 @@
+{
+  "course": {
+    "sourceId": 49997,
+    "title": "Adjustments – Bull Call Spread",
+    "slug": "adjustments-bull-call-spread-2",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "948271472",
+    "lessonCount": 25,
+    "curriculumSource": "Reconstructed from the ordered WordPress lesson sequence because the saved curriculum references were invalid."
+  },
+  "lessons": [
+    {"number":1,"wpId":52625,"title":"What will you learn in this mini course  - Adjustments Bull Call Spread?","duration":"3 min","type":"video","vimeoId":"948271472","section":"Module 1: Adjustment Foundations"},
+    {"number":2,"wpId":52626,"title":"About the instructor","duration":"3 min","type":"video","vimeoId":"942997602","section":"Module 1: Adjustment Foundations"},
+    {"number":3,"wpId":52627,"title":"Importance of Adjusting And Hedging Options Trades","duration":"2 min","type":"video","vimeoId":"947675820","section":"Module 1: Adjustment Foundations"},
+    {"number":4,"wpId":52628,"title":"Rolling Strategies for Bull Call Spreads","duration":"3 min","type":"video","vimeoId":"947278081","section":"Module 1: Adjustment Foundations"},
+    {"number":5,"wpId":52631,"title":"Rolling Up Bull Call Spread","duration":"5 min","type":"video","vimeoId":"947676661","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":6,"wpId":52632,"title":"Rolling Down Bull Call Spread","duration":"3 min","type":"video","vimeoId":"947675946","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":7,"wpId":52633,"title":"Combining Bull Call Spreads with Other Strategies","duration":"3 min","type":"video","vimeoId":"947689831","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":8,"wpId":52634,"title":"Combining Bull Call Spreads with Iron Condor","duration":"3 min","type":"video","vimeoId":"947675175","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":9,"wpId":52635,"title":"Combining Bull Call Spreads with Butterfly Spreads","duration":"3 min","type":"video","vimeoId":"947674317","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":10,"wpId":52636,"title":"Understanding Implied Volatility and Bull Call Spreads","duration":"3 min","type":"video","vimeoId":"947962342","section":"Module 2: Rolling and Strategy Combinations"},
+    {"number":11,"wpId":52637,"title":"Adjusting Bull Call Spreads for Rising Volatility - Widening The Spread","duration":"3 min","type":"video","vimeoId":"947962032","section":"Module 3: Volatility Adjustments"},
+    {"number":12,"wpId":52638,"title":"Adjusting Bull Call Spreads for Rising Volatility - Adding More Long Calls","duration":"3 min","type":"video","vimeoId":"947961915","section":"Module 3: Volatility Adjustments"},
+    {"number":13,"wpId":52639,"title":"Adjusting Bull Call Spreads for Falling Volatility - Narrowing The Spread","duration":"3 min","type":"video","vimeoId":"947971060","section":"Module 3: Volatility Adjustments"},
+    {"number":14,"wpId":52640,"title":"Adjusting Bull Call Spreads for Falling Volatility - Closing The Bull Call Spread Early","duration":"3 min","type":"video","vimeoId":"947969792","section":"Module 3: Volatility Adjustments"},
+    {"number":15,"wpId":52641,"title":"Implementing Calendar Spreads with Bull Call Spreads","duration":"3 min","type":"video","vimeoId":"947962130","section":"Module 4: Advanced Risk Management"},
+    {"number":16,"wpId":52642,"title":"Using Delta-Neutral Adjustments","duration":"3 min","type":"video","vimeoId":"947969910","section":"Module 4: Advanced Risk Management"},
+    {"number":17,"wpId":52643,"title":"Time Decay Management - monitor the remaining time to expiration","duration":"3 min","type":"video","vimeoId":"947962287","section":"Module 4: Advanced Risk Management"},
+    {"number":18,"wpId":52644,"title":"Time Decay Management - calendar spreads can help manage time decay effectively","duration":"3 min","type":"video","vimeoId":"947962224","section":"Module 4: Advanced Risk Management"},
+    {"number":19,"wpId":52645,"title":"Gamma Scalping for Bull Call Spreads","duration":"3 min","type":"video","vimeoId":"947972000","section":"Module 4: Advanced Risk Management"},
+    {"number":20,"wpId":52646,"title":"Pre-Earnings Adjustments - Rolling Up for Anticipated Positive Earnings","duration":"3 min","type":"video","vimeoId":"948269649","section":"Module 5: Event and Trade Management"},
+    {"number":21,"wpId":52647,"title":"Pre-Earnings Adjustments - Adding a Strangle for Increased Protection","duration":"3 min","type":"video","vimeoId":"948269465","section":"Module 5: Event and Trade Management"},
+    {"number":22,"wpId":52648,"title":"Post-Earnings Adjustments - Closing the Position Early to Lock in Profits","duration":"3 min","type":"video","vimeoId":"948269242","section":"Module 5: Event and Trade Management"},
+    {"number":23,"wpId":52649,"title":"Post-Earnings Adjustments -  Rolling Down for Anticipated Negative Earnings Impact","duration":"3 min","type":"video","vimeoId":"948269082","section":"Module 5: Event and Trade Management"},
+    {"number":24,"wpId":52650,"title":"Managing Assignments and Exercise Risks","duration":"3 min","type":"video","vimeoId":"948269038","section":"Module 5: Event and Trade Management"},
+    {"number":25,"wpId":52651,"title":"Psychological Aspects of Adjustments","duration":"3 min","type":"video","vimeoId":"948269972","section":"Module 5: Event and Trade Management"}
+  ]
+}
