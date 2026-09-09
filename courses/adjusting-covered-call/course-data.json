@@ -1,0 +1,31 @@
+{
+  "course": {
+    "sourceId": 49952,
+    "title": "Adjusting Covered Call",
+    "slug": "adjusting-covered-call",
+    "level": "Intermediate",
+    "duration": "1 hour",
+    "previewVimeoId": "987505589",
+    "lessonCount": 16,
+    "curriculumSource": "Reconstructed from the contiguous WordPress lesson sequence because the saved curriculum references were invalid.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {"number":1,"wpId":52862,"title":"Why We Adjust the Position: Covered Call Strategies","duration":"3 min","type":"video","vimeoId":"987515448","sourceUnavailable":false,"section":"Module 1: Covered Call Adjustment Foundations"},
+    {"number":2,"wpId":52863,"title":"Introduction to Adjusting Covered Calls with Amazon Stock","duration":"1 min","type":"video","vimeoId":"987875587","sourceUnavailable":false,"section":"Module 1: Covered Call Adjustment Foundations"},
+    {"number":3,"wpId":52864,"title":"Prerequisites for Advanced Covered Call Adjustments","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 1: Covered Call Adjustment Foundations"},
+    {"number":4,"wpId":52865,"title":"Understanding the Profit Zone","duration":"2 min","type":"video","vimeoId":"987875699","sourceUnavailable":false,"section":"Module 1: Covered Call Adjustment Foundations"},
+    {"number":5,"wpId":52866,"title":"Rolling Up the Covered Call","duration":"3 min","type":"video","vimeoId":"987875644","sourceUnavailable":false,"section":"Module 2: Rolling and Protecting the Position"},
+    {"number":6,"wpId":52867,"title":"Rolling Down the Covered Call","duration":"2 min","type":"video","vimeoId":"987875605","sourceUnavailable":false,"section":"Module 2: Rolling and Protecting the Position"},
+    {"number":7,"wpId":52868,"title":"Adding Protective Puts","duration":"3 min","type":"video","vimeoId":"987875375","sourceUnavailable":false,"section":"Module 2: Rolling and Protecting the Position"},
+    {"number":8,"wpId":52869,"title":"Adjusting for Dramatic Increase in Underlying Assets","duration":"2 min","type":"video","vimeoId":"987875415","sourceUnavailable":false,"section":"Module 2: Rolling and Protecting the Position"},
+    {"number":9,"wpId":52870,"title":"Converting to a Diagonal Spread","duration":"3 min","type":"video","vimeoId":"987875460","sourceUnavailable":false,"section":"Module 3: Strategy Conversions"},
+    {"number":10,"wpId":52871,"title":"Converting to a Strangle","duration":"3 min","type":"video","vimeoId":"987875532","sourceUnavailable":false,"section":"Module 3: Strategy Conversions"},
+    {"number":11,"wpId":52872,"title":"Converting to an Iron Condor","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 3: Strategy Conversions"},
+    {"number":12,"wpId":52873,"title":"Trade Size and Capital Reserves","duration":"5 min","type":"video","vimeoId":"946075272","sourceUnavailable":false,"section":"Module 4: Portfolio Risk Management"},
+    {"number":13,"wpId":52874,"title":"Predicting the Market's Next Move","duration":"5 min","type":"video","vimeoId":"946256951","sourceUnavailable":false,"section":"Module 4: Portfolio Risk Management"},
+    {"number":14,"wpId":52875,"title":"Portfolio Balance and Beta-Weighting","duration":"6 min","type":"video","vimeoId":"946292402","sourceUnavailable":false,"section":"Module 4: Portfolio Risk Management"},
+    {"number":15,"wpId":52876,"title":"Building a Diversified Options Portfolio","duration":"7 min","type":"video","vimeoId":"946712257","sourceUnavailable":false,"section":"Module 4: Portfolio Risk Management"},
+    {"number":16,"wpId":52877,"title":"Summary of Adjusting Covered Call Course","duration":"Reading","type":"text","vimeoId":null,"sourceUnavailable":true,"section":"Module 5: Summary"}
+  ]
+}
