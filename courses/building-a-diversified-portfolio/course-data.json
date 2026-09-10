@@ -1,0 +1,25 @@
+{
+  "course": {
+    "sourceId": 49904,
+    "title": "Building a Diversified Portfolio",
+    "slug": "building-a-diversified-portfolio",
+    "level": "Intermediate",
+    "duration": "3 hours",
+    "previewVimeoId": "1005357464",
+    "lessonCount": 1,
+    "curriculumSource": "The WordPress course title is Building a Diversified Portfolio, but its body and Start Course link point to the separate Level 1 Buying Call course. No valid associated portfolio lesson records were found.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": null,
+      "title": "Course Update",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Course Status"
+    }
+  ]
+}
