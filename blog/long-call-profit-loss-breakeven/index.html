@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Long Call Profit, Loss and Breakeven Explained</title>
+  <meta name="description" content="Learn how to calculate a long call's maximum loss, expiration breakeven and profit with formulas, examples and a clear payoff table.">
+  <link rel="canonical" href="https://options-america.onrender.com/blog/long-call-profit-loss-breakeven/">
+  <meta property="og:type" content="article"><meta property="og:title" content="Long Call Profit, Loss and Breakeven Explained"><meta property="og:description" content="Understand the long call payoff with simple formulas, a worked example and an expiration profit-and-loss table."><meta property="og:image" content="https://options-america.onrender.com/assets/images/courses/legacy/options-trading-course-level-1-buying-call-option.png">
+  <link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../blog.css"><script src="/favicon.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Long Call Profit, Loss and Breakeven Explained","description":"Understand the long call payoff with formulas, a worked example and an expiration profit-and-loss table.","datePublished":"2026-09-10","dateModified":"2026-09-10","author":{"@type":"Organization","name":"Options America"},"publisher":{"@type":"Organization","name":"Options America"},"mainEntityOfPage":"https://options-america.onrender.com/blog/long-call-profit-loss-breakeven/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the maximum loss on a long call?","acceptedAnswer":{"@type":"Answer","text":"The maximum loss is the premium paid for the call plus transaction costs."}},{"@type":"Question","name":"How do you calculate a long call breakeven?","acceptedAnswer":{"@type":"Answer","text":"At expiration, add the premium paid per share to the call's strike price."}},{"@type":"Question","name":"Is long call profit unlimited?","acceptedAnswer":{"@type":"Answer","text":"The theoretical upside is unlimited because the underlying price has no fixed upper limit, although actual results depend on the exit price and timing."}}]}</script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="brand" href="../../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><nav><a href="../../courses/">Courses</a><a href="../../#paths">Learning Paths</a><a href="../../#strategies">Strategies</a><a href="../../#futures">Options on Futures</a><a href="../">Blog</a><a href="../../#resources">Resources</a></nav><a class="btn btn-gold" href="../../courses/options-trading-course-level-1-buying-call-option/">Learn Call Options — Free</a></div></header>
+  <main>
+    <section class="article-hero"><div class="container"><div class="breadcrumbs"><a href="../../">Home</a><span>›</span><a href="../">Blog</a><span>›</span><span>Call Options</span></div><p class="eyebrow">Call Options · Risk &amp; Reward</p><h1>Long Call Profit, Loss and Breakeven Explained</h1><p class="article-deck">A long call has defined risk and open-ended theoretical upside—but the strike price alone does not determine profitability. Here is how the payoff works.</p><div class="article-meta"><span>By Options America</span><span>Updated September 10, 2026</span><span>8-minute read</span></div></div></section>
+    <div class="container article-layout">
+      <article class="article-body">
+        <img src="../../assets/images/courses/legacy/options-trading-course-level-1-buying-call-option.png" alt="Long call profit loss and breakeven guide">
+        <p>A <strong>long call</strong> is created by buying a call option and paying a premium. The position can benefit when the underlying rises, while its maximum loss is defined at entry. To evaluate it correctly, separate three ideas: the option’s intrinsic value, the premium paid and the final net profit or loss.</p>
+        <p>If you have not yet selected a contract, read <a href="../how-to-buy-a-call-option/">how to buy a call option step by step</a>. This guide focuses on the mathematics of the position.</p>
+        <div class="article-callout"><strong>The three key facts:</strong> maximum loss equals the premium paid; expiration breakeven equals strike plus premium; theoretical maximum profit is unlimited.</div>
+
+        <h2 id="formula">The long call payoff formula</h2>
+        <p>At expiration, a call’s intrinsic value per share is the greater of zero or the underlying price minus the strike price.</p>
+        <div class="example-box"><strong>Intrinsic value = max(0, stock price − strike price)</strong><p>Net profit or loss = intrinsic value − premium paid</p></div>
+        <p>For a standard U.S. equity option, multiply the per-share result by 100 to estimate the result for one contract before commissions and fees.</p>
+
+        <h2 id="example">Worked long call example</h2>
+        <div class="example-box"><strong>Trade at entry</strong><ul><li>Stock price: $100</li><li>Call strike price: $105</li><li>Premium paid: $3 per share</li><li>Total debit: $300</li><li>Contract multiplier: 100</li></ul></div>
+        <p>The buyer pays $300 for the right to buy 100 shares at $105. The $300 debit is the amount at risk if the call expires worthless.</p>
+
+        <h2 id="loss">Maximum loss</h2>
+        <p>The maximum loss is the premium paid, plus fees. It occurs when the call expires at or below the $105 strike and therefore has no intrinsic value.</p>
+        <div class="example-box"><strong>Maximum loss = premium × multiplier</strong><p>$3 × 100 = $300 maximum loss, before fees</p></div>
+        <p>Defined risk is not the same as low risk. A 100% loss of the premium is possible, so contract quantity must fit the trader’s risk limit.</p>
+
+        <h2 id="breakeven">Expiration breakeven</h2>
+        <p>The call begins to have intrinsic value above $105, but the buyer paid $3 per share. That cost must also be recovered.</p>
+        <div class="example-box"><strong>Expiration breakeven = strike price + premium paid</strong><p>$105 + $3 = $108</p></div>
+        <p>If the stock closes at exactly $108 at expiration, the call is worth $3 per share. Its $300 intrinsic value offsets the $300 premium, producing a zero result before fees.</p>
+
+        <h2 id="table">Profit and loss at expiration</h2>
+        <div class="article-table-wrap"><table class="article-table"><thead><tr><th>Stock at expiration</th><th>Intrinsic value</th><th>Contract value</th><th>Net P&amp;L</th></tr></thead><tbody><tr><td>$95</td><td>$0</td><td>$0</td><td>-$300</td></tr><tr><td>$105</td><td>$0</td><td>$0</td><td>-$300</td></tr><tr><td>$106</td><td>$1</td><td>$100</td><td>-$200</td></tr><tr><td>$108</td><td>$3</td><td>$300</td><td>$0</td></tr><tr><td>$110</td><td>$5</td><td>$500</td><td>+$200</td></tr><tr><td>$115</td><td>$10</td><td>$1,000</td><td>+$700</td></tr></tbody></table></div>
+        <p>Below the strike, the option expires worthless. Between the strike and breakeven, it has intrinsic value but the overall trade still loses money. Above breakeven, each additional $1 in the stock adds $100 to the expiration profit of one standard contract.</p>
+
+        <h2 id="profit">Maximum profit</h2>
+        <p>A stock price has no fixed upper limit, so the theoretical profit of a long call is unlimited. At expiration, the profit rises dollar for dollar with the stock above breakeven, multiplied by 100 shares per standard contract.</p>
+        <p>In real trading, profit is determined by the price at which the option is sold or exercised, the number of contracts, fees and whether the position is held to expiration.</p>
+
+        <h2 id="before">Why the result looks different before expiration</h2>
+        <p>The expiration formula is exact only at expiration. Before then, the option price can include <strong>time value</strong>. This is why a call may show a profit even when the stock is below the expiration breakeven, or lose value despite a modest rise in the stock.</p>
+        <ul><li><strong>Delta:</strong> estimates how the call price changes when the underlying moves.</li><li><strong>Theta:</strong> estimates the effect of time decay.</li><li><strong>Vega:</strong> estimates sensitivity to implied volatility.</li><li><strong>Time remaining:</strong> preserves the possibility of a future favorable move.</li></ul>
+        <p>Breakeven is therefore an expiration calculation—not a fixed barrier the stock must cross before the option can ever be sold profitably.</p>
+
+        <h2 id="percent">Dollar return versus percentage return</h2>
+        <p>Suppose the $300 call rises to $450. The dollar gain is $150 and the return on premium is 50% before costs. If it falls to $150, the loss is $150, or 50% of the premium.</p>
+        <div class="example-box"><strong>Return on premium = (current option value − entry cost) ÷ entry cost</strong><p>($450 − $300) ÷ $300 = 50%</p></div>
+        <p>Options can show large percentage changes because the initial premium is smaller than the value of 100 shares. This leverage magnifies unfavorable percentage moves as well.</p>
+
+        <h2 id="mistakes">Common calculation mistakes</h2>
+        <ul><li>Forgetting the 100-share contract multiplier.</li><li>Calling the strike price the breakeven price.</li><li>Ignoring the premium when calculating net profit.</li><li>Applying the expiration payoff formula to a position that still has time value.</li><li>Ignoring transaction costs and bid-ask spreads.</li><li>Confusing an in-the-money option with a profitable trade.</li></ul>
+
+        <h2 id="faq">Frequently asked questions</h2>
+        <div class="faq-item"><h3>What is the maximum loss on a long call?</h3><p>The premium paid plus transaction costs. In the example, the premium risk is $300.</p></div>
+        <div class="faq-item"><h3>How do you calculate call breakeven?</h3><p>At expiration, add the premium paid per share to the strike price.</p></div>
+        <div class="faq-item"><h3>Can a call be profitable below expiration breakeven?</h3><p>Before expiration, yes. Remaining time value or increased implied volatility can allow the call to be sold above its purchase price. At expiration, the standard strike-plus-premium formula applies.</p></div>
+        <div class="faq-item"><h3>Is a call profitable whenever it is in the money?</h3><p>No. The intrinsic value must exceed the premium paid for a net profit at expiration.</p></div>
+
+        <h2>Build the complete foundation</h2>
+        <p>Review <a href="../what-is-a-call-option/">how call options work</a>, then follow the <a href="../how-to-buy-a-call-option/">step-by-step buying guide</a>. The free <a href="../../courses/options-trading-course-level-1-buying-call-option/"><strong>Level 1 – Buying Call Option course</strong></a> brings these concepts together with structured lessons and practical scenarios.</p>
+        <p><a class="btn btn-gold" href="../../courses/options-trading-course-level-1-buying-call-option/">Start Level 1 — Free →</a></p>
+        <p class="article-disclaimer">Options involve risk and are not suitable for every investor. This article is for educational purposes only and does not constitute investment advice.</p>
+      </article>
+      <aside class="article-sidebar"><div class="toc"><strong>In this guide</strong><a href="#formula">Payoff formula</a><a href="#example">Worked example</a><a href="#loss">Maximum loss</a><a href="#breakeven">Breakeven</a><a href="#table">Expiration P&amp;L</a><a href="#profit">Maximum profit</a><a href="#before">Before expiration</a><a href="#percent">Percentage return</a><a href="#mistakes">Common mistakes</a><a href="#faq">FAQs</a></div><div class="course-cta"><strong>Free Level 1 Course</strong><p>Master buying calls through structured lessons and examples.</p><a class="btn btn-gold" href="../../courses/options-trading-course-level-1-buying-call-option/">Start the course →</a></div></aside>
+    </div>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div><div><h4>Learn</h4><a href="/courses/">Courses</a><a href="/#paths">Learning Paths</a><a href="/learning-paths/beginner/">Beginner Path</a></div><div><h4>Strategies</h4><a href="/learning-paths/option-greeks/">Option Greeks</a><a href="/#strategies">All Strategies</a></div><div><h4>Futures</h4><a href="/learning-paths/options-on-futures/">Options on Futures</a></div><div><h4>Resources</h4><a href="/blog/">Blog</a><a href="/courses/?category=Case%20Studies">Case Studies</a><a href="/courses/">Course Library</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · Educational content only — not financial advice.</div></footer>
+  <script>document.querySelectorAll('[data-current-year]').forEach(e=>e.textContent=new Date().getFullYear())</script>
+</body>
+</html>
