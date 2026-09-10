@@ -1,0 +1,35 @@
+{
+  "course": {
+    "sourceId": 50015,
+    "title": "Practical Usage – Level 1.1 – Long Call",
+    "slug": "practical-usage-level-1-1-long-call",
+    "level": "Beginner",
+    "duration": "3 hours",
+    "previewVimeoId": "949569725",
+    "lessonCount": 21,
+    "curriculumSource": "Reconstructed from the dedicated Long Call lesson records in the WordPress export; the course curriculum field and legacy Start Course link point to unrelated demo/Level 1 content."
+  },
+  "lessons": [
+    {"number":1,"wpId":50409,"title":"Practical Usage – Level 1.1 – Long Call","duration":"Reading","type":"text","vimeoId":null,"section":"Module 1: Long Call Foundations","contentHtml":"<p>In this lesson, we practice buying a call option on the ThinkOrSwim trading platform. A long call is a bullish options strategy that gives you the right to buy a stock at a specific strike price before expiration.</p><h3>Step-by-Step Guide</h3><ol><li>Log in to the ThinkOrSwim platform.</li><li>Open the Trade tab and select the Options section.</li><li>Search for the stock you want to trade.</li><li>Choose the call option with the preferred strike price and expiration.</li><li>Enter the number of contracts and review the order.</li><li>Confirm and send the order.</li></ol><p>Observe how stock-price movement, volatility and time decay affect the position's potential profit or loss.</p>"},
+    {"number":2,"wpId":50500,"title":"What Will You Learn in This Mini Course – Long Call?","duration":"3 min","type":"video","vimeoId":"949569725","section":"Module 1: Long Call Foundations"},
+    {"number":3,"wpId":50501,"title":"Opening Buy Call Positions","duration":"2 min","type":"video","vimeoId":"962599957","section":"Module 1: Long Call Foundations"},
+    {"number":4,"wpId":50502,"title":"Information Needed","duration":"2 min","type":"video","vimeoId":"935428450","section":"Module 1: Long Call Foundations"},
+    {"number":5,"wpId":50503,"title":"Window Arrangement of the Platform","duration":"3 min","type":"video","vimeoId":"949678875","section":"Module 1: Long Call Foundations"},
+    {"number":6,"wpId":50504,"title":"Buying a Call Option on Netflix Stock","duration":"3 min","type":"video","vimeoId":"949678786","section":"Module 2: Netflix Trade"},
+    {"number":7,"wpId":50505,"title":"See the Breakeven Point on the Chart","duration":"2 min","type":"video","vimeoId":"949825695","section":"Module 2: Netflix Trade"},
+    {"number":8,"wpId":50506,"title":"Netflix and Profit Target","duration":"3 min","type":"video","vimeoId":"951252420","section":"Module 2: Netflix Trade"},
+    {"number":9,"wpId":50507,"title":"Revisiting Netflix Position","duration":"2 min","type":"video","vimeoId":"962298748","section":"Module 2: Netflix Trade"},
+    {"number":10,"wpId":50508,"title":"Case Study Notice","duration":"Reading","type":"text","vimeoId":null,"section":"Module 3: Case Studies","contentHtml":"<p>This demonstration is for educational purposes only. It is not recommended for any position or stock and does not constitute a recommendation. Options America created the demonstration in a paper-trading account for educational purposes only.</p>"},
+    {"number":11,"wpId":50509,"title":"Monitor Lookup","duration":"2 min","type":"video","vimeoId":"962298239","section":"Module 3: Case Studies"},
+    {"number":12,"wpId":50510,"title":"Monitor PNL Lookup","duration":"2 min","type":"video","vimeoId":"962298459","section":"Module 3: Case Studies"},
+    {"number":13,"wpId":50511,"title":"BBY View","duration":"2 min","type":"video","vimeoId":"962296775","section":"Module 3: Case Studies"},
+    {"number":14,"wpId":50512,"title":"Position Theoretical Profit – BBY","duration":"2 min","type":"video","vimeoId":"962298600","section":"Module 3: Case Studies"},
+    {"number":15,"wpId":50513,"title":"BK Profit","duration":"3 min","type":"video","vimeoId":"962296964","section":"Module 3: Case Studies"},
+    {"number":16,"wpId":50514,"title":"BK Theoretical Profit","duration":"3 min","type":"video","vimeoId":"962297144","section":"Module 3: Case Studies"},
+    {"number":17,"wpId":50515,"title":"Diversify Your Assets","duration":"3 min","type":"video","vimeoId":"962297787","section":"Module 4: Portfolio Context"},
+    {"number":18,"wpId":50516,"title":"Market Increase – Put Position Loss","duration":"3 min","type":"video","vimeoId":"962298032","section":"Module 4: Portfolio Context"},
+    {"number":19,"wpId":50517,"title":"BX Overview","duration":"1 min","type":"video","vimeoId":"962297349","section":"Module 4: Portfolio Context"},
+    {"number":20,"wpId":50518,"title":"CDNS Case Study","duration":"2 min","type":"video","vimeoId":"962297598","section":"Module 4: Portfolio Context"},
+    {"number":21,"wpId":50519,"title":"Call Capture Module and Summary","duration":"2 min","type":"video","vimeoId":"962297454","section":"Module 5: Course Summary"}
+  ]
+}
