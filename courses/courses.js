@@ -57,7 +57,7 @@ const courses = [
   {title:'Selling Put Case Study',level:'Beginner',categories:['Beginner Case Studies','Options for Beginner'],url:'/courses/selling-put-case-study/',image:'../assets/images/courses/legacy/selling-put-case-study.png'},
   {title:'Selling Call Case Study',level:'Beginner',categories:['Beginner Case Studies','Options for Beginner'],url:'/courses/selling-call-case-study/',image:'../assets/images/courses/legacy/selling-call-case-study.png'},
   {title:'Practical Usage – Level 1.1 – Long Call',level:'Beginner',categories:['Basic Option','Beginner Case Studies'],url:'/courses/practical-usage-level-1-1-long-call/',image:'../assets/images/courses/practical-usage-level-1-1-long-call.webp'},
-  {title:'Practical Usage – Level 3.1 – Long Put',level:'Beginner',categories:['Basic Option','Beginner Case Studies'],url:'/courses/practical-usage-level-3-1-long-put/',image:'../assets/images/courses/practical-usage-level-3-1-long-put.webp'}
+  {title:'Practical Usage – Level 3.1 – Long Put',level:'Beginner',categories:['Basic Option','Beginner Case Studies','Options for Beginner'],url:'/courses/practical-usage-level-3-1-long-put/',image:'../assets/images/courses/legacy/practical-usage-level-3-1-long-put.png'}
 ];
 
 const PAGE_SIZE = 9;
