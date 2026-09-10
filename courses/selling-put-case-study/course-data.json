@@ -1,0 +1,25 @@
+{
+  "course": {
+    "sourceId": 49905,
+    "title": "Selling Put Case Study",
+    "slug": "selling-put-case-study",
+    "level": "Beginner",
+    "duration": "1 hour",
+    "previewVimeoId": "1001088237",
+    "lessonCount": 1,
+    "curriculumSource": "The WordPress export contains the course page and preview, but its curriculum field points to unrelated demo content. No valid associated Selling Put lesson records were found.",
+    "availabilityMessage": "This course is temporarily unavailable and will return soon after it has been re-edited."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": null,
+      "title": "Course Update",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "sourceUnavailable": true,
+      "section": "Course Status"
+    }
+  ]
+}
