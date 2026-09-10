@@ -1,0 +1,28 @@
+{
+  "course": {
+    "sourceId": 49957,
+    "title": "Practical Usage – Level 3.1 – Long Put",
+    "slug": "practical-usage-level-3-1-long-put",
+    "level": "Beginner",
+    "duration": "1 hour",
+    "previewVimeoId": "962542379",
+    "lessonCount": 5,
+    "curriculumSource": "Reconstructed from the dedicated Long Put lesson records in the WordPress export; the course curriculum field and legacy Start Course link point to unrelated demo/Level 1 content."
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "wpId": 50650,
+      "title": "Introduction to the Course: Practical Usage – Level 3.1 – Long Put",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "section": "Module 1: Course Introduction",
+      "contentHtml": "<p>Welcome to Level 3.1, focused on the practical usage of long put strategies. This course is designed for traders who have completed Levels 1, 2 and 3 and understand put options from the buyer's perspective.</p><h3>What to Expect</h3><ul><li><strong>Detailed case studies:</strong> Follow long put trades from setup and execution through monitoring and closing.</li><li><strong>Position management:</strong> Adjust positions as the market moves, mitigate risk and lock in profits.</li><li><strong>Trade analysis:</strong> Evaluate performance, market signals and the decisions behind each trade.</li><li><strong>Risk management:</strong> Identify, assess and manage the risks inherent in long put strategies.</li></ul><p>The module is designed to provide hands-on experience with long puts in real trading scenarios.</p>"
+    },
+    {"number":2,"wpId":50652,"title":"Opening Buy Put Positions","duration":"2 min","type":"video","vimeoId":"962595812","section":"Module 2: Long Put Workflow"},
+    {"number":3,"wpId":50653,"title":"Monitor and LookUp","duration":"2 min","type":"video","vimeoId":"962542379","section":"Module 2: Long Put Workflow"},
+    {"number":4,"wpId":50654,"title":"ABNB Case Study","duration":"2 min","type":"video","vimeoId":"962541702","section":"Module 3: ABNB Case Study"},
+    {"number":5,"wpId":50655,"title":"Analyze ABNB Position","duration":"2 min","type":"video","vimeoId":"962542154","section":"Module 3: ABNB Case Study"}
+  ]
+}
