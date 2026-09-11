@@ -19,6 +19,14 @@
   }
   apple.href = href;
 
+  // Shared legal/footer styles are loaded globally so the migration links render consistently.
+  if (!document.querySelector('link[href="/legal.css"]')) {
+    const legalStyles = document.createElement('link');
+    legalStyles.rel = 'stylesheet';
+    legalStyles.href = '/legal.css';
+    document.head.appendChild(legalStyles);
+  }
+
   // Keep the public-facing free-course message consistent across all course pages.
   const applyCourseMessage = () => {
     document.querySelectorAll('.sidebar-note').forEach(note => {
@@ -177,6 +185,34 @@
     document.addEventListener('DOMContentLoaded', applyBlogImages, { once: true });
   } else {
     applyBlogImages();
+  }
+
+  // Keep the legal migration links available from every page that uses the global bootstrap.
+  const applyLegalLinks = () => {
+    const copyright = document.querySelector('footer .copyright');
+    if (!copyright || copyright.querySelector('.site-legal-links')) return;
+    const links = [
+      ['/privacy-policy/', 'Privacy Policy'],
+      ['/terms-and-conditions/', 'Terms and Conditions'],
+      ['/risk-disclaimer/', 'Risk Disclaimer'],
+      ['/refund-policy/', 'Refund Policy'],
+      ['/accessibility-statement/', 'Accessibility Statement']
+    ];
+    const nav = document.createElement('nav');
+    nav.className = 'site-legal-links';
+    nav.setAttribute('aria-label', 'Legal');
+    links.forEach(([href, label]) => {
+      const link = document.createElement('a');
+      link.href = href;
+      link.textContent = label;
+      nav.appendChild(link);
+    });
+    copyright.appendChild(nav);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyLegalLinks, { once: true });
+  } else {
+    applyLegalLinks();
   }
 
   // Google Tag Manager — Options America
