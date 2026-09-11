@@ -81,7 +81,22 @@
     'implied-volatility-long-put': '/assets/images/blog/implied-volatility-long-put.webp',
     'protective-put-vs-long-put': '/assets/images/blog/protective-put-vs-long-put.webp',
     'long-put-risks-mistakes': '/assets/images/blog/long-put-risks-mistakes.webp',
-    'put-option-delta-explained': '/assets/images/blog/put-option-delta-explained.webp'
+    'put-option-delta-explained': '/assets/images/blog/put-option-delta-explained.webp',
+    'what-is-selling-a-put-option': '/assets/images/blog/what-is-selling-a-put-option.webp',
+    'cash-secured-put-vs-naked-put': '/assets/images/blog/cash-secured-put-vs-naked-put.webp',
+    'how-to-sell-a-cash-secured-put': '/assets/images/blog/how-to-sell-a-cash-secured-put.webp',
+    'short-put-profit-loss-breakeven': '/assets/images/blog/short-put-profit-loss-breakeven.webp',
+    'how-to-choose-short-put-strike': '/assets/images/blog/how-to-choose-short-put-strike.webp',
+    'how-to-choose-short-put-expiration': '/assets/images/blog/how-to-choose-short-put-expiration.webp',
+    'put-option-assignment-explained': '/assets/images/blog/put-option-assignment-explained.webp',
+    'early-assignment-short-put': '/assets/images/blog/early-assignment-short-put.webp',
+    'how-to-roll-a-short-put': '/assets/images/blog/how-to-roll-a-short-put.webp',
+    'when-to-close-a-short-put': '/assets/images/blog/when-to-close-a-short-put.webp',
+    'short-put-risks-mistakes': '/assets/images/blog/short-put-risks-mistakes.webp',
+    'cash-secured-put-income-potential': '/assets/images/blog/cash-secured-put-income-potential.webp',
+    'cash-secured-put-vs-limit-order': '/assets/images/blog/cash-secured-put-vs-limit-order.webp',
+    'short-put-vs-covered-call': '/assets/images/blog/short-put-vs-covered-call.webp',
+    'selling-put-margin-buying-power': '/assets/images/blog/selling-put-margin-buying-power.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
