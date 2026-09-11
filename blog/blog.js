@@ -8,7 +8,8 @@
   if (!grid || !input || !pagination || !resultText || !clearButton || !emptyState) return;
 
   const cards = Array.from(grid.querySelectorAll('.post-card'));
-  cards.sort((a, b) => Number(b.textContent.includes('Selling Calls')) - Number(a.textContent.includes('Selling Calls')));
+  const clusterPriority = card => card.textContent.includes('Buying Puts') ? 3 : card.textContent.includes('Selling Calls') ? 2 : card.textContent.includes('Call Options') ? 1 : 0;
+  cards.sort((a, b) => clusterPriority(b) - clusterPriority(a));
   cards.forEach(card => grid.appendChild(card));
   const pageSize = 6;
   let currentPage = 1;

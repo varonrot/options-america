@@ -66,7 +66,22 @@
     'covered-call-income-potential': '/assets/images/blog/covered-call-income-potential.webp',
     'covered-call-vs-buy-and-hold': '/assets/images/blog/covered-call-vs-buy-and-hold.webp',
     'covered-call-vs-cash-secured-put': '/assets/images/blog/covered-call-vs-cash-secured-put.webp',
-    'selling-call-margin-buying-power': '/assets/images/blog/selling-call-margin-buying-power.webp'
+    'selling-call-margin-buying-power': '/assets/images/blog/selling-call-margin-buying-power.webp',
+    'what-is-buying-a-put-option': '/assets/images/blog/what-is-buying-a-put-option.webp',
+    'how-to-buy-a-put-option': '/assets/images/blog/how-to-buy-a-put-option.webp',
+    'long-put-profit-loss-breakeven': '/assets/images/blog/long-put-profit-loss-breakeven.webp',
+    'how-to-choose-put-option-strike': '/assets/images/blog/how-to-choose-put-option-strike.webp',
+    'how-to-choose-put-option-expiration': '/assets/images/blog/how-to-choose-put-option-expiration.webp',
+    'itm-atm-otm-put-options': '/assets/images/blog/itm-atm-otm-put-options.webp',
+    'put-option-intrinsic-value-time-value': '/assets/images/blog/put-option-intrinsic-value-time-value.webp',
+    'what-happens-put-option-stock-rises': '/assets/images/blog/what-happens-put-option-stock-rises.webp',
+    'when-to-sell-put-option-you-bought': '/assets/images/blog/when-to-sell-put-option-you-bought.webp',
+    'sell-put-option-vs-exercise': '/assets/images/blog/sell-put-option-vs-exercise.webp',
+    'theta-time-decay-long-put': '/assets/images/blog/theta-time-decay-long-put.webp',
+    'implied-volatility-long-put': '/assets/images/blog/implied-volatility-long-put.webp',
+    'protective-put-vs-long-put': '/assets/images/blog/protective-put-vs-long-put.webp',
+    'long-put-risks-mistakes': '/assets/images/blog/long-put-risks-mistakes.webp',
+    'put-option-delta-explained': '/assets/images/blog/put-option-delta-explained.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
