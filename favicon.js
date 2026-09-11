@@ -141,7 +141,22 @@
     'portfolio-delta-beta-weighting': '/assets/images/blog/portfolio-delta-beta-weighting.webp',
     'delta-neutral-option-strategies': '/assets/images/blog/delta-neutral-option-strategies.webp',
     'delta-option-chain': '/assets/images/blog/delta-option-chain.webp',
-    'delta-gamma-mistakes': '/assets/images/blog/delta-gamma-mistakes.webp'
+    'delta-gamma-mistakes': '/assets/images/blog/delta-gamma-mistakes.webp',
+    'option-greeks-explained': '/assets/images/blog/option-greeks-explained.webp',
+    'how-option-greeks-interact': '/assets/images/blog/how-option-greeks-interact.webp',
+    'what-is-rho-in-options': '/assets/images/blog/what-is-rho-in-options.webp',
+    'option-greeks-long-call': '/assets/images/blog/option-greeks-long-call.webp',
+    'option-greeks-long-put': '/assets/images/blog/option-greeks-long-put.webp',
+    'option-greeks-credit-spreads': '/assets/images/blog/option-greeks-credit-spreads.webp',
+    'option-greeks-debit-spreads': '/assets/images/blog/option-greeks-debit-spreads.webp',
+    'option-greeks-straddles-strangles': '/assets/images/blog/option-greeks-straddles-strangles.webp',
+    'option-greeks-iron-condor': '/assets/images/blog/option-greeks-iron-condor.webp',
+    'option-greeks-calendar-spreads': '/assets/images/blog/option-greeks-calendar-spreads.webp',
+    'option-greeks-around-earnings': '/assets/images/blog/option-greeks-around-earnings.webp',
+    'portfolio-option-greeks-risk': '/assets/images/blog/portfolio-option-greeks-risk.webp',
+    'option-greeks-scenario-analysis': '/assets/images/blog/option-greeks-scenario-analysis.webp',
+    'option-greeks-pnl-explained': '/assets/images/blog/option-greeks-pnl-explained.webp',
+    'option-greeks-mistakes': '/assets/images/blog/option-greeks-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
