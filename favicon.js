@@ -126,7 +126,22 @@
     'vega-vs-theta-options': '/assets/images/blog/vega-vs-theta-options.webp',
     'vega-neutral-option-strategies': '/assets/images/blog/vega-neutral-option-strategies.webp',
     'vix-vs-implied-volatility': '/assets/images/blog/vix-vs-implied-volatility.webp',
-    'vega-volatility-mistakes': '/assets/images/blog/vega-volatility-mistakes.webp'
+    'vega-volatility-mistakes': '/assets/images/blog/vega-volatility-mistakes.webp',
+    'what-is-delta-in-options': '/assets/images/blog/what-is-delta-in-options.webp',
+    'call-delta-vs-put-delta': '/assets/images/blog/call-delta-vs-put-delta.webp',
+    'positive-delta-vs-negative-delta': '/assets/images/blog/positive-delta-vs-negative-delta.webp',
+    'option-delta-itm-atm-otm': '/assets/images/blog/option-delta-itm-atm-otm.webp',
+    'calculate-option-delta': '/assets/images/blog/calculate-option-delta.webp',
+    'delta-probability-in-the-money': '/assets/images/blog/delta-probability-in-the-money.webp',
+    'delta-as-share-equivalent': '/assets/images/blog/delta-as-share-equivalent.webp',
+    'what-is-gamma-options': '/assets/images/blog/what-is-gamma-options.webp',
+    'delta-vs-gamma-options': '/assets/images/blog/delta-vs-gamma-options.webp',
+    'gamma-near-expiration': '/assets/images/blog/gamma-near-expiration.webp',
+    'delta-hedging-options': '/assets/images/blog/delta-hedging-options.webp',
+    'portfolio-delta-beta-weighting': '/assets/images/blog/portfolio-delta-beta-weighting.webp',
+    'delta-neutral-option-strategies': '/assets/images/blog/delta-neutral-option-strategies.webp',
+    'delta-option-chain': '/assets/images/blog/delta-option-chain.webp',
+    'delta-gamma-mistakes': '/assets/images/blog/delta-gamma-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {

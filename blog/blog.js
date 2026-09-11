@@ -8,7 +8,7 @@
   if (!grid || !input || !pagination || !resultText || !clearButton || !emptyState) return;
 
   const cards = Array.from(grid.querySelectorAll('.post-card'));
-  const clusterPriority = card => card.textContent.includes('Vega') ? 6 : card.textContent.includes('Theta') ? 5 : card.textContent.includes('Selling Puts') ? 4 : card.textContent.includes('Buying Puts') ? 3 : card.textContent.includes('Selling Calls') ? 2 : card.textContent.includes('Call Options') ? 1 : 0;
+  const clusterPriority = card => card.textContent.includes('Delta') ? 7 : card.textContent.includes('Vega') ? 6 : card.textContent.includes('Theta') ? 5 : card.textContent.includes('Selling Puts') ? 4 : card.textContent.includes('Buying Puts') ? 3 : card.textContent.includes('Selling Calls') ? 2 : card.textContent.includes('Call Options') ? 1 : 0;
   cards.sort((a, b) => clusterPriority(b) - clusterPriority(a));
   cards.forEach(card => grid.appendChild(card));
   const pageSize = 6;
