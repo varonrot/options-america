@@ -8,6 +8,8 @@
   if (!grid || !input || !pagination || !resultText || !clearButton || !emptyState) return;
 
   const cards = Array.from(grid.querySelectorAll('.post-card'));
+  cards.sort((a, b) => Number(b.textContent.includes('Selling Calls')) - Number(a.textContent.includes('Selling Calls')));
+  cards.forEach(card => grid.appendChild(card));
   const pageSize = 6;
   let currentPage = 1;
 

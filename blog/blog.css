@@ -33,6 +33,7 @@
 .blog-empty{text-align:center;padding:54px 20px 36px;color:#627489}.blog-empty span{display:block;color:#0f4c81;font-size:3rem;transform:rotate(-20deg)}.blog-empty h3{margin:12px 0 8px;color:var(--blog-ink);font-size:1.55rem}.blog-empty p{margin:0 0 20px}.blog-empty button{border:0;border-radius:10px;background:#0f4c81;color:#fff;padding:12px 20px;font:inherit;font-weight:750;cursor:pointer}
 .blog-course-card{margin-top:38px;padding:30px;border-radius:18px;background:#0d2948;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .blog-course-card p{color:#cfe0ee;margin:8px 0 0}.blog-course-card .btn{white-space:nowrap}
+.blog-course-actions{display:flex;gap:12px;flex-wrap:wrap}
 .article-hero{padding:58px 0 46px;background:linear-gradient(135deg,#071a31,#174d78);color:#fff}
 .breadcrumbs{display:flex;gap:9px;flex-wrap:wrap;color:#bcd0e2;font-size:.9rem;margin-bottom:28px}.breadcrumbs a{color:#dcedf9}
 .article-hero h1{font-size:clamp(2.3rem,5vw,4rem)}

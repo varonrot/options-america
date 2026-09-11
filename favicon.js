@@ -51,7 +51,22 @@
     'when-to-sell-call-option': '/assets/images/blog/when-to-sell-call-option.webp',
     'sell-call-option-vs-exercise': '/assets/images/blog/sell-call-option-vs-exercise.webp',
     'theta-time-decay-long-call': '/assets/images/blog/theta-time-decay-long-call.webp',
-    'implied-volatility-long-call': '/assets/images/blog/implied-volatility-long-call.webp'
+    'implied-volatility-long-call': '/assets/images/blog/implied-volatility-long-call.webp',
+    'what-is-selling-a-call-option': '/assets/images/blog/what-is-selling-a-call-option.webp',
+    'covered-call-vs-naked-call': '/assets/images/blog/covered-call-vs-naked-call.webp',
+    'how-to-sell-a-covered-call': '/assets/images/blog/how-to-sell-a-covered-call.webp',
+    'short-call-profit-loss-breakeven': '/assets/images/blog/short-call-profit-loss-breakeven.webp',
+    'how-to-choose-covered-call-strike': '/assets/images/blog/how-to-choose-covered-call-strike.webp',
+    'how-to-choose-covered-call-expiration': '/assets/images/blog/how-to-choose-covered-call-expiration.webp',
+    'covered-call-assignment-explained': '/assets/images/blog/covered-call-assignment-explained.webp',
+    'covered-call-early-assignment-dividends': '/assets/images/blog/covered-call-early-assignment-dividends.webp',
+    'how-to-roll-a-covered-call': '/assets/images/blog/how-to-roll-a-covered-call.webp',
+    'when-to-close-covered-call': '/assets/images/blog/when-to-close-covered-call.webp',
+    'covered-call-risks-mistakes': '/assets/images/blog/covered-call-risks-mistakes.webp',
+    'covered-call-income-potential': '/assets/images/blog/covered-call-income-potential.webp',
+    'covered-call-vs-buy-and-hold': '/assets/images/blog/covered-call-vs-buy-and-hold.webp',
+    'covered-call-vs-cash-secured-put': '/assets/images/blog/covered-call-vs-cash-secured-put.webp',
+    'selling-call-margin-buying-power': '/assets/images/blog/selling-call-margin-buying-power.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
