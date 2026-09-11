@@ -27,6 +27,20 @@
     document.head.appendChild(legalStyles);
   }
 
+  if (!document.querySelector('link[href="/options-auth.css"]')) {
+    const authStyles = document.createElement('link');
+    authStyles.rel = 'stylesheet';
+    authStyles.href = '/options-auth.css';
+    document.head.appendChild(authStyles);
+  }
+  if (!document.getElementById('options-america-auth')) {
+    const authScript = document.createElement('script');
+    authScript.id = 'options-america-auth';
+    authScript.src = '/options-auth.js';
+    authScript.defer = true;
+    document.head.appendChild(authScript);
+  }
+
   // Keep the public-facing free-course message consistent across all course pages.
   const applyCourseMessage = () => {
     document.querySelectorAll('.sidebar-note').forEach(note => {
