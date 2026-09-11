@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Theta vs Gamma Near Expiration | Options America</title>
+  <meta name="description" content="Understand the tradeoff between faster time decay and faster delta changes when options approach expiration.">
+  <link rel="canonical" href="https://options-america.onrender.com/blog/theta-vs-gamma-near-expiration/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Theta vs Gamma Near Expiration">
+  <meta property="og:description" content="Understand the tradeoff between faster time decay and faster delta changes when options approach expiration.">
+  <meta property="og:image" content="https://options-america.onrender.com/assets/images/blog/theta-vs-gamma-near-expiration.webp">
+  <link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../blog.css"><script src="/favicon.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Theta vs Gamma Near Expiration","description":"Understand the tradeoff between faster time decay and faster delta changes when options approach expiration.","datePublished":"2026-09-11","dateModified":"2026-09-11","author":{"@type":"Organization","name":"Options America"},"publisher":{"@type":"Organization","name":"Options America"},"mainEntityOfPage":"https://options-america.onrender.com/blog/theta-vs-gamma-near-expiration/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why are theta and gamma linked?","acceptedAnswer":{"@type":"Answer","text":"Both reflect how option value changes as time and price interact, particularly near expiration."}},{"@type":"Question","name":"Is high gamma good?","acceptedAnswer":{"@type":"Answer","text":"It benefits some long-option convexity but increases instability and risk for short-gamma positions."}},{"@type":"Question","name":"What is pin risk?","acceptedAnswer":{"@type":"Answer","text":"It is uncertainty around exercise and assignment when the underlying closes near the strike."}}]}</script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="brand" href="../../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><nav><a href="../../courses/">Courses</a><a href="../../#paths">Learning Paths</a><a href="../../#strategies">Strategies</a><a href="../../#futures">Options on Futures</a><a href="../">Blog</a><a href="../../#resources">Resources</a></nav><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Learn Theta — Free</a></div></header>
+  <main>
+    <section class="article-hero"><div class="container"><div class="breadcrumbs"><a href="../../">Home</a><span>›</span><a href="../">Blog</a><span>›</span><span>Theta &amp; Time Decay</span></div><p class="eyebrow">Theta · Gamma Risk</p><h1>Theta vs Gamma Near Expiration</h1><p class="article-deck">Understand the tradeoff between faster time decay and faster delta changes when options approach expiration.</p><div class="article-meta"><span>By Options America</span><span>Updated September 11, 2026</span><span>9-minute read</span></div></div></section>
+    <div class="container article-layout">
+      <article class="article-body">
+        <img src="../../assets/images/blog/theta-vs-gamma-near-expiration.webp" alt="Theta vs Gamma Near Expiration">
+        <p>Understand the tradeoff between faster time decay and faster delta changes when options approach expiration.</p>
+        <div class="article-callout"><strong>Key idea:</strong> Near expiration, attractive theta for sellers can arrive with concentrated gamma risk around the strike.</div>
+          <h2 id="s1">What gamma changes</h2>
+          <p>Gamma estimates how much delta changes when the underlying price changes. High gamma means the position&#x27;s directional exposure can shift rapidly, especially near the strike.</p>
+          <h2 id="s2">The theta-gamma tradeoff</h2>
+          <p>Short options may collect faster decay near expiration but are typically short gamma. Long options pay decay but own gamma. The two exposures help explain why steady small gains can be interrupted by a sharp move.</p>
+          <h2 id="s3">Pin risk and late movement</h2>
+          <p>When the underlying finishes near a strike, small late moves can change whether an option expires in or out of the money. Exercise, assignment and after-hours movement can complicate the result.</p>
+          <h2 id="s4">Risk controls</h2>
+          <p>Size for a sudden move, understand automatic exercise procedures, monitor liquidity and avoid relying on a static delta. Closing before expiration can remove some operational uncertainty but may require paying the spread.</p>
+        <h2 id="example">A practical example</h2>
+        <div class="example-box"><strong>Theta planning example</strong><p>A near-expiration short option may show attractive positive theta. A small move toward or through the strike can rapidly increase its delta and loss because gamma is concentrated.</p></div>
+        <p>The example isolates time so the concept is easy to see. A live option position must also account for the underlying price, implied volatility, dividends, rates, liquidity and transaction costs. Greeks are estimates, not guarantees.</p>
+        <h2 id="faq">Frequently asked questions</h2>
+          <div class="faq-item"><h3>Why are theta and gamma linked?</h3><p>Both reflect how option value changes as time and price interact, particularly near expiration.</p></div>
+          <div class="faq-item"><h3>Is high gamma good?</h3><p>It benefits some long-option convexity but increases instability and risk for short-gamma positions.</p></div>
+          <div class="faq-item"><h3>What is pin risk?</h3><p>It is uncertainty around exercise and assignment when the underlying closes near the strike.</p></div>
+        <h2>Continue the Theta &amp; Time Decay cluster</h2>
+        <p>Explore related guides: <a href="../theta-0dte-weekly-options/"><strong>Theta in 0DTE and Weekly Options</strong></a> · <a href="../positive-theta-option-strategies/"><strong>Positive Theta Option Strategies for Sellers</strong></a> · <a href="../positive-theta-vs-negative-theta/"><strong>Positive Theta vs Negative Theta</strong></a>. For a structured sequence, use the free <a href="../../courses/option-greeks-level-5-theta-time-decay/"><strong>Level 5 – Theta &amp; Time Decay course</strong></a>.</p>
+        <p><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Start Level 5 — Free →</a></p>
+        <p class="article-disclaimer">Options involve risk and are not suitable for every investor. This material is educational and is not investment, tax or legal advice. Greeks are theoretical estimates, and contract terms and broker requirements can vary.</p>
+      </article>
+      <aside class="article-sidebar"><div class="toc"><strong>In this guide</strong>
+            <a href="#s1">What gamma changes</a>
+            <a href="#s2">The theta-gamma tradeoff</a>
+            <a href="#s3">Pin risk and late movement</a>
+            <a href="#s4">Risk controls</a>
+        <a href="#example">Practical example</a><a href="#faq">FAQs</a></div><div class="course-cta"><strong>Free Level 5 Course</strong><p>Learn theta and time decay through structured lessons and practical examples.</p><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Start the course →</a></div></aside>
+    </div>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div><div><h4>Learn</h4><a href="/courses/">Courses</a><a href="/learning-paths/beginner/">Beginner Path</a></div><div><h4>Strategies</h4><a href="/#strategies">All Strategies</a><a href="/learning-paths/option-greeks/">Option Greeks</a></div><div><h4>Futures</h4><a href="/learning-paths/options-on-futures/">Options on Futures</a></div><div><h4>Resources</h4><a href="/blog/">Blog</a><a href="/courses/">Course Library</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · Educational content only — not financial advice.</div></footer>
+  <script>document.querySelectorAll('[data-current-year]').forEach(e=>e.textContent=new Date().getFullYear())</script>
+</body>
+</html>

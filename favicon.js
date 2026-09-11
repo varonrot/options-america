@@ -96,7 +96,22 @@
     'cash-secured-put-income-potential': '/assets/images/blog/cash-secured-put-income-potential.webp',
     'cash-secured-put-vs-limit-order': '/assets/images/blog/cash-secured-put-vs-limit-order.webp',
     'short-put-vs-covered-call': '/assets/images/blog/short-put-vs-covered-call.webp',
-    'selling-put-margin-buying-power': '/assets/images/blog/selling-put-margin-buying-power.webp'
+    'selling-put-margin-buying-power': '/assets/images/blog/selling-put-margin-buying-power.webp',
+    'what-is-theta-in-options': '/assets/images/blog/what-is-theta-in-options.webp',
+    'how-time-decay-works-options': '/assets/images/blog/how-time-decay-works-options.webp',
+    'positive-theta-vs-negative-theta': '/assets/images/blog/positive-theta-vs-negative-theta.webp',
+    'theta-long-options-vs-short-options': '/assets/images/blog/theta-long-options-vs-short-options.webp',
+    'why-option-time-decay-accelerates': '/assets/images/blog/why-option-time-decay-accelerates.webp',
+    'theta-itm-atm-otm-options': '/assets/images/blog/theta-itm-atm-otm-options.webp',
+    'option-theta-weekends-holidays': '/assets/images/blog/option-theta-weekends-holidays.webp',
+    'theta-vs-implied-volatility': '/assets/images/blog/theta-vs-implied-volatility.webp',
+    'theta-vs-gamma-near-expiration': '/assets/images/blog/theta-vs-gamma-near-expiration.webp',
+    'theta-0dte-weekly-options': '/assets/images/blog/theta-0dte-weekly-options.webp',
+    'theta-leaps-long-term-options': '/assets/images/blog/theta-leaps-long-term-options.webp',
+    'calculate-option-time-decay-theta': '/assets/images/blog/calculate-option-time-decay-theta.webp',
+    'positive-theta-option-strategies': '/assets/images/blog/positive-theta-option-strategies.webp',
+    'reduce-time-decay-option-buyers': '/assets/images/blog/reduce-time-decay-option-buyers.webp',
+    'theta-time-decay-mistakes': '/assets/images/blog/theta-time-decay-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {

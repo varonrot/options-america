@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>How to Calculate Option Time Decay Using Theta | Options America</title>
+  <meta name="description" content="Translate a quoted theta into estimated daily dollar exposure and avoid the common mistakes of treating it as a fixed forecast.">
+  <link rel="canonical" href="https://options-america.onrender.com/blog/calculate-option-time-decay-theta/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="How to Calculate Option Time Decay Using Theta">
+  <meta property="og:description" content="Translate a quoted theta into estimated daily dollar exposure and avoid the common mistakes of treating it as a fixed forecast.">
+  <meta property="og:image" content="https://options-america.onrender.com/assets/images/blog/calculate-option-time-decay-theta.webp">
+  <link rel="stylesheet" href="../../styles.css"><link rel="stylesheet" href="../blog.css"><script src="/favicon.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to Calculate Option Time Decay Using Theta","description":"Translate a quoted theta into estimated daily dollar exposure and avoid the common mistakes of treating it as a fixed forecast.","datePublished":"2026-09-11","dateModified":"2026-09-11","author":{"@type":"Organization","name":"Options America"},"publisher":{"@type":"Organization","name":"Options America"},"mainEntityOfPage":"https://options-america.onrender.com/blog/calculate-option-time-decay-theta/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why multiply theta by 100?","acceptedAnswer":{"@type":"Answer","text":"Standard equity option quotes are per share while one contract normally represents 100 shares; verify each contract's multiplier."}},{"@type":"Question","name":"Can I multiply theta by days remaining?","acceptedAnswer":{"@type":"Answer","text":"That is usually inaccurate because theta changes over time and other pricing inputs move."}},{"@type":"Question","name":"Where can I find theta?","acceptedAnswer":{"@type":"Answer","text":"Many broker option chains and analytic platforms display it, often alongside delta, gamma and vega."}}]}</script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="brand" href="../../"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><nav><a href="../../courses/">Courses</a><a href="../../#paths">Learning Paths</a><a href="../../#strategies">Strategies</a><a href="../../#futures">Options on Futures</a><a href="../">Blog</a><a href="../../#resources">Resources</a></nav><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Learn Theta — Free</a></div></header>
+  <main>
+    <section class="article-hero"><div class="container"><div class="breadcrumbs"><a href="../../">Home</a><span>›</span><a href="../">Blog</a><span>›</span><span>Theta &amp; Time Decay</span></div><p class="eyebrow">Theta · Calculation</p><h1>How to Calculate Option Time Decay Using Theta</h1><p class="article-deck">Translate a quoted theta into estimated daily dollar exposure and avoid the common mistakes of treating it as a fixed forecast.</p><div class="article-meta"><span>By Options America</span><span>Updated September 11, 2026</span><span>9-minute read</span></div></div></section>
+    <div class="container article-layout">
+      <article class="article-body">
+        <img src="../../assets/images/blog/calculate-option-time-decay-theta.webp" alt="How to Calculate Option Time Decay Using Theta">
+        <p>Translate a quoted theta into estimated daily dollar exposure and avoid the common mistakes of treating it as a fixed forecast.</p>
+        <div class="article-callout"><strong>Key idea:</strong> Multiply per-share theta by the contract multiplier and position quantity, then remember that the result is only a changing model estimate.</div>
+          <h2 id="s1">Read the quote</h2>
+          <p>Theta is usually displayed as a per-share value. For a standard U.S. equity option representing 100 shares, multiply the quoted theta by 100 and by the number of contracts.</p>
+          <h2 id="s2">Keep the sign</h2>
+          <p>A long option with theta -0.05 has about -$5 of modeled one-day exposure per contract. The same contract sold short contributes about +$5 before any hedge or other leg.</p>
+          <h2 id="s3">Add every leg</h2>
+          <p>For a spread, calculate signed theta for each leg and add them. Contract ratios matter: two short contracts contribute twice the exposure of one otherwise identical contract.</p>
+          <h2 id="s4">Recalculate often</h2>
+          <p>Theta changes as the underlying, implied volatility and expiration change. Do not multiply today&#x27;s theta by 30 to forecast next month&#x27;s option price; the exposure itself will not remain constant.</p>
+        <h2 id="example">A practical example</h2>
+        <div class="example-box"><strong>Theta planning example</strong><p>Three long contracts each show theta of -0.04: -0.04 × 100 × 3 = about -$12 of modeled daily time exposure. A separate short contract with +$7 of position theta would bring net theta to about -$5.</p></div>
+        <p>The example isolates time so the concept is easy to see. A live option position must also account for the underlying price, implied volatility, dividends, rates, liquidity and transaction costs. Greeks are estimates, not guarantees.</p>
+        <h2 id="faq">Frequently asked questions</h2>
+          <div class="faq-item"><h3>Why multiply theta by 100?</h3><p>Standard equity option quotes are per share while one contract normally represents 100 shares; verify each contract&#x27;s multiplier.</p></div>
+          <div class="faq-item"><h3>Can I multiply theta by days remaining?</h3><p>That is usually inaccurate because theta changes over time and other pricing inputs move.</p></div>
+          <div class="faq-item"><h3>Where can I find theta?</h3><p>Many broker option chains and analytic platforms display it, often alongside delta, gamma and vega.</p></div>
+        <h2>Continue the Theta &amp; Time Decay cluster</h2>
+        <p>Explore related guides: <a href="../positive-theta-option-strategies/"><strong>Positive Theta Option Strategies for Sellers</strong></a> · <a href="../what-is-theta-in-options/"><strong>What Is Theta in Options?</strong></a> · <a href="../theta-itm-atm-otm-options/"><strong>Theta in ITM, ATM and OTM Options</strong></a>. For a structured sequence, use the free <a href="../../courses/option-greeks-level-5-theta-time-decay/"><strong>Level 5 – Theta &amp; Time Decay course</strong></a>.</p>
+        <p><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Start Level 5 — Free →</a></p>
+        <p class="article-disclaimer">Options involve risk and are not suitable for every investor. This material is educational and is not investment, tax or legal advice. Greeks are theoretical estimates, and contract terms and broker requirements can vary.</p>
+      </article>
+      <aside class="article-sidebar"><div class="toc"><strong>In this guide</strong>
+            <a href="#s1">Read the quote</a>
+            <a href="#s2">Keep the sign</a>
+            <a href="#s3">Add every leg</a>
+            <a href="#s4">Recalculate often</a>
+        <a href="#example">Practical example</a><a href="#faq">FAQs</a></div><div class="course-cta"><strong>Free Level 5 Course</strong><p>Learn theta and time decay through structured lessons and practical examples.</p><a class="btn btn-gold" href="../../courses/option-greeks-level-5-theta-time-decay/">Start the course →</a></div></aside>
+    </div>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>The free resource for learning options trading from beginner to advanced.</p></div><div><h4>Learn</h4><a href="/courses/">Courses</a><a href="/learning-paths/beginner/">Beginner Path</a></div><div><h4>Strategies</h4><a href="/#strategies">All Strategies</a><a href="/learning-paths/option-greeks/">Option Greeks</a></div><div><h4>Futures</h4><a href="/learning-paths/options-on-futures/">Options on Futures</a></div><div><h4>Resources</h4><a href="/blog/">Blog</a><a href="/courses/">Course Library</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · Educational content only — not financial advice.</div></footer>
+  <script>document.querySelectorAll('[data-current-year]').forEach(e=>e.textContent=new Date().getFullYear())</script>
+</body>
+</html>
