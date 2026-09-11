@@ -111,7 +111,22 @@
     'calculate-option-time-decay-theta': '/assets/images/blog/calculate-option-time-decay-theta.webp',
     'positive-theta-option-strategies': '/assets/images/blog/positive-theta-option-strategies.webp',
     'reduce-time-decay-option-buyers': '/assets/images/blog/reduce-time-decay-option-buyers.webp',
-    'theta-time-decay-mistakes': '/assets/images/blog/theta-time-decay-mistakes.webp'
+    'theta-time-decay-mistakes': '/assets/images/blog/theta-time-decay-mistakes.webp',
+    'what-is-vega-in-options': '/assets/images/blog/what-is-vega-in-options.webp',
+    'implied-volatility-options-explained': '/assets/images/blog/implied-volatility-options-explained.webp',
+    'vega-long-options-vs-short-options': '/assets/images/blog/vega-long-options-vs-short-options.webp',
+    'positive-vega-vs-negative-vega': '/assets/images/blog/positive-vega-vs-negative-vega.webp',
+    'calculate-option-vega': '/assets/images/blog/calculate-option-vega.webp',
+    'vega-itm-atm-otm-options': '/assets/images/blog/vega-itm-atm-otm-options.webp',
+    'vega-expiration-long-term-short-term-options': '/assets/images/blog/vega-expiration-long-term-short-term-options.webp',
+    'historical-vs-implied-volatility': '/assets/images/blog/historical-vs-implied-volatility.webp',
+    'iv-rank-vs-iv-percentile': '/assets/images/blog/iv-rank-vs-iv-percentile.webp',
+    'volatility-crush-options': '/assets/images/blog/volatility-crush-options.webp',
+    'vega-around-earnings': '/assets/images/blog/vega-around-earnings.webp',
+    'vega-vs-theta-options': '/assets/images/blog/vega-vs-theta-options.webp',
+    'vega-neutral-option-strategies': '/assets/images/blog/vega-neutral-option-strategies.webp',
+    'vix-vs-implied-volatility': '/assets/images/blog/vix-vs-implied-volatility.webp',
+    'vega-volatility-mistakes': '/assets/images/blog/vega-volatility-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
