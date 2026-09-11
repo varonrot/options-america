@@ -35,6 +35,45 @@
     applyCourseMessage();
   }
 
+  // Give every Level 1 article its own topic-specific visual.
+  const blogImages = {
+    'what-is-a-call-option': '/assets/images/blog/what-is-a-call-option.webp',
+    'how-to-buy-a-call-option': '/assets/images/blog/how-to-buy-a-call-option.webp',
+    'long-call-profit-loss-breakeven': '/assets/images/blog/long-call-profit-loss-breakeven.webp',
+    'how-to-choose-call-option-strike-price': '/assets/images/blog/how-to-choose-call-option-strike-price.webp',
+    'how-to-choose-call-option-expiration': '/assets/images/blog/how-to-choose-call-option-expiration.webp',
+    'buying-call-options-risks-mistakes': '/assets/images/blog/buying-call-options-risks-mistakes.webp',
+    'itm-atm-otm-call-options': '/assets/images/blog/itm-atm-otm-call-options.webp',
+    'call-option-intrinsic-value-time-value': '/assets/images/blog/call-option-intrinsic-value-time-value.webp',
+    'bid-ask-spread-options': '/assets/images/blog/bid-ask-spread-options.webp',
+    'what-happens-call-option-stock-goes-down': '/assets/images/blog/what-happens-call-option-stock-goes-down.webp',
+    'average-option-premium-price': '/assets/images/blog/average-option-premium-price.webp',
+    'when-to-sell-call-option': '/assets/images/blog/when-to-sell-call-option.webp',
+    'sell-call-option-vs-exercise': '/assets/images/blog/sell-call-option-vs-exercise.webp',
+    'theta-time-decay-long-call': '/assets/images/blog/theta-time-decay-long-call.webp',
+    'implied-volatility-long-call': '/assets/images/blog/implied-volatility-long-call.webp'
+  };
+  const applyBlogImages = () => {
+    document.querySelectorAll('.post-card[href]').forEach(card => {
+      const slug = new URL(card.href, location.href).pathname.split('/').filter(Boolean).pop();
+      const img = card.querySelector('img');
+      if (img && blogImages[slug]) img.src = blogImages[slug];
+    });
+    const parts = location.pathname.split('/').filter(Boolean);
+    if (parts[0] === 'blog' && parts[1] && blogImages[parts[1]]) {
+      const image = blogImages[parts[1]];
+      const hero = document.querySelector('.article-body > img');
+      const ogImage = document.querySelector('meta[property="og:image"]');
+      if (hero) hero.src = image;
+      if (ogImage) ogImage.content = location.origin + image;
+    }
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', applyBlogImages, { once: true });
+  } else {
+    applyBlogImages();
+  }
+
   // Google Tag Manager — Options America
   const GTM_ID = 'GTM-TSZLK9R4';
   if (!window.__optionsAmericaGtmLoaded) {
