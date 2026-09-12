@@ -62,13 +62,78 @@ const COURSE_PROGRESS=COURSE_ROWS.split('\n').map(row=>{const [slug,title,level,
 const $=selector=>document.querySelector(selector);let currentFilter='active';
 function readArray(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch(_){return[]}}
 function readVideoStore(){try{return JSON.parse(localStorage.getItem('oa-video-progress-v1')||'{}')||{}}catch(_){return{}}}
-function positionFor(course){const completed=[...new Set(readArray(course.key).map(Number))].filter(n=>n>=1&&n<=course.total).sort((a,b)=>a-b);const next=Array.from({length:course.total},(_,i)=>i+1).find(n=>!completed.includes(n))||course.total;return{...course,done:completed.length,percent:course.total?Math.round(completed.length/course.total*100):0,next}}
+function writeVideoStore(store){try{localStorage.setItem('oa-video-progress-v1',JSON.stringify(store));return true}catch(_){return false}}
+function positionFor(course){
+  const completed=new Set(readArray(course.key).map(Number).filter(n=>n>=1&&n<=course.total));
+  const rows=Object.entries(readVideoStore()[course.slug]||{}).map(([lesson,row])=>({
+    lesson:Number(row?.lesson||lesson),percent:Math.min(100,Math.max(0,Number(row?.percent)||0)),
+    completed:Boolean(row?.completed),updatedAt:Number(row?.updatedAt)||0
+  })).filter(row=>row.lesson>=1&&row.lesson<=course.total);
+  const byLesson=new Map(rows.map(row=>[row.lesson,row]));
+  rows.forEach(row=>{if(row.completed||row.percent>=90)completed.add(row.lesson)});
+  let watchedUnits=0;
+  for(let lesson=1;lesson<=course.total;lesson+=1){
+    watchedUnits+=completed.has(lesson)?1:(byLesson.get(lesson)?.percent||0)/100;
+  }
+  const partial=rows.filter(row=>!completed.has(row.lesson)&&row.percent>0).sort((a,b)=>b.updatedAt-a.updatedAt)[0];
+  const firstIncomplete=Array.from({length:course.total},(_,i)=>i+1).find(lesson=>!completed.has(lesson));
+  const next=partial?.lesson||firstIncomplete||course.total;
+  return{...course,done:completed.size,started:completed.size>0||rows.some(row=>row.percent>0),watchedUnits,percent:course.total?Math.round(watchedUnits/course.total*100):0,next};
+}
 function playerLink(course,lesson=course.next){return`/courses/${course.slug}/player/?lesson=${lesson}`}
 function courseImage(course,className){const image=course.slug==='options-trading-course-level-6-vega-and-volatility'?'/assets/images/courses/legacy/greek-option-level-6-vega-volatility-trading.png':`/assets/images/courses/legacy/${course.slug}.png`;return`<div class="${className}"><img src="${image}" alt="" onerror="this.remove()"></div>`}
-function renderContinue(activity){let last=null;try{last=JSON.parse(localStorage.getItem('oa-last-course')||'null')}catch(_){}let course=activity.find(c=>c.slug===last?.slug&&c.percent<100)||activity.find(c=>c.percent>0&&c.percent<100)||activity.find(c=>c.percent===100)||positionFor(COURSE_PROGRESS[0]);const lesson=course.percent===100?course.total:(last?.slug===course.slug?Math.max(1,Number(last.lesson)||course.next):course.next);const label=course.done?'Continue course':'Start your first course';$('#continueCard').innerHTML=`${courseImage(course,'continue-thumb')}<div class="continue-copy"><span class="course-level">${course.level} · ${course.done} of ${course.total} lessons</span><h3>${course.title}</h3><p>${course.done?`Continue with lesson ${lesson}.`:'Begin the structured learning path with the fundamentals.'}</p><div class="progress-track"><i style="width:${course.percent}%"></i></div><div class="progress-label"><span>${course.percent}% complete</span><span>${course.total-course.done} lessons remaining</span></div></div><div class="continue-action"><a class="btn btn-gold" href="${playerLink(course,lesson)}">${label} →</a></div>`}
-function renderCards(activity){const filtered=activity.filter(c=>currentFilter==='completed'?c.percent===100:currentFilter==='active'?c.percent>0&&c.percent<100:c.done>0);$('#learningGrid').innerHTML=filtered.map(course=>`<article class="learning-card">${courseImage(course,'learning-card-image')}<div class="learning-card-body"><span class="course-level">${course.level}</span><h3>${course.title}</h3><div class="progress-track"><i style="width:${course.percent}%"></i></div><div class="progress-label"><span>${course.done} / ${course.total} lessons</span><strong>${course.percent}%</strong></div><div class="learning-card-foot"><span>${course.percent===100?'Course completed':'Lesson '+course.next+' is next'}</span><a href="${playerLink(course)}">${course.percent===100?'Review':'Continue'} →</a></div></div></article>`).join('');$('#learningGrid').hidden=!filtered.length;$('#emptyLearning').hidden=!!filtered.length;$('#emptyLearning h3').textContent=activity.some(c=>c.done)?(currentFilter==='completed'?'No completed courses yet':'No courses in this view'):'Your learning journey starts here'}
-function renderDashboard(){const activity=COURSE_PROGRESS.map(positionFor),started=activity.filter(c=>c.done>0),completed=activity.filter(c=>c.percent===100),lessons=activity.reduce((sum,c)=>sum+c.done,0),total=activity.reduce((sum,c)=>sum+c.total,0),overall=total?Math.round(lessons/total*100):0;$('#startedCount').textContent=started.length;$('#completedCount').textContent=completed.length;$('#lessonCount').textContent=lessons;$('#availableCount').textContent=COURSE_PROGRESS.length;$('#overallPercent').textContent=`${overall}%`;$('#heroRing').style.setProperty('--progress',overall);renderContinue(activity);renderCards(activity);const next=activity.find(c=>c.done===0)||activity.find(c=>c.percent<100)||activity[0];$('#recommendedTitle').textContent=next.title;$('#recommendedText').textContent=`Continue your ${next.level.toLowerCase()} learning path with ${next.total} structured lessons.`;$('#recommendedLink').href=`/courses/${next.slug}/`}
+function renderContinue(activity){let last=null;try{last=JSON.parse(localStorage.getItem('oa-last-course')||'null')}catch(_){}let course=activity.find(c=>c.slug===last?.slug&&c.percent<100)||activity.find(c=>c.percent>0&&c.percent<100)||activity.find(c=>c.percent===100)||positionFor(COURSE_PROGRESS[0]);const lesson=course.percent===100?course.total:(last?.slug===course.slug?Math.max(1,Number(last.lesson)||course.next):course.next);const label=course.started?'Continue course':'Start your first course';$('#continueCard').innerHTML=`${courseImage(course,'continue-thumb')}<div class="continue-copy"><span class="course-level">${course.level} · ${course.done} of ${course.total} lessons</span><h3>${course.title}</h3><p>${course.done?`Continue with lesson ${lesson}.`:'Begin the structured learning path with the fundamentals.'}</p><div class="progress-track"><i style="width:${course.percent}%"></i></div><div class="progress-label"><span>${course.percent}% complete</span><span>${course.total-course.done} lessons remaining</span></div></div><div class="continue-action"><a class="btn btn-gold" href="${playerLink(course,lesson)}">${label} →</a></div>`}
+function renderCards(activity){const filtered=activity.filter(c=>currentFilter==='completed'?c.percent===100:currentFilter==='active'?c.started&&c.percent<100:c.started);$('#learningGrid').innerHTML=filtered.map(course=>`<article class="learning-card">${courseImage(course,'learning-card-image')}<div class="learning-card-body"><span class="course-level">${course.level}</span><h3>${course.title}</h3><div class="progress-track"><i style="width:${course.percent}%"></i></div><div class="progress-label"><span>${course.done} / ${course.total} lessons</span><strong>${course.percent}%</strong></div><div class="learning-card-foot"><span>${course.percent===100?'Course completed':'Lesson '+course.next+' is next'}</span><a href="${playerLink(course)}">${course.percent===100?'Review':'Continue'} →</a></div></div></article>`).join('');$('#learningGrid').hidden=!filtered.length;$('#emptyLearning').hidden=!!filtered.length;$('#emptyLearning h3').textContent=activity.some(c=>c.started)?(currentFilter==='completed'?'No completed courses yet':'No courses in this view'):'Your learning journey starts here'}
+function renderDashboard(){const activity=COURSE_PROGRESS.map(positionFor),started=activity.filter(c=>c.started),completed=activity.filter(c=>c.percent===100),lessons=activity.reduce((sum,c)=>sum+c.done,0),watched=activity.reduce((sum,c)=>sum+c.watchedUnits,0),total=activity.reduce((sum,c)=>sum+c.total,0),overall=total?Math.round(watched/total*100):0;$('#startedCount').textContent=started.length;$('#completedCount').textContent=completed.length;$('#lessonCount').textContent=lessons;$('#availableCount').textContent=COURSE_PROGRESS.length;$('#overallPercent').textContent=`${overall}%`;$('#heroRing').style.setProperty('--progress',overall);renderContinue(activity);renderCards(activity);const next=activity.find(c=>c.done===0)||activity.find(c=>c.percent<100)||activity[0];$('#recommendedTitle').textContent=next.title;$('#recommendedText').textContent=`Continue your ${next.level.toLowerCase()} learning path with ${next.total} structured lessons.`;$('#recommendedLink').href=`/courses/${next.slug}/`}
 function showUser(user){const name=user?.user_metadata?.full_name||user?.user_metadata?.name||'';$('#welcomeTitle').textContent=name?`Welcome back, ${name.split(/\s+/)[0]}`:'Welcome back';$('#signinNote').hidden=!!user}
-async function loadUser(){if(window.optionsAmericaAuth?.getCurrentUser)showUser(await window.optionsAmericaAuth.getCurrentUser())}
+async function waitForAuthApi(){for(let i=0;i<40&&!window.optionsAmericaAuth?.getCurrentUser;i+=1)await new Promise(resolve=>setTimeout(resolve,100));return window.optionsAmericaAuth}
+async function syncCloudProgress(){
+  const api=window.optionsAmericaAuth;
+  if(!api?.loadVideoProgress||!api?.saveVideoProgress)return;
+  const remote=await api.loadVideoProgress();
+  const store=readVideoStore();
+  const remoteByKey=new Map();
+  let latestRemote=null;
+  (remote||[]).forEach(row=>{
+    const slug=String(row.course_slug||''),lesson=Math.max(1,Number(row.lesson_number)||1);
+    if(!slug)return;
+    const record={lesson,vimeoId:row.vimeo_id||'',position:Number(row.position_seconds)||0,duration:Number(row.duration_seconds)||0,percent:Math.min(100,Math.max(0,Number(row.watched_percent)||0)),completed:Boolean(row.completed),updatedAt:Date.parse(row.updated_at)||0};
+    const key=slug+'|'+lesson;
+    remoteByKey.set(key,record);
+    const local=store[slug]?.[String(lesson)];
+    if(!local||record.updatedAt>(Number(local.updatedAt)||0)){
+      store[slug]=store[slug]||{};
+      store[slug][String(lesson)]=record;
+    }
+    if(!latestRemote||record.updatedAt>latestRemote.updatedAt)latestRemote={slug,...record};
+  });
+  const uploads=[];
+  COURSE_PROGRESS.forEach(course=>{
+    const oldCompleted=new Set(readArray(course.key).map(Number).filter(n=>n>=1&&n<=course.total));
+    oldCompleted.forEach(lesson=>{
+      store[course.slug]=store[course.slug]||{};
+      const local=store[course.slug][String(lesson)]||{};
+      if(!local.completed||Number(local.percent)<100){
+        store[course.slug][String(lesson)]={...local,lesson,percent:100,completed:true,updatedAt:Date.now()};
+      }
+    });
+  });
+  Object.entries(store).forEach(([slug,lessons])=>Object.entries(lessons||{}).forEach(([lessonValue,row])=>{
+    const lesson=Math.max(1,Number(row?.lesson||lessonValue)||1),key=slug+'|'+lesson,remoteRow=remoteByKey.get(key);
+    if(!remoteRow||(Number(row?.updatedAt)||0)>remoteRow.updatedAt||Boolean(row?.completed)!==remoteRow.completed){
+      uploads.push({course_slug:slug,lesson_number:lesson,vimeo_id:row?.vimeoId||null,position_seconds:Number(row?.position)||0,duration_seconds:Number(row?.duration)||0,watched_percent:Number(row?.percent)||0,completed:Boolean(row?.completed),updated_at:new Date(Number(row?.updatedAt)||Date.now()).toISOString()});
+    }
+  }));
+  writeVideoStore(store);
+  if(latestRemote){
+    let last=null;try{last=JSON.parse(localStorage.getItem('oa-last-course')||'null')}catch(_){}
+    if(!last||latestRemote.updatedAt>(Number(last.visitedAt)||0)){
+      try{localStorage.setItem('oa-last-course',JSON.stringify({slug:latestRemote.slug,lesson:latestRemote.lesson,position:latestRemote.position,visitedAt:latestRemote.updatedAt}))}catch(_){}
+    }
+  }
+  if(uploads.length)await api.saveVideoProgress(uploads);
+  renderDashboard();
+}
+async function loadUser(){const api=await waitForAuthApi();if(!api?.getCurrentUser)return;const user=await api.getCurrentUser();showUser(user);if(user)await syncCloudProgress()}
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{currentFilter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===button));renderDashboard()}));
-$('#dashboardSignIn').addEventListener('click',()=>window.optionsAmericaAuth?.beginGoogleLogin());window.addEventListener('oa:authchange',event=>{showUser(event.detail?.user);if(event.detail?.user)syncCloudProgress()});window.addEventListener('oa:progresschange',renderDashboard);window.addEventListener('storage',renderDashboard);renderDashboard();setTimeout(loadUser,0);
+$('#dashboardSignIn').addEventListener('click',()=>window.optionsAmericaAuth?.beginGoogleLogin());window.addEventListener('oa:authchange',event=>{showUser(event.detail?.user);if(event.detail?.user)syncCloudProgress();else renderDashboard()});window.addEventListener('oa:progresschange',renderDashboard);window.addEventListener('storage',renderDashboard);renderDashboard();setTimeout(loadUser,0);
