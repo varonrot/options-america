@@ -57,6 +57,26 @@
     applyCourseMessage();
   }
 
+  // Remember the latest course and lesson so the student dashboard can resume it.
+  const rememberCoursePosition = () => {
+    const match = location.pathname.match(/^\/courses\/([^/]+)\/player\/?/);
+    if (!match) return;
+    const save = lesson => {
+      try {
+        localStorage.setItem('oa-last-course', JSON.stringify({
+          slug: match[1], lesson: Math.max(1, Number(lesson) || 1), visitedAt: Date.now()
+        }));
+      } catch (_) {}
+    };
+    save(new URLSearchParams(location.search).get('lesson'));
+    document.addEventListener('click', event => {
+      const item = event.target.closest?.('.syllabus-item[data-lesson]');
+      if (item) save(item.dataset.lesson);
+    });
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', rememberCoursePosition, { once: true });
+  else rememberCoursePosition();
+
   // Give every Level 1 article its own topic-specific visual.
   const blogImages = {
     'what-is-a-call-option': '/assets/images/blog/what-is-a-call-option.webp',

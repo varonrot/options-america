@@ -199,6 +199,7 @@
       <div class="oa-user-menu">
         <strong>${escapeHtml(label)}</strong>
         <span>${escapeHtml(user.email || '')}</span>
+        <a class="oa-dashboard-link" href="/dashboard/" style="display:flex;align-items:center;justify-content:space-between;margin-top:14px;padding:11px 12px;border-radius:9px;background:#fff5d7;color:#0d4f87;font-weight:800;text-decoration:none">Student Dashboard <span aria-hidden="true">→</span></a>
         <button type="button" data-oa-signout>Sign out</button>
       </div>`;
     const trigger = slot.querySelector('.oa-user-button');
@@ -233,10 +234,21 @@
         if (session?.user) renderSignedIn(slot, session.user);
         else renderSignedOut(slot);
       }
+      window.dispatchEvent(new CustomEvent('oa:authchange', { detail: { user: session?.user || null } }));
       if (session?.user) await registerAccess(authClient);
     } catch (error) {
       console.warn('Options America account state unavailable', error);
       slots.forEach(renderSignedOut);
+    }
+  }
+
+  async function getCurrentUser() {
+    try {
+      const authClient = await getClient();
+      const { data: { session } } = await authClient.auth.getSession();
+      return session?.user || null;
+    } catch (_) {
+      return null;
     }
   }
 
@@ -253,7 +265,7 @@
     refreshAuthUI();
   }
 
-  window.optionsAmericaAuth = { beginGoogleLogin, refreshAuthUI };
+  window.optionsAmericaAuth = { beginGoogleLogin, refreshAuthUI, getCurrentUser };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addAuthSlots, { once: true });
   else addAuthSlots();
 })();
