@@ -359,7 +359,22 @@
     'time-decay-bull-call-spread': '/assets/images/blog/time-decay-bull-call-spread.webp',
     'when-to-close-bull-call-spread': '/assets/images/blog/when-to-close-bull-call-spread.webp',
     'adjust-bull-call-spread': '/assets/images/blog/adjust-bull-call-spread.webp',
-    'bull-call-spread-mistakes': '/assets/images/blog/bull-call-spread-mistakes.webp'
+    'bull-call-spread-mistakes': '/assets/images/blog/bull-call-spread-mistakes.webp',
+    'bear-put-spread-explained': '/assets/images/blog/bear-put-spread-explained.webp',
+    'how-to-build-bear-put-spread': '/assets/images/blog/how-to-build-bear-put-spread.webp',
+    'bear-put-spread-profit-loss-breakeven': '/assets/images/blog/bear-put-spread-profit-loss-breakeven.webp',
+    'bear-put-spread-example': '/assets/images/blog/bear-put-spread-example.webp',
+    'choose-bear-put-spread-strikes': '/assets/images/blog/choose-bear-put-spread-strikes.webp',
+    'choose-bear-put-spread-expiration': '/assets/images/blog/choose-bear-put-spread-expiration.webp',
+    'bear-put-spread-vs-long-put': '/assets/images/blog/bear-put-spread-vs-long-put.webp',
+    'bear-put-spread-vs-bear-call-spread': '/assets/images/blog/bear-put-spread-vs-bear-call-spread.webp',
+    'bear-put-spread-vs-protective-put': '/assets/images/blog/bear-put-spread-vs-protective-put.webp',
+    'bear-put-spread-greeks': '/assets/images/blog/bear-put-spread-greeks.webp',
+    'implied-volatility-bear-put-spread': '/assets/images/blog/implied-volatility-bear-put-spread.webp',
+    'time-decay-bear-put-spread': '/assets/images/blog/time-decay-bear-put-spread.webp',
+    'when-to-close-bear-put-spread': '/assets/images/blog/when-to-close-bear-put-spread.webp',
+    'adjust-bear-put-spread': '/assets/images/blog/adjust-bear-put-spread.webp',
+    'bear-put-spread-mistakes': '/assets/images/blog/bear-put-spread-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
