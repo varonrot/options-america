@@ -19,6 +19,8 @@
   <url><loc>https://options-america.onrender.com/blog/adjust-butterfly-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-calendar-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-short-iron-condor/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/adjust-short-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/adjust-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/average-option-premium-price/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/backspread-expiration-dte/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/backspread-greeks/</loc></url>
@@ -34,6 +36,8 @@
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-vs-bear-call-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-vs-long-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-vs-protective-put/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/best-market-conditions-short-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/best-market-conditions-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bid-ask-spread-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/broken-wing-butterfly-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bull-call-spread-example/</loc></url>
@@ -81,6 +85,8 @@
   <url><loc>https://options-america.onrender.com/blog/choose-calendar-spread-expirations/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-calendar-spread-strike/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-short-iron-condor-strikes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/close-roll-short-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/close-roll-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-assignment-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-early-assignment-dividends/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-income-potential/</loc></url>
@@ -100,6 +106,8 @@
   <url><loc>https://options-america.onrender.com/blog/gamma-near-expiration/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/historical-vs-implied-volatility/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-option-greeks-interact/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/how-short-straddle-works/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/how-short-strangle-works/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-time-decay-works-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-bull-call-spread/</loc></url>
@@ -130,6 +138,8 @@
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-long-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-options-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-short-iron-condor/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/implied-volatility-short-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/implied-volatility-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/itm-atm-otm-call-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/itm-atm-otm-put-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/iv-rank-short-iron-condor/</loc></url>
@@ -181,7 +191,29 @@
   <url><loc>https://options-america.onrender.com/blog/short-put-profit-loss-breakeven/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-put-risks-mistakes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-put-vs-covered-call/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-example/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-expiration-selection/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-greeks/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-margin-buying-power/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-mistakes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-options-strategy-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-payoff-profit-loss-breakevens/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-vs-iron-butterfly/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-vs-long-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-straddle-vs-short-strangle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-example/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-expiration-dte/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-greeks/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-margin-buying-power/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-mistakes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-options-strategy-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-payoff-profit-loss-breakevens/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-strike-selection/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-vs-covered-strangle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-strangle-vs-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-0dte-weekly-options/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/theta-decay-short-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/theta-decay-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-itm-atm-otm-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-leaps-long-term-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-long-options-vs-short-options/</loc></url>
