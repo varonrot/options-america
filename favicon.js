@@ -77,6 +77,129 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', rememberCoursePosition, { once: true });
   else rememberCoursePosition();
 
+
+  // Track Vimeo watch percentage and restore the last playback position.
+  const setupVideoProgress = () => {
+    const courseMatch = location.pathname.match(/^\/courses\/([^/]+)\/player\/?/);
+    if (!courseMatch) return;
+    const courseSlug = courseMatch[1];
+    const storageKey = 'oa-video-progress-v1';
+    let activeToken = '';
+    const style = document.createElement('style');
+    style.textContent = '.oa-viewing-progress{display:flex;align-items:center;gap:12px;margin:10px 0 0;padding:10px 14px;border:1px solid #dce5ef;border-radius:10px;background:#fff;color:#53657a;font:600 12px/1.3 Inter,Arial,sans-serif}.oa-viewing-progress[hidden]{display:none}.oa-viewing-progress-track{flex:1;height:6px;overflow:hidden;border-radius:99px;background:#e6edf4}.oa-viewing-progress-track i{display:block;height:100%;border-radius:inherit;background:#f6b81f}.oa-viewing-progress strong{color:#0b2d51;white-space:nowrap}@media(max-width:640px){.oa-viewing-progress{margin:8px 10px 0}}';
+    document.head.appendChild(style);
+    const status = document.createElement('div');
+    status.className = 'oa-viewing-progress';
+    status.hidden = true;
+    document.getElementById('videoCard')?.after(status);
+
+    const readStore = () => {
+      try { return JSON.parse(localStorage.getItem(storageKey) || '{}') || {}; }
+      catch (_) { return {}; }
+    };
+    const showProgress = record => {
+      const percent = Math.min(100, Math.max(0, Math.round(Number(record?.percent) || 0)));
+      status.hidden = false;
+      status.innerHTML = `<strong>${percent}% watched</strong><span class="oa-viewing-progress-track"><i style="width:${percent}%"></i></span><span>Saved automatically</span>`;
+    };
+    const writeRecord = record => {
+      try {
+        const store = readStore();
+        const old = store[courseSlug]?.[String(record.lesson)] || {};
+        store[courseSlug] = store[courseSlug] || {};
+        store[courseSlug][String(record.lesson)] = {
+          ...old, ...record,
+          percent: Math.max(Number(old.percent) || 0, Number(record.percent) || 0),
+          completed: Boolean(old.completed || record.completed),
+          updatedAt: Date.now()
+        };
+        localStorage.setItem(storageKey, JSON.stringify(store));
+        window.dispatchEvent(new CustomEvent('oa:progresschange'));
+        return store[courseSlug][String(record.lesson)];
+      } catch (_) { return record; }
+    };
+    const lessonNumber = () => Math.max(1, Number(document.querySelector('.syllabus-item.active')?.dataset.lesson || new URLSearchParams(location.search).get('lesson')) || 1);
+    const cloudSave = record => window.optionsAmericaAuth?.saveVideoProgress?.({
+      course_slug: courseSlug,
+      lesson_number: record.lesson,
+      vimeo_id: record.vimeoId,
+      position_seconds: record.position,
+      duration_seconds: record.duration,
+      watched_percent: record.percent,
+      completed: record.completed,
+      updated_at: new Date(record.updatedAt || Date.now()).toISOString()
+    });
+
+    const bindPlayer = async () => {
+      const iframe = document.getElementById('vimeoFrame');
+      const src = iframe?.getAttribute('src') || '';
+      const vimeoId = (src.match(/video\/(\d+)/) || [])[1];
+      const lesson = lessonNumber();
+      const token = `${lesson}:${vimeoId || ''}:${src}`;
+      if (!iframe || !vimeoId || token === activeToken || !window.Vimeo?.Player) return;
+      activeToken = token;
+      const player = new Vimeo.Player(iframe);
+      let duration = 0;
+      let lastCloudSave = 0;
+      let local = readStore()[courseSlug]?.[String(lesson)] || null;
+      try {
+        const remoteRows = await window.optionsAmericaAuth?.loadVideoProgress?.(courseSlug, lesson) || [];
+        const remote = remoteRows[0];
+        if (remote) {
+          const remoteRecord = {
+            lesson, vimeoId: remote.vimeo_id || vimeoId,
+            position: Number(remote.position_seconds) || 0,
+            duration: Number(remote.duration_seconds) || 0,
+            percent: Number(remote.watched_percent) || 0,
+            completed: Boolean(remote.completed),
+            updatedAt: Date.parse(remote.updated_at) || 0
+          };
+          if (!local || remoteRecord.updatedAt > (Number(local.updatedAt) || 0)) local = writeRecord(remoteRecord);
+        }
+      } catch (_) {}
+      try {
+        if (token !== activeToken) return;
+        await player.ready();
+        duration = Number(await player.getDuration()) || Number(local?.duration) || 0;
+        const resumeAt = Number(local?.position) || 0;
+        if (local) showProgress(local);
+        if (!local?.completed && resumeAt >= 5 && duration && resumeAt < duration - 8) await player.setCurrentTime(resumeAt);
+      } catch (_) {}
+      const save = (data, forceCloud = false, ended = false) => {
+        if (token !== activeToken) return;
+        const seconds = ended ? (Number(data?.duration) || duration) : (Number(data?.seconds) || 0);
+        duration = Number(data?.duration) || duration || 0;
+        const currentPercent = duration ? Math.min(100, seconds / duration * 100) : 0;
+        const previous = readStore()[courseSlug]?.[String(lesson)] || {};
+        const percent = ended ? 100 : Math.max(Number(previous.percent) || 0, currentPercent);
+        const record = writeRecord({ lesson, vimeoId, position: seconds, duration, percent: Math.round(percent * 10) / 10, completed: ended || percent >= 90 });
+        showProgress(record);
+        try { localStorage.setItem('oa-last-course', JSON.stringify({ slug: courseSlug, lesson, position: seconds, visitedAt: Date.now() })); } catch (_) {}
+        const now = Date.now();
+        if (forceCloud || now - lastCloudSave >= 15000) {
+          lastCloudSave = now;
+          cloudSave(record);
+        }
+      };
+      player.on('timeupdate', data => save(data));
+      player.on('pause', data => save(data, true));
+      player.on('ended', data => save(data, true, true));
+    };
+    let checks = 0;
+    const timer = setInterval(() => {
+      checks += 1;
+      bindPlayer();
+      if (checks >= 120) clearInterval(timer);
+    }, 500);
+    const iframe = document.getElementById('vimeoFrame');
+    if (iframe) new MutationObserver(bindPlayer).observe(iframe, { attributes: true, attributeFilter: ['src'] });
+    document.addEventListener('click', event => {
+      if (event.target.closest?.('.syllabus-item[data-lesson],#prevBtn,#nextBtn')) setTimeout(bindPlayer, 50);
+    });
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', setupVideoProgress, { once: true });
+  else setupVideoProgress();
+
   // Give every Level 1 article its own topic-specific visual.
   const blogImages = {
     'what-is-a-call-option': '/assets/images/blog/what-is-a-call-option.webp',

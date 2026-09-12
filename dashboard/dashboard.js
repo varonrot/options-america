@@ -61,6 +61,7 @@ practical-usage-level-3-1-long-put|Practical Usage – Level 3.1 – Long Put|Be
 const COURSE_PROGRESS=COURSE_ROWS.split('\n').map(row=>{const [slug,title,level,total,key]=row.split('|');return{slug,title,level,total:Number(total),key}});
 const $=selector=>document.querySelector(selector);let currentFilter='active';
 function readArray(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch(_){return[]}}
+function readVideoStore(){try{return JSON.parse(localStorage.getItem('oa-video-progress-v1')||'{}')||{}}catch(_){return{}}}
 function positionFor(course){const completed=[...new Set(readArray(course.key).map(Number))].filter(n=>n>=1&&n<=course.total).sort((a,b)=>a-b);const next=Array.from({length:course.total},(_,i)=>i+1).find(n=>!completed.includes(n))||course.total;return{...course,done:completed.length,percent:course.total?Math.round(completed.length/course.total*100):0,next}}
 function playerLink(course,lesson=course.next){return`/courses/${course.slug}/player/?lesson=${lesson}`}
 function courseImage(course,className){const image=course.slug==='options-trading-course-level-6-vega-and-volatility'?'/assets/images/courses/legacy/greek-option-level-6-vega-volatility-trading.png':`/assets/images/courses/legacy/${course.slug}.png`;return`<div class="${className}"><img src="${image}" alt="" onerror="this.remove()"></div>`}
@@ -70,4 +71,4 @@ function renderDashboard(){const activity=COURSE_PROGRESS.map(positionFor),start
 function showUser(user){const name=user?.user_metadata?.full_name||user?.user_metadata?.name||'';$('#welcomeTitle').textContent=name?`Welcome back, ${name.split(/\s+/)[0]}`:'Welcome back';$('#signinNote').hidden=!!user}
 async function loadUser(){if(window.optionsAmericaAuth?.getCurrentUser)showUser(await window.optionsAmericaAuth.getCurrentUser())}
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{currentFilter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===button));renderDashboard()}));
-$('#dashboardSignIn').addEventListener('click',()=>window.optionsAmericaAuth?.beginGoogleLogin());window.addEventListener('oa:authchange',event=>showUser(event.detail?.user));window.addEventListener('storage',renderDashboard);renderDashboard();setTimeout(loadUser,0);
+$('#dashboardSignIn').addEventListener('click',()=>window.optionsAmericaAuth?.beginGoogleLogin());window.addEventListener('oa:authchange',event=>{showUser(event.detail?.user);if(event.detail?.user)syncCloudProgress()});window.addEventListener('oa:progresschange',renderDashboard);window.addEventListener('storage',renderDashboard);renderDashboard();setTimeout(loadUser,0);

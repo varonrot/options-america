@@ -252,6 +252,54 @@
     }
   }
 
+
+  async function loadVideoProgress(courseSlug, lessonNumber) {
+    try {
+      const authClient = await getClient();
+      const { data: { session } } = await authClient.auth.getSession();
+      if (!session?.user) return [];
+      let query = authClient.from('options_course_video_progress')
+        .select('course_slug,lesson_number,vimeo_id,position_seconds,duration_seconds,watched_percent,completed,updated_at')
+        .order('updated_at', { ascending: false });
+      if (courseSlug) query = query.eq('course_slug', String(courseSlug));
+      if (lessonNumber) query = query.eq('lesson_number', Number(lessonNumber));
+      const { data, error } = await query;
+      if (error) throw error;
+      return data || [];
+    } catch (error) {
+      console.warn('Options America progress load failed', error);
+      return [];
+    }
+  }
+
+  async function saveVideoProgress(progress) {
+    try {
+      const authClient = await getClient();
+      const { data: { session } } = await authClient.auth.getSession();
+      if (!session?.user) return false;
+      const input = Array.isArray(progress) ? progress : [progress];
+      const rows = input.filter(Boolean).map(item => ({
+        user_id: session.user.id,
+        course_slug: String(item.course_slug || item.slug || ''),
+        lesson_number: Math.max(1, Number(item.lesson_number || item.lesson) || 1),
+        vimeo_id: item.vimeo_id ? String(item.vimeo_id) : null,
+        position_seconds: Math.max(0, Number(item.position_seconds ?? item.position) || 0),
+        duration_seconds: Math.max(0, Number(item.duration_seconds ?? item.duration) || 0),
+        watched_percent: Math.min(100, Math.max(0, Number(item.watched_percent ?? item.percent) || 0)),
+        completed: Boolean(item.completed),
+        updated_at: item.updated_at || new Date().toISOString()
+      })).filter(row => row.course_slug);
+      if (!rows.length) return false;
+      const { error } = await authClient.from('options_course_video_progress')
+        .upsert(rows, { onConflict: 'user_id,course_slug,lesson_number' });
+      if (error) throw error;
+      return true;
+    } catch (error) {
+      console.warn('Options America progress save failed', error);
+      return false;
+    }
+  }
+
   function addAuthSlots() {
     document.querySelectorAll('.site-header .nav').forEach(nav => {
       if (nav.querySelector('[data-options-auth]')) return;
@@ -265,7 +313,7 @@
     refreshAuthUI();
   }
 
-  window.optionsAmericaAuth = { beginGoogleLogin, refreshAuthUI, getCurrentUser };
+  window.optionsAmericaAuth = { beginGoogleLogin, refreshAuthUI, getCurrentUser, loadVideoProgress, saveVideoProgress };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addAuthSlots, { once: true });
   else addAuthSlots();
 })();
