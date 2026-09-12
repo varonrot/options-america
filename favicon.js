@@ -143,6 +143,7 @@
       let lastCloudSave = 0;
       let local = readStore()[courseSlug]?.[String(lesson)] || null;
       try {
+        for (let i = 0; i < 30 && !window.optionsAmericaAuth?.loadVideoProgress; i += 1) await new Promise(resolve => setTimeout(resolve, 100));
         const remoteRows = await window.optionsAmericaAuth?.loadVideoProgress?.(courseSlug, lesson) || [];
         const remote = remoteRows[0];
         if (remote) {
