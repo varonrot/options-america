@@ -13,12 +13,19 @@
   <url><loc>https://options-america.onrender.com/2025/05/01/synthetic-futures-using-options/</loc></url>
   <url><loc>https://options-america.onrender.com/accessibility-statement/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/adjust-and-close-backspread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-bull-call-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-butterfly-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-calendar-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/average-option-premium-price/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-expiration-dte/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-greeks/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-mistakes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-options-strategy-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-vs-long-straddle/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/backspread-vs-ratio-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-example/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-greeks/</loc></url>
@@ -60,9 +67,12 @@
   <url><loc>https://options-america.onrender.com/blog/call-calendar-vs-put-calendar/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/call-delta-vs-put-delta/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/call-option-intrinsic-value-time-value/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/call-ratio-backspread-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/cash-secured-put-income-potential/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/cash-secured-put-vs-limit-order/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/cash-secured-put-vs-naked-put/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/choose-backspread-option-ratio/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/choose-backspread-strikes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-bear-put-spread-expiration/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-bear-put-spread-strikes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-bull-call-spread-expiration/</loc></url>
@@ -95,6 +105,7 @@
   <url><loc>https://options-america.onrender.com/blog/how-to-build-bull-call-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-butterfly-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-calendar-spread/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/how-to-build-ratio-backspread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-buy-a-call-option/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-buy-a-put-option/</loc></url>
@@ -110,6 +121,7 @@
   <url><loc>https://options-america.onrender.com/blog/how-to-roll-a-short-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-sell-a-cash-secured-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-sell-a-covered-call/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/implied-volatility-backspread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-bull-call-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-butterfly-spread/</loc></url>
@@ -149,6 +161,9 @@
   <url><loc>https://options-america.onrender.com/blog/put-option-assignment-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/put-option-delta-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/put-option-intrinsic-value-time-value/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/put-ratio-backspread-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/ratio-backspread-example/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/ratio-backspread-profit-loss-breakevens/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/reduce-time-decay-option-buyers/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/sell-call-option-vs-exercise/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/sell-put-option-vs-exercise/</loc></url>
@@ -170,6 +185,7 @@
   <url><loc>https://options-america.onrender.com/blog/theta-itm-atm-otm-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-leaps-long-term-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-long-options-vs-short-options/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/theta-time-decay-backspread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-butterfly-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-calendar-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-long-call/</loc></url>

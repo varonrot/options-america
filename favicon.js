@@ -421,7 +421,23 @@
     'implied-volatility-calendar-spread': '/assets/images/blog/implied-volatility-calendar-spread.webp',
     'adjust-calendar-spread': '/assets/images/blog/adjust-calendar-spread.webp',
     'when-to-close-calendar-spread': '/assets/images/blog/when-to-close-calendar-spread.webp',
-    'calendar-spread-mistakes': '/assets/images/blog/calendar-spread-mistakes.webp'
+    'calendar-spread-mistakes': '/assets/images/blog/calendar-spread-mistakes.webp',
+    'backspread-options-strategy-explained': '/assets/images/blog/backspread-options-strategy-explained.webp',
+    'call-ratio-backspread-explained': '/assets/images/blog/call-ratio-backspread-explained.webp',
+    'put-ratio-backspread-explained': '/assets/images/blog/put-ratio-backspread-explained.webp',
+    'how-to-build-ratio-backspread': '/assets/images/blog/how-to-build-ratio-backspread.webp',
+    'ratio-backspread-profit-loss-breakevens': '/assets/images/blog/ratio-backspread-profit-loss-breakevens.webp',
+    'ratio-backspread-example': '/assets/images/blog/ratio-backspread-example.webp',
+    'choose-backspread-option-ratio': '/assets/images/blog/choose-backspread-option-ratio.webp',
+    'choose-backspread-strikes': '/assets/images/blog/choose-backspread-strikes.webp',
+    'backspread-expiration-dte': '/assets/images/blog/backspread-expiration-dte.webp',
+    'backspread-vs-ratio-spread': '/assets/images/blog/backspread-vs-ratio-spread.webp',
+    'backspread-vs-long-straddle': '/assets/images/blog/backspread-vs-long-straddle.webp',
+    'backspread-greeks': '/assets/images/blog/backspread-greeks.webp',
+    'implied-volatility-backspread': '/assets/images/blog/implied-volatility-backspread.webp',
+    'theta-time-decay-backspread': '/assets/images/blog/theta-time-decay-backspread.webp',
+    'adjust-and-close-backspread': '/assets/images/blog/adjust-and-close-backspread.webp',
+    'backspread-mistakes': '/assets/images/blog/backspread-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
