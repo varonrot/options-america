@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /dashboard/
+Disallow: /courses/*/player/
+
+Sitemap: https://options-america.onrender.com/sitemap.xml
