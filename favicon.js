@@ -389,7 +389,23 @@
     'implied-volatility-short-iron-condor': '/assets/images/blog/implied-volatility-short-iron-condor.webp',
     'adjust-short-iron-condor': '/assets/images/blog/adjust-short-iron-condor.webp',
     'when-to-close-short-iron-condor': '/assets/images/blog/when-to-close-short-iron-condor.webp',
-    'short-iron-condor-mistakes': '/assets/images/blog/short-iron-condor-mistakes.webp'
+    'short-iron-condor-mistakes': '/assets/images/blog/short-iron-condor-mistakes.webp',
+    'butterfly-spread-explained': '/assets/images/blog/butterfly-spread-explained.webp',
+    'how-to-build-butterfly-spread': '/assets/images/blog/how-to-build-butterfly-spread.webp',
+    'butterfly-spread-profit-loss-breakevens': '/assets/images/blog/butterfly-spread-profit-loss-breakevens.webp',
+    'butterfly-spread-example': '/assets/images/blog/butterfly-spread-example.webp',
+    'choose-butterfly-spread-strikes': '/assets/images/blog/choose-butterfly-spread-strikes.webp',
+    'butterfly-spread-expiration-dte': '/assets/images/blog/butterfly-spread-expiration-dte.webp',
+    'call-butterfly-vs-put-butterfly': '/assets/images/blog/call-butterfly-vs-put-butterfly.webp',
+    'butterfly-vs-iron-butterfly': '/assets/images/blog/butterfly-vs-iron-butterfly.webp',
+    'butterfly-vs-iron-condor': '/assets/images/blog/butterfly-vs-iron-condor.webp',
+    'broken-wing-butterfly-explained': '/assets/images/blog/broken-wing-butterfly-explained.webp',
+    'butterfly-spread-greeks': '/assets/images/blog/butterfly-spread-greeks.webp',
+    'implied-volatility-butterfly-spread': '/assets/images/blog/implied-volatility-butterfly-spread.webp',
+    'theta-time-decay-butterfly-spread': '/assets/images/blog/theta-time-decay-butterfly-spread.webp',
+    'adjust-butterfly-spread': '/assets/images/blog/adjust-butterfly-spread.webp',
+    'when-to-close-butterfly-spread': '/assets/images/blog/when-to-close-butterfly-spread.webp',
+    'butterfly-spread-mistakes': '/assets/images/blog/butterfly-spread-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
