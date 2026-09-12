@@ -84,6 +84,7 @@
     if (!courseMatch) return;
     const courseSlug = courseMatch[1];
     const storageKey = 'oa-video-progress-v1';
+    const autoplayStorageKey = 'oa-autoplay-next-v1';
     let activeToken = '';
     const style = document.createElement('style');
     style.textContent = '.oa-viewing-progress{display:flex;align-items:center;gap:12px;margin:10px 0 0;padding:10px 14px;border:1px solid #dce5ef;border-radius:10px;background:#fff;color:#53657a;font:600 12px/1.3 Inter,Arial,sans-serif}.oa-viewing-progress[hidden]{display:none}.oa-viewing-progress-track{flex:1;height:6px;overflow:hidden;border-radius:99px;background:#e6edf4}.oa-viewing-progress-track i{display:block;height:100%;border-radius:inherit;background:#f6b81f}.oa-viewing-progress strong{color:#0b2d51;white-space:nowrap}@media(max-width:640px){.oa-viewing-progress{margin:8px 10px 0}}';
@@ -119,6 +120,22 @@
       } catch (_) { return record; }
     };
     const lessonNumber = () => Math.max(1, Number(document.querySelector('.syllabus-item.active')?.dataset.lesson || new URLSearchParams(location.search).get('lesson')) || 1);
+    const queueAutoplay = lesson => {
+      try { sessionStorage.setItem(autoplayStorageKey, JSON.stringify({ courseSlug, lesson, queuedAt: Date.now() })); }
+      catch (_) {}
+    };
+    const takeAutoplay = lesson => {
+      try {
+        const queued = JSON.parse(sessionStorage.getItem(autoplayStorageKey) || 'null');
+        if (!queued) return false;
+        const matches = queued.courseSlug === courseSlug && Number(queued.lesson) === lesson && Date.now() - Number(queued.queuedAt || 0) < 15000;
+        sessionStorage.removeItem(autoplayStorageKey);
+        return matches;
+      } catch (_) {
+        try { sessionStorage.removeItem(autoplayStorageKey); } catch (_) {}
+        return false;
+      }
+    };
     const cloudSave = record => window.optionsAmericaAuth?.saveVideoProgress?.({
       course_slug: courseSlug,
       lesson_number: record.lesson,
@@ -139,6 +156,7 @@
       if (!iframe || !vimeoId || token === activeToken || !window.Vimeo?.Player) return;
       activeToken = token;
       const player = new Vimeo.Player(iframe);
+      if (takeAutoplay(lesson)) player.ready().then(() => player.play()).catch(() => {});
       let duration = 0;
       let lastCloudSave = 0;
       let local = readStore()[courseSlug]?.[String(lesson)] || null;
@@ -184,7 +202,11 @@
       };
       player.on('timeupdate', data => save(data));
       player.on('pause', data => save(data, true));
-      player.on('ended', data => save(data, true, true));
+      player.on('ended', data => {
+        save(data, true, true);
+        const totalLessons = document.querySelectorAll('.syllabus-item[data-lesson]').length;
+        if (document.getElementById('autoNext')?.checked && lesson < totalLessons) queueAutoplay(lesson + 1);
+      });
     };
     let checks = 0;
     const timer = setInterval(() => {
