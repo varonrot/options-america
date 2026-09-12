@@ -5,6 +5,7 @@
   const APP_KEY = 'options-america';
   const SDK_VERSION = '2.116.0';
   let client = null;
+  let clientPromise = null;
   let sdkPromise = null;
   let googlePromise = null;
   let rawNonce = null;
@@ -49,19 +50,30 @@
 
   async function getClient() {
     if (client) return client;
-    if (!sdkPromise) {
-      sdkPromise = loadScript(
-        'options-america-supabase',
-        `https://cdn.jsdelivr.net/npm/@supabase/supabase-js@${SDK_VERSION}/dist/umd/supabase.js`
-      );
+    if (clientPromise) return clientPromise;
+    clientPromise = (async () => {
+      if (!sdkPromise) {
+        sdkPromise = loadScript(
+          'options-america-supabase',
+          `https://cdn.jsdelivr.net/npm/@supabase/supabase-js@${SDK_VERSION}/dist/umd/supabase.js`
+        );
+      }
+      await sdkPromise;
+      if (!window.supabase?.createClient) throw new Error('Account service is unavailable.');
+      if (!client) {
+        client = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
+          auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
+        });
+        client.auth.onAuthStateChange(() => setTimeout(refreshAuthUI, 0));
+      }
+      return client;
+    })();
+    try {
+      return await clientPromise;
+    } catch (error) {
+      clientPromise = null;
+      throw error;
     }
-    await sdkPromise;
-    if (!window.supabase?.createClient) throw new Error('Account service is unavailable.');
-    client = window.supabase.createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY, {
-      auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true }
-    });
-    client.auth.onAuthStateChange(() => setTimeout(refreshAuthUI, 0));
-    return client;
   }
 
   async function loadGoogle() {
