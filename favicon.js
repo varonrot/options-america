@@ -229,6 +229,20 @@
     applyLegalLinks();
   }
 
+  // Mobile course players show the active lesson before the long curriculum.
+  if (!document.getElementById('mobile-player-order')) {
+    const playerOrderStyles = document.createElement('style');
+    playerOrderStyles.id = 'mobile-player-order';
+    playerOrderStyles.textContent = '@media(max-width:1000px){.player-page .player-main{order:1;scroll-margin-top:70px}.player-page .player-syllabus{order:2}}';
+    document.head.appendChild(playerOrderStyles);
+  }
+  document.addEventListener('click', event => {
+    if (!event.target.closest('.player-page .syllabus-item') || !window.matchMedia('(max-width: 1000px)').matches) return;
+    window.setTimeout(() => {
+      document.querySelector('.player-main')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 0);
+  });
+
   // Google Tag Manager — Options America
   const GTM_ID = 'GTM-TSZLK9R4';
   if (!window.__optionsAmericaGtmLoaded) {
