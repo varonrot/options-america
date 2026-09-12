@@ -39,10 +39,13 @@
 
     <section class="courses-section" id="catalog">
       <div class="container catalog-layout">
-        <aside class="filters" aria-label="Course filters">
+        <aside class="filters" id="courseFilters" aria-label="Course filters">
           <div class="filter-head">
             <div><strong>Filters</strong><span id="resultCount">0 courses</span></div>
-            <button id="resetFilters" type="button">Reset all</button>
+            <div class="filter-head-actions">
+              <button id="resetFilters" type="button">Reset all</button>
+              <button class="mobile-filter-close" id="closeFilters" type="button" aria-label="Close filters">×</button>
+            </div>
           </div>
 
           <div class="filter-block">
@@ -64,16 +67,27 @@
             <label><input type="checkbox" name="category" value="Options Strategies"> Options Strategies</label>
             <label><input type="checkbox" name="category" value="Options on Futures"> Options on Futures</label>
           </div>
+          <div class="mobile-filter-footer">
+            <button id="applyFilters" type="button">Show all courses</button>
+          </div>
         </aside>
+        <button class="filter-backdrop" id="filterBackdrop" type="button" aria-label="Close filters" hidden></button>
 
         <div class="catalog-main">
           <div class="catalog-toolbar">
-            <div><strong id="toolbarCount">All courses</strong><span>All courses are free</span></div>
-            <select id="sortCourses" aria-label="Sort courses">
-              <option value="default">Recommended</option>
-              <option value="title">Title A–Z</option>
-              <option value="level">Learning level</option>
-            </select>
+            <div class="catalog-count"><strong id="toolbarCount">All courses</strong><span>All courses are free</span></div>
+            <div class="catalog-actions">
+              <button class="mobile-filter-trigger" id="openFilters" type="button" aria-controls="courseFilters" aria-expanded="false">
+                <span class="filter-menu-icon" aria-hidden="true"><i></i><i></i><i></i></span>
+                Filters
+                <span class="active-filter-count" id="activeFilterCount" hidden>0</span>
+              </button>
+              <select id="sortCourses" aria-label="Sort courses">
+                <option value="default">Recommended</option>
+                <option value="title">Title A–Z</option>
+                <option value="level">Learning level</option>
+              </select>
+            </div>
           </div>
           <div id="allCourseGrid" class="all-course-grid"></div>
           <div id="noResults" class="no-results" hidden>No courses match these filters.</div>

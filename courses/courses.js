@@ -69,6 +69,12 @@ const sort = document.getElementById('sortCourses');
 const noResults = document.getElementById('noResults');
 const resultCount = document.getElementById('resultCount');
 const toolbarCount = document.getElementById('toolbarCount');
+const filterPanel = document.getElementById('courseFilters');
+const openFilters = document.getElementById('openFilters');
+const closeFilters = document.getElementById('closeFilters');
+const applyFilters = document.getElementById('applyFilters');
+const filterBackdrop = document.getElementById('filterBackdrop');
+const activeFilterCount = document.getElementById('activeFilterCount');
 
 function activeValues(name){return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(x=>x.value)}
 function filteredCourses(){
@@ -89,6 +95,10 @@ function render(){
   if(currentPage>pages)currentPage=pages;
   resultCount.textContent=`${list.length} course${list.length===1?'':'s'}`;
   toolbarCount.textContent=list.length===courses.length?`All ${courses.length} courses`:`${list.length} courses found`;
+  const selectedFilterCount=activeValues('level').length+activeValues('category').length;
+  activeFilterCount.textContent=selectedFilterCount;
+  activeFilterCount.hidden=!selectedFilterCount;
+  applyFilters.textContent=`Show ${list.length} course${list.length===1?'':'s'}`;
   const start=(currentPage-1)*PAGE_SIZE;
   const slice=list.slice(start,start+PAGE_SIZE);
   grid.innerHTML=slice.map(card).join('');
@@ -105,8 +115,21 @@ function renderPagination(pages){
   pagination.querySelectorAll('button[data-page]').forEach(b=>b.addEventListener('click',()=>{const p=Number(b.dataset.page);if(p>=1&&p<=pages){currentPage=p;render();document.getElementById('catalog').scrollIntoView({behavior:'smooth',block:'start'})}}));
 }
 function reset(){search.value='';sort.value='default';document.querySelectorAll('.filters input[type=checkbox]').forEach(x=>x.checked=false);currentPage=1;render()}
+function setFiltersOpen(isOpen){
+  filterPanel.classList.toggle('is-open',isOpen);
+  document.body.classList.toggle('filters-open',isOpen);
+  filterBackdrop.hidden=!isOpen;
+  openFilters.setAttribute('aria-expanded',String(isOpen));
+  if(isOpen){closeFilters.focus()}else{openFilters.focus()}
+}
 search.addEventListener('input',()=>{currentPage=1;render()});
 sort.addEventListener('change',()=>{currentPage=1;render()});
 document.querySelectorAll('.filters input[type=checkbox]').forEach(x=>x.addEventListener('change',()=>{currentPage=1;render()}));
 document.getElementById('resetFilters').addEventListener('click',reset);
+openFilters.addEventListener('click',()=>setFiltersOpen(true));
+closeFilters.addEventListener('click',()=>setFiltersOpen(false));
+applyFilters.addEventListener('click',()=>setFiltersOpen(false));
+filterBackdrop.addEventListener('click',()=>setFiltersOpen(false));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&filterPanel.classList.contains('is-open'))setFiltersOpen(false)});
+window.addEventListener('resize',()=>{if(window.innerWidth>980&&filterPanel.classList.contains('is-open'))setFiltersOpen(false)});
 render();
