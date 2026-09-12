@@ -374,7 +374,22 @@
     'time-decay-bear-put-spread': '/assets/images/blog/time-decay-bear-put-spread.webp',
     'when-to-close-bear-put-spread': '/assets/images/blog/when-to-close-bear-put-spread.webp',
     'adjust-bear-put-spread': '/assets/images/blog/adjust-bear-put-spread.webp',
-    'bear-put-spread-mistakes': '/assets/images/blog/bear-put-spread-mistakes.webp'
+    'bear-put-spread-mistakes': '/assets/images/blog/bear-put-spread-mistakes.webp',
+    'short-iron-condor-explained': '/assets/images/blog/short-iron-condor-explained.webp',
+    'how-to-build-short-iron-condor': '/assets/images/blog/how-to-build-short-iron-condor.webp',
+    'short-iron-condor-profit-loss-breakevens': '/assets/images/blog/short-iron-condor-profit-loss-breakevens.webp',
+    'short-iron-condor-example': '/assets/images/blog/short-iron-condor-example.webp',
+    'choose-short-iron-condor-strikes': '/assets/images/blog/choose-short-iron-condor-strikes.webp',
+    'short-iron-condor-expiration-dte': '/assets/images/blog/short-iron-condor-expiration-dte.webp',
+    'iv-rank-short-iron-condor': '/assets/images/blog/iv-rank-short-iron-condor.webp',
+    'short-iron-condor-vs-short-strangle': '/assets/images/blog/short-iron-condor-vs-short-strangle.webp',
+    'short-iron-condor-vs-iron-butterfly': '/assets/images/blog/short-iron-condor-vs-iron-butterfly.webp',
+    'short-iron-condor-greeks': '/assets/images/blog/short-iron-condor-greeks.webp',
+    'theta-time-decay-short-iron-condor': '/assets/images/blog/theta-time-decay-short-iron-condor.webp',
+    'implied-volatility-short-iron-condor': '/assets/images/blog/implied-volatility-short-iron-condor.webp',
+    'adjust-short-iron-condor': '/assets/images/blog/adjust-short-iron-condor.webp',
+    'when-to-close-short-iron-condor': '/assets/images/blog/when-to-close-short-iron-condor.webp',
+    'short-iron-condor-mistakes': '/assets/images/blog/short-iron-condor-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {

@@ -15,6 +15,7 @@
   <url><loc>https://options-america.onrender.com/blog/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/adjust-bull-call-spread/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/adjust-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/average-option-premium-price/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-example/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/bear-put-spread-explained/</loc></url>
@@ -46,6 +47,7 @@
   <url><loc>https://options-america.onrender.com/blog/choose-bear-put-spread-strikes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-bull-call-spread-expiration/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/choose-bull-call-spread-strikes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/choose-short-iron-condor-strikes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-assignment-explained/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-early-assignment-dividends/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/covered-call-income-potential/</loc></url>
@@ -67,6 +69,7 @@
   <url><loc>https://options-america.onrender.com/blog/how-time-decay-works-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-build-bull-call-spread/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/how-to-build-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-buy-a-call-option/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-buy-a-put-option/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/how-to-choose-call-option-expiration/</loc></url>
@@ -86,8 +89,10 @@
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-long-call/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-long-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/implied-volatility-options-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/implied-volatility-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/itm-atm-otm-call-options/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/itm-atm-otm-put-options/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/iv-rank-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/iv-rank-vs-iv-percentile/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/long-call-profit-loss-breakeven/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/long-put-profit-loss-breakeven/</loc></url>
@@ -122,6 +127,14 @@
   <url><loc>https://options-america.onrender.com/blog/selling-call-margin-buying-power/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/selling-put-margin-buying-power/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-call-profit-loss-breakeven/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-example/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-expiration-dte/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-explained/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-greeks/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-mistakes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-profit-loss-breakevens/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-vs-iron-butterfly/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/short-iron-condor-vs-short-strangle/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-put-profit-loss-breakeven/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-put-risks-mistakes/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/short-put-vs-covered-call/</loc></url>
@@ -132,6 +145,7 @@
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-long-call/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-long-put/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-time-decay-mistakes/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/theta-time-decay-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-vs-gamma-near-expiration/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/theta-vs-implied-volatility/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/time-decay-bear-put-spread/</loc></url>
@@ -160,6 +174,7 @@
   <url><loc>https://options-america.onrender.com/blog/when-to-close-bear-put-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/when-to-close-bull-call-spread/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/when-to-close-covered-call/</loc></url>
+  <url><loc>https://options-america.onrender.com/blog/when-to-close-short-iron-condor/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/when-to-sell-call-option/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/when-to-sell-put-option-you-bought/</loc></url>
   <url><loc>https://options-america.onrender.com/blog/why-option-time-decay-accelerates/</loc></url>
