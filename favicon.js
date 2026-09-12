@@ -344,7 +344,22 @@
     'portfolio-option-greeks-risk': '/assets/images/blog/portfolio-option-greeks-risk.webp',
     'option-greeks-scenario-analysis': '/assets/images/blog/option-greeks-scenario-analysis.webp',
     'option-greeks-pnl-explained': '/assets/images/blog/option-greeks-pnl-explained.webp',
-    'option-greeks-mistakes': '/assets/images/blog/option-greeks-mistakes.webp'
+    'option-greeks-mistakes': '/assets/images/blog/option-greeks-mistakes.webp',
+    'bull-call-spread-explained': '/assets/images/blog/bull-call-spread-explained.webp',
+    'how-to-build-bull-call-spread': '/assets/images/blog/how-to-build-bull-call-spread.webp',
+    'bull-call-spread-profit-loss-breakeven': '/assets/images/blog/bull-call-spread-profit-loss-breakeven.webp',
+    'bull-call-spread-example': '/assets/images/blog/bull-call-spread-example.webp',
+    'choose-bull-call-spread-strikes': '/assets/images/blog/choose-bull-call-spread-strikes.webp',
+    'choose-bull-call-spread-expiration': '/assets/images/blog/choose-bull-call-spread-expiration.webp',
+    'bull-call-spread-vs-long-call': '/assets/images/blog/bull-call-spread-vs-long-call.webp',
+    'bull-call-spread-vs-bull-put-spread': '/assets/images/blog/bull-call-spread-vs-bull-put-spread.webp',
+    'bull-call-spread-vs-covered-call': '/assets/images/blog/bull-call-spread-vs-covered-call.webp',
+    'bull-call-spread-greeks': '/assets/images/blog/bull-call-spread-greeks.webp',
+    'implied-volatility-bull-call-spread': '/assets/images/blog/implied-volatility-bull-call-spread.webp',
+    'time-decay-bull-call-spread': '/assets/images/blog/time-decay-bull-call-spread.webp',
+    'when-to-close-bull-call-spread': '/assets/images/blog/when-to-close-bull-call-spread.webp',
+    'adjust-bull-call-spread': '/assets/images/blog/adjust-bull-call-spread.webp',
+    'bull-call-spread-mistakes': '/assets/images/blog/bull-call-spread-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {
