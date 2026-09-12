@@ -405,7 +405,23 @@
     'theta-time-decay-butterfly-spread': '/assets/images/blog/theta-time-decay-butterfly-spread.webp',
     'adjust-butterfly-spread': '/assets/images/blog/adjust-butterfly-spread.webp',
     'when-to-close-butterfly-spread': '/assets/images/blog/when-to-close-butterfly-spread.webp',
-    'butterfly-spread-mistakes': '/assets/images/blog/butterfly-spread-mistakes.webp'
+    'butterfly-spread-mistakes': '/assets/images/blog/butterfly-spread-mistakes.webp',
+    'calendar-spread-explained': '/assets/images/blog/calendar-spread-explained.webp',
+    'how-to-build-calendar-spread': '/assets/images/blog/how-to-build-calendar-spread.webp',
+    'calendar-spread-profit-loss-breakeven': '/assets/images/blog/calendar-spread-profit-loss-breakeven.webp',
+    'calendar-spread-example': '/assets/images/blog/calendar-spread-example.webp',
+    'choose-calendar-spread-strike': '/assets/images/blog/choose-calendar-spread-strike.webp',
+    'choose-calendar-spread-expirations': '/assets/images/blog/choose-calendar-spread-expirations.webp',
+    'call-calendar-vs-put-calendar': '/assets/images/blog/call-calendar-vs-put-calendar.webp',
+    'calendar-spread-vs-diagonal-spread': '/assets/images/blog/calendar-spread-vs-diagonal-spread.webp',
+    'calendar-spread-vs-vertical-spread': '/assets/images/blog/calendar-spread-vs-vertical-spread.webp',
+    'double-calendar-spread-explained': '/assets/images/blog/double-calendar-spread-explained.webp',
+    'calendar-spread-greeks': '/assets/images/blog/calendar-spread-greeks.webp',
+    'theta-time-decay-calendar-spread': '/assets/images/blog/theta-time-decay-calendar-spread.webp',
+    'implied-volatility-calendar-spread': '/assets/images/blog/implied-volatility-calendar-spread.webp',
+    'adjust-calendar-spread': '/assets/images/blog/adjust-calendar-spread.webp',
+    'when-to-close-calendar-spread': '/assets/images/blog/when-to-close-calendar-spread.webp',
+    'calendar-spread-mistakes': '/assets/images/blog/calendar-spread-mistakes.webp'
   };
   const applyBlogImages = () => {
     document.querySelectorAll('.post-card[href]').forEach(card => {

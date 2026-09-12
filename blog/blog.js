@@ -8,7 +8,7 @@
   if (!grid || !input || !pagination || !resultText || !clearButton || !emptyState) return;
 
   const cards = Array.from(grid.querySelectorAll('.post-card'));
-  const clusterPriority = card => card.textContent.includes('Butterfly Spread') ? 12 : card.textContent.includes('Short Iron Condor') ? 11 : card.textContent.includes('Bear Put Spread') ? 10 : card.textContent.includes('Bull Call Spread') ? 9 : card.textContent.includes('Greeks') ? 8 : card.textContent.includes('Delta') ? 7 : card.textContent.includes('Vega') ? 6 : card.textContent.includes('Theta') ? 5 : card.textContent.includes('Selling Puts') ? 4 : card.textContent.includes('Buying Puts') ? 3 : card.textContent.includes('Selling Calls') ? 2 : card.textContent.includes('Call Options') ? 1 : 0;
+  const clusterPriority = card => card.textContent.includes('Calendar Spread') ? 13 : card.textContent.includes('Butterfly Spread') ? 12 : card.textContent.includes('Short Iron Condor') ? 11 : card.textContent.includes('Bear Put Spread') ? 10 : card.textContent.includes('Bull Call Spread') ? 9 : card.textContent.includes('Greeks') ? 8 : card.textContent.includes('Delta') ? 7 : card.textContent.includes('Vega') ? 6 : card.textContent.includes('Theta') ? 5 : card.textContent.includes('Selling Puts') ? 4 : card.textContent.includes('Buying Puts') ? 3 : card.textContent.includes('Selling Calls') ? 2 : card.textContent.includes('Call Options') ? 1 : 0;
   cards.sort((a, b) => clusterPriority(b) - clusterPriority(a));
   cards.forEach(card => grid.appendChild(card));
   const pageSize = 6;
