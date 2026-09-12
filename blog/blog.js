@@ -43,6 +43,27 @@
     return element;
   };
 
+  const paginationItems = totalPages => {
+    if (totalPages <= 7) return Array.from({length: totalPages}, (_, index) => index + 1);
+    const compact = window.matchMedia('(max-width: 620px)').matches;
+    if (compact) {
+      if (currentPage <= 2) return [1, 2, 3, 'end-gap', totalPages];
+      if (currentPage >= totalPages - 1) return [1, 'start-gap', totalPages - 2, totalPages - 1, totalPages];
+      return [1, 'start-gap', currentPage, 'end-gap', totalPages];
+    }
+    if (currentPage <= 3) return [1, 2, 3, 4, 'end-gap', totalPages];
+    if (currentPage >= totalPages - 2) return [1, 'start-gap', totalPages - 3, totalPages - 2, totalPages - 1, totalPages];
+    return [1, 'start-gap', currentPage - 1, currentPage, currentPage + 1, 'end-gap', totalPages];
+  };
+
+  const ellipsis = () => {
+    const element = document.createElement('span');
+    element.className = 'page-ellipsis';
+    element.textContent = '…';
+    element.setAttribute('aria-hidden', 'true');
+    return element;
+  };
+
   const renderPagination = totalPages => {
     pagination.replaceChildren();
     if (totalPages <= 1) {
@@ -51,9 +72,9 @@
     }
     pagination.hidden = false;
     pagination.appendChild(button('<span>←</span> Previous', currentPage - 1, {arrow: true, disabled: currentPage === 1, ariaLabel: 'Previous page'}));
-    for (let page = 1; page <= totalPages; page += 1) {
-      pagination.appendChild(button(String(page), page, {active: page === currentPage}));
-    }
+    paginationItems(totalPages).forEach(item => {
+      pagination.appendChild(typeof item === 'number' ? button(String(item), item, {active: item === currentPage}) : ellipsis());
+    });
     pagination.appendChild(button('Next <span>→</span>', currentPage + 1, {arrow: true, disabled: currentPage === totalPages, ariaLabel: 'Next page'}));
   };
 
@@ -94,5 +115,6 @@
   const params = new URLSearchParams(window.location.search);
   input.value = params.get('q') || '';
   currentPage = Number.parseInt(params.get('page') || '1', 10) || 1;
+  window.matchMedia('(max-width: 620px)').addEventListener('change', () => render(false));
   render(false);
 })();

@@ -24,12 +24,13 @@
 .post-card h2{font-size:1.45rem;line-height:1.24;margin:10px 0}
 .post-card p{color:#536378;line-height:1.65;margin:0 0 20px}
 .post-card strong{margin-top:auto;color:var(--blog-blue)}
-.blog-pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin:38px 0 0}
+.blog-pagination{display:flex;align-items:center;justify-content:center;gap:8px;margin:38px 0 0;max-width:100%;overflow:hidden}
 .page-btn{display:inline-flex;align-items:center;justify-content:center;min-width:44px;height:44px;padding:0 14px;border:1px solid #cbd8e5;border-radius:11px;background:#fff;color:#284966;font:inherit;font-weight:750;cursor:pointer;transition:.18s ease}
 .page-btn:hover:not(:disabled){border-color:#2475b6;color:#0f4c81;transform:translateY(-1px)}
 .page-btn.active{border-color:#0f4c81;background:#0f4c81;color:#fff;box-shadow:0 6px 16px rgba(15,76,129,.2)}
 .page-btn:disabled{opacity:.42;cursor:not-allowed}
 .page-btn.page-arrow{gap:7px;padding:0 17px}
+.page-ellipsis{display:inline-flex;align-items:center;justify-content:center;width:24px;height:44px;color:#718096;font-weight:800;flex:0 0 auto}
 .blog-empty{text-align:center;padding:54px 20px 36px;color:#627489}.blog-empty span{display:block;color:#0f4c81;font-size:3rem;transform:rotate(-20deg)}.blog-empty h3{margin:12px 0 8px;color:var(--blog-ink);font-size:1.55rem}.blog-empty p{margin:0 0 20px}.blog-empty button{border:0;border-radius:10px;background:#0f4c81;color:#fff;padding:12px 20px;font:inherit;font-weight:750;cursor:pointer}
 .blog-course-card{margin-top:38px;padding:30px;border-radius:18px;background:#0d2948;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:28px}
 .blog-course-card p{color:#cfe0ee;margin:8px 0 0}.blog-course-card .btn{white-space:nowrap}
@@ -53,4 +54,4 @@
 .faq-item{border-bottom:1px solid var(--blog-line);padding:18px 0}.faq-item h3{margin:0 0 8px;font-size:1.18rem}.faq-item p{margin:0}
 .article-disclaimer{font-size:.9rem;color:#718096;padding-top:26px;border-top:1px solid var(--blog-line)}
 @media(max-width:900px){.blog-grid{grid-template-columns:1fr 1fr}.article-layout{grid-template-columns:1fr}.article-sidebar{position:static}.blog-course-card{align-items:flex-start;flex-direction:column}}
-@media(max-width:620px){.blog-hero,.article-hero{padding:48px 0 38px}.blog-main{padding:42px 0 64px}.blog-tools{align-items:stretch;flex-direction:column;gap:12px;margin-bottom:24px}.blog-search{width:100%}.blog-results{padding-left:2px}.blog-grid{grid-template-columns:1fr}.page-btn{min-width:40px;height:42px;padding:0 11px}.page-btn.page-arrow{font-size:0}.page-btn.page-arrow span{font-size:1.15rem}.article-layout{padding:38px 0 65px}.article-body{font-size:1rem}.article-body h2{font-size:1.55rem}.blog-course-card{padding:24px}}
+@media(max-width:620px){.blog-hero,.article-hero{padding:48px 0 38px}.blog-main{padding:42px 0 64px}.blog-tools{align-items:stretch;flex-direction:column;gap:12px;margin-bottom:24px}.blog-search{width:100%}.blog-results{padding-left:2px}.blog-grid{grid-template-columns:1fr}.blog-pagination{gap:4px}.page-btn{min-width:38px;height:40px;padding:0 9px;border-radius:9px}.page-btn.page-arrow{font-size:0;padding:0 9px}.page-btn.page-arrow span{font-size:1.1rem}.page-ellipsis{width:18px;height:40px}.article-layout{padding:38px 0 65px}.article-body{font-size:1rem}.article-body h2{font-size:1.55rem}.blog-course-card{padding:24px}}
