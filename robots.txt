@@ -4,4 +4,4 @@ Allow: /
 Disallow: /dashboard/
 Disallow: /courses/*/player/
 
-Sitemap: https://options-america.onrender.com/sitemap.xml
+Sitemap: https://options-america.com/sitemap.xml
