@@ -59,7 +59,7 @@ selling-call-case-study|Selling Call Case Study|Beginner|1|oa-selling-call-case-
 practical-usage-level-1-1-long-call|Practical Usage – Level 1.1 – Long Call|Beginner|24|oa-practical-long-call-completed
 practical-usage-level-3-1-long-put|Practical Usage – Level 3.1 – Long Put|Beginner|15|oa-practical-long-put-completed`.trim();
 const COURSE_PROGRESS=COURSE_ROWS.split('\n').map(row=>{const [slug,title,level,total,key]=row.split('|');return{slug,title,level,total:Number(total),key}});
-const $=selector=>document.querySelector(selector);const PAGE_SIZE=6;let currentFilter='active',currentPage=1;
+const $=selector=>document.querySelector(selector);const PAGE_SIZE=3;let currentFilter='active',currentPage=1;
 function formatPercent(value){const n=Math.min(100,Math.max(0,Number(value)||0));return n>0&&n<0.1?n.toFixed(2):n>0&&n<1?n.toFixed(1):String(Math.round(n))}
 function readArray(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value:[]}catch(_){return[]}}
 function readVideoStore(){try{return JSON.parse(localStorage.getItem('oa-video-progress-v1')||'{}')||{}}catch(_){return{}}}
