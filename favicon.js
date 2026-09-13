@@ -124,17 +124,20 @@
       try { sessionStorage.setItem(autoplayStorageKey, JSON.stringify({ courseSlug, lesson, queuedAt: Date.now() })); }
       catch (_) {}
     };
-    const takeAutoplay = lesson => {
+    const hasQueuedAutoplay = lesson => {
       try {
         const queued = JSON.parse(sessionStorage.getItem(autoplayStorageKey) || 'null');
         if (!queued) return false;
         const matches = queued.courseSlug === courseSlug && Number(queued.lesson) === lesson && Date.now() - Number(queued.queuedAt || 0) < 15000;
-        sessionStorage.removeItem(autoplayStorageKey);
+        if (!matches && Date.now() - Number(queued.queuedAt || 0) >= 15000) sessionStorage.removeItem(autoplayStorageKey);
         return matches;
       } catch (_) {
         try { sessionStorage.removeItem(autoplayStorageKey); } catch (_) {}
         return false;
       }
+    };
+    const clearQueuedAutoplay = () => {
+      try { sessionStorage.removeItem(autoplayStorageKey); } catch (_) {}
     };
     const cloudSave = record => window.optionsAmericaAuth?.saveVideoProgress?.({
       course_slug: courseSlug,
@@ -149,14 +152,41 @@
 
     const bindPlayer = async () => {
       const iframe = document.getElementById('vimeoFrame');
-      const src = iframe?.getAttribute('src') || '';
+      let src = iframe?.getAttribute('src') || '';
       const vimeoId = (src.match(/video\/(\d+)/) || [])[1];
       const lesson = lessonNumber();
+      const shouldAutoplay = hasQueuedAutoplay(lesson);
+      if (iframe && vimeoId && shouldAutoplay && !/[?&]autoplay=1(?:&|$)/.test(src)) {
+        const autoplayUrl = new URL(src);
+        autoplayUrl.searchParams.set('autoplay', '1');
+        iframe.src = autoplayUrl.toString();
+        return;
+      }
       const token = `${lesson}:${vimeoId || ''}:${src}`;
       if (!iframe || !vimeoId || token === activeToken || !window.Vimeo?.Player) return;
       activeToken = token;
+      status.hidden = true;
+      status.replaceChildren();
       const player = new Vimeo.Player(iframe);
-      if (takeAutoplay(lesson)) player.ready().then(() => player.play()).catch(() => {});
+      if (shouldAutoplay) {
+        const startNextVideo = async () => {
+          if (token !== activeToken || !hasQueuedAutoplay(lesson)) return;
+          try {
+            await player.ready();
+            await player.play();
+            clearQueuedAutoplay();
+          } catch (_) {
+            try {
+              await player.setMuted(true);
+              await player.play();
+              clearQueuedAutoplay();
+            } catch (_) {}
+          }
+        };
+        startNextVideo();
+        setTimeout(startNextVideo, 900);
+        setTimeout(startNextVideo, 2200);
+      }
       let duration = 0;
       let lastCloudSave = 0;
       let local = readStore()[courseSlug]?.[String(lesson)] || null;
@@ -206,6 +236,9 @@
         save(data, true, true);
         const totalLessons = document.querySelectorAll('.syllabus-item[data-lesson]').length;
         if (document.getElementById('autoNext')?.checked && lesson < totalLessons) queueAutoplay(lesson + 1);
+      });
+      player.on('play', () => {
+        if (hasQueuedAutoplay(lesson)) clearQueuedAutoplay();
       });
     };
     let checks = 0;
