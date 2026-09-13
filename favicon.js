@@ -1,5 +1,8 @@
 // Options America global site bootstrap: favicon + Google Tag Manager + shared course messaging.
 (() => {
+  const isCoursePlayer = /^\/courses\/[^/]+\/player\/?$/.test(location.pathname);
+  if (isCoursePlayer) document.documentElement.classList.add('oa-player-auth-pending');
+
   const href = '/assets/images/options-america-favicon.png';
   let icon = document.querySelector('link[rel="icon"]');
   if (!icon) {
@@ -27,16 +30,16 @@
     document.head.appendChild(legalStyles);
   }
 
-  if (!document.querySelector('link[href="/options-auth.css"]')) {
+  if (!document.querySelector('link[href^="/options-auth.css"]')) {
     const authStyles = document.createElement('link');
     authStyles.rel = 'stylesheet';
-    authStyles.href = '/options-auth.css';
+    authStyles.href = '/options-auth.css?v=20260913-gate1';
     document.head.appendChild(authStyles);
   }
   if (!document.getElementById('options-america-auth')) {
     const authScript = document.createElement('script');
     authScript.id = 'options-america-auth';
-    authScript.src = '/options-auth.js';
+    authScript.src = '/options-auth.js?v=20260913-gate1';
     authScript.defer = true;
     document.head.appendChild(authScript);
   }

@@ -9,6 +9,7 @@
   let sdkPromise = null;
   let googlePromise = null;
   let rawNonce = null;
+  let pendingDestination = '';
 
   function escapeHtml(value) {
     return String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -116,18 +117,40 @@
       <div class="oa-auth-card">
         <button class="oa-auth-close" type="button" aria-label="Close">×</button>
         <span class="oa-auth-mark">↗</span>
-        <h2>Sign in to Options America</h2>
-        <p>Use your Google account to keep one account across Options America and our trading tools.</p>
+        <h2>Sign in to start learning</h2>
+        <p>Create your free Options America account or sign in with Google to start the course and save your progress.</p>
         <div class="oa-google-host" data-google-host></div>
         <p class="oa-auth-error" role="alert" hidden></p>
-        <small>Signing in does not restrict access to the free courses.</small>
+        <small>Your account is free. No credit card is required.</small>
       </div>`;
     document.body.appendChild(dialog);
-    dialog.querySelector('.oa-auth-close')?.addEventListener('click', () => dialog.close());
+    dialog.querySelector('.oa-auth-close')?.addEventListener('click', () => closeDialog(dialog));
     dialog.addEventListener('click', event => {
-      if (event.target === dialog) dialog.close();
+      if (event.target === dialog) closeDialog(dialog);
     });
     return dialog;
+  }
+
+  function playerDestination(value) {
+    try {
+      const url = new URL(String(value || ''), location.href);
+      if (url.origin !== location.origin || !/^\/courses\/[^/]+\/player\/?$/.test(url.pathname)) return '';
+      return `${url.pathname}${url.search}${url.hash}`;
+    } catch (_) {
+      return '';
+    }
+  }
+
+  function coursePageForPlayer() {
+    const match = location.pathname.match(/^(\/courses\/[^/]+\/)player\/?$/);
+    return match?.[1] || '/courses/';
+  }
+
+  function closeDialog(dialog) {
+    dialog.close();
+    if (document.documentElement.classList.contains('oa-player-auth-pending')) {
+      location.replace(coursePageForPlayer());
+    }
   }
 
   function showError(message) {
@@ -152,6 +175,12 @@
       await registerAccess(authClient);
       ensureDialog().close();
       await refreshAuthUI();
+      document.documentElement.classList.remove('oa-player-auth-pending');
+      const destination = pendingDestination;
+      pendingDestination = '';
+      if (destination && destination !== `${location.pathname}${location.search}${location.hash}`) {
+        location.assign(destination);
+      }
     } catch (error) {
       rawNonce = null;
       console.error('Options America Google sign-in failed', error);
@@ -159,7 +188,9 @@
     }
   }
 
-  async function beginGoogleLogin() {
+  async function beginGoogleLogin(destination) {
+    const safeDestination = typeof destination === 'string' ? playerDestination(destination) : '';
+    if (safeDestination) pendingDestination = safeDestination;
     const dialog = ensureDialog();
     const errorBox = dialog.querySelector('.oa-auth-error');
     if (errorBox) errorBox.hidden = true;
@@ -196,7 +227,7 @@
 
   function renderSignedOut(slot) {
     slot.innerHTML = '<button class="oa-login-button" type="button">Sign in</button>';
-    slot.querySelector('button')?.addEventListener('click', beginGoogleLogin);
+    slot.querySelector('button')?.addEventListener('click', () => beginGoogleLogin());
   }
 
   function renderSignedIn(slot, user) {
@@ -264,6 +295,32 @@
     }
   }
 
+  async function requireAuth(destination) {
+    const safeDestination = playerDestination(destination);
+    if (!safeDestination) return false;
+    const user = await getCurrentUser();
+    if (user) {
+      document.documentElement.classList.remove('oa-player-auth-pending');
+      if (safeDestination !== `${location.pathname}${location.search}${location.hash}`) location.assign(safeDestination);
+      return true;
+    }
+    await beginGoogleLogin(safeDestination);
+    return false;
+  }
+
+  function setupCourseAccessGate() {
+    document.addEventListener('click', event => {
+      const link = event.target.closest?.('a[href]');
+      const destination = link ? playerDestination(link.href) : '';
+      if (!destination || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      requireAuth(destination);
+    });
+
+    const currentPlayer = playerDestination(location.href);
+    if (currentPlayer) requireAuth(currentPlayer);
+  }
+
 
   async function loadVideoProgress(courseSlug, lessonNumber) {
     try {
@@ -325,7 +382,14 @@
     refreshAuthUI();
   }
 
-  window.optionsAmericaAuth = { beginGoogleLogin, refreshAuthUI, getCurrentUser, loadVideoProgress, saveVideoProgress };
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', addAuthSlots, { once: true });
-  else addAuthSlots();
+  window.optionsAmericaAuth = { beginGoogleLogin, requireAuth, refreshAuthUI, getCurrentUser, loadVideoProgress, saveVideoProgress };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      addAuthSlots();
+      setupCourseAccessGate();
+    }, { once: true });
+  } else {
+    addAuthSlots();
+    setupCourseAccessGate();
+  }
 })();
