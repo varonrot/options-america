@@ -222,7 +222,8 @@
         const previous = readStore()[courseSlug]?.[String(lesson)] || {};
         const percent = ended ? 100 : Math.max(Number(previous.percent) || 0, currentPercent);
         const record = writeRecord({ lesson, vimeoId, position: seconds, duration, percent: Math.round(percent * 10) / 10, completed: ended || percent >= 90 });
-        showProgress(record);
+        const displayPercent = ended ? 100 : Math.round(currentPercent * 10) / 10;
+        showProgress({ ...record, position: seconds, percent: displayPercent });
         try { localStorage.setItem('oa-last-course', JSON.stringify({ slug: courseSlug, lesson, position: seconds, visitedAt: Date.now() })); } catch (_) {}
         const now = Date.now();
         if (forceCloud || now - lastCloudSave >= 15000) {
