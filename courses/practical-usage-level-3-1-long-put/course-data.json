@@ -6,7 +6,7 @@
     "level": "Beginner",
     "duration": "1 hour",
     "previewVimeoId": "962542379",
-    "lessonCount": 5,
+    "lessonCount": 15,
     "curriculumSource": "Reconstructed from the dedicated Long Put lesson records in the WordPress export; the course curriculum field and legacy Start Course link point to unrelated demo/Level 1 content."
   },
   "lessons": [
@@ -20,9 +20,141 @@
       "section": "Module 1: Course Introduction",
       "contentHtml": "<p>Welcome to Level 3.1, focused on the practical usage of long put strategies. This course is designed for traders who have completed Levels 1, 2 and 3 and understand put options from the buyer's perspective.</p><h3>What to Expect</h3><ul><li><strong>Detailed case studies:</strong> Follow long put trades from setup and execution through monitoring and closing.</li><li><strong>Position management:</strong> Adjust positions as the market moves, mitigate risk and lock in profits.</li><li><strong>Trade analysis:</strong> Evaluate performance, market signals and the decisions behind each trade.</li><li><strong>Risk management:</strong> Identify, assess and manage the risks inherent in long put strategies.</li></ul><p>The module is designed to provide hands-on experience with long puts in real trading scenarios.</p>"
     },
-    {"number":2,"wpId":50652,"title":"Opening Buy Put Positions","duration":"2 min","type":"video","vimeoId":"962595812","section":"Module 2: Long Put Workflow"},
-    {"number":3,"wpId":50653,"title":"Monitor and LookUp","duration":"2 min","type":"video","vimeoId":"962542379","section":"Module 2: Long Put Workflow"},
-    {"number":4,"wpId":50654,"title":"ABNB Case Study","duration":"2 min","type":"video","vimeoId":"962541702","section":"Module 3: ABNB Case Study"},
-    {"number":5,"wpId":50655,"title":"Analyze ABNB Position","duration":"2 min","type":"video","vimeoId":"962542154","section":"Module 3: ABNB Case Study"}
+    {
+      "wpId": 50502,
+      "title": "Information needed",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "935428450",
+      "contentHtml": "",
+      "number": 2,
+      "section": "Module 1: Course Introduction"
+    },
+    {
+      "number": 3,
+      "wpId": 50652,
+      "title": "Opening Buy Put Positions",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962595812",
+      "section": "Module 2: Long Put Workflow"
+    },
+    {
+      "number": 4,
+      "wpId": 50653,
+      "title": "Monitor and LookUp",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962542379",
+      "section": "Module 2: Long Put Workflow"
+    },
+    {
+      "number": 5,
+      "wpId": 50654,
+      "title": "ABNB Case Study",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962541702",
+      "section": "Module 3: ABNB Case Study"
+    },
+    {
+      "number": 6,
+      "wpId": 50655,
+      "title": "Analyze ABNB Position",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962542154",
+      "section": "Module 3: ABNB Case Study"
+    },
+    {
+      "wpId": 50656,
+      "title": "Portfolio Beta Weight",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "952811029",
+      "contentHtml": "",
+      "number": 7,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50657,
+      "title": "Investment in uncorrelated assets",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "953468779",
+      "contentHtml": "",
+      "number": 8,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50658,
+      "title": "Overall Portfolio Value",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962542643",
+      "contentHtml": "",
+      "number": 9,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50659,
+      "title": "ABT Case Study",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962541966",
+      "contentHtml": "",
+      "number": 10,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50660,
+      "title": "TAP Case Study",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "962542923",
+      "contentHtml": "",
+      "number": 11,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50661,
+      "title": "TAP Theoretical Value",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "962543103",
+      "contentHtml": "",
+      "number": 12,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50662,
+      "title": "Tesla Neutral Market",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "962543261",
+      "contentHtml": "",
+      "number": 13,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50663,
+      "title": "Tesla Profit Did Not Exercise",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962543506",
+      "contentHtml": "",
+      "number": 14,
+      "section": "Module 4: Portfolio Case Studies"
+    },
+    {
+      "wpId": 50664,
+      "title": "VLO Case Study",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962543673",
+      "contentHtml": "",
+      "number": 15,
+      "section": "Module 4: Portfolio Case Studies"
+    }
   ]
 }

@@ -1,14 +1,15 @@
 const DURATION_CACHE_KEY='oa-level12-vimeo-durations';
 const curriculumGroups=[
- {title:'Butterfly Foundations',lessons:[1,2,3,4,5]},
- {title:'Different Types of Butterfly Spread',lessons:[6,7,8,9]},
- {title:'Vega & Implied Volatility',lessons:[10,11,12,13]},
- {title:'Theta & Time Decay',lessons:[14,15,16,17]},
- {title:'Delta & the Butterfly Strategy',lessons:[18,19,20,21,22]},
- {title:'Butterfly Scenarios',lessons:[23,24,25,26,27,28,29,30,31,32,33,34,35,36]},
- {title:'Trade Execution',lessons:[37]},
- {title:'Position Management & Adjustments',lessons:[38,39,40,41,42,43,44,45,46,47,48,49]},
- {title:'Course Summary',lessons:[50]}
+ {title:'Butterfly Foundations',lessons:[1,2,3,4,5,6]},
+ {title:'Different Types of Butterfly Spread',lessons:[7,8,9,10]},
+ {title:'Vega & Implied Volatility',lessons:[11,12,13,14]},
+ {title:'Theta & Time Decay',lessons:[15,16,17,18]},
+ {title:'Delta & the Butterfly Strategy',lessons:[19,20,21,22,23]},
+ {title:'Butterfly Scenarios',lessons:[24,25,26,27,28,29,30,31,32,33,34,35,36,37]},
+ {title:'Trade Execution',lessons:[38]},
+ {title:'Position Management & Adjustments',lessons:[39,40,41,42,43,44,45,46,47,48,49,50]},
+ {title:'Professional Trading Framework',lessons:[51,52,53,54,55,56,57,58,59,60]},
+ {title:'Course Summary',lessons:[61]}
 ];
 function readDurationCache(){try{return JSON.parse(localStorage.getItem(DURATION_CACHE_KEY)||'{}')}catch(e){return {}}}
 function saveDurationCache(c){try{localStorage.setItem(DURATION_CACHE_KEY,JSON.stringify(c))}catch(e){}}

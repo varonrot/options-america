@@ -1,14 +1,15 @@
 const DURATION_CACHE_KEY='oa-level12-vimeo-durations';
 const curriculumGroups=[
- {title:'Butterfly Foundations',lessons:[1,2,3,4,5]},
- {title:'Different Types of Butterfly Spread',lessons:[6,7,8,9]},
- {title:'Vega & Implied Volatility',lessons:[10,11,12,13]},
- {title:'Theta & Time Decay',lessons:[14,15,16,17]},
- {title:'Delta & the Butterfly Strategy',lessons:[18,19,20,21,22]},
- {title:'Butterfly Scenarios',lessons:[23,24,25,26,27,28,29,30,31,32,33,34,35,36]},
- {title:'Trade Execution',lessons:[37]},
- {title:'Position Management & Adjustments',lessons:[38,39,40,41,42,43,44,45,46,47,48,49]},
- {title:'Course Summary',lessons:[50]}
+ {title:'Butterfly Foundations',lessons:[1,2,3,4,5,6]},
+ {title:'Different Types of Butterfly Spread',lessons:[7,8,9,10]},
+ {title:'Vega & Implied Volatility',lessons:[11,12,13,14]},
+ {title:'Theta & Time Decay',lessons:[15,16,17,18]},
+ {title:'Delta & the Butterfly Strategy',lessons:[19,20,21,22,23]},
+ {title:'Butterfly Scenarios',lessons:[24,25,26,27,28,29,30,31,32,33,34,35,36,37]},
+ {title:'Trade Execution',lessons:[38]},
+ {title:'Position Management & Adjustments',lessons:[39,40,41,42,43,44,45,46,47,48,49,50]},
+ {title:'Professional Trading Framework',lessons:[51,52,53,54,55,56,57,58,59,60]},
+ {title:'Course Summary',lessons:[61]}
 ];
 const state={data:null,current:1,completed:new Set(JSON.parse(localStorage.getItem('oa-level12-completed')||'[]')),player:null,durations:{}};
 const $=s=>document.querySelector(s),list=$('#syllabusList'),frame=$('#vimeoFrame'),videoCard=$('#videoCard'),nonVideoCard=$('#nonVideoCard');
@@ -25,7 +26,7 @@ function loadLesson(n,push=true){state.current=n;const l=state.data.lessons[n-1]
 function loadVimeo(l){frame.src=`https://player.vimeo.com/video/${l.vimeoId}?title=0&byline=0&portrait=0&autopause=0`;state.player=new Vimeo.Player(frame);state.player.getDuration().then(seconds=>{const d=fmtDuration(seconds);if(!d)return;state.durations[String(l.vimeoId)]=d;l.duration=d;saveDurations();refreshCurrentMeta()}).catch(()=>{});state.player.on('ended',()=>{completeCurrent();if($('#autoNext').checked&&state.current<state.data.lessons.length)setTimeout(()=>go(1),700)})}
 function stopPlayer(){if(state.player){try{state.player.unload()}catch(e){}state.player=null}frame.src=''}
 function completeCurrent(){state.completed.add(state.current);localStorage.setItem('oa-level12-completed',JSON.stringify([...state.completed]));const item=list.querySelector(`[data-lesson="${state.current}"]`);if(item){item.classList.add('done');item.querySelector('.lesson-check').textContent='✓'}updateProgress()}
-function updateProgress(){const total=state.data?.lessons.length||50,done=[...state.completed].filter(n=>n>=1&&n<=total).length,pct=total?Math.round(done/total*100):0;$('#progressText').textContent=`${done} / ${total}`;$('#percentText').textContent=`${pct}% complete`;$('#progressBar').style.width=`${pct}%`}
+function updateProgress(){const total=state.data?.lessons.length||61,done=[...state.completed].filter(n=>n>=1&&n<=total).length,pct=total?Math.round(done/total*100):0;$('#progressText').textContent=`${done} / ${total}`;$('#percentText').textContent=`${pct}% complete`;$('#progressBar').style.width=`${pct}%`}
 function go(d){const t=state.current+d;if(t<1||t>state.data.lessons.length)return;loadLesson(t,true)}
 function esc(s){return String(s??'').replace(/[&<>'\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]))}
 init().catch(e=>{console.error(e);$('#lessonTitle').textContent='Could not load course data'});

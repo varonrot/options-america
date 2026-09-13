@@ -5,13 +5,10 @@ const curriculumGroups=[
   {title:'The Greeks and Short Straddle',lessons:[10,11,12,13,14,15,16,17,18,19,20,21]},
   {title:'Module 3: Constructing the Short Straddle',lessons:[22,23,24]},
   {title:'Module 4: Managing the Short Straddle',lessons:[25,26,27,28]},
-  {title:'Module 5: Risk Management',lessons:[29,30,31,32,33,34]},
-  {title:'Module 6: Real-Life Case Studies',lessons:[33]},
-  {title:'Module 6.2: Short Straddle Adjustments',lessons:[34]},
-  {title:'Module 7: Advanced Strategies',lessons:[35,36,37,38,39,40,41,42]},
-  {title:'Module 8: Psychological Aspects',lessons:[43,44,45,46,47]},
-  {title:'Module 9: Tools and Resources',lessons:[48,49,50,51,52]},
-  {title:'Module 10: Course Summary and Next Steps',lessons:[53,54,55,56,57]}
+  {title:'Module 5: Risk Management',lessons:[29,30,31]},
+  {title:'Module 6: Advanced Variations and Case Studies',lessons:[32,33,34,35,36,37,38,39,40,41,42,43,44]},
+  {title:'Module 7: Psychological Aspects',lessons:[45,46,47,48,49]},
+  {title:'Module 8: Professional Trading Framework',lessons:[50,51,52,53,54,55,56,57,58,59]}
 ];
 function readDurations(){try{return JSON.parse(localStorage.getItem(DURATION_CACHE_KEY)||'{}')}catch(e){return {}}}
 function saveDurations(d){try{localStorage.setItem(DURATION_CACHE_KEY,JSON.stringify(d))}catch(e){}}

@@ -1,5 +1,5 @@
 const DURATION_CACHE_KEY='oa-long-put-vimeo-durations';
-const groups=[{title:'Module 1: Course Introduction',lessons:[1]},{title:'Module 2: Long Put Workflow',lessons:[2,3]},{title:'Module 3: ABNB Case Study',lessons:[4,5]}];
+const groups=[{title:'Module 1: Course Introduction',lessons:[1,2]},{title:'Module 2: Long Put Workflow',lessons:[3,4]},{title:'Module 3: ABNB Case Study',lessons:[5,6]},{title:'Module 4: Portfolio Case Studies',lessons:[7,8,9,10,11,12,13,14,15]}];
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function fmt(s){s=Math.max(0,Math.round(Number(s)||0));if(!s)return '';const m=Math.floor(s/60),r=s%60;return `${m}:${String(r).padStart(2,'0')}`}
 function readCache(){try{return JSON.parse(localStorage.getItem(DURATION_CACHE_KEY)||'{}')}catch(e){return {}}}

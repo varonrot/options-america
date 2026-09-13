@@ -3,19 +3,417 @@
     "title": "Advanced Option: Level 10 – Bear Put Spread",
     "level": "Intermediate",
     "previewVimeoId": "1005357464",
-    "lessonCount": 1,
-    "availabilityMessage": "We’re currently refreshing this course with updated examples and enhanced trading demonstrations. The new version will be available here soon."
+    "lessonCount": 45,
+    "availabilityMessage": "This video is being edited and will be available soon.",
+    "sourceId": 49876,
+    "slug": "advanced-option-level-10-bear-put-spread",
+    "duration": "3 hours"
   },
   "lessons": [
     {
       "number": 1,
-      "wpId": null,
-      "title": "Course Update",
-      "duration": "Reading",
-      "type": "text",
-      "vimeoId": null,
-      "sourceUnavailable": true,
-      "section": "Course Status"
+      "section": "Bear Put Spread Foundations",
+      "title": "Overview of Bear Put Spread Strategy",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51175,
+      "vimeoId": null
+    },
+    {
+      "number": 2,
+      "section": "Bear Put Spread Foundations",
+      "title": "Benefits of Using Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51179,
+      "vimeoId": null
+    },
+    {
+      "number": 3,
+      "section": "Bear Put Spread Foundations",
+      "title": "Basic Structure and Components of a Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51180,
+      "vimeoId": null
+    },
+    {
+      "number": 4,
+      "section": "Bear Put Spread Foundations",
+      "title": "Key Terminology for Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51181,
+      "vimeoId": null
+    },
+    {
+      "number": 5,
+      "section": "Bear Put Spread Foundations",
+      "title": "Understanding Market Conditions for Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51182,
+      "vimeoId": null
+    },
+    {
+      "number": 6,
+      "section": "Market Selection and Analysis",
+      "title": "Selecting the Right Strike Prices",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51184,
+      "vimeoId": null
+    },
+    {
+      "number": 7,
+      "section": "Market Selection and Analysis",
+      "title": "Choosing the Correct Expiration Dates",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51185,
+      "vimeoId": null
+    },
+    {
+      "number": 8,
+      "section": "Market Selection and Analysis",
+      "title": "Calculating Potential Profit and Loss",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51186,
+      "vimeoId": null
+    },
+    {
+      "number": 9,
+      "section": "Market Selection and Analysis",
+      "title": "Impact of Volatility on Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51187,
+      "vimeoId": null
+    },
+    {
+      "number": 10,
+      "section": "Market Selection and Analysis",
+      "title": "Role of Option Greeks in Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51188,
+      "vimeoId": null
+    },
+    {
+      "number": 11,
+      "section": "Trade Setup and Execution",
+      "title": "Setting Up a Bear Put Spread Trade",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51189,
+      "vimeoId": null
+    },
+    {
+      "number": 12,
+      "section": "Trade Setup and Execution",
+      "title": "Placing Orders for Bear Put Spread",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51190,
+      "vimeoId": null
+    },
+    {
+      "number": 13,
+      "section": "Trade Setup and Execution",
+      "title": "Understanding Margin Requirements",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51191,
+      "vimeoId": null
+    },
+    {
+      "number": 14,
+      "section": "Trade Setup and Execution",
+      "title": "Brokerage Platforms and Tools",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51192,
+      "vimeoId": null
+    },
+    {
+      "number": 15,
+      "section": "Trade Setup and Execution",
+      "title": "Using Option Chains for Strategy Setup",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51193,
+      "vimeoId": null
+    },
+    {
+      "number": 16,
+      "section": "Position Monitoring and Adjustments",
+      "title": "Monitoring Open Positions",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51194,
+      "vimeoId": null
+    },
+    {
+      "number": 17,
+      "section": "Position Monitoring and Adjustments",
+      "title": "Adjusting Strike Prices and Expiration Dates",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51195,
+      "vimeoId": null
+    },
+    {
+      "number": 18,
+      "section": "Position Monitoring and Adjustments",
+      "title": "Responding to Market Movements",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51196,
+      "vimeoId": null
+    },
+    {
+      "number": 19,
+      "section": "Position Monitoring and Adjustments",
+      "title": "Rolling Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51197,
+      "vimeoId": null
+    },
+    {
+      "number": 20,
+      "section": "Position Monitoring and Adjustments",
+      "title": "Exiting Bear Put Spread Positions",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51198,
+      "vimeoId": null
+    },
+    {
+      "number": 21,
+      "section": "Risk Management and Hedging",
+      "title": "Identifying and Assessing Risks in Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51199,
+      "vimeoId": null
+    },
+    {
+      "number": 22,
+      "section": "Risk Management and Hedging",
+      "title": "Using Stop-Loss Orders for Risk Control",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51200,
+      "vimeoId": null
+    },
+    {
+      "number": 23,
+      "section": "Risk Management and Hedging",
+      "title": "Delta Hedging for Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51201,
+      "vimeoId": null
+    },
+    {
+      "number": 24,
+      "section": "Risk Management and Hedging",
+      "title": "Incorporating Other Strategies for Risk Mitigation",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51202,
+      "vimeoId": null
+    },
+    {
+      "number": 25,
+      "section": "Risk Management and Hedging",
+      "title": "Understanding the Maximum Loss Scenario",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51203,
+      "vimeoId": null
+    },
+    {
+      "number": 26,
+      "section": "Advanced Bear Put Spread Applications",
+      "title": "Combining Bear Put Spreads with Other Strategies",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51204,
+      "vimeoId": null
+    },
+    {
+      "number": 27,
+      "section": "Advanced Bear Put Spread Applications",
+      "title": "Implementing Ratio Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51205,
+      "vimeoId": null
+    },
+    {
+      "number": 28,
+      "section": "Advanced Bear Put Spread Applications",
+      "title": "Incorporating Vertical and Horizontal Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51206,
+      "vimeoId": null
+    },
+    {
+      "number": 29,
+      "section": "Advanced Bear Put Spread Applications",
+      "title": "Using Bear Put Spreads in Complex Trades",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51207,
+      "vimeoId": null
+    },
+    {
+      "number": 30,
+      "section": "Advanced Bear Put Spread Applications",
+      "title": "Adapting Bear Put Spreads to Changing Market Conditions",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51208,
+      "vimeoId": null
+    },
+    {
+      "number": 31,
+      "section": "Bear Put Spread Case Studies",
+      "title": "Case Study 1: Bear Put Spread in a Moderately Bearish Market",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51209,
+      "vimeoId": null
+    },
+    {
+      "number": 32,
+      "section": "Bear Put Spread Case Studies",
+      "title": "Case Study 2: Bear Put Spread in a Volatile Market",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51210,
+      "vimeoId": null
+    },
+    {
+      "number": 33,
+      "section": "Bear Put Spread Case Studies",
+      "title": "Case Study 3: Adjusting Bear Put Spreads Mid-Trade",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51211,
+      "vimeoId": null
+    },
+    {
+      "number": 34,
+      "section": "Bear Put Spread Case Studies",
+      "title": "Case Study 4: Bear Put Spread during Earnings Season",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51212,
+      "vimeoId": null
+    },
+    {
+      "number": 35,
+      "section": "Bear Put Spread Case Studies",
+      "title": "Case Study 5: Managing Bear Put Spread in a Low Volatility Environment",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51213,
+      "vimeoId": null
+    },
+    {
+      "number": 36,
+      "section": "Practice and Trading Plan",
+      "title": "Simulated Bear Put Spread Trades",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51214,
+      "vimeoId": null
+    },
+    {
+      "number": 37,
+      "section": "Practice and Trading Plan",
+      "title": "Interactive Quizzes to Test Your Knowledge",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51215,
+      "vimeoId": null
+    },
+    {
+      "number": 38,
+      "section": "Practice and Trading Plan",
+      "title": "Paper Trading Exercises for Real-Time Practice",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51216,
+      "vimeoId": null
+    },
+    {
+      "number": 39,
+      "section": "Practice and Trading Plan",
+      "title": "Analyzing Historical Market Data for Bear Put Spread Opportunities",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51217,
+      "vimeoId": null
+    },
+    {
+      "number": 40,
+      "section": "Practice and Trading Plan",
+      "title": "Creating a Bear Put Spread Trading Plan",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51218,
+      "vimeoId": null
+    },
+    {
+      "number": 41,
+      "section": "Trading Discipline and Course Review",
+      "title": "Managing Emotions in Bearish Market Conditions",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51219,
+      "vimeoId": null
+    },
+    {
+      "number": 42,
+      "section": "Trading Discipline and Course Review",
+      "title": "Building Confidence with Bear Put Spread Strategies",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51220,
+      "vimeoId": null
+    },
+    {
+      "number": 43,
+      "section": "Trading Discipline and Course Review",
+      "title": "Avoiding Common Mistakes with Bear Put Spreads",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51221,
+      "vimeoId": null
+    },
+    {
+      "number": 44,
+      "section": "Trading Discipline and Course Review",
+      "title": "Developing Discipline and Patience",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51222,
+      "vimeoId": null
+    },
+    {
+      "number": 45,
+      "section": "Trading Discipline and Course Review",
+      "title": "Review and Future Steps in Advanced Options Trading",
+      "duration": "3 min",
+      "type": "video",
+      "wpId": 51223,
+      "vimeoId": null
     }
   ]
 }

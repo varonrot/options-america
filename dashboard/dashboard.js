@@ -8,12 +8,12 @@ options-trading-course-level-6-vega-and-volatility|Options Trading Course Level 
 option-greeks-level-7-delta-effect-strategy|Options Trading Course Level 7: Delta Effect|Beginner|38|oa-level7-completed
 option-greeks-level-8-option-greeks-in-action|Options Trading Course Level 8: All Greeks In Action|Beginner|46|oa-level8-completed
 advanced-option-level-9-bull-call-spread|Advanced Option: Level 9 – Bull Call Spread Strategy|Intermediate|85|oa-level9-completed
-advanced-option-level-10-bear-put-spread|Advanced Option: Level 10 – Bear Put Spread|Intermediate|1|oa-level10-completed
-advanced-option-level-11-short-iron-condor|Advanced Option: Level 11 – Short Iron Condor|Intermediate|63|oa-level11-completed
-advanced-option-level-12-butterfly|Advanced Option: Level 12 – Butterfly|Intermediate|50|oa-level12-completed
-advanced-option-level-13-calendar-spreads|Advanced Option: Level 13 – Calendar Spreads|Intermediate|38|oa-level13-completed
-advanced-option-level-14-backspread|Options Trading Option Level 14: Backspread|Intermediate|47|oa-level14-completed
-advanced-option-level-15-short-straddle|Advanced Option: Level 15 – Short Straddle|Intermediate|57|oa-level15-completed
+advanced-option-level-10-bear-put-spread|Advanced Option: Level 10 – Bear Put Spread|Intermediate|45|oa-level10-completed
+advanced-option-level-11-short-iron-condor|Advanced Option: Level 11 – Short Iron Condor|Intermediate|66|oa-level11-completed
+advanced-option-level-12-butterfly|Advanced Option: Level 12 – Butterfly|Intermediate|61|oa-level12-completed
+advanced-option-level-13-calendar-spreads|Advanced Option: Level 13 – Calendar Spreads|Intermediate|37|oa-level13-completed
+advanced-option-level-14-backspread|Options Trading Option Level 14: Backspread|Intermediate|48|oa-level14-completed
+advanced-option-level-15-short-straddle|Advanced Option: Level 15 – Short Straddle|Intermediate|59|oa-level15-completed
 advanced-option-level-16-short-strangle|Advanced Option: Level 16 – Short Strangle|Intermediate|60|oa-level16-completed
 advanced-option-level-17-covered-calls|Advanced Option: Level 17 – Covered Calls|Intermediate|68|oa-level17-completed
 advanced-option-level-18-protective-puts|Advanced Option: Level 18 – Protective Puts|Intermediate|45|oa-level18-completed
@@ -56,8 +56,8 @@ level-85-uvxy-stock-strategies|Level 85 – UVXY Stock Strategies|Advanced|1|oa-
 building-a-diversified-portfolio|Building a Diversified Portfolio|Intermediate|1|oa-diversified-portfolio-completed
 selling-put-case-study|Selling Put Case Study|Beginner|1|oa-selling-put-case-study-completed
 selling-call-case-study|Selling Call Case Study|Beginner|1|oa-selling-call-case-study-completed
-practical-usage-level-1-1-long-call|Practical Usage – Level 1.1 – Long Call|Beginner|21|oa-practical-long-call-completed
-practical-usage-level-3-1-long-put|Practical Usage – Level 3.1 – Long Put|Beginner|5|oa-practical-long-put-completed`.trim();
+practical-usage-level-1-1-long-call|Practical Usage – Level 1.1 – Long Call|Beginner|24|oa-practical-long-call-completed
+practical-usage-level-3-1-long-put|Practical Usage – Level 3.1 – Long Put|Beginner|15|oa-practical-long-put-completed`.trim();
 const COURSE_PROGRESS=COURSE_ROWS.split('\n').map(row=>{const [slug,title,level,total,key]=row.split('|');return{slug,title,level,total:Number(total),key}});
 const $=selector=>document.querySelector(selector);const PAGE_SIZE=6;let currentFilter='active',currentPage=1;
 function formatPercent(value){const n=Math.min(100,Math.max(0,Number(value)||0));return n>0&&n<0.1?n.toFixed(2):n>0&&n<1?n.toFixed(1):String(Math.round(n))}

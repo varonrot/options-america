@@ -6,30 +6,230 @@
     "level": "Beginner",
     "duration": "3 hours",
     "previewVimeoId": "949569725",
-    "lessonCount": 21,
+    "lessonCount": 24,
     "curriculumSource": "Reconstructed from the dedicated Long Call lesson records in the WordPress export; the course curriculum field and legacy Start Course link point to unrelated demo/Level 1 content."
   },
   "lessons": [
-    {"number":1,"wpId":50409,"title":"Practical Usage – Level 1.1 – Long Call","duration":"Reading","type":"text","vimeoId":null,"section":"Module 1: Long Call Foundations","contentHtml":"<p>In this lesson, we practice buying a call option on the ThinkOrSwim trading platform. A long call is a bullish options strategy that gives you the right to buy a stock at a specific strike price before expiration.</p><h3>Step-by-Step Guide</h3><ol><li>Log in to the ThinkOrSwim platform.</li><li>Open the Trade tab and select the Options section.</li><li>Search for the stock you want to trade.</li><li>Choose the call option with the preferred strike price and expiration.</li><li>Enter the number of contracts and review the order.</li><li>Confirm and send the order.</li></ol><p>Observe how stock-price movement, volatility and time decay affect the position's potential profit or loss.</p>"},
-    {"number":2,"wpId":50500,"title":"What Will You Learn in This Mini Course – Long Call?","duration":"3 min","type":"video","vimeoId":"949569725","section":"Module 1: Long Call Foundations"},
-    {"number":3,"wpId":50501,"title":"Opening Buy Call Positions","duration":"2 min","type":"video","vimeoId":"962599957","section":"Module 1: Long Call Foundations"},
-    {"number":4,"wpId":50502,"title":"Information Needed","duration":"2 min","type":"video","vimeoId":"935428450","section":"Module 1: Long Call Foundations"},
-    {"number":5,"wpId":50503,"title":"Window Arrangement of the Platform","duration":"3 min","type":"video","vimeoId":"949678875","section":"Module 1: Long Call Foundations"},
-    {"number":6,"wpId":50504,"title":"Buying a Call Option on Netflix Stock","duration":"3 min","type":"video","vimeoId":"949678786","section":"Module 2: Netflix Trade"},
-    {"number":7,"wpId":50505,"title":"See the Breakeven Point on the Chart","duration":"2 min","type":"video","vimeoId":"949825695","section":"Module 2: Netflix Trade"},
-    {"number":8,"wpId":50506,"title":"Netflix and Profit Target","duration":"3 min","type":"video","vimeoId":"951252420","section":"Module 2: Netflix Trade"},
-    {"number":9,"wpId":50507,"title":"Revisiting Netflix Position","duration":"2 min","type":"video","vimeoId":"962298748","section":"Module 2: Netflix Trade"},
-    {"number":10,"wpId":50508,"title":"Case Study Notice","duration":"Reading","type":"text","vimeoId":null,"section":"Module 3: Case Studies","contentHtml":"<p>This demonstration is for educational purposes only. It is not recommended for any position or stock and does not constitute a recommendation. Options America created the demonstration in a paper-trading account for educational purposes only.</p>"},
-    {"number":11,"wpId":50509,"title":"Monitor Lookup","duration":"2 min","type":"video","vimeoId":"962298239","section":"Module 3: Case Studies"},
-    {"number":12,"wpId":50510,"title":"Monitor PNL Lookup","duration":"2 min","type":"video","vimeoId":"962298459","section":"Module 3: Case Studies"},
-    {"number":13,"wpId":50511,"title":"BBY View","duration":"2 min","type":"video","vimeoId":"962296775","section":"Module 3: Case Studies"},
-    {"number":14,"wpId":50512,"title":"Position Theoretical Profit – BBY","duration":"2 min","type":"video","vimeoId":"962298600","section":"Module 3: Case Studies"},
-    {"number":15,"wpId":50513,"title":"BK Profit","duration":"3 min","type":"video","vimeoId":"962296964","section":"Module 3: Case Studies"},
-    {"number":16,"wpId":50514,"title":"BK Theoretical Profit","duration":"3 min","type":"video","vimeoId":"962297144","section":"Module 3: Case Studies"},
-    {"number":17,"wpId":50515,"title":"Diversify Your Assets","duration":"3 min","type":"video","vimeoId":"962297787","section":"Module 4: Portfolio Context"},
-    {"number":18,"wpId":50516,"title":"Market Increase – Put Position Loss","duration":"3 min","type":"video","vimeoId":"962298032","section":"Module 4: Portfolio Context"},
-    {"number":19,"wpId":50517,"title":"BX Overview","duration":"1 min","type":"video","vimeoId":"962297349","section":"Module 4: Portfolio Context"},
-    {"number":20,"wpId":50518,"title":"CDNS Case Study","duration":"2 min","type":"video","vimeoId":"962297598","section":"Module 4: Portfolio Context"},
-    {"number":21,"wpId":50519,"title":"Call Capture Module and Summary","duration":"2 min","type":"video","vimeoId":"962297454","section":"Module 5: Course Summary"}
+    {
+      "number": 1,
+      "wpId": 50500,
+      "title": "What Will You Learn in This Mini Course – Long Call?",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "949569725",
+      "section": "Module 1: Long Call Foundations"
+    },
+    {
+      "number": 2,
+      "wpId": 50502,
+      "title": "Information Needed",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "935428450",
+      "section": "Module 1: Long Call Foundations"
+    },
+    {
+      "number": 3,
+      "wpId": 50501,
+      "title": "Opening Buy Call Positions",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962599957",
+      "section": "Module 1: Long Call Foundations"
+    },
+    {
+      "number": 4,
+      "wpId": 50503,
+      "title": "Window Arrangement of the Platform",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "949678875",
+      "section": "Module 1: Long Call Foundations"
+    },
+    {
+      "number": 5,
+      "wpId": 50504,
+      "title": "Buying a Call Option on Netflix Stock",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "949678786",
+      "section": "Module 2: Netflix Trade"
+    },
+    {
+      "number": 6,
+      "wpId": 50505,
+      "title": "See the Breakeven Point on the Chart",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "949825695",
+      "section": "Module 2: Netflix Trade"
+    },
+    {
+      "number": 7,
+      "wpId": 50506,
+      "title": "Netflix and Profit Target",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "951252420",
+      "section": "Module 2: Netflix Trade"
+    },
+    {
+      "number": 8,
+      "wpId": 50507,
+      "title": "Revisiting Netflix Position",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962298748",
+      "section": "Module 2: Netflix Trade"
+    },
+    {
+      "number": 9,
+      "wpId": 50508,
+      "title": "Case Study Notice",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "section": "Module 3: Case Studies",
+      "contentHtml": "<p>This demonstration is for educational purposes only. It is not recommended for any position or stock and does not constitute a recommendation. Options America created the demonstration in a paper-trading account for educational purposes only.</p>"
+    },
+    {
+      "number": 10,
+      "wpId": 50509,
+      "title": "Monitor Lookup",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962298239",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 11,
+      "wpId": 50510,
+      "title": "Monitor PNL Lookup",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962298459",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 12,
+      "wpId": 50511,
+      "title": "BBY View",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962296775",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 13,
+      "wpId": 50512,
+      "title": "Position Theoretical Profit – BBY",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962298600",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 14,
+      "wpId": 50513,
+      "title": "BK Profit",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "962296964",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 15,
+      "wpId": 50514,
+      "title": "BK Theoretical Profit",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "962297144",
+      "section": "Module 3: Case Studies"
+    },
+    {
+      "number": 16,
+      "wpId": 50515,
+      "title": "Diversify Your Assets",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "962297787",
+      "section": "Module 4: Portfolio Context"
+    },
+    {
+      "number": 17,
+      "wpId": 50516,
+      "title": "Market Increase – Put Position Loss",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "962298032",
+      "section": "Module 4: Portfolio Context"
+    },
+    {
+      "number": 18,
+      "wpId": 50517,
+      "title": "BX Overview",
+      "duration": "1 min",
+      "type": "video",
+      "vimeoId": "962297349",
+      "section": "Module 4: Portfolio Context"
+    },
+    {
+      "number": 19,
+      "wpId": 50518,
+      "title": "CDNS Case Study",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962297598",
+      "section": "Module 4: Portfolio Context"
+    },
+    {
+      "number": 20,
+      "wpId": 50519,
+      "title": "Call Capture Module and Summary",
+      "duration": "2 min",
+      "type": "video",
+      "vimeoId": "962297454",
+      "section": "Module 5: Course Summary"
+    },
+    {
+      "wpId": 50520,
+      "title": "Investment in uncorrelated assets",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "953468779",
+      "contentHtml": "",
+      "number": 21,
+      "section": "Module 6: Portfolio Diversification"
+    },
+    {
+      "wpId": 50521,
+      "title": "Portfolio Beta Weight",
+      "duration": "3 min",
+      "type": "video",
+      "vimeoId": "952811029",
+      "contentHtml": "",
+      "number": 22,
+      "section": "Module 6: Portfolio Diversification"
+    },
+    {
+      "wpId": 50472,
+      "title": "My Correlation Matrices: ETF Correlation",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "contentHtml": "<p>The ETF correlation table illustrates the relationships between various exchange-traded funds (ETFs) and the SPDR S&amp;P 500 ETF (SPY). Correlation coefficients range from -0.756 to 1.000, reflecting how closely each ETF's returns align with SPY's returns.</p>\n<p>Higher positive correlations, such as DIA (0.950) and QQQ (0.950), indicate that these ETFs, which track the Dow Jones Industrial Average and the NASDAQ-100 respectively, tend to move in tandem with the broader U.S. equity market represented by SPY. Conversely, ETFs like TLT (-0.002) and UVXY (-0.756) show near-zero or negative correlations, meaning they tend to move independently or inversely relative to the S&amp;P 500. This diversity in correlation can be useful for investors seeking to build a well-balanced portfolio, allowing for risk management by including assets with different market sensitivities and behaviors.</p>\n<table style=\"width: 427px\">\n<thead>\n<tr>\n<th style=\"width: 147.852px;text-align: left\">Security</th>\n<th style=\"width: 269.148px;text-align: left\">SPY Correlation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 147.852px\">SPY</td>\n<td style=\"width: 269.148px\">1.000</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">DIA</td>\n<td style=\"width: 269.148px\">0.950</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">QQQ</td>\n<td style=\"width: 269.148px\">0.950</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">IWM</td>\n<td style=\"width: 269.148px\">0.866</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">XLF</td>\n<td style=\"width: 269.148px\">0.845</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">XHB</td>\n<td style=\"width: 269.148px\">0.829</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">IYR</td>\n<td style=\"width: 269.148px\">0.829</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">EEM</td>\n<td style=\"width: 269.148px\">0.810</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">EWJ</td>\n<td style=\"width: 269.148px\">0.748</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">XLU</td>\n<td style=\"width: 269.148px\">0.693</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">EWW</td>\n<td style=\"width: 269.148px\">0.675</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">IBB</td>\n<td style=\"width: 269.148px\">0.592</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">XBI</td>\n<td style=\"width: 269.148px\">0.594</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">EWZ</td>\n<td style=\"width: 269.148px\">0.577</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">XLE</td>\n<td style=\"width: 269.148px\">0.561</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">OIH</td>\n<td style=\"width: 269.148px\">0.637</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">FXE</td>\n<td style=\"width: 269.148px\">0.479</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">FXI</td>\n<td style=\"width: 269.148px\">0.430</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">GDX</td>\n<td style=\"width: 269.148px\">0.390</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">SLV</td>\n<td style=\"width: 269.148px\">0.390</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">RSX</td>\n<td style=\"width: 269.148px\">0.341</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">GLD</td>\n<td style=\"width: 269.148px\">0.302</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">USO</td>\n<td style=\"width: 269.148px\">0.283</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">FXY</td>\n<td style=\"width: 269.148px\">0.139</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">UNG</td>\n<td style=\"width: 269.148px\">0.124</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">TBT</td>\n<td style=\"width: 269.148px\">0.020</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">TLT</td>\n<td style=\"width: 269.148px\">-0.002</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">VXX</td>\n<td style=\"width: 269.148px\">-0.725</td>\n</tr>\n<tr>\n<td style=\"width: 147.852px\">UVXY</td>\n<td style=\"width: 269.148px\">-0.756</td>\n</tr>\n</tbody>\n</table>\n<p>This list captures the securities' correlation with SPY, representing a broad range of asset classes and sectors.</p>",
+      "number": 23,
+      "section": "Module 6: Portfolio Diversification"
+    },
+    {
+      "wpId": 50473,
+      "title": "My Correlation Matrices: Stock Correlation",
+      "duration": "Reading",
+      "type": "text",
+      "vimeoId": null,
+      "contentHtml": "<p>The table shows the correlation coefficients between the SPDR S&amp;P 500 ETF (SPY) and a selection of 40 individual securities from various sectors. The correlation values range from 0.510 to 1.637, indicating how each security's price movements are related to the broader U.S. equity market represented by SPY.</p>\n<p>A correlation close to 1 suggests a strong positive relationship with SPY, meaning the security tends to move in the same direction as the overall market. Higher correlations, such as those for AAL (1.314) and AMZN (1.510), indicate that these stocks have historically moved more closely in line with SPY. In contrast, lower correlations, such as CVS (0.510), suggest a weaker connection to SPY, implying a more diversified or independent price movement relative to the broader market.</p>\n<p>This table provides insight into how different stocks are expected to perform in relation to the market, aiding in portfolio diversification and risk management decisions.</p>\n<table style=\"width: 366px\">\n<thead>\n<tr>\n<th style=\"width: 149.812px;text-align: left\">Security</th>\n<th style=\"width: 206.188px;text-align: left\">SPY Correlation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"width: 149.812px\">SPY</td>\n<td style=\"width: 206.188px\">1.000</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">AAL</td>\n<td style=\"width: 206.188px\">1.314</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">AAPL</td>\n<td style=\"width: 206.188px\">1.206</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">AIG</td>\n<td style=\"width: 206.188px\">0.852</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">AMZN</td>\n<td style=\"width: 206.188px\">1.510</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">AXP</td>\n<td style=\"width: 206.188px\">1.086</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">BA</td>\n<td style=\"width: 206.188px\">0.992</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">BAC</td>\n<td style=\"width: 206.188px\">0.984</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">BBY</td>\n<td style=\"width: 206.188px\">1.083</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">BKNG</td>\n<td style=\"width: 206.188px\">1.046</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">C</td>\n<td style=\"width: 206.188px\">1.033</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CAT</td>\n<td style=\"width: 206.188px\">0.861</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CMCSA</td>\n<td style=\"width: 206.188px\">0.875</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CMG</td>\n<td style=\"width: 206.188px\">0.875</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">COF</td>\n<td style=\"width: 206.188px\">1.292</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">COP</td>\n<td style=\"width: 206.188px\">0.683</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">COST</td>\n<td style=\"width: 206.188px\">0.840</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CRM</td>\n<td style=\"width: 206.188px\">1.310</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CSCO</td>\n<td style=\"width: 206.188px\">0.765</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CVS</td>\n<td style=\"width: 206.188px\">0.510</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">CVX</td>\n<td style=\"width: 206.188px\">0.644</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">DIS</td>\n<td style=\"width: 206.188px\">1.052</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">EBAY</td>\n<td style=\"width: 206.188px\">1.053</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">META</td>\n<td style=\"width: 206.188px\">1.637</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">FSLR</td>\n<td style=\"width: 206.188px\">1.077</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">GILD</td>\n<td style=\"width: 206.188px\">1.544</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">GM</td>\n<td style=\"width: 206.188px\">1.426</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">GOLD</td>\n<td style=\"width: 206.188px\">0.782</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">GOOGL</td>\n<td style=\"width: 206.188px\">1.260</td>\n</tr>\n<tr>\n<td style=\"width: 149.812px\">GS</td>\n<td style=\"width: 206.188px\">0.961</td>\n</tr>\n</tbody>\n</table>\n<p>These values represent the correlation of each security with SPY, giving you a sense of how they move in relation to the S&amp;P 500 ETF (SPY).&nbsp;</p>",
+      "number": 24,
+      "section": "Module 6: Portfolio Diversification"
+    }
   ]
 }
