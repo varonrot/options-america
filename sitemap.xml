@@ -84,16 +84,24 @@
   <url><loc>https://options-america.com/blog/choose-butterfly-spread-strikes/</loc></url>
   <url><loc>https://options-america.com/blog/choose-calendar-spread-expirations/</loc></url>
   <url><loc>https://options-america.com/blog/choose-calendar-spread-strike/</loc></url>
+  <url><loc>https://options-america.com/blog/choose-protective-put-expiration/</loc></url>
+  <url><loc>https://options-america.com/blog/choose-protective-put-strike/</loc></url>
   <url><loc>https://options-america.com/blog/choose-short-iron-condor-strikes/</loc></url>
   <url><loc>https://options-america.com/blog/close-roll-short-straddle/</loc></url>
   <url><loc>https://options-america.com/blog/close-roll-short-strangle/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-assignment-explained/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-call-cost-basis/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-call-delta-strike-selection/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-early-assignment-dividends/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-income-potential/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-call-ladder-strategy/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-call-portfolio-management/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-risks-mistakes/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-call-stock-selection/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-vs-buy-and-hold/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-vs-cash-secured-put/</loc></url>
   <url><loc>https://options-america.com/blog/covered-call-vs-naked-call/</loc></url>
+  <url><loc>https://options-america.com/blog/covered-calls-around-earnings/</loc></url>
   <url><loc>https://options-america.com/blog/delta-as-share-equivalent/</loc></url>
   <url><loc>https://options-america.com/blog/delta-gamma-mistakes/</loc></url>
   <url><loc>https://options-america.com/blog/delta-hedging-options/</loc></url>
@@ -101,14 +109,18 @@
   <url><loc>https://options-america.com/blog/delta-option-chain/</loc></url>
   <url><loc>https://options-america.com/blog/delta-probability-in-the-money/</loc></url>
   <url><loc>https://options-america.com/blog/delta-vs-gamma-options/</loc></url>
+  <url><loc>https://options-america.com/blog/diversify-options-strategies/</loc></url>
   <url><loc>https://options-america.com/blog/double-calendar-spread-explained/</loc></url>
   <url><loc>https://options-america.com/blog/early-assignment-short-put/</loc></url>
   <url><loc>https://options-america.com/blog/gamma-near-expiration/</loc></url>
+  <url><loc>https://options-america.com/blog/hedge-portfolio-with-vix-calls/</loc></url>
   <url><loc>https://options-america.com/blog/historical-vs-implied-volatility/</loc></url>
   <url><loc>https://options-america.com/blog/how-option-greeks-interact/</loc></url>
+  <url><loc>https://options-america.com/blog/how-protective-put-works/</loc></url>
   <url><loc>https://options-america.com/blog/how-short-straddle-works/</loc></url>
   <url><loc>https://options-america.com/blog/how-short-strangle-works/</loc></url>
   <url><loc>https://options-america.com/blog/how-time-decay-works-options/</loc></url>
+  <url><loc>https://options-america.com/blog/how-to-analyze-options-portfolio/</loc></url>
   <url><loc>https://options-america.com/blog/how-to-build-bear-put-spread/</loc></url>
   <url><loc>https://options-america.com/blog/how-to-build-bull-call-spread/</loc></url>
   <url><loc>https://options-america.com/blog/how-to-build-butterfly-spread/</loc></url>
@@ -129,6 +141,7 @@
   <url><loc>https://options-america.com/blog/how-to-roll-a-short-put/</loc></url>
   <url><loc>https://options-america.com/blog/how-to-sell-a-cash-secured-put/</loc></url>
   <url><loc>https://options-america.com/blog/how-to-sell-a-covered-call/</loc></url>
+  <url><loc>https://options-america.com/blog/how-vix-is-calculated/</loc></url>
   <url><loc>https://options-america.com/blog/implied-volatility-backspread/</loc></url>
   <url><loc>https://options-america.com/blog/implied-volatility-bear-put-spread/</loc></url>
   <url><loc>https://options-america.com/blog/implied-volatility-bull-call-spread/</loc></url>
@@ -147,6 +160,8 @@
   <url><loc>https://options-america.com/blog/long-call-profit-loss-breakeven/</loc></url>
   <url><loc>https://options-america.com/blog/long-put-profit-loss-breakeven/</loc></url>
   <url><loc>https://options-america.com/blog/long-put-risks-mistakes/</loc></url>
+  <url><loc>https://options-america.com/blog/manage-portfolio-theta/</loc></url>
+  <url><loc>https://options-america.com/blog/manage-portfolio-vega/</loc></url>
   <url><loc>https://options-america.com/blog/option-delta-itm-atm-otm/</loc></url>
   <url><loc>https://options-america.com/blog/option-greeks-around-earnings/</loc></url>
   <url><loc>https://options-america.com/blog/option-greeks-calendar-spreads/</loc></url>
@@ -161,13 +176,29 @@
   <url><loc>https://options-america.com/blog/option-greeks-scenario-analysis/</loc></url>
   <url><loc>https://options-america.com/blog/option-greeks-straddles-strangles/</loc></url>
   <url><loc>https://options-america.com/blog/option-theta-weekends-holidays/</loc></url>
+  <url><loc>https://options-america.com/blog/options-portfolio-mistakes/</loc></url>
+  <url><loc>https://options-america.com/blog/options-portfolio-optimization-guide/</loc></url>
+  <url><loc>https://options-america.com/blog/options-portfolio-rebalancing/</loc></url>
+  <url><loc>https://options-america.com/blog/options-portfolio-stress-testing/</loc></url>
+  <url><loc>https://options-america.com/blog/options-position-sizing-portfolio/</loc></url>
+  <url><loc>https://options-america.com/blog/portfolio-delta-beta-weighting-guide/</loc></url>
   <url><loc>https://options-america.com/blog/portfolio-delta-beta-weighting/</loc></url>
+  <url><loc>https://options-america.com/blog/portfolio-gamma-risk/</loc></url>
+  <url><loc>https://options-america.com/blog/portfolio-hedging-with-options/</loc></url>
   <url><loc>https://options-america.com/blog/portfolio-option-greeks-risk/</loc></url>
   <url><loc>https://options-america.com/blog/positive-delta-vs-negative-delta/</loc></url>
   <url><loc>https://options-america.com/blog/positive-theta-option-strategies/</loc></url>
   <url><loc>https://options-america.com/blog/positive-theta-vs-negative-theta/</loc></url>
   <url><loc>https://options-america.com/blog/positive-vega-vs-negative-vega/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-cost-insurance/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-example/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-greeks/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-mistakes/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-profit-loss-breakeven/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-strategy-explained/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-vs-collar/</loc></url>
   <url><loc>https://options-america.com/blog/protective-put-vs-long-put/</loc></url>
+  <url><loc>https://options-america.com/blog/protective-put-vs-stop-loss/</loc></url>
   <url><loc>https://options-america.com/blog/put-option-assignment-explained/</loc></url>
   <url><loc>https://options-america.com/blog/put-option-delta-explained/</loc></url>
   <url><loc>https://options-america.com/blog/put-option-intrinsic-value-time-value/</loc></url>
@@ -175,6 +206,7 @@
   <url><loc>https://options-america.com/blog/ratio-backspread-example/</loc></url>
   <url><loc>https://options-america.com/blog/ratio-backspread-profit-loss-breakevens/</loc></url>
   <url><loc>https://options-america.com/blog/reduce-time-decay-option-buyers/</loc></url>
+  <url><loc>https://options-america.com/blog/rolling-protective-puts/</loc></url>
   <url><loc>https://options-america.com/blog/sell-call-option-vs-exercise/</loc></url>
   <url><loc>https://options-america.com/blog/sell-put-option-vs-exercise/</loc></url>
   <url><loc>https://options-america.com/blog/selling-call-margin-buying-power/</loc></url>
@@ -211,6 +243,7 @@
   <url><loc>https://options-america.com/blog/short-strangle-strike-selection/</loc></url>
   <url><loc>https://options-america.com/blog/short-strangle-vs-covered-strangle/</loc></url>
   <url><loc>https://options-america.com/blog/short-strangle-vs-iron-condor/</loc></url>
+  <url><loc>https://options-america.com/blog/size-vix-portfolio-hedge/</loc></url>
   <url><loc>https://options-america.com/blog/theta-0dte-weekly-options/</loc></url>
   <url><loc>https://options-america.com/blog/theta-decay-short-straddle/</loc></url>
   <url><loc>https://options-america.com/blog/theta-decay-short-strangle/</loc></url>
@@ -235,7 +268,26 @@
   <url><loc>https://options-america.com/blog/vega-neutral-option-strategies/</loc></url>
   <url><loc>https://options-america.com/blog/vega-volatility-mistakes/</loc></url>
   <url><loc>https://options-america.com/blog/vega-vs-theta-options/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-calendar-spread-strategy/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-call-spread-hedge/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-contango-backwardation/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-etf-etn-risks/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-fear-index-explained/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-futures-vs-spot-vix/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-hedge-cost-carry/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-hedging-mistakes/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-hedging-strategies-guide/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-iron-condor-butterfly/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-levels-meaning/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-mean-reversion/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-options-basics/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-options-settlement-soq/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-put-strategies/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-ratio-spread-strategy/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-term-structure-explained/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-trading-mistakes/</loc></url>
   <url><loc>https://options-america.com/blog/vix-vs-implied-volatility/</loc></url>
+  <url><loc>https://options-america.com/blog/vix-vs-realized-volatility/</loc></url>
   <url><loc>https://options-america.com/blog/volatility-crush-options/</loc></url>
   <url><loc>https://options-america.com/blog/what-happens-call-option-stock-goes-down/</loc></url>
   <url><loc>https://options-america.com/blog/what-happens-put-option-stock-rises/</loc></url>
@@ -248,6 +300,7 @@
   <url><loc>https://options-america.com/blog/what-is-selling-a-put-option/</loc></url>
   <url><loc>https://options-america.com/blog/what-is-theta-in-options/</loc></url>
   <url><loc>https://options-america.com/blog/what-is-vega-in-options/</loc></url>
+  <url><loc>https://options-america.com/blog/what-is-vix-index/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-close-a-short-put/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-close-bear-put-spread/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-close-bull-call-spread/</loc></url>
@@ -255,6 +308,7 @@
   <url><loc>https://options-america.com/blog/when-to-close-calendar-spread/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-close-covered-call/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-close-short-iron-condor/</loc></url>
+  <url><loc>https://options-america.com/blog/when-to-close-vix-hedge/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-sell-call-option/</loc></url>
   <url><loc>https://options-america.com/blog/when-to-sell-put-option-you-bought/</loc></url>
   <url><loc>https://options-america.com/blog/why-option-time-decay-accelerates/</loc></url>
@@ -319,6 +373,12 @@
   <url><loc>https://options-america.com/courses/practical-usage-level-3-1-long-put/</loc></url>
   <url><loc>https://options-america.com/courses/selling-call-case-study/</loc></url>
   <url><loc>https://options-america.com/courses/selling-put-case-study/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/free-us-stock-options-course/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/how-to-trade-us-stock-options/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/options-trading-guide-for-beginners/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/us-stock-options-guide/</loc></url>
+  <url><loc>https://options-america.com/ko/blog/what-are-us-stock-options/</loc></url>
   <url><loc>https://options-america.com/learning-paths/advanced/</loc></url>
   <url><loc>https://options-america.com/learning-paths/beginner/</loc></url>
   <url><loc>https://options-america.com/learning-paths/case-studies/</loc></url>
@@ -331,52 +391,4 @@
   <url><loc>https://options-america.com/refund-policy/</loc></url>
   <url><loc>https://options-america.com/risk-disclaimer/</loc></url>
   <url><loc>https://options-america.com/terms-and-conditions/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-strategy-explained/</loc></url>
-  <url><loc>https://options-america.com/blog/how-protective-put-works/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-profit-loss-breakeven/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-example/</loc></url>
-  <url><loc>https://options-america.com/blog/choose-protective-put-strike/</loc></url>
-  <url><loc>https://options-america.com/blog/choose-protective-put-expiration/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-cost-insurance/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-greeks/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-vs-stop-loss/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-vs-collar/</loc></url>
-  <url><loc>https://options-america.com/blog/rolling-protective-puts/</loc></url>
-  <url><loc>https://options-america.com/blog/protective-put-mistakes/</loc></url>
-  <url><loc>https://options-america.com/blog/options-portfolio-optimization-guide/</loc></url>
-  <url><loc>https://options-america.com/blog/how-to-analyze-options-portfolio/</loc></url>
-  <url><loc>https://options-america.com/blog/portfolio-delta-beta-weighting-guide/</loc></url>
-  <url><loc>https://options-america.com/blog/manage-portfolio-theta/</loc></url>
-  <url><loc>https://options-america.com/blog/manage-portfolio-vega/</loc></url>
-  <url><loc>https://options-america.com/blog/portfolio-gamma-risk/</loc></url>
-  <url><loc>https://options-america.com/blog/options-portfolio-stress-testing/</loc></url>
-  <url><loc>https://options-america.com/blog/options-position-sizing-portfolio/</loc></url>
-  <url><loc>https://options-america.com/blog/diversify-options-strategies/</loc></url>
-  <url><loc>https://options-america.com/blog/portfolio-hedging-with-options/</loc></url>
-  <url><loc>https://options-america.com/blog/options-portfolio-rebalancing/</loc></url>
-  <url><loc>https://options-america.com/blog/options-portfolio-mistakes/</loc></url>
-  <url><loc>https://options-america.com/blog/what-is-vix-index/</loc></url>
-  <url><loc>https://options-america.com/blog/how-vix-is-calculated/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-fear-index-explained/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-levels-meaning/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-term-structure-explained/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-contango-backwardation/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-futures-vs-spot-vix/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-options-basics/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-options-settlement-soq/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-vs-realized-volatility/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-mean-reversion/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-trading-mistakes/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-hedging-strategies-guide/</loc></url>
-  <url><loc>https://options-america.com/blog/hedge-portfolio-with-vix-calls/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-call-spread-hedge/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-put-strategies/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-calendar-spread-strategy/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-ratio-spread-strategy/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-iron-condor-butterfly/</loc></url>
-  <url><loc>https://options-america.com/blog/size-vix-portfolio-hedge/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-hedge-cost-carry/</loc></url>
-  <url><loc>https://options-america.com/blog/when-to-close-vix-hedge/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-etf-etn-risks/</loc></url>
-  <url><loc>https://options-america.com/blog/vix-hedging-mistakes/</loc></url>
 </urlset>

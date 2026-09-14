@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko-KR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>미국 주식 옵션이란? 계약 구조와 콜·풋 쉽게 이해하기 | Options America</title>
+  <meta name="description" content="미국 주식 옵션이 무엇인지 콜옵션, 풋옵션, 행사가격, 만기일, 프리미엄과 배정의 개념으로 쉽게 설명합니다.">
+  <link rel="canonical" href="https://options-america.com/ko/blog/what-are-us-stock-options/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="ko_KR">
+  <meta property="og:title" content="미국 주식 옵션이란? 계약 구조와 콜·풋 쉽게 이해하기">
+  <meta property="og:description" content="미국 주식 옵션이 무엇인지 콜옵션, 풋옵션, 행사가격, 만기일, 프리미엄과 배정의 개념으로 쉽게 설명합니다.">
+  <meta property="og:url" content="https://options-america.com/ko/blog/what-are-us-stock-options/">
+  <meta property="og:site_name" content="Options America">
+  <meta property="og:image" content="https://options-america.com/assets/images/blog/what-is-buying-a-put-option.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="../../../blog/blog.css">
+  <link rel="stylesheet" href="../ko-blog.css">
+  <script src="/favicon.js"></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"미국 주식 옵션이란? 계약 구조와 콜·풋 쉽게 이해하기","description":"미국 주식 옵션이 무엇인지 콜옵션, 풋옵션, 행사가격, 만기일, 프리미엄과 배정의 개념으로 쉽게 설명합니다.","datePublished":"2026-09-14","dateModified":"2026-09-14","inLanguage":"ko-KR","author":{"@type":"Organization","name":"Options America"},"publisher":{"@type":"Organization","name":"Options America"},"mainEntityOfPage":"https://options-america.com/ko/blog/what-are-us-stock-options/","image":"https://options-america.com/assets/images/blog/what-is-buying-a-put-option.webp"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"ko-KR","mainEntity":[{"@type":"Question","name":"콜옵션 매수자는 주식을 반드시 사야 하나요?","acceptedAnswer":{"@type":"Answer","text":"아닙니다. 매수자는 권리를 가질 뿐 의무는 없습니다. 만기 전 옵션을 매도해 청산하는 것도 가능합니다."}},{"@type":"Question","name":"옵션 가격 2달러는 계약 한 개에 2달러라는 뜻인가요?","acceptedAnswer":{"@type":"Answer","text":"표준 승수가 100이면 보통 2달러 × 100 = 200달러가 단순 계약 대금입니다. 주문 전 계약 명세를 확인해야 합니다."}},{"@type":"Question","name":"풋옵션을 매도하면 어떤 의무가 생기나요?","acceptedAnswer":{"@type":"Answer","text":"배정될 경우 행사가격으로 기초자산을 매수해야 할 수 있습니다. 프리미엄보다 훨씬 큰 자금과 위험이 필요할 수 있습니다."}}]}</script>
+</head>
+<body>
+  <header class="site-header"><div class="container nav"><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><nav><a href="/courses/">강의</a><a href="/learning-paths/beginner/">학습 경로</a><a href="/ko/blog/">한국어 블로그</a><a href="/blog/" lang="en">English</a></nav><a class="btn btn-gold" href="/courses/options-trading-course-level-1-buying-call-option/">무료 강의 시작</a></div></header>
+  <main>
+    <section class="article-hero"><div class="container"><div class="breadcrumbs"><a href="/">홈</a><span>›</span><a href="/ko/blog/">한국어 블로그</a><span>›</span><span>미국 주식 옵션이란?</span></div><p class="eyebrow">미국 주식 옵션 · 핵심 개념</p><h1>미국 주식 옵션이란? 계약 구조와 콜·풋 쉽게 이해하기</h1><p class="article-deck">옵션은 주가 방향을 맞히는 티켓이 아니라 권리와 의무가 명확하게 정의된 계약입니다. 구조를 이해하면 옵션 체인이 훨씬 단순하게 보입니다.</p><div class="article-meta"><span>Options America</span><span>2026년 9월 14일 업데이트</span><span>10분 읽기</span></div></div></section>
+    <div class="container article-layout">
+      <article class="article-body">
+        <img src="/assets/images/blog/what-is-buying-a-put-option.webp" alt="콜옵션과 풋옵션 계약 구조">
+        <h2 id="parties">옵션 계약의 두 당사자</h2>
+
+<p>모든 옵션 거래에는 매수자와 매도자가 있습니다. 매수자는 프리미엄을 지불하고 계약에 적힌 권리를 얻습니다. 매도자는 프리미엄을 받지만 매수자가 권리를 행사하고 자신에게 배정이 발생하면 계약 조건을 이행해야 합니다.</p>
+<p>이 차이가 옵션 위험을 이해하는 출발점입니다. 콜 매수와 콜 매도는 같은 시장을 보더라도 손익 구조가 반대이며, 풋도 마찬가지입니다. “콜은 상승, 풋은 하락”이라는 한 문장만 외우면 매도자의 의무와 배정 위험을 놓치기 쉽습니다.</p>
+<h2 id="call">콜옵션의 권리와 의무</h2>
+
+<p>콜옵션 매수자는 행사가격으로 기초자산을 살 권리를 가집니다. 예를 들어 주가가 100달러이고 105달러 콜을 매수했다면, 만기 시 주가가 105달러를 넘을수록 계약에 내재가치가 생깁니다. 그러나 매수자가 지불한 프리미엄까지 회수하려면 만기 손익분기점은 행사가격보다 높아집니다.</p>
+<p>콜옵션 매도자는 배정 시 해당 가격에 주식을 인도할 의무를 질 수 있습니다. 주식을 이미 보유한 커버드콜인지, 보유하지 않은 네이키드 콜인지에 따라 위험과 담보 요구가 크게 달라집니다.</p>
+<h2 id="put">풋옵션의 권리와 의무</h2>
+
+<p>풋옵션 매수자는 행사가격으로 기초자산을 팔 권리를 가집니다. 주가 하락에 대한 방향성 포지션이나 보유 주식의 하방 위험을 제한하는 보험 성격으로 사용할 수 있습니다. 만기 시 풋의 내재가치는 행사가격이 주가보다 높은 만큼 발생합니다.</p>
+<p>풋옵션 매도자는 배정 시 기초자산을 행사가격에 매수할 의무를 질 수 있습니다. 받은 프리미엄만 보고 매도하면 큰 하락에서 상당한 손실과 자금 요구를 맞을 수 있으므로, 실제로 주식을 인수할 능력과 의향을 먼저 확인해야 합니다.</p>
+<h2 id="terms">행사가격·만기·프리미엄</h2>
+
+<div class="article-table-wrap"><table class="article-table"><thead><tr><th>용어</th><th>쉬운 설명</th><th>왜 중요한가</th></tr></thead><tbody><tr><td>행사가격</td><td>계약상 매수·매도 기준 가격</td><td>내재가치와 손익분기점에 영향</td></tr><tr><td>만기일</td><td>옵션 권리가 끝나는 날짜</td><td>시간가치와 관리 기한을 결정</td></tr><tr><td>프리미엄</td><td>옵션을 사고파는 가격</td><td>매수 비용·매도 수입의 출발점</td></tr><tr><td>승수</td><td>표시 가격을 계약금액으로 바꾸는 수</td><td>표준 미국 주식 옵션은 흔히 100</td></tr></tbody></table></div>
+<p>예를 들어 프리미엄이 3달러인 표준 계약 한 개의 단순 대금은 300달러입니다. 다만 조정 계약이나 다른 상품은 명세가 다를 수 있으므로 주문 전에 승수와 결제 방식을 확인해야 합니다.</p>
+<h2 id="moneyness">ITM·ATM·OTM</h2>
+
+<p>현재 주가와 행사가격의 관계를 머니니스라고 합니다. 콜은 주가가 행사가격보다 높을 때 ITM, 풋은 주가가 행사가격보다 낮을 때 ITM입니다. 주가와 행사가가 비슷하면 ATM, 즉 외가격 상태를 OTM이라고 부릅니다.</p>
+<p>머니니스는 현재 내재가치만 설명할 뿐 미래 수익을 보장하지 않습니다. OTM 옵션이 싸 보이더라도 필요한 가격 움직임이 크고 만기가 가까우면 전액 손실 가능성이 높아질 수 있습니다.</p>
+<h2 id="exercise">행사, 배정, 청산</h2>
+
+<p>행사는 옵션 매수자가 계약의 권리를 사용하는 것이고, 배정은 옵션 매도자가 의무를 이행하도록 지정되는 과정입니다. 그러나 옵션에서 수익을 실현하기 위해 반드시 행사해야 하는 것은 아닙니다. 많은 포지션은 만기 전에 반대 주문으로 청산됩니다.</p>
+<p>미국식 주식 옵션은 일반적으로 만기 전 행사될 수 있으므로 매도자는 조기 배정 가능성을 고려해야 합니다. 배당락일, 깊은 내가격 상태, 남은 시간가치 등이 조기 행사 판단에 영향을 줄 수 있습니다.</p>
+<h2 id="next">옵션 구조를 배운 다음</h2>
+
+<p>계약을 이해했다면 <a href="../how-to-trade-us-stock-options/">미국 주식 옵션 거래 방법</a>으로 이동해 옵션 체인과 주문 과정을 배우세요. 전체 개념을 다시 연결하려면 <a href="../us-stock-options-guide/">미국 주식 옵션 기초 가이드</a>가 도움이 됩니다.</p>
+        <h2 id="faq">자주 묻는 질문</h2>
+        <div class="faq-item"><h3>콜옵션 매수자는 주식을 반드시 사야 하나요?</h3><p>아닙니다. 매수자는 권리를 가질 뿐 의무는 없습니다. 만기 전 옵션을 매도해 청산하는 것도 가능합니다.</p></div>
+<div class="faq-item"><h3>옵션 가격 2달러는 계약 한 개에 2달러라는 뜻인가요?</h3><p>표준 승수가 100이면 보통 2달러 × 100 = 200달러가 단순 계약 대금입니다. 주문 전 계약 명세를 확인해야 합니다.</p></div>
+<div class="faq-item"><h3>풋옵션을 매도하면 어떤 의무가 생기나요?</h3><p>배정될 경우 행사가격으로 기초자산을 매수해야 할 수 있습니다. 프리미엄보다 훨씬 큰 자금과 위험이 필요할 수 있습니다.</p></div>
+        <h2>같은 기초 과정의 다른 글</h2>
+        <div class="ko-related"><a href="../us-stock-options-guide/"><span>미국 주식 옵션 · 종합 가이드</span><strong>미국 주식 옵션 기초</strong></a><a href="../how-to-trade-us-stock-options/"><span>옵션 거래 하는 법 · 단계별 안내</span><strong>미국 주식 옵션 거래 방법</strong></a><a href="../options-trading-guide-for-beginners/"><span>옵션 초보 · 학습 로드맵</span><strong>초보자 옵션 거래 가이드</strong></a><a href="../free-us-stock-options-course/"><span>무료 옵션 강의 · 학습 안내</span><strong>미국 주식 옵션 무료 강의</strong></a></div>
+        <div class="ko-sources"><strong>교육 참고자료</strong><p><a href="https://www.theocc.com/company-information/documents-and-archives/options-disclosure-document" rel="noopener noreferrer">OCC — Characteristics and Risks of Standardized Options</a></p><p><a href="https://www.theocc.com/clearance-and-settlement/clearing/equity-options-product-specifications" rel="noopener noreferrer">OCC — Equity Options Product Specifications</a></p></div>
+        <p class="article-disclaimer">옵션은 위험을 수반하며 모든 투자자에게 적합하지 않을 수 있습니다. 이 글은 교육 목적이며 투자, 세금 또는 법률 조언이 아닙니다. 거래 전 브로커가 제공하는 상품 명세와 공식 위험고지를 확인하세요.</p>
+      </article>
+      <aside class="article-sidebar"><div class="toc"><strong>이 글의 내용</strong><a href="#parties">옵션 계약의 두 당사자</a><a href="#call">콜옵션의 권리와 의무</a><a href="#put">풋옵션의 권리와 의무</a><a href="#terms">행사가격·만기·프리미엄</a><a href="#moneyness">ITM·ATM·OTM</a><a href="#exercise">행사, 배정, 청산</a><a href="#next">옵션 구조를 배운 다음</a><a href="#faq">자주 묻는 질문</a></div><div class="course-cta"><strong>무료 Level 1 강의</strong><p>콜옵션의 구조, 계약 선택과 위험을 순서대로 학습하세요.</p><a class="btn btn-gold" href="/courses/options-trading-course-level-1-buying-call-option/">Google로 무료 시작 →</a></div></aside>
+    </div>
+  </main>
+  <footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>초보자부터 고급 과정까지 무료로 배우는 미국 옵션 교육 자료입니다.</p></div><div><h4>학습</h4><a href="/courses/">전체 강의</a><a href="/learning-paths/beginner/">초보자 경로</a></div><div><h4>한국어</h4><a href="/ko/blog/">한국어 블로그</a><a href="/ko/blog/us-stock-options-guide/">미국 주식 옵션 기초</a></div><div><h4>자료</h4><a href="/blog/" lang="en">English Blog</a><a href="/risk-disclaimer/">위험 고지</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · 교육 목적의 콘텐츠이며 투자 조언이 아닙니다.</div></footer>
+  <script>document.querySelectorAll('[data-current-year]').forEach(e=>e.textContent=new Date().getFullYear())</script>
+</body>
+</html>

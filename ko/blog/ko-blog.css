@@ -1,0 +1,27 @@
+html:lang(ko-KR) body {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  font-family: Inter, Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+}
+
+.ko-blog-hero h1 { max-width: 860px; }
+.ko-blog-hero p { max-width: 820px; }
+.ko-hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+.ko-secondary { border: 1px solid rgba(255,255,255,.28); color: #fff; background: rgba(255,255,255,.08); }
+.ko-secondary:hover { background: rgba(255,255,255,.14); }
+.ko-blog-grid { align-items: stretch; }
+.ko-blog-grid .post-card:first-child { grid-column: span 2; }
+.ko-blog-grid .post-card:first-child img { min-height: 310px; }
+.ko-related { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 22px 0 32px; }
+.ko-related a { display: flex; flex-direction: column; gap: 5px; padding: 17px 18px; border: 1px solid #dfe5ee; border-radius: 14px; color: #132033; background: #f8fafc; text-decoration: none; }
+.ko-related a:hover { border-color: #f0b323; transform: translateY(-1px); }
+.ko-related span { color: #64748b; font-size: .8rem; }
+.ko-sources { margin-top: 32px; padding: 22px; border: 1px solid #dfe5ee; border-radius: 14px; background: #f8fafc; }
+.ko-sources p { margin: 9px 0 0; }
+.ko-sources a { overflow-wrap: anywhere; }
+
+@media (max-width: 800px) {
+  .ko-blog-grid .post-card:first-child { grid-column: auto; }
+  .ko-blog-grid .post-card:first-child img { min-height: 220px; }
+  .ko-related { grid-template-columns: 1fr; }
+}
