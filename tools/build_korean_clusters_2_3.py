@@ -272,7 +272,7 @@ def header() -> str:
 
 
 def footer() -> str:
-    return '<footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>초보자부터 고급 과정까지 무료로 배우는 미국 옵션 교육 자료입니다.</p></div><div><h4>학습</h4><a href="/courses/">전체 강의</a><a href="/learning-paths/beginner/">초보자 경로</a></div><div><h4>한국어</h4><a href="/ko/blog/">한국어 블로그</a><a href="/ko/blog/call-put-options/">콜·풋 옵션</a><a href="/ko/blog/covered-call/">커버드콜</a></div><div><h4>자료</h4><a href="/blog/" lang="en">English Blog</a><a href="/risk-disclaimer/">위험 고지</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · 교육 목적의 콘텐츠이며 투자 조언이 아닙니다.</div></footer>'
+    return '<footer><div class="container footer-grid"><div><a class="brand" href="/"><span class="brand-icon">↗</span><span>Options <b>America</b></span></a><p>초보자부터 고급 과정까지 무료로 배우는 미국 옵션 교육 자료입니다.</p></div><div><h4>학습</h4><a href="/courses/">전체 강의</a><a href="/learning-paths/beginner/">초보자 경로</a></div><div><h4>한국어</h4><a href="/ko/blog/">한국어 블로그</a><a href="/ko/blog/call-put-options/">콜·풋 옵션</a><a href="/ko/blog/covered-call/">커버드콜</a><a href="/ko/blog/option-greeks/">옵션 그릭스</a></div><div><h4>자료</h4><a href="/blog/" lang="en">English Blog</a><a href="/risk-disclaimer/">위험 고지</a></div></div><div class="container copyright">© <span data-current-year></span> Options America · 교육 목적의 콘텐츠이며 투자 조언이 아닙니다.</div></footer>'
 
 
 def article_html(cluster: dict, article: dict) -> str:
